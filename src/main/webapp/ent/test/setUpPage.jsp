@@ -210,7 +210,7 @@
 																	<option value="AK">广州市</option>
 																	<option value="AZ">上海市</option>
 																</select>
-															</div>
+															</div> 
 
 															<div class="col-sm-3">
 																<select id="state" name="state" class="select2"
