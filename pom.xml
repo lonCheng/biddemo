@@ -59,7 +59,7 @@
 						<port>8081</port>
 						<host>localhost</host>
 					</httpConnector>
-					<scanIntervalSeconds>-1</scanIntervalSeconds><!-- 表示新代码的扫描时间间隔（秒）,<=1表示不扫描 -->
+					<scanIntervalSeconds>1</scanIntervalSeconds><!-- 表示新代码的扫描时间间隔（秒）,<=1表示不扫描 -->
 				</configuration>
 			</plugin>
 		</plugins>
