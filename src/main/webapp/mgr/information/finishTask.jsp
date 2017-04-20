@@ -65,7 +65,7 @@
 							<li>
 								<a href="#">商事登记</a>
 							</li>
-							<li class="active">已办企业</li>
+							<li class="active">打照</li>
 						</ul><!-- /.breadcrumb -->
 
 						<!-- #section:basics/content.searchbox -->
@@ -82,6 +82,47 @@
 
 					<!-- /section:basics/content.breadcrumbs -->
 					<div class="page-content">
+					<div class="row">
+								<div class="widget-header widget-header-blue widget-header-flat">
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+																			<button class="btn btn-xs btn-success">
+																				<i class="ace-icon fa fa-check bigger-120"></i>
+																				打照
+																			</button>
+									</div>
+						</div>
+						<div  class="col-xs-12  col-sm-12">
+									<div class="space-10"></div>
+								</div>
+						<div class="row">
+							<div class="col-xs-12">
+							<form class="form-horizontal">
+								  <div class="form-group">
+								    <label for="" class="col-sm-1 control-label">企业类型</label>
+								    <div class="col-sm-2">
+								      <select class="form-control" id="form-field-select-1">
+																<option value=""></option>
+																<option value="AL">内资</option>
+																<option value="AK">外资</option>
+																<option value="AZ">个体</option>
+									</select>
+								    </div>
+								    <label for="" class="col-sm-1 control-label">企业名称</label>
+								    <div class="col-sm-2">
+								      <input type="text" class="form-control" id="" placeholder="企业名称">
+								    </div>
+								    <label for="" class="col-sm-1 control-label">注册号</label>
+								    <div class="col-sm-2">
+								      <input type="text" class="form-control" id="" placeholder="注册号">
+								    </div>
+								    <label for="" class="col-sm-1 control-label">受理号</label>
+								    <div class="col-sm-2">
+								      <input type="text" class="form-control" id="" placeholder="受理号">
+								    </div>
+								  </div>
+								</form>
+							</div>
+						</div>
 						<!-- #section:settings.box -->
 						<div class="row">
 							<div class="col-xs-12">

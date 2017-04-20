@@ -79,6 +79,82 @@
 						<!-- #section:settings.box -->
 						<jsp:include page="include/online-help.jsp"></jsp:include>
 						<div class="row">
+								<div class="widget-header widget-header-blue widget-header-flat">
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+																			<button class="btn btn-xs btn-success">
+																				<i class="ace-icon fa fa-check bigger-120"></i>
+																				查询
+																			</button>
+																			<a href="#my-modal" class="bigger-125 bg-primary white" data-toggle="modal">
+																			<button class="btn btn-xs btn-info">
+																				
+																				<i class="ace-icon fa fa-pencil bigger-120"></i>
+																				修改
+																			</button>
+																			</a>
+									</div>
+						</div>
+						<div  class="col-xs-12  col-sm-12">
+									<div class="space-10"></div>
+								</div>
+						<div class="row">
+							<div class="col-xs-12">
+							<form class="form-horizontal">
+								  <div class="form-group">
+								    <label for="" class="col-sm-1 control-label">企业类型</label>
+								    <div class="col-sm-2">
+								      <select class="form-control" id="form-field-select-1">
+																<option value=""></option>
+																<option value="AL">内资</option>
+																<option value="AK">外资</option>
+																<option value="AZ">个体</option>
+									</select>
+								    </div>
+								    <label for="" class="col-sm-1 control-label">企业名称</label>
+								    <div class="col-sm-2">
+								      <input type="text" class="form-control" id="" placeholder="企业名称">
+								    </div>
+								    <label for="" class="col-sm-1 control-label">企业住址</label>
+								    <div class="col-sm-2">
+								      <input type="text" class="form-control" id="" placeholder="企业住址">
+								    </div>
+								    <label for="" class="col-sm-1 control-label">注册号</label>
+								    <div class="col-sm-2">
+								      <input type="text" class="form-control" id="" placeholder="企业注册号">
+								    </div>
+								  </div>
+								 <div class="form-group">
+								    <label for="" class="col-sm-1 control-label">起始时间</label>
+								    <div class="col-sm-2">
+								     			 <div class="input-group input-group-sm">
+													<input type="text" id="datepicker" class="form-control" />
+													<span class="input-group-addon">
+														<i class="ace-icon fa fa-calendar"></i>
+													</span>
+												</div>
+								    </div>
+								    <label for="" class="col-sm-1 control-label">终止时间</label>
+								     <div class="col-sm-2">
+								      <div class="input-group input-group-sm">
+													<input type="text" id="datepicker" class="form-control" />
+													<span class="input-group-addon">
+														<i class="ace-icon fa fa-calendar"></i>
+													</span>
+												</div>
+								    </div>
+								    <label for="" class="col-sm-1 control-label">受理号</label>
+								    <div class="col-sm-2">
+								      <input type="text" class="form-control" id="" placeholder="受理号">
+								    </div>
+								    <label for="" class="col-sm-1 control-label">信用号</label>
+								    <div class="col-sm-2">
+								      <input type="text" class="form-control" id="" placeholder="社会信用号">
+								    </div>
+								  </div> 
+								</form>
+							</div>
+						</div>
+						<div class="row">
 							<div class="col-xs-12">
 								<div class="col-xs-12 col-sm-12 widget-container-col">
 										<div class="widget-box widget-color-blue">
@@ -195,6 +271,187 @@
 																	<span class="label label-success arrowed-in arrowed-in-right">待处理</span>
 																</td>
 															</tr>
+															<tr>
+																<td class="">广东省广州市XXX公司</td>
+
+																<td>
+																	20170416
+																</td>
+																<td>
+																	2017-04-16 12:00:00
+																</td>
+																<td></td>
+																<td></td>
+																<td>
+																	<span class="label label-important">网登办理</span>
+																</td>
+																<td class="hidden-480">
+																	<span class="label label-success arrowed-in arrowed-in-right">待处理</span>
+																</td>
+															</tr>
+															<tr>
+																<td class="">广东省广州市XXX公司</td>
+
+																<td>
+																	12019217
+																</td>
+																<td>
+																	2017-04-17  12:00:00
+																</td>
+																<td></td>
+																<td></td>
+																<td>
+																	<span class="label label-green">全程电子化</span>
+																</td>
+																<td class="hidden-480">
+																	<span class="label label-success arrowed-in arrowed-in-right">待处理</span>
+																</td>
+															</tr>
+															<tr>
+																<td class="">广东省广州市XXX公司</td>
+
+																<td>
+																	20170416
+																</td>
+																<td>
+																	2017-04-16 12:00:00
+																</td>
+																<td></td>
+																<td></td>
+																<td>
+																	<span class="label label-important">网登办理</span>
+																</td>
+																<td class="hidden-480">
+																	<span class="label label-success arrowed-in arrowed-in-right">待处理</span>
+																</td>
+															</tr>
+															<tr>
+																<td class="">广东省广州市XXX公司</td>
+
+																<td>
+																	12019217
+																</td>
+																<td>
+																	2017-04-17  12:00:00
+																</td>
+																<td></td>
+																<td></td>
+																<td>
+																	<span class="label label-green">全程电子化</span>
+																</td>
+																<td class="hidden-480">
+																	<span class="label label-success arrowed-in arrowed-in-right">待处理</span>
+																</td>
+															</tr>
+															<tr>
+																<td class="">广东省广州市XXX公司</td>
+
+																<td>
+																	20170416
+																</td>
+																<td>
+																	2017-04-16 12:00:00
+																</td>
+																<td></td>
+																<td></td>
+																<td>
+																	<span class="label label-important">网登办理</span>
+																</td>
+																<td class="hidden-480">
+																	<span class="label label-success arrowed-in arrowed-in-right">待处理</span>
+																</td>
+															</tr>
+															<tr>
+																<td class="">广东省广州市XXX公司</td>
+
+																<td>
+																	12019217
+																</td>
+																<td>
+																	2017-04-17  12:00:00
+																</td>
+																<td></td>
+																<td></td>
+																<td>
+																	<span class="label label-green">全程电子化</span>
+																</td>
+																<td class="hidden-480">
+																	<span class="label label-success arrowed-in arrowed-in-right">待处理</span>
+																</td>
+															</tr>
+															<tr>
+																<td class="">广东省广州市XXX公司</td>
+
+																<td>
+																	20170416
+																</td>
+																<td>
+																	2017-04-16 12:00:00
+																</td>
+																<td></td>
+																<td></td>
+																<td>
+																	<span class="label label-important">网登办理</span>
+																</td>
+																<td class="hidden-480">
+																	<span class="label label-success arrowed-in arrowed-in-right">待处理</span>
+																</td>
+															</tr>
+															<tr>
+																<td class="">广东省广州市XXX公司</td>
+
+																<td>
+																	12019217
+																</td>
+																<td>
+																	2017-04-17  12:00:00
+																</td>
+																<td></td>
+																<td></td>
+																<td>
+																	<span class="label label-green">全程电子化</span>
+																</td>
+																<td class="hidden-480">
+																	<span class="label label-success arrowed-in arrowed-in-right">待处理</span>
+																</td>
+															</tr>
+															<tr>
+																<td class="">广东省广州市XXX公司</td>
+
+																<td>
+																	20170416
+																</td>
+																<td>
+																	2017-04-16 12:00:00
+																</td>
+																<td></td>
+																<td></td>
+																<td>
+																	<span class="label label-important">网登办理</span>
+																</td>
+																<td class="hidden-480">
+																	<span class="label label-success arrowed-in arrowed-in-right">待处理</span>
+																</td>
+															</tr>
+															<tr>
+																<td class="">广东省广州市XXX公司</td>
+
+																<td>
+																	12019217
+																</td>
+																<td>
+																	2017-04-17  12:00:00
+																</td>
+																<td></td>
+																<td></td>
+																<td>
+																	<span class="label label-green">全程电子化</span>
+																</td>
+																<td class="hidden-480">
+																	<span class="label label-success arrowed-in arrowed-in-right">待处理</span>
+																</td>
+															</tr>
+															
 														</tbody>
 													</table>
 												</div>

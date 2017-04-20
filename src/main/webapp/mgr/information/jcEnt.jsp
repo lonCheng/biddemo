@@ -59,13 +59,13 @@
 						<ul class="breadcrumb">
 							<li>
 								<i class="ace-icon fa fa-home home-icon"></i>
-								<a href="#">我的控制台</a>
+								<a href="#">我的工作台</a>
 							</li>
 
 							<li>
 								<a href="#">商事登记</a>
 							</li>
-							<li class="active">注销企业</li>
+							<li class="active">商事纠错</li>
 						</ul><!-- /.breadcrumb -->
 
 						<!-- #section:basics/content.searchbox -->
@@ -87,7 +87,7 @@
 										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 																			<button class="btn btn-xs btn-success">
 																				<i class="ace-icon fa fa-check bigger-120"></i>
-																				简易注销
+																				纠错
 																			</button>
 									</div>
 						</div>

@@ -137,7 +137,7 @@
                         <li><a href="#collapseTwo">股东基本信息</a></li>
                         <li><a href="#collapseThree">组织机构</a></li>
                         <li><a href="#collapseFour">财务人员</a></li>
-                        <li><a href="#collapseFive">审批</a></li>
+                        <li><a href="#collapseFive">添加</a></li>
                     </ul>
                                      
                 </div>
@@ -161,9 +161,9 @@
 							</li>
 
 							<li>
-								<a href="#">xxx</a>
+								<a href="#">商事登记</a>
 							</li>
-							<li class="active">xxx</li>
+							<li class="active">设立登记</li>
 						</ul><!-- /.breadcrumb -->
 
 						<!-- #section:basics/content.searchbox -->
@@ -200,17 +200,17 @@
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">企业名称</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="企业名称" value="企业名称" />
+																			<input type="text" id="form-field-username" placeholder="企业名称" value="" />
 																		</div>
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">受理号</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="受理号" value="受理号" />
+																			<input type="text" id="form-field-username" placeholder="受理号" value="" />
 																		</div>
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">企业类型</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="企业类型" value="企业类型" />
+																			<input type="text" id="form-field-username" placeholder="企业类型" value="" />
 																		</div>
 																	</div>
 
@@ -220,12 +220,12 @@
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">企业地址</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="企业地址" value="企业地址" />
+																			<input type="text" id="form-field-username" placeholder="企业地址" value="" />
 																		</div>
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">邮政编码</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="Username" value="alexdoe" />
+																			<input type="text" id="form-field-username" placeholder="Username" value="" />
 																		</div>
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username" >联系电话</label>
 
@@ -244,14 +244,14 @@
 
 																		<div class="col-sm-3">
 																			<span class="input-icon input-icon-right">
-																			<input type="email" id="form-field-email" value="邮箱" style="width:175px;"/>
+																			<input type="email" id="form-field-email" value="" style="width:175px;"/>
 																			<i class="ace-icon fa fa-envelope"></i>
 																			</span>
 																		</div>
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">行业代码</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="行业代码" value="行业代码" />
+																			<input type="text" id="form-field-username" placeholder="行业代码" value="" />
 																		</div>
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">申请时间</label>
 
@@ -272,12 +272,12 @@
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">经营主体</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="经营主体" value="经营主体" />
+																			<input type="text" id="form-field-username" placeholder="经营主体" value="" />
 																		</div>
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">类别 </label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="主营项目类别" value="主营项目类别" />
+																			<input type="text" id="form-field-username" placeholder="主营项目类别" value="" />
 																		</div>
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">经营范围</label>
 
@@ -307,17 +307,17 @@
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">住所产权</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="住所产权" value="住所产权" />
+																			<input type="text" id="form-field-username" placeholder="住所产权" value="" />
 																		</div>
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">属地工商所</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="属地工商所" value="属地工商所" />
+																			<input type="text" id="form-field-username" placeholder="属地工商所" value="" />
 																		</div>
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">城乡标识</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="联系电话" value="联系电话" />
+																			<input type="text" id="form-field-username" placeholder="联系电话" value="" />
 																		</div>
 																	</div>
 																</div>
@@ -332,17 +332,17 @@
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">股东类型</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="自然人" value="自然人" />
+																			<input type="text" id="form-field-username" placeholder="自然人" value="" />
 																		</div>
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">投资人</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="陈金钟" value="陈金钟" />
+																			<input type="text" id="form-field-username" placeholder="陈金钟" value="" />
 																		</div>
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">证件号码</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="411281919919199191991" value="411281919919199191991" />
+																			<input type="text" id="form-field-username" placeholder="411281919919199191991" value="" />
 																		</div>
 																	</div>
 
@@ -357,7 +357,7 @@
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">邮政编码</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="邮政编码" value="邮政编码" />
+																			<input type="text" id="form-field-username" placeholder="邮政编码" value="" />
 																		</div>
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username" >电话</label>
 
@@ -376,7 +376,7 @@
 
 																		<div class="col-sm-3">
 																			<span class="input-icon input-icon-right">
-																			<input type="email" id="form-field-email" value="籍贯" style="width:175px;"/>
+																			<input type="email" id="form-field-email" value="" style="width:175px;"/>
 																			<i class="ace-icon fa fa-envelope"></i>
 																			</span>
 																		</div>
@@ -387,7 +387,7 @@
 																		</div>
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">出资方式</label>
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="出资额（万元）" value="" />
+																			<input type="text" id="form-field-username" placeholder="" value="" />
 																		</div>
 																		
 																	</div>
@@ -405,46 +405,20 @@
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">机构名称</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="机构名称" value="" />
+																			<input type="text" id="form-field-username" placeholder="" value="" />
 																		</div>
 																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">机构代码</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="机构代码" value="" />
+																			<input type="text" id="form-field-username" placeholder="" value="" />
 																		</div>
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">负责人</label>
+																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">电话</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="负责人" value=" " />
+																			<input type="text" id="form-field-username" placeholder="电话" value=" " />
 																		</div>
 																	</div>
 
-																	<div class="space-4"></div>
-																	
-																	<div class="form-group">
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
-
-																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="Username" value="alexdoe" />
-																		</div>
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
-
-																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="Username" value="alexdoe" />
-																		</div>
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
-
-																		<div class="col-sm-3">
-																	<div class="input-medium">
-																		<div class="input-group">
-																			<input class="input-medium date-picker" id="form-field-date" type="text" data-date-format="dd-mm-yyyy" placeholder="dd-mm-yyyy" />
-																			<span class="input-group-addon">
-																				<i class="ace-icon fa fa-calendar"></i>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-																	</div>
 																</div>
 															</div>
 															<div class="space"></div>
@@ -454,125 +428,35 @@
 															<div class="row">
 																<div class="col-xs-12 col-sm-12">
 																	<div class="form-group">
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
+																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">财务姓名</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="Username" value="alexdoe" />
+																			<input type="text" id="form-field-username" placeholder="财务姓名" value="" />
 																		</div>
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
+																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">身份证号</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="Username" value="alexdoe" />
+																			<input type="text" id="form-field-username" placeholder="身份证号" value="" />
 																		</div>
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
+																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">电话</label>
 
 																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="Username" value="alexdoe" />
-																		</div>
-																	</div>
-
-																	<div class="space-4"></div>
-																	
-																	<div class="form-group">
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
-
-																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="Username" value="alexdoe" />
-																		</div>
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
-
-																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="Username" value="alexdoe" />
-																		</div>
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
-
-																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="Username" value="alexdoe" />
-																		</div>
-																	</div>
-																	
-																	<div class="space-4"></div>
-																	
-																	<div class="form-group">
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
-
-																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="Username" value="alexdoe" />
-																		</div>
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
-
-																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="Username" value="alexdoe" />
-																		</div>
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
-
-																		<div class="col-sm-3">
-																	<div class="input-medium">
-																		<div class="input-group">
-																			<input class="input-medium date-picker" id="form-field-date" type="text" data-date-format="dd-mm-yyyy" placeholder="dd-mm-yyyy" />
-																			<span class="input-group-addon">
-																				<i class="ace-icon fa fa-calendar"></i>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-																	</div>
-																</div>
-															</div>
-															<div style="overflow:;" id="collapseFive">
-															<h4 class="header blue bolder smaller">
-															<button class="btn btn-info" type="button">
-															<i class="ace-icon fa fa-check bigger-110"></i>
-															审批
-														</button></h4>
-
-															<div class="row">
-																<div class="col-xs-12 col-sm-12">
-																	<div class="form-group">
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
-
-																		<div class="col-sm-3">
-																		<span class="input-icon">
-																		<input type="text" value="twitter_alexdoe" id="form-field-twitter" />
-																		<i class="ace-icon fa fa-twitter light-blue"></i>
-																	</span>
-																		</div>
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
-
-																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="Username" value="alexdoe" />
-																		</div>
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
-
-																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="Username" value="alexdoe" />
+																			<input type="text" id="form-field-username" placeholder="电话" value="" />
 																		</div>
 																	</div>
 
-																	<div class="space-4"></div>
-																	
-																	<div class="form-group">
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
-
-																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="Username" value="alexdoe" />
-																		</div>
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
-
-																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="Username" value="alexdoe" />
-																		</div>
-																		<label class="col-sm-1 control-label no-padding-right" for="form-field-username">Username</label>
-
-																		<div class="col-sm-3">
-																			<input type="text" id="form-field-username" placeholder="Username" value="alexdoe" />
-																		</div>
-																	</div>
-																	
 																	<div class="space-4"></div>
 																	
 																</div>
 															</div>
+															<div style="overflow:;" id="collapseFive">
+															<h4 class="header blue bolder smaller" >
+															<button class="btn btn-info;" type="button" style="margin-left:500px;">
+																	<i class="ace-icon fa fa-check bigger-110"></i>
+																		添加
+															</button></h4>
+
+															
 															</div>
 															</div>
 															</div>
@@ -603,22 +487,7 @@
 					<div class="footer-content">
 						<span class="bigger-120">
 							<span class="blue bolder">Ace</span>
-							Application &copy; 2013-2014
-						</span>
-
-						&nbsp; &nbsp;
-						<span class="action-buttons">
-							<a href="#">
-								<i class="ace-icon fa fa-twitter-square light-blue bigger-150"></i>
-							</a>
-
-							<a href="#">
-								<i class="ace-icon fa fa-facebook-square text-primary bigger-150"></i>
-							</a>
-
-							<a href="#">
-								<i class="ace-icon fa fa-rss-square orange bigger-150"></i>
-							</a>
+							广州市商事登记全程电子化 &copy; 2017-4
 						</span>
 					</div>
 

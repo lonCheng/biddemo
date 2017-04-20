@@ -54,6 +54,12 @@ $.extend($.jgrid,{
         bClose: "关闭"
     },
     del : {
+        caption: "受理",
+        msg: "受理所选记录？",
+        bSubmit: "受理",
+        bCancel: "取消"
+    },
+    del22 : {
         caption: "删除",
         msg: "删除所选记录？",
         bSubmit: "删除",
@@ -65,7 +71,8 @@ $.extend($.jgrid,{
         addtext:"",
         addtitle: "添加新记录",
         deltext: "",
-        deltitle: "删除所选记录",
+        deltitle: "受理所选记录",
+        deltitle2222: "删除所选记录",
         searchtext: "",
         searchtitle: "查找",
         refreshtext: "",

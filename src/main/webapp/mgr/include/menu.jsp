@@ -113,7 +113,7 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
-							<li class="">
+							<%-- <li class="">
 								<a href="#" class="dropdown-toggle">
 									<i class="menu-icon fa fa-caret-right"></i>
 
@@ -152,21 +152,21 @@
 									</li>
 
 								</ul>
+							</li> --%>
+							<li class="<%if(requestPage.equals("/mgr/information/editInput.jsp")){%>active<%}%>">
+								<a href="../../mgr/information/editInput.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> 设立登记 </span>
+							</a>
+	
+							<b class="arrow"></b>
 							</li>
 							<li class="<%if(requestPage.equals("/mgr/information/deal.jsp")){%>active<%}%>">
 								<a href="../../mgr/information/deal.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> 受理登记 </span>
-							</a>
-	
-							<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/checkEnt414.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/checkEnt414.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-							<i class="menu-icon fa fa-tachometer"></i>
-							<span class="menu-text"> 审核审批 </span>
 							</a>
 	
 							<b class="arrow"></b>
@@ -179,16 +179,26 @@
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/zxEnt.jsp">
+							<li class="<%if(requestPage.equals("/mgr/information/checkEnt414.jsp")){%>active<%}%>">
+								<a href="../../mgr/information/checkEnt414.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> 审核审批 </span>
+							</a>
+	
+							<b class="arrow"></b>
+							</li>
+							
+							<li class="<%if(requestPage.equals("/mgr/information/bgEnt.jsp")){%>active<%}%>">
+								<a href="../../mgr/information/bgEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									变更登记
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/zxEnt.jsp">
+							<li class="<%if(requestPage.equals("/mgr/information/jcEnt.jsp")){%>active<%}%>">
+								<a href="../../mgr/information/jcEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									商事纠错
 								</a>
@@ -196,14 +206,14 @@
 								<b class="arrow"></b>
 							</li>
 							
-							<li class="<%if(requestPage.equals("/mgr/information/zxEnt.jsp")){%>active<%}%>">
+							<%-- <li class="<%if(requestPage.equals("/mgr/information/zxEnt.jsp")){%>active<%}%>">
 								<a href="../../mgr/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									改制登记
 								</a>
 
 								<b class="arrow"></b>
-							</li>
+							</li> --%>
 							<li class="<%if(requestPage.equals("/mgr/information/zxEnt.jsp")){%>active<%}%>">
 								<a href="../../mgr/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -224,15 +234,15 @@
 							<li class="<%if(requestPage.equals("/mgr/information/finishTask.jsp")){%>active<%}%>">
 								<a href="../../mgr/information/finishTask.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									已办事项
+									打照
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="">
-								<a href="nestable-list.html">
+							<li class="<%if(requestPage.equals("/mgr/information/sendPic.jsp")){%>active<%}%>">
+								<a href="../../mgr/information/sendPic.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									历史业务查询
+									发照
 								</a>
 
 								<b class="arrow"></b>
@@ -525,7 +535,7 @@
 					<li class="">
 							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text">大数据中心</span>
+							<span class="menu-text">经营范围管理系统</span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>

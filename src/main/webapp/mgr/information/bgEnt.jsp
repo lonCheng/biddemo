@@ -65,7 +65,7 @@
 							<li>
 								<a href="#">商事登记</a>
 							</li>
-							<li class="active">注销企业</li>
+							<li class="active">变更登记</li>
 						</ul><!-- /.breadcrumb -->
 
 						<!-- #section:basics/content.searchbox -->
@@ -87,7 +87,7 @@
 										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 																			<button class="btn btn-xs btn-success">
 																				<i class="ace-icon fa fa-check bigger-120"></i>
-																				简易注销
+																				修改
 																			</button>
 									</div>
 						</div>

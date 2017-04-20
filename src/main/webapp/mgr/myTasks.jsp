@@ -123,7 +123,7 @@
 								    <div class="col-sm-2">
 								      <input type="text" class="form-control" id="" placeholder="企业住址">
 								    </div>
-								    <label for="" class="col-sm-1 control-label">企业注册号</label>
+								    <label for="" class="col-sm-1 control-label">注册号</label>
 								    <div class="col-sm-2">
 								      <input type="text" class="form-control" id="" placeholder="企业注册号">
 								    </div>
@@ -151,9 +151,9 @@
 								    <div class="col-sm-2">
 								      <input type="text" class="form-control" id="" placeholder="受理号">
 								    </div>
-								    <label for="" class="col-sm-1 control-label">社会信用号</label>
+								    <label for="" class="col-sm-1 control-label">信用号</label>
 								    <div class="col-sm-2">
-								      <input type="text" class="form-control" id="" placeholder="注册号">
+								      <input type="text" class="form-control" id="" placeholder="社会信用号">
 								    </div>
 								  </div> 
 								</form>
@@ -220,6 +220,74 @@
 														</thead>
 
 														<tbody>
+															<tr>
+																<td class="">广东省广州市XXX公司</td>
+
+																<td>
+																	22222217
+																</td>
+																<td>
+																	2016-08-17  12:00:00
+																</td>
+																<td>
+																	<span class="label label-warning">窗口办理</span>
+																</td>
+																<td><span class="label" style="background-color:#00C78C;">30min</span></td>
+																<td class="hidden-480">
+																	<span class="label label-success arrowed-in arrowed-in-right">待处理</span>
+																</td>
+															</tr>
+															<tr>
+																<td class="">广东省广州市XXX公司</td>
+
+																<td>
+																	20160416
+																</td>
+																<td>
+																	2016-06-16  12:00:00
+																</td>
+																<td>
+																	<span class="label label-important">网登办理</span>
+																</td>
+																<td><span class="label" style="background-color:#00C78C;">30min</span></td>
+																<td class="hidden-480">
+																	<span class="label label-success arrowed-in arrowed-in-right">待处理</span>
+																</td>
+															</tr>
+															<tr>
+																<td class="">广东省广州市XXX公司</td>
+
+																<td>
+																	20170416
+																</td>
+																<td>
+																	2017-04-16  12:00:00
+																</td>
+																<td>
+																	<span class="label label-important">网登办理</span>
+																</td>
+																<td><span class="label" style="background-color:#00C78C;">30min</span></td>
+																<td class="hidden-480">
+																	<span class="label label-success arrowed-in arrowed-in-right">待处理</span>
+																</td>
+															</tr>
+															<tr>
+																<td class="">广东省广州市XXX公司</td>
+
+																<td>
+																	12019217
+																</td>
+																<td>
+																	2017-04-17  12:00:00
+																</td>
+																<td>
+																	<span class="label label-green">全程电子化</span>
+																</td>
+																<td><span class="label" style="background-color:#00C78C;">30min</span></td>
+																<td class="hidden-480">
+																	<span class="label label-success arrowed-in arrowed-in-right">待处理</span>
+																</td>
+															</tr>
 															<tr>
 																<td class="">广东省广州市XXX公司</td>
 

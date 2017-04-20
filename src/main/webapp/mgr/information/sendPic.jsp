@@ -65,7 +65,7 @@
 							<li>
 								<a href="#">商事登记</a>
 							</li>
-							<li class="active">注销企业</li>
+							<li class="active">发照</li>
 						</ul><!-- /.breadcrumb -->
 
 						<!-- #section:basics/content.searchbox -->
@@ -79,15 +79,14 @@
 						</div><!-- /.nav-search -->
 
 					</div>
-
+<div class="page-content">
 					<!-- /section:basics/content.breadcrumbs -->
-					<div class="page-content">
 					<div class="row">
 								<div class="widget-header widget-header-blue widget-header-flat">
 										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 																			<button class="btn btn-xs btn-success">
 																				<i class="ace-icon fa fa-check bigger-120"></i>
-																				简易注销
+																				发照
 																			</button>
 									</div>
 						</div>
@@ -123,6 +122,7 @@
 								</form>
 							</div>
 						</div>
+					
 						<!-- #section:settings.box -->
 						<div class="row">
 							<div class="col-xs-12">
@@ -206,21 +206,7 @@
 				{id:"6",name:"广州医药集团",num:"1108521313109",fzr:"Yes", ship:"FedEx",sdate:"2007-12-03"},
 				{id:"7",name:"美晨集团 ",num:"1108521313108",fzr:"Yes",ship:"ARAMEX",sdate:"2007-12-03"},
 				{id:"8",name:"广州市虎头电池集团 ",num:"1108521313107",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
-				{id:"9",name:"广州立白企业集团 ",num:"1108521313106",fzr:"Yes", ship:"FedEx",sdate:"2007-12-03"},
-				{id:"10",name:"广州惠惠龙网络 ",num:"1908521313103",fzr:"Yes",ship:"FedEx", sdate:"2007-12-03"},
-				{id:"11",name:"广州市XX公司",num:"Long text ",fzr:"Yes",ship:"InTime",sdate:"2007-12-03"},
-				{id:"12",name:"广州市XX公司",num:"num3",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
-				{id:"13",name:"广州市XX公司",num:"num",fzr:"No",ship:"ARAMEX",sdate:"2007-12-03"},
-				{id:"14",name:"广州市XX公司",num:"num2",fzr:"Yes",ship:"FedEx",sdate:"2007-12-03"},
-				{id:"15",name:"广州市XX公司",num:"num3",fzr:"No", ship:"FedEx",sdate:"2007-12-03"},
-				{id:"16",name:"广州市XX公司",num:"num",fzr:"Yes",ship:"ARAMEX",sdate:"2007-12-03"},
-				{id:"17",name:"广州市XX公司",num:"num2",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
-				{id:"18",name:"广州市XX公司",num:"num3",fzr:"No", ship:"FedEx",sdate:"2007-12-03"},
-				{id:"19",name:"广州市XX公司",num:"num3",fzr:"No", ship:"FedEx",sdate:"2007-12-03"},
-				{id:"20",name:"广州市XX公司",num:"num",fzr:"Yes",ship:"FedEx", sdate:"2007-12-03"},
-				{id:"21",name:"广州市XX公司",num:"Long text ",fzr:"Yes",ship:"InTime",sdate:"2007-12-03"},
-				{id:"22",name:"广州市XX公司",num:"num3",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
-				{id:"23",name:"广州市XX公司",num:"num",fzr:"No",ship:"ARAMEX",sdate:"2007-12-03"}
+				{id:"9",name:"广州立白企业集团 ",num:"1108521313106",fzr:"Yes", ship:"FedEx",sdate:"2007-12-03"}
 			];
 			
 			var subgrid_data = 
@@ -269,38 +255,9 @@
 				})
 				*/
 				jQuery(grid_selector).jqGrid({
-					//direction: "rtl",
-			
-					//subgrid options
-					subGrid : false,
-					//subGridModel: [{ name : ['No','Item Name','Qty'], width : [55,200,80] }],
-					//datatype: "xml",
-					subGridOptions : {
-						plusicon : "ace-icon fa fa-plus center bigger-110 blue",
-						minusicon  : "ace-icon fa fa-minus center bigger-110 blue",
-						openicon : "ace-icon fa fa-chevron-right center orange"
-					},
-					//for this example we are using local data
-					subGridRowExpanded: function (subgridDivId, rowId) {
-						var subgridTableId = subgridDivId + "_t";
-						$("#" + subgridDivId).html("<table id='" + subgridTableId + "'></table>");
-						$("#" + subgridTableId).jqGrid({
-							datatype: 'local',
-							data: subgrid_data,
-							colNames: ['No','Item Name','Qty'],
-							colModel: [
-								{ name: 'id', width: 50 },
-								{ name: 'name', width: 150 },
-								{ name: 'qty', width: 50 }
-							]
-						});
-					},
-					
-			
-			
 					data: grid_data,
 					datatype: "local",
-					height:450,
+					height:420,
 					colNames:['编号','企业名称','企业注册号', '是否是新开企业', '企业法定代表人','申请日期','操作' ],
 					colModel:[
 						{name:'id',index:'id', width:60, sorttype:"int", editable: true},
@@ -342,7 +299,7 @@
 					},
 			
 					editurl: "/dummy.html",//error-404.html   
-					caption: "简易注销"
+					caption: "已办事项"
 			
 					//,autowidth: true,
 			

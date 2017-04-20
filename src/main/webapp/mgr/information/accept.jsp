@@ -82,6 +82,59 @@
 
 					<!-- /section:basics/content.breadcrumbs -->
 					<div class="page-content">
+					<div class="row">
+								<div class="widget-header widget-header-blue widget-header-flat">
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+																			<button class="btn btn-xs btn-success">
+																				<i class="ace-icon fa fa-check bigger-120"></i>
+																				查询
+																			</button>
+																			<a href="#my-modal" class="bigger-125 bg-primary white" data-toggle="modal">
+																			<button class="btn btn-xs btn-info">
+																				
+																				<i class="ace-icon fa fa-pencil bigger-120"></i>
+																				修改
+																			</button>
+																			</a>
+									</div>
+						</div>
+						<div  class="col-xs-12  col-sm-12">
+									<div class="space-10"></div>
+								</div>
+						<div class="row">
+							<div class="col-xs-12">
+							<form class="form-horizontal">
+								 <div class="form-group">
+								    <label for="" class="col-sm-1 control-label">起始时间</label>
+								    <div class="col-sm-2">
+								     			 <div class="input-group input-group-sm">
+													<input type="text" id="datepicker" class="form-control" />
+													<span class="input-group-addon">
+														<i class="ace-icon fa fa-calendar"></i>
+													</span>
+												</div>
+								    </div>
+								    <label for="" class="col-sm-1 control-label">终止时间</label>
+								     <div class="col-sm-2">
+								      <div class="input-group input-group-sm">
+													<input type="text" id="datepicker" class="form-control" />
+													<span class="input-group-addon">
+														<i class="ace-icon fa fa-calendar"></i>
+													</span>
+												</div>
+								    </div>
+								    <label for="" class="col-sm-1 control-label">受理号</label>
+								    <div class="col-sm-2">
+								      <input type="text" class="form-control" id="" placeholder="受理号">
+								    </div>
+								    <label for="" class="col-sm-1 control-label">注册号</label>
+								    <div class="col-sm-2">
+								      <input type="text" class="form-control" id="" placeholder="注册号">
+								    </div>
+								  </div> 
+								</form>
+							</div>
+						</div>
 						<!-- #section:settings.box -->
 						<div class="row">
 							<div class="col-xs-12">
@@ -171,12 +224,6 @@
 				{id:"15",name:"广州市XX公司",num:"num3",fzr:"No", ship:"FedEx",sdate:"2007-12-03"},
 				{id:"16",name:"广州市XX公司",num:"num",fzr:"Yes",ship:"ARAMEX",sdate:"2007-12-03"},
 				{id:"17",name:"广州市XX公司",num:"num2",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
-				{id:"18",name:"广州市XX公司",num:"num3",fzr:"No", ship:"FedEx",sdate:"2007-12-03"},
-				{id:"19",name:"广州市XX公司",num:"num3",fzr:"No", ship:"FedEx",sdate:"2007-12-03"},
-				{id:"20",name:"广州市XX公司",num:"num",fzr:"Yes",ship:"FedEx", sdate:"2007-12-03"},
-				{id:"21",name:"广州市XX公司",num:"Long text ",fzr:"Yes",ship:"InTime",sdate:"2007-12-03"},
-				{id:"22",name:"广州市XX公司",num:"num3",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
-				{id:"23",name:"广州市XX公司",num:"num",fzr:"No",ship:"ARAMEX",sdate:"2007-12-03"}
 			];
 			
 			jQuery(function($) {
@@ -219,7 +266,7 @@
 					data: grid_data,
 					datatype: "local",
 					height:450,
-					colNames:['编号','企业名称','企业注册号', '是否是新开企业', '企业法定代表人','申请日期','操作' ],
+					colNames:['编号','企业名称','注册号', '是否是新开企业', '企业法定代表人','申请日期','操作' ],
 					colModel:[
 						{name:'id',index:'id', width:60, sorttype:"int", editable: true},
 						{name:'name',index:'name', width:150,editable: true,editoptions:{size:"20",maxlength:"30"}},
