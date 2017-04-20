@@ -64,7 +64,7 @@
 				<!-- /section:basics/sidebar.mobile.toggle -->
 				<div class="navbar-header pull-left">
 					<!-- #section:basics/navbar.layout.brand -->
-					<img src="imgs/gslogo.png" style="width:32px;height:32px;padding:0;margin-top:6px;float:left;">
+					<img src="../imgs/gslogo.png" style="width:32px;height:32px;padding:0;margin-top:6px;float:left;">
 					<a href="#" class="navbar-brand" style="padding-left:5px;">
 						<small>
 							<!-- <i class="fa fa-leaf"></i> -->
@@ -100,7 +100,7 @@
 								<div class="col-xs-6  col-sm-6">
 									<div class="col-xs-2  col-sm-2"></div>
 									<div class="col-xs-10  col-sm-10" style="border:0px #ccc solid;width:230px;height:200px;">
-									<img src="imgs/gdslg.jpg" style="width:200px;height:200px;">
+									<img src="../imgs/gdslg.jpg" style="width:200px;height:200px;">
 									</div>
 								</div>
 							</div>
@@ -191,14 +191,14 @@
 										</div>
 
 										<div id="faq-tab-2" class="tab-pane fade"  style="text-align:center;">
-												<img src="imgs/udun.jpg" style="width:120px;height:120px;">
+												<img src="../imgs/udun.jpg" style="width:120px;height:120px;">
 											<!-- &nbsp;&nbsp;	<span style="font-size:16px;">请插入U盾</span> -->
 											<div class="space-6"></div>
 											<div style="text-align:center;letter-spacing:6px;font-size:16px;"><strong>【请插入U盾】</strong></div>
 										</div>
 
 										<div id="faq-tab-3" class="tab-pane fade" style="text-align:center;">
-												<img src="imgs/ewm.png" style="width:155px;height:155px;">
+												<img src="../imgs/ewm.png" style="width:155px;height:155px;">
 										</div>
 									</div>
 								</div>
@@ -216,7 +216,7 @@
 					<!-- #section:basics/footer -->
 					<div class="footer-content" style="width:99%;border:0px red solid;background-color:;">
 						<span class="bigger-120">
-							<img src="imgs/gslogo.png" style="width:32px;height:32px;padding:0;margin-top:6px;align:center;">
+							<img src="../imgs/gslogo.png" style="width:32px;height:32px;padding:0;margin-top:6px;align:center;">
 							广州市工商管理局 &copy; 2017-04-11
 						</span>
 
@@ -253,7 +253,7 @@
 		<script>
 		jQuery(function($) {
 			$('#system-login').click(function(){
-				window.location.href="../mgr/index.jsp";
+				window.location.href="../ent/jsp/newserviceHall.jsp";
 			})
 		});
 		
