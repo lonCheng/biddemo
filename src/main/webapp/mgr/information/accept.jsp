@@ -59,7 +59,7 @@
 						<ul class="breadcrumb">
 							<li>
 								<i class="ace-icon fa fa-home home-icon"></i>
-								<a href="#">我的控制台</a>
+								<a href="#">主页</a>
 							</li>
 
 							<li>
@@ -239,8 +239,8 @@
 					], 
 			
 					viewrecords : true,
-					rowNum:12,
-					rowList:[12,15,30],
+					rowNum:15,
+					rowList:[15,20,30],
 					pager : pager_selector,
 					altRows: true,
 					//toppager: true,

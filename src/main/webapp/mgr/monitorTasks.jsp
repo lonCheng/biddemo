@@ -68,7 +68,7 @@
 								<a href="#">任务监控中心</a>
 							</li>
 							<li class="active">
-								全任务监控
+								任务监控
 							</li>
 						</ul><!-- /.breadcrumb -->
 
@@ -86,7 +86,7 @@
 											<div class="widget-header">
 												<h5 class="widget-title bigger lighter">
 													<i class="ace-icon fa fa-table"></i>
-													全任务监控
+													任务监控
 												</h5>
 
 												<div class="widget-toolbar widget-toolbar-light no-border">
@@ -125,7 +125,13 @@
 																	企业注册号
 																</th>
 																<th>
-																	申请日期
+																	提交时间
+																</th>
+																<th>
+																	受理时间
+																</th>
+																<th>
+																	处理时长
 																</th>
 																<th>
 																	类别
@@ -142,8 +148,10 @@
 																	20170417
 																</td>
 																<td>
-																	2017-04-17
+																	2017-04-17  12:00:00
 																</td>
+																<td></td>
+																<td></td>
 																<td>
 																	<span class="label label-warning">窗口办理</span>
 																</td>
@@ -158,8 +166,10 @@
 																	20170416
 																</td>
 																<td>
-																	2017-04-16
+																	2017-04-16 12:00:00
 																</td>
+																<td></td>
+																<td></td>
 																<td>
 																	<span class="label label-important">网登办理</span>
 																</td>
@@ -174,8 +184,10 @@
 																	12019217
 																</td>
 																<td>
-																	2017-04-17
+																	2017-04-17  12:00:00
 																</td>
+																<td></td>
+																<td></td>
 																<td>
 																	<span class="label label-green">全程电子化</span>
 																</td>

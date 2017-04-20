@@ -89,7 +89,7 @@
 						<ul class="breadcrumb">
 							<li>
 								<i class="ace-icon fa fa-home home-icon"></i>
-								<a href="#">我的控制台</a>
+								<a href="#">主页</a>
 							</li>
 
 							<li>
@@ -116,7 +116,19 @@
 							<div class="col-xs-12">
 								<!-- PAGE CONTENT BEGINS -->
 								
-								<jsp:include page="../include/inf-help.jsp"></jsp:include>
+								<div class="page-content">
+									<div id="float-right">
+										<a href="javascript:;" class="on">一楼</a>
+									    <a href="javascript:;">二楼</a>
+									    <a href="javascript:;">三楼</a>
+									    <a href="javascript:;">四楼</a>
+									    <a href="javascript:;">五楼</a>
+									    <a href="javascript:;">六楼</a>
+									</div>
+								</div><!-- /.page-content -->
+								
+								
+								
 								<div style="overflow:scroll;" id="collapseOne">
 								<div class="widget-box">
 								<div class="widget-header widget-header-blue widget-header-flat">

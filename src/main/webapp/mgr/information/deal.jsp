@@ -83,182 +83,66 @@
 					<!-- /section:basics/content.breadcrumbs -->
 					<div class="page-content">
 						<!-- #section:settings.box -->
+						<div style="margin-top:30px;"></div>
 						<div class="row">
 									<!-- #section:pages/pricing.large -->
 									
 
 									<div class="col-xs-6 col-sm-4 pricing-box">
-										<div class="widget-box widget-color-orange">
-											<div class="widget-header">
+											<div class="widget-box pricing-box-small widget-color-red3">
+												<div class="widget-header">
 												<h5 class="widget-title bigger lighter">内  资（私  营）</h5>
-											</div>
-
-											<div class="widget-body">
-												<div class="widget-main">
-													<ul class="list-unstyled spaced2">
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															50 GB Disk Space
-														</li>
-
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															1 TB Bandwidth
-														</li>
-
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															1000 Email Accounts
-														</li>
-
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															100 MySQL Databases
-														</li>
-
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															$25 Ad Credit
-														</li>
-
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															Free Domain
-														</li>
-													</ul>
-
-													<hr />
-													<div class="price">
-														$10
-														<small>/month</small>
-													</div>
 												</div>
+												<div class="widget-body">
+												<a  href="../../../mgr/information/accept.jsp">
+												<img alt="" src="../../imgs/nzent.jpg" style="height:350px;width:340px;">
+												</a>
+												<div>
+													<a href="../../../mgr/information/accept.jsp" class="btn btn-block btn-warning">
+														<i class="ace-icon fa fa-shopping-cart bigger-110"></i>
+														<span>受理</span>
+													</a>
+												</div>
+											</div>
+											</div>
+									</div>
+									<div class="col-xs-6 col-sm-4 pricing-box">
+											<div class="widget-box pricing-box-small widget-color-green">
+												<div class="widget-header">
+												<h5 class="widget-title bigger lighter">外  资</h5>
+												</div>
+												<div class="widget-body">
+												<a  href="#">
+												<img alt="" src="../../imgs/wzent.jpg" style="height:350px;width:340px;">
+												</a>
+												<div>
+													<a href="#" class="btn btn-block btn-warning">
+														<i class="ace-icon fa fa-shopping-cart bigger-110"></i>
+														<span>受理</span>
+													</a>
+												</div>
+											</div>
+											</div>
+										</div>
+									<div class="col-xs-6 col-sm-4 pricing-box">
+											<div class="widget-box pricing-box-small widget-color-orange">
+												<div class="widget-header">
+												<h5 class="widget-title bigger lighter">个   体</h5>
+												</div>
+												<div class="widget-body">
+												<img alt="" src="../../imgs/gtent.jpg" style="height:350px;width:340px;">
 
 												<div>
 													<a href="#" class="btn btn-block btn-warning">
 														<i class="ace-icon fa fa-shopping-cart bigger-110"></i>
-														<span>Buy</span>
+														<span>受理</span>
 													</a>
 												</div>
 											</div>
+											</div>
+									</div>
 										</div>
 									</div>
-
-									<div class="col-xs-6 col-sm-4 pricing-box">
-										<div class="widget-box widget-color-blue">
-											<div class="widget-header">
-												<h5 class="widget-title bigger lighter">外  资</h5>
-											</div>
-
-											<div class="widget-body">
-												<div class="widget-main">
-													<ul class="list-unstyled spaced2">
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															200 GB Disk Space
-														</li>
-
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															Unlimited Bandwidth
-														</li>
-
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															1000 Email Accounts
-														</li>
-
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															200 MySQL Databases
-														</li>
-
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															$25 Ad Credit
-														</li>
-
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															Free Domain
-														</li>
-													</ul>
-
-													<hr />
-													<div class="price">
-														$15
-														<small>/month</small>
-													</div>
-												</div>
-
-												<div>
-													<a href="#" class="btn btn-block btn-primary">
-														<i class="ace-icon fa fa-shopping-cart bigger-110"></i>
-														<span>Buy</span>
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="col-xs-6 col-sm-4 pricing-box">
-										<div class="widget-box widget-color-green">
-											<div class="widget-header">
-												<h5 class="widget-title bigger lighter">个  体</h5>
-											</div>
-
-											<div class="widget-body">
-												<div class="widget-main">
-													<ul class="list-unstyled spaced2">
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															Unlimited Space
-														</li>
-
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															Unlimited Bandwidth
-														</li>
-
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															Unlimited Email Accounts
-														</li>
-
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															Unlimited MySQL Databases
-														</li>
-
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															$50 Ad Credit
-														</li>
-
-														<li>
-															<i class="ace-icon fa fa-check green"></i>
-															2 Free Domains
-														</li>
-													</ul>
-
-													<hr />
-													<div class="price">
-														$25
-														<small>/month</small>
-													</div>
-												</div>
-
-												<div>
-													<a href="#" class="btn btn-block btn-success">
-														<i class="ace-icon fa fa-shopping-cart bigger-110"></i>
-														<span>Buy</span>
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<!-- /section:pages/pricing.large -->
 								</div>
 					</div><!-- /.page-content -->
 				</div>

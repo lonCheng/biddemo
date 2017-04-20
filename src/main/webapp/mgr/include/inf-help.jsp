@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<div id="right-menu" class="modal aside" data-body-scroll="true" data-offset="true" data-placement="right" data-fixed="true" data-backdrop="true" tabindex="-1">
+<div id="right-menu"  class="modal aside"  data-body-scroll="true" data-offset="true" data-placement="right" data-fixed="true" data-backdrop="true" tabindex="-1">
 									<div class="modal-dialog" style="height:520px;">
 										<div class="modal-content">
 											<div class="modal-header no-padding">

@@ -43,6 +43,11 @@
 		<script src="../../ace/assets/js/html5shiv.js"></script>
 		<script src="../../ace/assets/js/respond.js"></script>
 		<![endif]-->
+		<style>
+			.datainp{ width:200px; height:30px; border:1px #ccc solid;}
+			.datep{ margin-bottom:10px;}
+		
+		</style>
 	</head>
 
 
@@ -78,6 +83,83 @@
 					<div class="page-content">
 						<!-- #section:settings.box -->
 						<jsp:include page="include/online-help.jsp"></jsp:include>
+						<div class="row">
+								<div class="widget-header widget-header-blue widget-header-flat">
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+																			<button class="btn btn-xs btn-success">
+																				<i class="ace-icon fa fa-check bigger-120"></i>
+																				查询
+																			</button>
+																			<a href="#my-modal" class="bigger-125 bg-primary white" data-toggle="modal">
+																			<button class="btn btn-xs btn-info">
+																				
+																				<i class="ace-icon fa fa-pencil bigger-120"></i>
+																				修改
+																			</button>
+																			</a>
+									</div>
+						</div>
+						<div  class="col-xs-12  col-sm-12">
+									<div class="space-10"></div>
+								</div>
+						<div class="row">
+							<div class="col-xs-12">
+							<form class="form-horizontal">
+								  <div class="form-group">
+								    <label for="" class="col-sm-1 control-label">企业类型</label>
+								    <div class="col-sm-2">
+								      <select class="form-control" id="form-field-select-1">
+																<option value=""></option>
+																<option value="AL">内资</option>
+																<option value="AK">外资</option>
+																<option value="AZ">个体</option>
+									</select>
+								    </div>
+								    <label for="" class="col-sm-1 control-label">企业名称</label>
+								    <div class="col-sm-2">
+								      <input type="text" class="form-control" id="" placeholder="企业名称">
+								    </div>
+								    <label for="" class="col-sm-1 control-label">企业住址</label>
+								    <div class="col-sm-2">
+								      <input type="text" class="form-control" id="" placeholder="企业住址">
+								    </div>
+								    <label for="" class="col-sm-1 control-label">企业注册号</label>
+								    <div class="col-sm-2">
+								      <input type="text" class="form-control" id="" placeholder="企业注册号">
+								    </div>
+								  </div>
+								 <div class="form-group">
+								    <label for="" class="col-sm-1 control-label">起始时间</label>
+								    <div class="col-sm-2">
+								     			 <div class="input-group input-group-sm">
+													<input type="text" id="datepicker" class="form-control" />
+													<span class="input-group-addon">
+														<i class="ace-icon fa fa-calendar"></i>
+													</span>
+												</div>
+								    </div>
+								    <label for="" class="col-sm-1 control-label">终止时间</label>
+								     <div class="col-sm-2">
+								      <div class="input-group input-group-sm">
+													<input type="text" id="datepicker" class="form-control" />
+													<span class="input-group-addon">
+														<i class="ace-icon fa fa-calendar"></i>
+													</span>
+												</div>
+								    </div>
+								    <label for="" class="col-sm-1 control-label">受理号</label>
+								    <div class="col-sm-2">
+								      <input type="text" class="form-control" id="" placeholder="受理号">
+								    </div>
+								    <label for="" class="col-sm-1 control-label">社会信用号</label>
+								    <div class="col-sm-2">
+								      <input type="text" class="form-control" id="" placeholder="注册号">
+								    </div>
+								  </div> 
+								</form>
+							</div>
+						</div>
+						
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="col-xs-12 col-sm-12 widget-container-col">
@@ -131,7 +213,7 @@
 																	类别
 																</th>
 																<th>
-																	等待时间
+																	剩余时间
 																</th>
 																<th class="hidden-480">状态</th>
 															</tr>
@@ -162,12 +244,12 @@
 																	20170417
 																</td>
 																<td>
-																	2017-04-17
+																	2017-04-17  12:00:00
 																</td>
 																<td>
 																	<span class="label label-warning">窗口办理</span>
 																</td>
-																<td><span class="label" style="background-color:#FF0000;">10min</span></td>
+																<td><span class="label" style="background-color:#FF6100;">10min</span></td>
 																<td class="hidden-480">
 																	<span class="label label-success arrowed-in arrowed-in-right">待处理</span>
 																</td>
@@ -179,12 +261,12 @@
 																	111111417
 																</td>
 																<td>
-																	2017-04-17
+																	2017-04-17  12:00:00
 																</td>
 																<td>
 																	<span class="label label-warning">窗口办理</span>
 																</td>
-																<td><span class="label" style="background-color:#FF6347;">20min</span></td>
+																<td><span class="label" style="background-color:#FF6100;">20min</span></td>
 																<td class="hidden-480">
 																	<span class="label label-success arrowed-in arrowed-in-right">待处理</span>
 																</td>
@@ -196,7 +278,7 @@
 																	22222217
 																</td>
 																<td>
-																	2017-04-17
+																	2017-04-17  12:00:00
 																</td>
 																<td>
 																	<span class="label label-warning">窗口办理</span>
@@ -213,7 +295,7 @@
 																	20170416
 																</td>
 																<td>
-																	2017-04-16
+																	2017-04-16  12:00:00
 																</td>
 																<td>
 																	<span class="label label-important">网登办理</span>
@@ -230,7 +312,7 @@
 																	12019217
 																</td>
 																<td>
-																	2017-04-17
+																	2017-04-17  12:00:00
 																</td>
 																<td>
 																	<span class="label label-green">全程电子化</span>
@@ -279,7 +361,11 @@
 		<script src="../../ace/assets/js/date-time/bootstrap-datepicker.js"></script>
 		<script src="../../ace/assets/js/jqGrid/jquery.jqGrid.src.js"></script>
 		<script src="../../ace/assets/js/jqGrid/i18n/grid.locale-cn.js"></script>
-
+	
+		<!-- page specific plugin scripts -->
+		<script src="../../ace/assets/js/jquery-ui.js"></script>
+		<script src="../../ace/assets/js/jquery.ui.touch-punch.js"></script>
+		
 		<!-- ace scripts -->
 		<script src="../../ace/assets/js/ace/elements.scroller.js"></script>
 		<script src="../../ace/assets/js/ace/elements.colorpicker.js"></script>
@@ -1169,7 +1255,6 @@
 				});
 			});
 		</script>
-
 		<!-- the following scripts are used in demo only for onpage help and you don't need them -->
 		<link rel="stylesheet" href="../../ace/assets/css/ace.onpage-help.css" />
 		<link rel="stylesheet" href="../../ace/docs/assets/js/themes/sunburst.css" />
