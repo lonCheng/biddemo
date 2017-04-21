@@ -253,7 +253,7 @@
 		<script>
 		jQuery(function($) {
 			$('#system-login').click(function(){
-				window.location.href="../ent/jsp/newserviceHall.jsp";
+				window.location.href="../ent/index.jsp";
 			})
 		});
 		

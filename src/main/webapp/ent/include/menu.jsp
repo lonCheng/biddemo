@@ -54,6 +54,11 @@
 				</div>/.sidebar-shortcuts -->
 
 	<ul class="nav nav-list">
+		<li><a href="../../ent/index.jsp"> <i
+				class="menu-icon fa fa-desktop"></i> <span class="menu-text">
+					首页</span>
+		</a> <b class="arrow"></b></li>
+
 		<li class=""><a href="#" class="dropdown-toggle"> <i
 				class="menu-icon fa fa-pencil-square-o"></i> <span class="menu-text">
 					我的工作台 </span> <b class="arrow fa fa-angle-down"></b>
@@ -61,7 +66,7 @@
 
 			<ul class="submenu">
 				<li class=""><a href="#"> <i
-						class="menu-icon fa fa-caret-right"></i> 待办事项
+						class="menu-icon fa fa-caret-right"></i> 事项进度
 				</a> <b class="arrow"></b></li>
 
 				<li class=""><a href="#"> <i
@@ -74,34 +79,21 @@
 				class="menu-icon fa fa-desktop"></i> <span class="menu-text">
 					网上预约 </span>
 		</a> <b class="arrow"></b></li>
-		
-		<li><a href="#"> <i
-				class="menu-icon fa fa-tachometer"></i> <span class="menu-text">
-					名称自主申报 </span>
+
+		<li><a href="#"> <i class="menu-icon fa fa-tachometer"></i> <span
+				class="menu-text"> 名称自主申报 </span>
 		</a> <b class="arrow"></b></li>
 
 		<li class="<%if (requestPage.equals("/ent/login.jsp")) {%>active<%}%>">
 			<a href="../../ent/jsp/newserviceHall.jsp"> <i
 				class="menu-icon fa fa-tachometer"></i> <span class="menu-text">
-					办事大厅 </span>
+					企业登记 </span>
 		</a> <b class="arrow"></b>
 		</li>
 
-
-		<li class=""><a href="#" class="dropdown-toggle"> <i
-				class="menu-icon fa fa-list"></i> <span class="menu-text">
-					商事登记咨询</span> <b class="arrow fa fa-angle-down"></b>
-		</a> <b class="arrow"></b>
-
-			<ul class="submenu">
-				<li class=""><a href="tables.html"> <i
-						class="menu-icon fa fa-caret-right"></i> Simple &amp; Dynamic
-				</a> <b class="arrow"></b></li>
-
-				<li class=""><a href="jqgrid.html"> <i
-						class="menu-icon fa fa-caret-right"></i> jqGrid plugin
-				</a> <b class="arrow"></b></li>
-			</ul></li>
+		<li><a href="#"> <i class="menu-icon fa fa-list"></i> <span
+				class="menu-text"> 经营范围自助录入 </span>
+		</a> <b class="arrow"></b></li>
 
 		<li class=""><a href="#" class="dropdown-toggle"> <i
 				class="menu-icon fa fa-pencil-square-o"></i> <span class="menu-text">
