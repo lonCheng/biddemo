@@ -4,7 +4,7 @@
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta charset="utf-8" />
-		<title>广州工商管理局业务受理</title>
+		<title>广州工商管理局业务-智能终端</title>
 
 		<meta name="description" content="3 styles with inline editable feature" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
