@@ -11,40 +11,6 @@
 				<script type="text/javascript">
 					try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
 				</script>
-
-				<!-- <div class="sidebar-shortcuts" id="sidebar-shortcuts">
-					<div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
-						<button class="btn btn-success">
-							<i class="ace-icon fa fa-signal"></i>
-						</button>
-
-						<button class="btn btn-info">
-							<i class="ace-icon fa fa-pencil"></i>
-						</button>
-
-						#section:basics/sidebar.layout.shortcuts
-						<button class="btn btn-warning">
-							<i class="ace-icon fa fa-users"></i>
-						</button>
-
-						<button class="btn btn-danger">
-							<i class="ace-icon fa fa-cogs"></i>
-						</button>
-
-						/section:basics/sidebar.layout.shortcuts
-					</div>
-
-					<div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
-						<span class="btn btn-success"></span>
-
-						<span class="btn btn-info"></span>
-
-						<span class="btn btn-warning"></span>
-
-						<span class="btn btn-danger"></span>
-					</div>
-				</div>/.sidebar-shortcuts -->
-
 				<ul class="nav nav-list">
 					<li class="<%if(requestPage.equals("/mgr/index.jsp")){%>active<%}%>">
 						<a href="../../mgr/index.jsp">
@@ -53,52 +19,6 @@
 						</a>
 
 						<b class="arrow"></b>
-					</li>
-
-					<li class="">
-							<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text"> 任务监控中心 </span>
-
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-
-						<ul class="submenu">
-							<li class="<%if(requestPage.equals("/mgr/monitorTasks.jsp")){%>active<%}%>">
-								<a href="../../mgr/monitorTasks.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									任务监控
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/mgr/myTasks.jsp")){%>active<%}%>">
-								<a href="../../mgr/myTasks.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									我的任务
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/mgr/historyTasks.jsp")){%>active<%}%>">
-								<a href="../../mgr/historyTasks.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									历史任务
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									其他
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						</ul>
 					</li>
 					<li class="">
 							<a href="#" class="dropdown-toggle">
@@ -120,92 +40,43 @@
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/onlineOrder/onlineBussinessMgr.jsp")){%>active<%}%>">
-								<a href="../../mgr/onlineOrder/onlineBussinessMgr.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									业务管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						<li class="<%if(requestPage.equals("/mgr/onlineOrder/onlineTimeMgr.jsp")){%>active<%}%>">
-								<a href="../../mgr/onlineOrder/onlineTimeMgr.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									时段管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/mgr/onlineOrder/onlineOrderResource.jsp")){%>active<%}%>">
-								<a href="../../mgr/onlineOrder/onlineOrderResource.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									预约资源
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/mgr/onlineOrder/onlinePlanMgr.jsp")){%>active<%}%>">
-								<a href="../../mgr/onlineOrder/onlinePlanMgr.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									计划管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/mgr/onlineOrder/onlineOrderStatistics.jsp")){%>active<%}%>">
-								<a href="../../mgr/onlineOrder/onlineOrderStatistics.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									预约记录统计
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/mgr/onlineOrder/onlineMaterial.jsp")){%>active<%}%>">
-								<a href="../../mgr/onlineOrder/onlineMaterial.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									材料管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/mgr/onlineOrder/onlineBlacklist.jsp")){%>active<%}%>">
-								<a href="../../mgr/onlineOrder/onlineBlacklist.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									黑名单管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/mgr/onlineOrder/onlineInfManager.jsp")){%>active<%}%>">
-								<a href="../../mgr/onlineOrder/onlineInfManager.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									字条管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/mgr/onlineOrder/onlineEventResponse.jsp")){%>active<%}%>">
-								<a href="../../mgr/onlineOrder/onlineEventResponse.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									情况反馈
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/mgr/onlineOrder/onlineOrderWindow.jsp")){%>active<%}%>">
-								<a href="../../mgr/onlineOrder/onlineOrderWindow.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									窗口管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
 						</ul>
 					</li>
 					<li class="">
 							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
 							<span class="menu-text">在线咨询</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									其他
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>
+										<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-pencil-square-o"></i>
+							<span class="menu-text"> 名称自主申报 </span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+						<b class="arrow"></b>
+					</li>
+					<li class="">
+							<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-list"></i>
+							<span class="menu-text">经营范围自助录入</span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -304,17 +175,6 @@
 	
 							<b class="arrow"></b>
 							</li>
-							
-							<li class="<%if(requestPage.equals("/mgr/information/checkEnt414.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/checkEnt414.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-							<i class="menu-icon fa fa-tachometer"></i>
-							<span class="menu-text"> 审核审批 </span>
-							</a>
-	
-							<b class="arrow"></b>
-							</li>
-							
 							<li class="<%if(requestPage.equals("/mgr/information/bgEnt.jsp")){%>active<%}%>">
 								<a href="../../mgr/information/bgEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -331,15 +191,6 @@
 
 								<b class="arrow"></b>
 							</li>
-							
-							<%-- <li class="<%if(requestPage.equals("/mgr/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/zxEnt.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									改制登记
-								</a>
-
-								<b class="arrow"></b>
-							</li> --%>
 							<li class="<%if(requestPage.equals("/mgr/information/zxEnt.jsp")){%>active<%}%>">
 								<a href="../../mgr/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -365,321 +216,9 @@
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/sendPic.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/sendPic.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									发照
-								</a>
-
-								<b class="arrow"></b>
-							</li>
 						</ul>
 					</li>
 					
-					
-
-					<li class="">
-						<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-pencil-square-o"></i>
-							<span class="menu-text"> 网上预约管理系统 </span>
-				
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-						<ul class="submenu">
-							
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									部门管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									业务管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									时段管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									预约资源
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									计划管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									业务统计（待定）
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									预约记录统计
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									材料管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									黑名单管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									字条管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									情况反馈管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									企业管理（废掉）
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									用户管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									人员管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									IP管理
-								</a>
-
-								<b class="arrow"></b>
-							</li><li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									窗口管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						</ul>
-					</li>
-					
-					<li class="">
-						<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-pencil-square-o"></i>
-							<span class="menu-text">银行预约管理系统 </span>
-				
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-						<ul class="submenu">
-							
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									银行管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									区管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									支行管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									时段管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									预约资源管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									用户管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						</ul>
-					</li>
-					<li class="">
-						<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-pencil-square-o"></i>
-							<span class="menu-text"> 名称自主申报 </span>
-
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-					</li>
-					<li class="">
-							<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text">电子档案管理</span>
-
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-
-						<ul class="submenu">
-							
-							<li class="<%if(requestPage.equals("/mgr/test/accept2.jsp")){%>active<%}%>">
-								<a href="../../mgr/test/accept2.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									其他
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						</ul>
-					</li>
-					
-					<li class="">
-							<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text">电子执照管理</span>
-
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-
-						<ul class="submenu">
-							
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									其他
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						</ul>
-					</li>
-					<li class="">
-							<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text">公示管理</span>
-
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-
-						<ul class="submenu">
-							
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									其他
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						</ul>
-					</li>
-					
-					<li class="">
-							<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text">经营范围管理系统</span>
-
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-
-						<ul class="submenu">
-							
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									其他
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						</ul>
-					</li>
 					
 					<li class="">
 						<a href="#" class="dropdown-toggle">
