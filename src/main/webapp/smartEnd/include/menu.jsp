@@ -46,8 +46,8 @@
 				</div>/.sidebar-shortcuts -->
 
 				<ul class="nav nav-list">
-					<li class="<%if(requestPage.equals("/mgr/index.jsp")){%>active<%}%>">
-						<a href="../../mgr/index.jsp">
+					<li class="<%if(requestPage.equals("/smartEnd/index.jsp")){%>active<%}%>">
+						<a href="../../smartEnd/index.jsp">
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> 我的工作台 </span>
 						</a>
@@ -66,24 +66,24 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
-							<li class="<%if(requestPage.equals("/mgr/monitorTasks.jsp")){%>active<%}%>">
-								<a href="../../mgr/monitorTasks.jsp">
+							<li class="<%if(requestPage.equals("/smartEnd/monitorTasks.jsp")){%>active<%}%>">
+								<a href="../../smartEnd/monitorTasks.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									任务监控
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/myTasks.jsp")){%>active<%}%>">
-								<a href="../../mgr/myTasks.jsp">
+							<li class="<%if(requestPage.equals("/smartEnd/myTasks.jsp")){%>active<%}%>">
+								<a href="../../smartEnd/myTasks.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									我的任务
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/historyTasks.jsp")){%>active<%}%>">
-								<a href="../../mgr/historyTasks.jsp">
+							<li class="<%if(requestPage.equals("/smartEnd/historyTasks.jsp")){%>active<%}%>">
+								<a href="../../smartEnd/historyTasks.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									历史任务
 								</a>
@@ -111,7 +111,7 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
-							<li class="<%if(requestPage.equals("/mgr/smartEnd/onlineOrderWindow.jsp")){%>active<%}%>">
+							<li class="<%if(requestPage.equals("/smartEnd/smartEnd/onlineOrderWindow.jsp")){%>active<%}%>">
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
 									其他
@@ -158,16 +158,16 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
-							<li class="<%if(requestPage.equals("/mgr/information/waitTasks.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/waitTasks.jsp">
+							<li class="<%if(requestPage.equals("/smartEnd/information/waitTasks.jsp")){%>active<%}%>">
+								<a href="../../smartEnd/information/waitTasks.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									待办事项
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/editInput.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/editInput.jsp">
+							<li class="<%if(requestPage.equals("/smartEnd/information/editInput.jsp")){%>active<%}%>">
+								<a href="../../smartEnd/information/editInput.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> 设立登记 </span>
@@ -175,24 +175,24 @@
 	
 							<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/bgEnt.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/bgEnt.jsp">
+							<li class="<%if(requestPage.equals("/smartEnd/information/bgEnt.jsp")){%>active<%}%>">
+								<a href="../../smartEnd/information/bgEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									变更登记
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/zxEnt.jsp">
+							<li class="<%if(requestPage.equals("/smartEnd/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../smartEnd/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									撤销登记
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/zxEnt.jsp">
+							<li class="<%if(requestPage.equals("/smartEnd/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../smartEnd/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									简易注销
 								</a>
@@ -200,8 +200,8 @@
 								<b class="arrow"></b>
 							</li>
 
-							<li class="<%if(requestPage.equals("/mgr/information/finishTask.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/finishTask.jsp">
+							<li class="<%if(requestPage.equals("/smartEnd/information/finishTask.jsp")){%>active<%}%>">
+								<a href="../../smartEnd/information/finishTask.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									打照
 								</a>

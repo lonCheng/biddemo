@@ -60,7 +60,6 @@
 								<i class="ace-icon fa fa-home home-icon"></i>
 								<a href="#">主页</a>
 							</li>
-							<li class="active">我的工作台</li>
 						</ul><!-- /.breadcrumb -->
 
 						<!-- /section:basics/content.searchbox -->

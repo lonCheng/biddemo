@@ -12,8 +12,8 @@
 					try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
 				</script>
 				<ul class="nav nav-list">
-					<li class="<%if(requestPage.equals("/mgr/index.jsp")){%>active<%}%>">
-						<a href="../../mgr/index.jsp">
+					<li class="<%if(requestPage.equals("/diyRobot/index.jsp")){%>active<%}%>">
+						<a href="../../diyRobot/index.jsp">
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> 我的工作台 </span>
 						</a>
@@ -32,8 +32,8 @@
 
 						<ul class="submenu">
 							
-							<li class="<%if(requestPage.equals("/mgr/onlineOrder/dept.jsp")){%>active<%}%>">
-								<a href="../../mgr/onlineOrder/dept.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/onlineOrder/dept.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/onlineOrder/dept.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									部门管理
 								</a>
@@ -119,8 +119,8 @@
 								<b class="arrow"></b>
 
 								<ul class="submenu">
-									<li class="<%if(requestPage.equals("/mgr/information/accept.jsp")){%>active<%}%>">
-										<a href="../../mgr/information/accept.jsp">
+									<li class="<%if(requestPage.equals("/diyRobot/information/accept.jsp")){%>active<%}%>">
+										<a href="../../diyRobot/information/accept.jsp">
 											<i class="menu-icon fa fa-caret-right"></i>
 											内资（私营）
 										</a>
@@ -148,8 +148,8 @@
 
 								</ul>
 							</li> --%>
-														<li class="<%if(requestPage.equals("/mgr/information/deal.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/deal.jsp">
+														<li class="<%if(requestPage.equals("/diyRobot/information/deal.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/deal.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> 受理登记 </span>
@@ -158,16 +158,16 @@
 							<b class="arrow"></b>
 							</li>
 							
-							<li class="<%if(requestPage.equals("/mgr/information/waitTasks.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/waitTasks.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/information/waitTasks.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/waitTasks.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									待办事项
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/editInput.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/editInput.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/information/editInput.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/editInput.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> 设立登记 </span>
@@ -175,32 +175,32 @@
 	
 							<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/bgEnt.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/bgEnt.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/information/bgEnt.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/bgEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									变更登记
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/jcEnt.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/jcEnt.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/information/jcEnt.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/jcEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									商事纠错
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/zxEnt.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									撤销登记
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/zxEnt.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									简易注销
 								</a>
@@ -208,8 +208,8 @@
 								<b class="arrow"></b>
 							</li>
 
-							<li class="<%if(requestPage.equals("/mgr/information/finishTask.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/finishTask.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/information/finishTask.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/finishTask.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									打照
 								</a>
@@ -231,8 +231,8 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
-							<li class="<%if(requestPage.equals("/mgr/information/checkEnt415.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/checkEnt415.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/information/checkEnt415.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/checkEnt415.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									业务审批
 								</a>
@@ -240,24 +240,24 @@
 								<b class="arrow"></b>
 							</li>
 
-							<li class="<%if(requestPage.equals("/mgr/information/content-slider.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/content-slider.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/information/content-slider.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/content-slider.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									弹出窗口
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/jyfw.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/jyfw.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/information/jyfw.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/jyfw.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									树型插件
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/checkEnt416.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/checkEnt416.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/information/checkEnt416.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/checkEnt416.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									右边悬浮框
 								</a>
@@ -265,56 +265,56 @@
 								<b class="arrow"></b>
 							</li>
 							
-							<li class="<%if(requestPage.equals("/mgr/test/content-slider.jsp")){%>active<%}%>">
-								<a href="../../mgr/test/content-slider.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/test/content-slider.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/test/content-slider.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块一
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/test/content-slider2.jsp")){%>active<%}%>">
-								<a href="../../mgr/test/content-slider2.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/test/content-slider2.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/test/content-slider2.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块二
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/test/content-slider3.jsp")){%>active<%}%>">
-								<a href="../../mgr/test/content-slider3.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/test/content-slider3.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/test/content-slider3.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块三
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/test/content-slider4.jsp")){%>active<%}%>">
-								<a href="../../mgr/test/content-slider4.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/test/content-slider4.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/test/content-slider4.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块四
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/test/content-slider5.jsp")){%>active<%}%>">
-								<a href="../../mgr/test/content-slider5.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/test/content-slider5.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/test/content-slider5.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块5
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/test/content-slider6.jsp")){%>active<%}%>">
-								<a href="../../mgr/test/content-slider6.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/test/content-slider6.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/test/content-slider6.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块6
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/test/content-slider7.jsp")){%>active<%}%>">
-								<a href="../../mgr/test/content-slider7.jsp">
+							<li class="<%if(requestPage.equals("/diyRobot/test/content-slider7.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/test/content-slider7.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块7
 								</a>

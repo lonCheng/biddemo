@@ -25,7 +25,7 @@
 					<a href="#" class="navbar-brand" style="padding-left:5px;">
 						<small>
 							<!-- <i class="fa fa-leaf"></i> -->
-							银商通
+							银商通服务平台
 						</small>
 					</a>
 

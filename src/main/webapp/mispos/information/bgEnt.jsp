@@ -342,7 +342,7 @@
 					},
 			
 					editurl: "/dummy.html",//error-404.html   
-					caption: "简易注销"
+					caption: "商事登记变更"
 			
 					//,autowidth: true,
 			
