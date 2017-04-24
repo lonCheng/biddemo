@@ -24,7 +24,7 @@
 			<img src="../../imgs/gslogo.png"
 				style="width: 32px; height: 32px; padding: 0; margin-top: 6px; float: left;">
 			<a href="#" class="navbar-brand" style="padding-left: 5px;"> <small>
-					<!-- <i class="fa fa-leaf"></i> --> 广州市商事登记全程电子化系统
+					<!-- <i class="fa fa-leaf"></i> --> 广州市商事登记全程电子化企业端
 			</small>
 			</a>
 

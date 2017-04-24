@@ -54,119 +54,46 @@
 				</div>/.sidebar-shortcuts -->
 
 	<ul class="nav nav-list">
-		<li class="<%if (requestPage.equals("/ent/index.jsp")) {%>active<%}%>">
-			<a href="../../ent/test/serviceHall.jsp"> <i
+		<li><a href="../../ent/index.jsp"> <i
+				class="menu-icon fa fa-desktop"></i> <span class="menu-text">
+					首页</span>
+		</a> <b class="arrow"></b></li>
+
+		<li class=""><a href="#" class="dropdown-toggle"> <i
+				class="menu-icon fa fa-pencil-square-o"></i> <span class="menu-text">
+					我的工作台 </span> <b class="arrow fa fa-angle-down"></b>
+		</a> <b class="arrow"></b>
+
+			<ul class="submenu">
+				<li class=""><a href="#"> <i
+						class="menu-icon fa fa-caret-right"></i> 事项进度
+				</a> <b class="arrow"></b></li>
+
+				<li class=""><a href="#"> <i
+						class="menu-icon fa fa-caret-right"></i> 已办事项
+				</a> <b class="arrow"></b></li>
+
+			</ul></li>
+
+		<li><a href="../../ent/jsp/appointment.jsp"> <i
+				class="menu-icon fa fa-desktop"></i> <span class="menu-text">
+					网上预约 </span>
+		</a> <b class="arrow"></b></li>
+
+		<li><a href="#"> <i class="menu-icon fa fa-tachometer"></i> <span
+				class="menu-text"> 名称自主申报 </span>
+		</a> <b class="arrow"></b></li>
+
+		<li class="<%if (requestPage.equals("/ent/login.jsp")) {%>active<%}%>">
+			<a href="../../ent/jsp/newserviceHall.jsp"> <i
 				class="menu-icon fa fa-tachometer"></i> <span class="menu-text">
-					办事大厅 </span>
+					企业登记 </span>
 		</a> <b class="arrow"></b>
 		</li>
 
-		<li class=""><a href="#" class="dropdown-toggle"> <i
-				class="menu-icon fa fa-desktop"></i> <span class="menu-text">
-					业务办理 </span> <b class="arrow fa fa-angle-down"></b>
-		</a> <b class="arrow"></b>
-
-			<ul class="submenu">
-				<li class=""><a href="#" class="dropdown-toggle"> <i
-						class="menu-icon fa fa-caret-right"></i> Layouts <b
-						class="arrow fa fa-angle-down"></b>
-				</a> <b class="arrow"></b>
-
-					<ul class="submenu">
-						<li class=""><a href=" <%=realPath%>/ent/test/serviceHall.jsp"> <i
-								class="menu-icon fa fa-caret-right"></i> Top Menu
-						</a> <b class="arrow"></b></li>
-
-						<li class=""><a href="two-menu-1.html"> <i
-								class="menu-icon fa fa-caret-right"></i> Two Menus 1
-						</a> <b class="arrow"></b></li>
-
-						<li class=""><a href="two-menu-2.html"> <i
-								class="menu-icon fa fa-caret-right"></i> Two Menus 2
-						</a> <b class="arrow"></b></li>
-
-						<li class=""><a href="mobile-menu-1.html"> <i
-								class="menu-icon fa fa-caret-right"></i> Default Mobile Menu
-						</a> <b class="arrow"></b></li>
-
-						<li class=""><a href="mobile-menu-2.html"> <i
-								class="menu-icon fa fa-caret-right"></i> Mobile Menu 2
-						</a> <b class="arrow"></b></li>
-
-						<li class=""><a href="mobile-menu-3.html"> <i
-								class="menu-icon fa fa-caret-right"></i> Mobile Menu 3
-						</a> <b class="arrow"></b></li>
-					</ul></li>
-
-				<li class=""><a href="typography.html"> <i
-						class="menu-icon fa fa-caret-right"></i> Typography
-				</a> <b class="arrow"></b></li>
-
-				<li class=""><a href="elements.html"> <i
-						class="menu-icon fa fa-caret-right"></i> Elements
-				</a> <b class="arrow"></b></li>
-
-				<li class=""><a href="buttons.html"> <i
-						class="menu-icon fa fa-caret-right"></i> Buttons &amp; Icons
-				</a> <b class="arrow"></b></li>
-
-				<li class=""><a href="content-slider.html"> <i
-						class="menu-icon fa fa-caret-right"></i> Content Sliders
-				</a> <b class="arrow"></b></li>
-
-				<li class=""><a href="treeview.html"> <i
-						class="menu-icon fa fa-caret-right"></i> Treeview
-				</a> <b class="arrow"></b></li>
-
-				<li class=""><a href="jquery-ui.html"> <i
-						class="menu-icon fa fa-caret-right"></i> jQuery UI
-				</a> <b class="arrow"></b></li>
-
-				<li class=""><a href="nestable-list.html"> <i
-						class="menu-icon fa fa-caret-right"></i> Nestable Lists
-				</a> <b class="arrow"></b></li>
-
-				<li class=""><a href="#" class="dropdown-toggle"> <i
-						class="menu-icon fa fa-caret-right"></i> Three Level Menu <b
-						class="arrow fa fa-angle-down"></b>
-				</a> <b class="arrow"></b>
-
-					<ul class="submenu">
-						<li class=""><a href="#"> <i
-								class="menu-icon fa fa-leaf green"></i> Item #1
-						</a> <b class="arrow"></b></li>
-
-						<li class=""><a href="#" class="dropdown-toggle"> <i
-								class="menu-icon fa fa-pencil orange"></i> 4th level <b
-								class="arrow fa fa-angle-down"></b>
-						</a> <b class="arrow"></b>
-
-							<ul class="submenu">
-								<li class=""><a href="#"> <i
-										class="menu-icon fa fa-plus purple"></i> Add Product
-								</a> <b class="arrow"></b></li>
-
-								<li class=""><a href="#"> <i
-										class="menu-icon fa fa-eye pink"></i> View Products
-								</a> <b class="arrow"></b></li>
-							</ul></li>
-					</ul></li>
-			</ul></li>
-
-		<li class=""><a href="#" class="dropdown-toggle"> <i
-				class="menu-icon fa fa-list"></i> <span class="menu-text">
-					信息查询 </span> <b class="arrow fa fa-angle-down"></b>
-		</a> <b class="arrow"></b>
-
-			<ul class="submenu">
-				<li class=""><a href="tables.html"> <i
-						class="menu-icon fa fa-caret-right"></i> Simple &amp; Dynamic
-				</a> <b class="arrow"></b></li>
-
-				<li class=""><a href="jqgrid.html"> <i
-						class="menu-icon fa fa-caret-right"></i> jqGrid plugin
-				</a> <b class="arrow"></b></li>
-			</ul></li>
+		<li><a href="#"> <i class="menu-icon fa fa-list"></i> <span
+				class="menu-text"> 经营范围自助录入 </span>
+		</a> <b class="arrow"></b></li>
 
 		<li class=""><a href="#" class="dropdown-toggle"> <i
 				class="menu-icon fa fa-pencil-square-o"></i> <span class="menu-text">
