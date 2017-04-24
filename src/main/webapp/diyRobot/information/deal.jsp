@@ -88,14 +88,14 @@
 									<!-- #section:pages/pricing.large -->
 									
 
-									<div class="col-xs-6 col-sm-4 pricing-box">
+									<div class="col-xs-6 col-sm-3 pricing-box">
 											<div class="widget-box pricing-box-small widget-color-red3">
 												<div class="widget-header">
 												<h5 class="widget-title bigger lighter">内  资（私  营）</h5>
 												</div>
 												<div class="widget-body">
-												<a  href="../../../mgr/information/accept.jsp">
-												<img alt="" src="../../imgs/nzent.jpg" style="height:350px;width:340px;">
+												<a  href="../../../cityService/information/accept.jsp">
+												<img alt="" src="../../imgs/nzent.jpg" style="height:350px;width:286px;">
 												</a>
 												<div>
 													<a href="../../../mgr/information/accept.jsp" class="btn btn-block btn-warning">
@@ -106,14 +106,14 @@
 											</div>
 											</div>
 									</div>
-									<div class="col-xs-6 col-sm-4 pricing-box">
+									<div class="col-xs-6 col-sm-3 pricing-box">
 											<div class="widget-box pricing-box-small widget-color-green">
 												<div class="widget-header">
 												<h5 class="widget-title bigger lighter">外  资</h5>
 												</div>
 												<div class="widget-body">
 												<a  href="#">
-												<img alt="" src="../../imgs/wzent.jpg" style="height:350px;width:340px;">
+												<img alt="" src="../../imgs/wzent.jpg" style="height:350px;width:286px;">
 												</a>
 												<div>
 													<a href="#" class="btn btn-block btn-warning">
@@ -124,13 +124,30 @@
 											</div>
 											</div>
 										</div>
-									<div class="col-xs-6 col-sm-4 pricing-box">
+									<div class="col-xs-6 col-sm-3 pricing-box">
 											<div class="widget-box pricing-box-small widget-color-orange">
 												<div class="widget-header">
 												<h5 class="widget-title bigger lighter">个   体</h5>
 												</div>
 												<div class="widget-body">
-												<img alt="" src="../../imgs/gtent.jpg" style="height:350px;width:340px;">
+												<img alt="" src="../../imgs/gtent.jpg" style="height:350px;width:286px;">
+
+												<div>
+													<a href="#" class="btn btn-block btn-warning">
+														<i class="ace-icon fa fa-shopping-cart bigger-110"></i>
+														<span>受理</span>
+													</a>
+												</div>
+											</div>
+											</div>
+									</div>
+									<div class="col-xs-6 col-sm-3 pricing-box">
+											<div class="widget-box pricing-box-small widget-color-blue">
+												<div class="widget-header">
+												<h5 class="widget-title bigger lighter">农  合</h5>
+												</div>
+												<div class="widget-body">
+												<img alt="" src="../../imgs/gtent.jpg" style="height:350px;width:286px;">
 
 												<div>
 													<a href="#" class="btn btn-block btn-warning">

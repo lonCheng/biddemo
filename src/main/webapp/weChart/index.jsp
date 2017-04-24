@@ -57,10 +57,10 @@
 
 						<ul class="breadcrumb">
 							<li>
-								<i class="ace-icon fa fa-home home-icon"></i>
+								<i class="ace-icon fa fa-home home-icon active" ></i>
 								<a href="#">主页</a>
 							</li>
-							<li class="active">我的工作台</li>
+							<!-- <li class="active">我的工作台</li> -->
 						</ul><!-- /.breadcrumb -->
 
 						<!-- /section:basics/content.searchbox -->

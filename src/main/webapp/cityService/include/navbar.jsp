@@ -155,7 +155,7 @@
 								<img class="nav-user-photo" src="../../ace/assets/avatars/user.jpg" alt="Jason's Photo" />
 								<span class="user-info">
 									<small>欢迎,</small>
-									受理人
+									习近平
 								</span>
 
 								<i class="ace-icon fa fa-caret-down"></i>

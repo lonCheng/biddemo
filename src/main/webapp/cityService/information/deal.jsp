@@ -88,14 +88,14 @@
 									<!-- #section:pages/pricing.large -->
 									
 
-									<div class="col-xs-6 col-sm-4 pricing-box">
+									<div class="col-xs-6 col-sm-3 pricing-box">
 											<div class="widget-box pricing-box-small widget-color-red3">
 												<div class="widget-header">
 												<h5 class="widget-title bigger lighter">内  资（私  营）</h5>
 												</div>
 												<div class="widget-body">
 												<a  href="../../../cityService/information/accept.jsp">
-												<img alt="" src="../../imgs/nzent.jpg" style="height:350px;width:340px;">
+												<img alt="" src="../../imgs/nzent.jpg" style="height:350px;width:286px;">
 												</a>
 												<div>
 													<a href="../../../mgr/information/accept.jsp" class="btn btn-block btn-warning">
@@ -106,14 +106,14 @@
 											</div>
 											</div>
 									</div>
-									<div class="col-xs-6 col-sm-4 pricing-box">
+									<div class="col-xs-6 col-sm-3 pricing-box">
 											<div class="widget-box pricing-box-small widget-color-green">
 												<div class="widget-header">
 												<h5 class="widget-title bigger lighter">外  资</h5>
 												</div>
 												<div class="widget-body">
 												<a  href="#">
-												<img alt="" src="../../imgs/wzent.jpg" style="height:350px;width:340px;">
+												<img alt="" src="../../imgs/wzent.jpg" style="height:350px;width:286px;">
 												</a>
 												<div>
 													<a href="#" class="btn btn-block btn-warning">
@@ -124,13 +124,30 @@
 											</div>
 											</div>
 										</div>
-									<div class="col-xs-6 col-sm-4 pricing-box">
+									<div class="col-xs-6 col-sm-3 pricing-box">
 											<div class="widget-box pricing-box-small widget-color-orange">
 												<div class="widget-header">
 												<h5 class="widget-title bigger lighter">个   体</h5>
 												</div>
 												<div class="widget-body">
-												<img alt="" src="../../imgs/gtent.jpg" style="height:350px;width:340px;">
+												<img alt="" src="../../imgs/gtent.jpg" style="height:350px;width:286px;">
+
+												<div>
+													<a href="#" class="btn btn-block btn-warning">
+														<i class="ace-icon fa fa-shopping-cart bigger-110"></i>
+														<span>受理</span>
+													</a>
+												</div>
+											</div>
+											</div>
+									</div>
+									<div class="col-xs-6 col-sm-3 pricing-box">
+											<div class="widget-box pricing-box-small widget-color-blue">
+												<div class="widget-header">
+												<h5 class="widget-title bigger lighter">农  合</h5>
+												</div>
+												<div class="widget-body">
+												<img alt="" src="../../imgs/gtent.jpg" style="height:350px;width:286px;">
 
 												<div>
 													<a href="#" class="btn btn-block btn-warning">
@@ -204,16 +221,16 @@
 		<script type="text/javascript">
 			var grid_data = 
 			[ 
-				{id:"1",name:"广州市有米科技公司",num:"1108521313103",fzr:"Yes",ship:"FedEx", sdate:"2007-12-03"},
-				{id:"2",name:"广州市恒大地产公司",num:"1108581313104",fzr:"Yes",ship:"InTime",sdate:"2007-12-03"},
-				{id:"3",name:"广州市华为公司",num:"1108521310903",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
+				{id:"1",name:"广州市有米科技公司",num:"1108521312863",fzr:"Yes",ship:"FedEx", sdate:"2007-12-03"},
+				{id:"2",name:"广州市恒大地产公司",num:"1108581312864",fzr:"Yes",ship:"InTime",sdate:"2007-12-03"},
+				{id:"3",name:"广州市华为公司",num:"1108521286903",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
 				{id:"4",name:"广州市联想公司",num:"1108521319103",fzr:"Yes",ship:"ARAMEX",sdate:"2007-12-03"},
 				{id:"5",name:"广州珠江啤酒集团 ",num:"1108521313903",fzr:"Yes",ship:"FedEx",sdate:"2007-12-03"},
-				{id:"6",name:"广州医药集团",num:"1108521313109",fzr:"Yes", ship:"FedEx",sdate:"2007-12-03"},
-				{id:"7",name:"美晨集团 ",num:"1108521313108",fzr:"Yes",ship:"ARAMEX",sdate:"2007-12-03"},
-				{id:"8",name:"广州市虎头电池集团 ",num:"1108521313107",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
-				{id:"9",name:"广州立白企业集团 ",num:"1108521313106",fzr:"Yes", ship:"FedEx",sdate:"2007-12-03"},
-				{id:"10",name:"广州惠惠龙网络 ",num:"1908521313103",fzr:"Yes",ship:"FedEx", sdate:"2007-12-03"},
+				{id:"6",name:"广州医药集团",num:"1108521312869",fzr:"Yes", ship:"FedEx",sdate:"2007-12-03"},
+				{id:"7",name:"美晨集团 ",num:"1108521312868",fzr:"Yes",ship:"ARAMEX",sdate:"2007-12-03"},
+				{id:"8",name:"广州市虎头电池集团 ",num:"1108521312867",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
+				{id:"9",name:"广州立白企业集团 ",num:"1108521312866",fzr:"Yes", ship:"FedEx",sdate:"2007-12-03"},
+				{id:"10",name:"广州惠惠龙网络 ",num:"1908521312863",fzr:"Yes",ship:"FedEx", sdate:"2007-12-03"},
 				{id:"11",name:"广州市XX公司",num:"Long text ",fzr:"Yes",ship:"InTime",sdate:"2007-12-03"},
 				{id:"12",name:"广州市XX公司",num:"num3",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
 				{id:"13",name:"广州市XX公司",num:"num",fzr:"No",ship:"ARAMEX",sdate:"2007-12-03"},

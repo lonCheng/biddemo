@@ -140,19 +140,34 @@
 
 								<b class="arrow"></b>
 							</li>
-
-							<li class="<%if(requestPage.equals("/weChart/information/finishTask.jsp")){%>active<%}%>">
-								<a href="../../weChart/information/finishTask.jsp">
+							<li class="<%if(requestPage.equals("/weChart/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									打照
+									一般注销
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/weChart/information/sendPic.jsp")){%>active<%}%>">
-								<a href="../../weChart/information/sendPic.jsp">
+							<li class="<%if(requestPage.equals("/weChart/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									发照
+									迁移登记
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/weChart/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/zxEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									撤销登记
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/weChart/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/zxEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									改制登记
 								</a>
 
 								<b class="arrow"></b>

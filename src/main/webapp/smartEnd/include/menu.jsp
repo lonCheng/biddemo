@@ -8,97 +8,14 @@
 
 			<!-- #section:basics/sidebar -->
 			<div id="sidebar" class="sidebar responsive">
-				<script type="text/javascript">
-					try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
-				</script>
-
-				<!-- <div class="sidebar-shortcuts" id="sidebar-shortcuts">
-					<div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
-						<button class="btn btn-success">
-							<i class="ace-icon fa fa-signal"></i>
-						</button>
-
-						<button class="btn btn-info">
-							<i class="ace-icon fa fa-pencil"></i>
-						</button>
-
-						#section:basics/sidebar.layout.shortcuts
-						<button class="btn btn-warning">
-							<i class="ace-icon fa fa-users"></i>
-						</button>
-
-						<button class="btn btn-danger">
-							<i class="ace-icon fa fa-cogs"></i>
-						</button>
-
-						/section:basics/sidebar.layout.shortcuts
-					</div>
-
-					<div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
-						<span class="btn btn-success"></span>
-
-						<span class="btn btn-info"></span>
-
-						<span class="btn btn-warning"></span>
-
-						<span class="btn btn-danger"></span>
-					</div>
-				</div>/.sidebar-shortcuts -->
-
 				<ul class="nav nav-list">
-					<li class="<%if(requestPage.equals("/smartEnd/index.jsp")){%>active<%}%>">
-						<a href="../../smartEnd/index.jsp">
+					<li class="<%if(requestPage.equals("/weChart/index.jsp")){%>active<%}%>">
+						<a href="../../weChart/index.jsp">
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> 我的工作台 </span>
 						</a>
 
 						<b class="arrow"></b>
-					</li>
-
-					<li class="">
-							<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text"> 任务监控中心 </span>
-
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-
-						<ul class="submenu">
-							<li class="<%if(requestPage.equals("/smartEnd/monitorTasks.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/monitorTasks.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									任务监控
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/smartEnd/myTasks.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/myTasks.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									我的任务
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/smartEnd/historyTasks.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/historyTasks.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									历史任务
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									其他
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						</ul>
 					</li>
 					<li class="">
 							<a href="#" class="dropdown-toggle">
@@ -111,20 +28,22 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
-							<li class="<%if(requestPage.equals("/smartEnd/smartEnd/onlineOrderWindow.jsp")){%>active<%}%>">
-								<a href="#">
+							
+							<li class="<%if(requestPage.equals("/weChart/onlineOrder/dept.jsp")){%>active<%}%>">
+								<a href="../../weChart/onlineOrder/dept.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									其他
+									其它
 								</a>
 
 								<b class="arrow"></b>
 							</li>
+							
 						</ul>
 					</li>
 					<li class="">
 							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text">在线咨询</span>
+							<span class="menu-text">咨询</span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -143,14 +62,10 @@
 							</li>
 						</ul>
 					</li>
-					
-					
 					<li class="">
-						<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-desktop"></i>
-							<span class="menu-text">
-								商事登记
-							</span>
+							<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-list"></i>
+							<span class="menu-text">预约</span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -158,52 +73,11 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
-							<li class="<%if(requestPage.equals("/smartEnd/information/waitTasks.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/waitTasks.jsp">
+							
+							<li class="">
+								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									待办事项
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/smartEnd/information/editInput.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/editInput.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-							<i class="menu-icon fa fa-tachometer"></i>
-							<span class="menu-text"> 设立登记 </span>
-							</a>
-	
-							<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/smartEnd/information/bgEnt.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/bgEnt.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									变更登记
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/smartEnd/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/zxEnt.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									撤销登记
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/smartEnd/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/zxEnt.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									简易注销
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="<%if(requestPage.equals("/smartEnd/information/finishTask.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/finishTask.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									打照
+									其他
 								</a>
 
 								<b class="arrow"></b>
@@ -221,9 +95,89 @@
 						<b class="arrow"></b>
 					</li>
 					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								商事登记
+							</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="<%if(requestPage.equals("/weChart/information/editInput.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/editInput.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> 设立登记 </span>
+							</a>
+	
+							<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/weChart/information/bgEnt.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/bgEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									变更登记
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/weChart/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/zxEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									撤销登记
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/weChart/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/zxEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									简易注销
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/weChart/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/zxEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									一般注销
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/weChart/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/zxEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									迁移登记
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/weChart/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/zxEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									撤销登记
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/weChart/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/zxEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									改制登记
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>
+					<li class="">
 							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text">经营范围自助录入</span>
+							<span class="menu-text">进度查询</span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -244,30 +198,8 @@
 					</li>
 					<li class="">
 						<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-pencil-square-o"></i>
-							<span class="menu-text"> 网上预约 </span>
-				
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-						<ul class="submenu">
-							
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									其他
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							
-						</ul>
-					</li>
-					<li class="">
-							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text">公示查询</span>
+							<span class="menu-text"> 结果通知 </span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -275,20 +207,100 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
-							
-							<li class="">
-								<a href="#">
+							<li class="<%if(requestPage.equals("/weChart/information/checkEnt415.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/checkEnt415.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									其他
+									业务审批
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="<%if(requestPage.equals("/weChart/information/content-slider.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/content-slider.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									弹出窗口
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/weChart/information/jyfw.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/jyfw.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									树型插件
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/weChart/information/checkEnt416.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/checkEnt416.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									右边悬浮框
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							
+							<li class="<%if(requestPage.equals("/weChart/test/content-slider.jsp")){%>active<%}%>">
+								<a href="../../weChart/test/content-slider.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									模块一
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/weChart/test/content-slider2.jsp")){%>active<%}%>">
+								<a href="../../weChart/test/content-slider2.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									模块二
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/weChart/test/content-slider3.jsp")){%>active<%}%>">
+								<a href="../../weChart/test/content-slider3.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									模块三
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/weChart/test/content-slider4.jsp")){%>active<%}%>">
+								<a href="../../weChart/test/content-slider4.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									模块四
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/weChart/test/content-slider5.jsp")){%>active<%}%>">
+								<a href="../../weChart/test/content-slider5.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									模块5
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/weChart/test/content-slider6.jsp")){%>active<%}%>">
+								<a href="../../weChart/test/content-slider6.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									模块6
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/weChart/test/content-slider7.jsp")){%>active<%}%>">
+								<a href="../../weChart/test/content-slider7.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									模块7
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 						</ul>
 					</li>
-					
-					
 				</ul><!-- /.nav-list -->
+
 				<!-- #section:basics/sidebar.layout.minimize -->
 				<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
 					<i class="ace-icon fa fa-angle-double-left" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>

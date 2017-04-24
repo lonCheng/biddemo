@@ -137,7 +137,7 @@
                         <li><a href="#collapseTwo">股东基本信息</a></li>
                         <li><a href="#collapseThree">隶属企业</a></li>
                         <li><a href="#collapseFour">财务人员</a></li>
-                        <li><a href="#collapseFive">审核</a></li>
+                        <li><a href="#collapseFive">提交</a></li>
                     </ul>
                                      
                 </div>
@@ -460,7 +460,7 @@
 																				<button class="btn btn-xs btn-info">
 																					
 																					<i class="ace-icon fa fa-pencil bigger-120"></i>
-																					审核
+																					提交
 																				</button>
 																				</a> 
 																					</div>
@@ -488,7 +488,7 @@
 										<div class="modal-content">
 											<div class="modal-header">
 												<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-												<h3 class="smaller lighter blue no-margin">审核</h3>
+												<h3 class="smaller lighter blue no-margin">提交</h3>
 											</div>
 
 											<div class="modal-body">
@@ -499,39 +499,55 @@
 																	<div class="space-4"></div>
 																	
 																	<div class="form-group">
-																		<label class="col-sm-2 control-label" for="form-field-username" style="line-height:24px;">审核意见</label>
+																		<label class="col-sm-1 control-label" for="form-field-username" style="line-height:24px;">省</label>
 
-																		<div class="col-sm-4">
+																		<div class="col-sm-5">
 																			
 																			<select class="form-control" id="form-field-select-1">
-																				<option value="all"></option>
-																				<option value="AL">同意</option>
-																				<option value="AK">不同意</option>
-																				<option value="AZ">退回</option>
-																	</select>
+																				<option value="all">广东</option>
+																				<option value="AL">海南</option>
+																				<option value="AK">广西</option>
+																				<option value="AZ">福建</option>
+																			</select>
 																		</div>
-																		<label class="col-sm-2 control-label" for="form-field-username" style="line-height:24px;">推送给</label>
+																		<label class="col-sm-1 control-label" for="form-field-username" style="line-height:24px;">市</label>
 
-																		<div class="col-sm-4">
+																		<div class="col-sm-5">
+																			
 																			<select class="form-control" id="form-field-select-1">
-																				<option value="all"></option>
-																				<option value="AL">曹操</option>
-																				<option value="AK">孙权</option>
-																				<option value="AZ">诸葛</option>
-																		</select>
+																				<option value="all">广州市</option>
+																				<option value="AL">南沙市</option>
+																				<option value="AK">佛山市</option>
+																				<option value="AZ">东莞市</option>
+																			</select>
 																		</div>
 																	</div>
 																	
 																	<div class="space-24"></div>
 																	
 																	<div class="form-group">
-																		<label class="col-sm-2 control-label no-padding-right" for="form-field-username">备注</label>
+																		<label class="col-sm-1 control-label" for="form-field-username" style="line-height:24px;">区</label>
 
-																		
-																			<div class="col-sm-10">
-																			    <textarea rows="12" class="form-control limited" id="" maxlength="150"></textarea>
-																			 </div>
-																		
+																		<div class="col-sm-5">
+																			
+																			<select class="form-control" id="form-field-select-1">
+																				<option value="all">天河区</option>
+																				<option value="AL">白云区</option>
+																				<option value="AK">越秀区</option>
+																				<option value="AZ">海珠区</option>
+																			</select>
+																		</div>
+																		<label class="col-sm-2 control-label" for="form-field-username" style="line-height:24px;">办理点</label>
+
+																		<div class="col-sm-4">
+																			
+																			<select class="form-control" id="form-field-select-1">
+																				<option value="all">工商局</option>
+																				<option value="AL">人民银行</option>
+																				<option value="AK">工商银行</option>
+																				<option value="AZ">中国银行</option>
+																			</select>
+																		</div>
 																	</div>
 																	<div class="space-4"></div>
 																</div>
@@ -556,7 +572,7 @@
 					<!-- #section:basics/footer -->
 					<div class="footer-content">
 						<span class="bigger-120">
-							<span class="blue bolder">Ace</span>
+							<span class="blue bolder"></span>
 							广州市商事登记全程电子化 &copy; 2017-4
 						</span>
 					</div>
