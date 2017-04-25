@@ -94,7 +94,7 @@
 												<h5 class="widget-title bigger lighter">内  资（私  营）</h5>
 												</div>
 												<div class="widget-body">
-												<a  href="../../../cityService/information/accept.jsp">
+												<a  href="../../../mgr/information/accept.jsp">
 												<img alt="" src="../../imgs/nzent.jpg" style="height:350px;width:286px;">
 												</a>
 												<div>

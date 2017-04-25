@@ -65,7 +65,7 @@
 							<li>
 								<a href="#">商事登记</a>
 							</li>
-							<li class="active">打照</li>
+							<li class="active">统计分析</li>
 						</ul><!-- /.breadcrumb -->
 
 						<!-- #section:basics/content.searchbox -->
@@ -87,7 +87,7 @@
 										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 																			<button class="btn btn-xs btn-success">
 																				<i class="ace-icon fa fa-check bigger-120"></i>
-																				打照
+																				统计分析
 																			</button>
 									</div>
 						</div>

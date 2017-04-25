@@ -101,6 +101,7 @@
 	background-color: #FFA501 !important;
 	border-color: #FFA501;
 }
+
 </style>
 </head>
 
@@ -110,7 +111,7 @@
 	<!-- /section:basics/navbar.layout -->
 	<div class="main-container" id="main-container">
 
-
+		 
 		<!-- /section:basics/sidebar -->
 		<div class="main-content">
 			<div class="main-content-inner">
@@ -122,7 +123,6 @@
 
 					<div class="container">
 						<div class="row">
-
 							<div class="block-deploy">
 								<div class="layout layout-1">
 									<h2 class="block-title important-block-title">广州市商事登记全程电子化系统</h2>

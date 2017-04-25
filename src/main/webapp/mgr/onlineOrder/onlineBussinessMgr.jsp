@@ -341,7 +341,7 @@
 					},
 			
 					editurl: "/dummy.html",//error-404.html   
-					caption: "部门列表"
+					caption: "计划列表"
 			
 					//,autowidth: true,
 			
