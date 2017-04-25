@@ -140,71 +140,6 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
-							<%-- <li class="">
-								<a href="#" class="dropdown-toggle">
-									<i class="menu-icon fa fa-caret-right"></i>
-
-									受理登记
-									<b class="arrow fa fa-angle-down"></b>
-								</a>
-
-								<b class="arrow"></b>
-
-								<ul class="submenu">
-									<li class="<%if(requestPage.equals("/diyRobot/information/accept.jsp")){%>active<%}%>">
-										<a href="../../diyRobot/information/accept.jsp">
-											<i class="menu-icon fa fa-caret-right"></i>
-											内资（私营）
-										</a>
-
-										<b class="arrow"></b>
-									</li>
-
-									<li class="">
-										<a href="two-menu-1.html">
-											<i class="menu-icon fa fa-caret-right"></i>
-											外资
-										</a>
-
-										<b class="arrow"></b>
-									</li>
-
-									<li class="">
-										<a href="two-menu-2.html">
-											<i class="menu-icon fa fa-caret-right"></i>
-											个体户
-										</a>
-
-										<b class="arrow"></b>
-									</li>
-
-								</ul>
-							</li> --%>
-							<%-- <li class="<%if(requestPage.equals("/diyRobot/information/deal.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/information/deal.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-							<i class="menu-icon fa fa-tachometer"></i>
-							<span class="menu-text"> 业务办理  </span>
-							</a>
-	
-							<b class="arrow"></b>
-							</li> --%>
-							<%-- <li class="<%if(requestPage.equals("/diyRobot/information/waitTasks.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/information/waitTasks.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									审核审批
-								</a>
-
-								<b class="arrow"></b>
-							</li> --%>
-							<%-- <li class="<%if(requestPage.equals("/diyRobot/information/waitTasks.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/information/waitTasks.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									待办事项
-								</a>
-
-								<b class="arrow"></b>
-							</li> --%>
 							 <li class="<%if(requestPage.equals("/diyRobot/information/editInput.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/editInput.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -214,17 +149,6 @@
 	
 							<b class="arrow"></b>
 							</li>
-							
-							<%-- <li class="<%if(requestPage.equals("/diyRobot/information/checkEnt414.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/information/checkEnt414.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-							<i class="menu-icon fa fa-tachometer"></i>
-							<span class="menu-text"> 审核审批 </span>
-							</a>
-	
-							<b class="arrow"></b>
-							</li> --%>
-							
 							<li class="<%if(requestPage.equals("/diyRobot/information/bgEnt.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/bgEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -233,14 +157,6 @@
 
 								<b class="arrow"></b>
 							</li>
-							<%-- <li class="<%if(requestPage.equals("/diyRobot/information/jcEnt.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/information/jcEnt.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									商事纠错
-								</a>
-
-								<b class="arrow"></b>
-							</li> --%>
 							<li class="<%if(requestPage.equals("/diyRobot/information/finishTask.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/finishTask.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -257,14 +173,6 @@
 
 								<b class="arrow"></b>
 							</li>
-							<%-- <li class="<%if(requestPage.equals("/diyRobot/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/information/zxEnt.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									撤销登记
-								</a>
-
-								<b class="arrow"></b>
-							</li> --%>
 							<li class="<%if(requestPage.equals("/diyRobot/information/zxEnt.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
