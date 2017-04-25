@@ -46,8 +46,8 @@
 				</div>/.sidebar-shortcuts -->
 
 				<ul class="nav nav-list">
-					<li class="<%if(requestPage.equals("/smartEnd/index.jsp")){%>active<%}%>">
-						<a href="../../smartEnd/index.jsp">
+					<li class="<%if(requestPage.equals("/mispos/index.jsp")){%>active<%}%>">
+						<a href="../../mispos/index.jsp">
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> 我的工作台 </span>
 						</a>
@@ -78,7 +78,7 @@
 					<li class="">
 							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text">名称自主申报</span>
+							<span class="menu-text">名称业务</span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -87,10 +87,18 @@
 
 						<ul class="submenu">
 							
-							<li class="<%if(requestPage.equals("/smartEnd/information/nameSefReport.jsp")){%>active<%}%>">
-										<a href="../../smartEnd/information/nameSefReport.jsp">
+							<li class="<%if(requestPage.equals("/mispos/information/nameSefReport.jsp")){%>active<%}%>">
+										<a href="../../mispos/information/nameSefReport.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									名称自助申报办理
+									名称自主申报
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									名称补录
 								</a>
 
 								<b class="arrow"></b>
@@ -120,7 +128,7 @@
 							<li class="">
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									经营范围管理自助录入
+									经营范围与其它系统对接
 								</a>
 
 								<b class="arrow"></b>
@@ -140,73 +148,8 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
-							<%-- <li class="">
-								<a href="#" class="dropdown-toggle">
-									<i class="menu-icon fa fa-caret-right"></i>
-
-									受理登记
-									<b class="arrow fa fa-angle-down"></b>
-								</a>
-
-								<b class="arrow"></b>
-
-								<ul class="submenu">
-									<li class="<%if(requestPage.equals("/smartEnd/information/accept.jsp")){%>active<%}%>">
-										<a href="../../smartEnd/information/accept.jsp">
-											<i class="menu-icon fa fa-caret-right"></i>
-											内资（私营）
-										</a>
-
-										<b class="arrow"></b>
-									</li>
-
-									<li class="">
-										<a href="two-menu-1.html">
-											<i class="menu-icon fa fa-caret-right"></i>
-											外资
-										</a>
-
-										<b class="arrow"></b>
-									</li>
-
-									<li class="">
-										<a href="two-menu-2.html">
-											<i class="menu-icon fa fa-caret-right"></i>
-											个体户
-										</a>
-
-										<b class="arrow"></b>
-									</li>
-
-								</ul>
-							</li> --%>
-							<%-- <li class="<%if(requestPage.equals("/smartEnd/information/deal.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/deal.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-							<i class="menu-icon fa fa-tachometer"></i>
-							<span class="menu-text"> 业务办理  </span>
-							</a>
-	
-							<b class="arrow"></b>
-							</li> --%>
-							<%-- <li class="<%if(requestPage.equals("/smartEnd/information/waitTasks.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/waitTasks.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									审核审批
-								</a>
-
-								<b class="arrow"></b>
-							</li> --%>
-							<%-- <li class="<%if(requestPage.equals("/smartEnd/information/waitTasks.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/waitTasks.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									待办事项
-								</a>
-
-								<b class="arrow"></b>
-							</li> --%>
-							 <li class="<%if(requestPage.equals("/smartEnd/information/editInput.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/editInput.jsp">
+							 <li class="<%if(requestPage.equals("/mispos/information/editInput.jsp")){%>active<%}%>">
+								<a href="../../mispos/information/editInput.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> 设立登记 </span>
@@ -215,8 +158,8 @@
 							<b class="arrow"></b>
 							</li>
 							
-							<%-- <li class="<%if(requestPage.equals("/smartEnd/information/checkEnt414.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/checkEnt414.jsp">
+							<%-- <li class="<%if(requestPage.equals("/mispos/information/checkEnt414.jsp")){%>active<%}%>">
+								<a href="../../mispos/information/checkEnt414.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> 审核审批 </span>
@@ -225,48 +168,33 @@
 							<b class="arrow"></b>
 							</li> --%>
 							
-							<li class="<%if(requestPage.equals("/smartEnd/information/bgEnt.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/bgEnt.jsp">
+							<li class="<%if(requestPage.equals("/mispos/information/bgEnt.jsp")){%>active<%}%>">
+								<a href="../../mispos/information/bgEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									变更登记
+									变更（备案）登记
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<%-- <li class="<%if(requestPage.equals("/smartEnd/information/jcEnt.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/jcEnt.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									商事纠错
-								</a>
-
-								<b class="arrow"></b>
-							</li> --%>
-							<li class="<%if(requestPage.equals("/smartEnd/information/finishTask.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/finishTask.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-								进度查询
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/smartEnd/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/zxEnt.jsp">
+							
+							<li class="<%if(requestPage.equals("/mispos/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../mispos/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									改制登记
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<%-- <li class="<%if(requestPage.equals("/smartEnd/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/zxEnt.jsp">
+							<li class="<%if(requestPage.equals("/mispos/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../mispos/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									撤销登记
+									一般注销
 								</a>
 
 								<b class="arrow"></b>
-							</li> --%>
-							<li class="<%if(requestPage.equals("/smartEnd/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/zxEnt.jsp">
+							</li>
+							<li class="<%if(requestPage.equals("/mispos/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../mispos/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									简易注销
 								</a>
@@ -274,14 +202,23 @@
 								<b class="arrow"></b>
 							</li>
 
-							<li class="<%if(requestPage.equals("/smartEnd/information/finishTask.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/finishTask.jsp">
+							<li class="<%if(requestPage.equals("/mispos/information/finishTask.jsp")){%>active<%}%>">
+								<a href="../../mispos/information/finishTask.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									打照
 								</a>
 
 								<b class="arrow"></b>
 							</li>
+														<li class="<%if(requestPage.equals("/mispos/information/finishTask.jsp")){%>active<%}%>">
+								<a href="../../mispos/information/finishTask.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+								进度查询
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							
 						</ul>
 					</li>
 					
@@ -297,8 +234,8 @@
 
 						<ul class="submenu">
 							
-							<li class="<%if(requestPage.equals("/smartEnd/test/accept2.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/test/accept2.jsp">
+							<li class="<%if(requestPage.equals("/mispos/test/accept2.jsp")){%>active<%}%>">
+								<a href="../../mispos/test/accept2.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									其他
 								</a>
@@ -344,8 +281,8 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
-							<li class="<%if(requestPage.equals("/smartEnd/information/checkEnt415.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/checkEnt415.jsp">
+							<li class="<%if(requestPage.equals("/mispos/information/checkEnt415.jsp")){%>active<%}%>">
+								<a href="../../mispos/information/checkEnt415.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									业务审批
 								</a>
@@ -353,24 +290,24 @@
 								<b class="arrow"></b>
 							</li>
 
-							<li class="<%if(requestPage.equals("/smartEnd/information/content-slider.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/content-slider.jsp">
+							<li class="<%if(requestPage.equals("/mispos/information/content-slider.jsp")){%>active<%}%>">
+								<a href="../../mispos/information/content-slider.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									弹出窗口
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/smartEnd/information/jyfw.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/jyfw.jsp">
+							<li class="<%if(requestPage.equals("/mispos/information/jyfw.jsp")){%>active<%}%>">
+								<a href="../../mispos/information/jyfw.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									树型插件
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/smartEnd/information/checkEnt416.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/checkEnt416.jsp">
+							<li class="<%if(requestPage.equals("/mispos/information/checkEnt416.jsp")){%>active<%}%>">
+								<a href="../../mispos/information/checkEnt416.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									右边悬浮框
 								</a>
@@ -378,56 +315,56 @@
 								<b class="arrow"></b>
 							</li>
 							
-							<li class="<%if(requestPage.equals("/smartEnd/test/content-slider.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/test/content-slider.jsp">
+							<li class="<%if(requestPage.equals("/mispos/test/content-slider.jsp")){%>active<%}%>">
+								<a href="../../mispos/test/content-slider.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块一
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/smartEnd/test/content-slider2.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/test/content-slider2.jsp">
+							<li class="<%if(requestPage.equals("/mispos/test/content-slider2.jsp")){%>active<%}%>">
+								<a href="../../mispos/test/content-slider2.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块二
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/smartEnd/test/content-slider3.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/test/content-slider3.jsp">
+							<li class="<%if(requestPage.equals("/mispos/test/content-slider3.jsp")){%>active<%}%>">
+								<a href="../../mispos/test/content-slider3.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块三
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/smartEnd/test/content-slider4.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/test/content-slider4.jsp">
+							<li class="<%if(requestPage.equals("/mispos/test/content-slider4.jsp")){%>active<%}%>">
+								<a href="../../mispos/test/content-slider4.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块四
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/smartEnd/test/content-slider5.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/test/content-slider5.jsp">
+							<li class="<%if(requestPage.equals("/mispos/test/content-slider5.jsp")){%>active<%}%>">
+								<a href="../../mispos/test/content-slider5.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块5
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/smartEnd/test/content-slider6.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/test/content-slider6.jsp">
+							<li class="<%if(requestPage.equals("/mispos/test/content-slider6.jsp")){%>active<%}%>">
+								<a href="../../mispos/test/content-slider6.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块6
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/smartEnd/test/content-slider7.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/test/content-slider7.jsp">
+							<li class="<%if(requestPage.equals("/mispos/test/content-slider7.jsp")){%>active<%}%>">
+								<a href="../../mispos/test/content-slider7.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块7
 								</a>
