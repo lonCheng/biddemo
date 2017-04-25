@@ -462,7 +462,7 @@
 					<li class="">
 							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text">电子执照管理</span>
+							<span class="menu-text">电子档案</span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -474,7 +474,15 @@
 							<li class="">
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									电子执照查询
+									电子档案管理
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									电子档案查询
 								</a>
 
 								<b class="arrow"></b>
