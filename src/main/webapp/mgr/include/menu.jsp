@@ -11,40 +11,6 @@
 				<script type="text/javascript">
 					try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
 				</script>
-
-				<!-- <div class="sidebar-shortcuts" id="sidebar-shortcuts">
-					<div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
-						<button class="btn btn-success">
-							<i class="ace-icon fa fa-signal"></i>
-						</button>
-
-						<button class="btn btn-info">
-							<i class="ace-icon fa fa-pencil"></i>
-						</button>
-
-						#section:basics/sidebar.layout.shortcuts
-						<button class="btn btn-warning">
-							<i class="ace-icon fa fa-users"></i>
-						</button>
-
-						<button class="btn btn-danger">
-							<i class="ace-icon fa fa-cogs"></i>
-						</button>
-
-						/section:basics/sidebar.layout.shortcuts
-					</div>
-
-					<div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
-						<span class="btn btn-success"></span>
-
-						<span class="btn btn-info"></span>
-
-						<span class="btn btn-warning"></span>
-
-						<span class="btn btn-danger"></span>
-					</div>
-				</div>/.sidebar-shortcuts -->
-
 				<ul class="nav nav-list">
 					<li class="<%if(requestPage.equals("/mgr/index.jsp")){%>active<%}%>">
 						<a href="../../mgr/index.jsp">
@@ -90,14 +56,14 @@
 
 								<b class="arrow"></b>
 							</li>
-							<li class="">
+							<!-- <li class="">
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
 									其他
 								</a>
 
 								<b class="arrow"></b>
-							</li>
+							</li> -->
 						</ul>
 					</li>
 					<li class="">
@@ -216,9 +182,6 @@
 								</ul>
 							</li>
 						</ul>
-						
-						
-						
 						<ul class="submenu">
 							
 							<li class="<%if(requestPage.equals("/mgr/onlineOrder/onlineMaterial.jsp")){%>active<%}%>">
@@ -291,7 +254,7 @@
 					<li class="">
 							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text">名称自主申报</span>
+							<span class="menu-text">名称业务</span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -303,7 +266,14 @@
 							<li class="<%if(requestPage.equals("/mgr/information/nameSefReport.jsp")){%>active<%}%>">
 										<a href="../../mgr/information/nameSefReport.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									名称自助申报办理
+									名称自助申报
+								</a>
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/mgr/information/nameSefReport.jsp")){%>active<%}%>">
+										<a href="../../mgr/information/nameSefReport.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									名称补录（确认）
 								</a>
 
 								<b class="arrow"></b>
@@ -344,7 +314,7 @@
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-desktop"></i>
 							<span class="menu-text">
-								商事登记
+								全程电子化商事登记
 							</span>
 
 							<b class="arrow fa fa-angle-down"></b>
@@ -353,46 +323,6 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
-							<%-- <li class="">
-								<a href="#" class="dropdown-toggle">
-									<i class="menu-icon fa fa-caret-right"></i>
-
-									受理登记
-									<b class="arrow fa fa-angle-down"></b>
-								</a>
-
-								<b class="arrow"></b>
-
-								<ul class="submenu">
-									<li class="<%if(requestPage.equals("/mgr/information/accept.jsp")){%>active<%}%>">
-										<a href="../../mgr/information/accept.jsp">
-											<i class="menu-icon fa fa-caret-right"></i>
-											内资（私营）
-										</a>
-
-										<b class="arrow"></b>
-									</li>
-
-									<li class="">
-										<a href="two-menu-1.html">
-											<i class="menu-icon fa fa-caret-right"></i>
-											外资
-										</a>
-
-										<b class="arrow"></b>
-									</li>
-
-									<li class="">
-										<a href="two-menu-2.html">
-											<i class="menu-icon fa fa-caret-right"></i>
-											个体户
-										</a>
-
-										<b class="arrow"></b>
-									</li>
-
-								</ul>
-							</li> --%>
 							<li class="<%if(requestPage.equals("/mgr/information/deal.jsp")){%>active<%}%>">
 								<a href="../../mgr/information/deal.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>

@@ -25,15 +25,10 @@
 					<a href="#" class="navbar-brand" style="padding-left:5px;">
 						<small>
 							<!-- <i class="fa fa-leaf"></i> -->
-							广州市商事登记全程电子化系统
+							广州市工商局综合管理平台
 						</small>
 					</a>
 
-					<!-- /section:basics/navbar.layout.brand -->
-
-					<!-- #section:basics/navbar.toggle -->
-
-					<!-- /section:basics/navbar.toggle -->
 				</div>
 
 				<!-- #section:basics/navbar.dropdown -->
