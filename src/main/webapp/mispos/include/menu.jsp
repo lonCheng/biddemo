@@ -78,7 +78,7 @@
 					<li class="">
 							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text">名称自主申报</span>
+							<span class="menu-text">名称业务</span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -90,7 +90,15 @@
 							<li class="<%if(requestPage.equals("/mispos/information/nameSefReport.jsp")){%>active<%}%>">
 										<a href="../../mispos/information/nameSefReport.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									名称自助申报办理
+									名称自主申报
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									名称补录
 								</a>
 
 								<b class="arrow"></b>
@@ -120,7 +128,7 @@
 							<li class="">
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									经营范围管理自助录入
+									经营范围与其它系统对接
 								</a>
 
 								<b class="arrow"></b>
@@ -140,71 +148,6 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
-							<%-- <li class="">
-								<a href="#" class="dropdown-toggle">
-									<i class="menu-icon fa fa-caret-right"></i>
-
-									受理登记
-									<b class="arrow fa fa-angle-down"></b>
-								</a>
-
-								<b class="arrow"></b>
-
-								<ul class="submenu">
-									<li class="<%if(requestPage.equals("/mispos/information/accept.jsp")){%>active<%}%>">
-										<a href="../../mispos/information/accept.jsp">
-											<i class="menu-icon fa fa-caret-right"></i>
-											内资（私营）
-										</a>
-
-										<b class="arrow"></b>
-									</li>
-
-									<li class="">
-										<a href="two-menu-1.html">
-											<i class="menu-icon fa fa-caret-right"></i>
-											外资
-										</a>
-
-										<b class="arrow"></b>
-									</li>
-
-									<li class="">
-										<a href="two-menu-2.html">
-											<i class="menu-icon fa fa-caret-right"></i>
-											个体户
-										</a>
-
-										<b class="arrow"></b>
-									</li>
-
-								</ul>
-							</li> --%>
-							<%-- <li class="<%if(requestPage.equals("/mispos/information/deal.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/deal.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-							<i class="menu-icon fa fa-tachometer"></i>
-							<span class="menu-text"> 业务办理  </span>
-							</a>
-	
-							<b class="arrow"></b>
-							</li> --%>
-							<%-- <li class="<%if(requestPage.equals("/mispos/information/waitTasks.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/waitTasks.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									审核审批
-								</a>
-
-								<b class="arrow"></b>
-							</li> --%>
-							<%-- <li class="<%if(requestPage.equals("/mispos/information/waitTasks.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/waitTasks.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									待办事项
-								</a>
-
-								<b class="arrow"></b>
-							</li> --%>
 							 <li class="<%if(requestPage.equals("/mispos/information/editInput.jsp")){%>active<%}%>">
 								<a href="../../mispos/information/editInput.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -228,27 +171,12 @@
 							<li class="<%if(requestPage.equals("/mispos/information/bgEnt.jsp")){%>active<%}%>">
 								<a href="../../mispos/information/bgEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									变更登记
+									变更（备案）登记
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<%-- <li class="<%if(requestPage.equals("/mispos/information/jcEnt.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/jcEnt.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									商事纠错
-								</a>
-
-								<b class="arrow"></b>
-							</li> --%>
-							<li class="<%if(requestPage.equals("/mispos/information/finishTask.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/finishTask.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-								进度查询
-								</a>
-
-								<b class="arrow"></b>
-							</li>
+							
 							<li class="<%if(requestPage.equals("/mispos/information/zxEnt.jsp")){%>active<%}%>">
 								<a href="../../mispos/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -257,14 +185,14 @@
 
 								<b class="arrow"></b>
 							</li>
-							<%-- <li class="<%if(requestPage.equals("/mispos/information/zxEnt.jsp")){%>active<%}%>">
+							<li class="<%if(requestPage.equals("/mispos/information/zxEnt.jsp")){%>active<%}%>">
 								<a href="../../mispos/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									撤销登记
+									一般注销
 								</a>
 
 								<b class="arrow"></b>
-							</li> --%>
+							</li>
 							<li class="<%if(requestPage.equals("/mispos/information/zxEnt.jsp")){%>active<%}%>">
 								<a href="../../mispos/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -282,6 +210,15 @@
 
 								<b class="arrow"></b>
 							</li>
+														<li class="<%if(requestPage.equals("/mispos/information/finishTask.jsp")){%>active<%}%>">
+								<a href="../../mispos/information/finishTask.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+								进度查询
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							
 						</ul>
 					</li>
 					
