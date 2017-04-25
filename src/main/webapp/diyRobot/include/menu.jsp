@@ -58,189 +58,12 @@
 					<li class="">
 							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text"> 任务监控中心 </span>
-
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-
-						<ul class="submenu">
-							<li class="<%if(requestPage.equals("/diyRobot/monitorTasks.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/monitorTasks.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									任务监控
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/diyRobot/myTasks.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/myTasks.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									我的任务
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/diyRobot/historyTasks.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/historyTasks.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									历史任务
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									其他
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						</ul>
-					</li>
-					<li class="">
-							<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-list"></i>
 							<span class="menu-text">网上预约</span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
 
 						<b class="arrow"></b>
-						<ul class="submenu">
-							<li class="">
-								<a href="#" class="dropdown-toggle">
-									<i class="menu-icon fa fa-caret-right"></i>
-
-									规则库管理
-									<b class="arrow fa fa-angle-down"></b>
-								</a>
-
-								<b class="arrow"></b>
-
-								<ul class="submenu">
-									<li class="<%if(requestPage.equals("/diyRobot/onlineOrder/dept.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/onlineOrder/dept.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									部门管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/diyRobot/onlineOrder/onlineBussinessdiyRobot.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/onlineOrder/onlineBussinessdiyRobot.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									业务管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/diyRobot/onlineOrder/onlineTimediyRobot.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/onlineOrder/onlineTimediyRobot.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									时段管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/diyRobot/onlineOrder/onlinePlandiyRobot.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/onlineOrder/onlinePlandiyRobot.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									计划管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/diyRobot/onlineOrder/onlineInfManager.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/onlineOrder/onlineInfManager.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									字条管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/diyRobot/onlineOrder/onlineOrderWindow.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/onlineOrder/onlineOrderWindow.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									窗口管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-								</ul>
-							</li>
-						</ul>
-							<ul class="submenu">
-							
-							<li class="<%if(requestPage.equals("/diyRobot/onlineOrder/onlineBlacklist.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/onlineOrder/onlineBlacklist.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									黑名单管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						</ul>
-						
-						
-						<ul class="submenu">
-							<li class="">
-								<a href="#" class="dropdown-toggle">
-									<i class="menu-icon fa fa-caret-right"></i>
-
-									预约资源
-									<b class="arrow fa fa-angle-down"></b>
-								</a>
-
-								<b class="arrow"></b>
-
-								<ul class="submenu">
-									<li class="<%if(requestPage.equals("/diyRobot/onlineOrder/onlineOrderResource.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/onlineOrder/onlineOrderResource.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									预约资源管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/diyRobot/onlineOrder/onlineOrderStatistics.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/onlineOrder/onlineOrderStatistics.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									预约记录统计分析
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-								</ul>
-							</li>
-						</ul>
-						
-						
-						
-						<ul class="submenu">
-							
-							<li class="<%if(requestPage.equals("/diyRobot/onlineOrder/onlineMaterial.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/onlineOrder/onlineMaterial.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									综合统计分析
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							
-							
-							<li class="<%if(requestPage.equals("/diyRobot/onlineOrder/onlineEventResponse.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/onlineOrder/onlineEventResponse.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									情况反馈
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							
-						</ul>
 					</li>
 					<li class="">
 							<a href="#" class="dropdown-toggle">
@@ -251,42 +74,6 @@
 						</a>
 
 						<b class="arrow"></b>
-
-						<ul class="submenu">
-							
-							<li class="<%if(requestPage.equals("/diyRobot/consult/waitAssign.jsp")){%>active<%}%>">
-										<a href="../../diyRobot/consult/waitAssign.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									待分配
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/diyRobot/consult/waitDeal.jsp")){%>active<%}%>">
-										<a href="../../diyRobot/consult/waitDeal.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									待处理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									查询统计
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									知识库管理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						</ul>
 					</li>
 					<li class="">
 							<a href="#" class="dropdown-toggle">
@@ -333,7 +120,7 @@
 							<li class="">
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									经营范围自助录入
+									经营范围管理自助录入
 								</a>
 
 								<b class="arrow"></b>
@@ -393,23 +180,23 @@
 
 								</ul>
 							</li> --%>
-							<li class="<%if(requestPage.equals("/diyRobot/information/deal.jsp")){%>active<%}%>">
+							<%-- <li class="<%if(requestPage.equals("/diyRobot/information/deal.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/deal.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 							<i class="menu-icon fa fa-tachometer"></i>
-							<span class="menu-text"> 受理登记 </span>
+							<span class="menu-text"> 业务办理  </span>
 							</a>
 	
 							<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/diyRobot/information/waitTasks.jsp")){%>active<%}%>">
+							</li> --%>
+							<%-- <li class="<%if(requestPage.equals("/diyRobot/information/waitTasks.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/waitTasks.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									审核审批
 								</a>
 
 								<b class="arrow"></b>
-							</li>
+							</li> --%>
 							<%-- <li class="<%if(requestPage.equals("/diyRobot/information/waitTasks.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/waitTasks.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -418,7 +205,7 @@
 
 								<b class="arrow"></b>
 							</li> --%>
-							<%-- <li class="<%if(requestPage.equals("/diyRobot/information/editInput.jsp")){%>active<%}%>">
+							 <li class="<%if(requestPage.equals("/diyRobot/information/editInput.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/editInput.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 							<i class="menu-icon fa fa-tachometer"></i>
@@ -428,7 +215,7 @@
 							<b class="arrow"></b>
 							</li>
 							
-							<li class="<%if(requestPage.equals("/diyRobot/information/checkEnt414.jsp")){%>active<%}%>">
+							<%-- <li class="<%if(requestPage.equals("/diyRobot/information/checkEnt414.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/checkEnt414.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 							<i class="menu-icon fa fa-tachometer"></i>
@@ -436,7 +223,7 @@
 							</a>
 	
 							<b class="arrow"></b>
-							</li>
+							</li> --%>
 							
 							<li class="<%if(requestPage.equals("/diyRobot/information/bgEnt.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/bgEnt.jsp">
@@ -445,31 +232,31 @@
 								</a>
 
 								<b class="arrow"></b>
-							</li> --%>
-							<li class="<%if(requestPage.equals("/diyRobot/information/jcEnt.jsp")){%>active<%}%>">
+							</li>
+							<%-- <li class="<%if(requestPage.equals("/diyRobot/information/jcEnt.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/jcEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									商事纠错
 								</a>
 
 								<b class="arrow"></b>
-							</li>
+							</li> --%>
 							<li class="<%if(requestPage.equals("/diyRobot/information/finishTask.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/finishTask.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									统计分析
+								进度查询
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<%-- <li class="<%if(requestPage.equals("/diyRobot/information/zxEnt.jsp")){%>active<%}%>">
+							<li class="<%if(requestPage.equals("/diyRobot/information/zxEnt.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									改制登记
 								</a>
 
 								<b class="arrow"></b>
-							</li> --%>
+							</li>
 							<%-- <li class="<%if(requestPage.equals("/diyRobot/information/zxEnt.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -478,16 +265,16 @@
 
 								<b class="arrow"></b>
 							</li> --%>
-							<%-- <li class="<%if(requestPage.equals("/diyRobot/information/zxEnt.jsp")){%>active<%}%>">
+							<li class="<%if(requestPage.equals("/diyRobot/information/zxEnt.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									简易注销
 								</a>
 
 								<b class="arrow"></b>
-							</li> --%>
+							</li>
 
-							<%-- <li class="<%if(requestPage.equals("/diyRobot/information/finishTask.jsp")){%>active<%}%>">
+							<li class="<%if(requestPage.equals("/diyRobot/information/finishTask.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/finishTask.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									打照
@@ -495,14 +282,6 @@
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/diyRobot/information/sendPic.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/information/sendPic.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									发照
-								</a>
-
-								<b class="arrow"></b>
-							</li> --%>
 						</ul>
 					</li>
 					
@@ -529,7 +308,7 @@
 						</ul>
 					</li> --%>
 					
-					<li class="">
+					<!-- <li class="">
 							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
 							<span class="menu-text">电子执照管理</span>
@@ -550,7 +329,7 @@
 								<b class="arrow"></b>
 							</li>
 						</ul>
-					</li>
+					</li> -->
 					
 					
 					
