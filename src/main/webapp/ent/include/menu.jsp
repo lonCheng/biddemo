@@ -74,7 +74,7 @@
 				</a> <b class="arrow"></b></li>
 
 			</ul></li>
-<li class=""><a href="#" class="dropdown-toggle"> <i
+		<li class=""><a href="#" class="dropdown-toggle"> <i
 				class="menu-icon fa fa-pencil-square-o"></i> <span class="menu-text">
 					咨询 </span> <b class="arrow fa fa-angle-down"></b>
 		</a> <b class="arrow"></b>
@@ -82,35 +82,30 @@
 			<ul class="submenu">
 				<li class=""><a href="form-elements.html"> <i
 						class="menu-icon fa fa-caret-right"></i> 使用帮助
-					</a> <b class="arrow"></b>
-				</li>
+				</a> <b class="arrow"></b></li>
 				<li class=""><a href="form-elements.html"> <i
 						class="menu-icon fa fa-caret-right"></i> 知识库（常见问题）
-					</a> <b class="arrow"></b>
-				</li>
+				</a> <b class="arrow"></b></li>
 			</ul></li>
 		<li><a href="../../ent/jsp/appointment.jsp"> <i
 				class="menu-icon fa fa-desktop"></i> <span class="menu-text">
 					网上预约 </span>
 		</a> <b class="arrow"></b></li>
-		
+
 
 		<li class=""><a href="#" class="dropdown-toggle"> <i
 				class="menu-icon fa fa-pencil-square-o"></i> <span class="menu-text">
 					名称自助申报 </span> <b class="arrow fa fa-angle-down"></b>
 		</a> <b class="arrow"></b>
-		<ul class="submenu">
+			<ul class="submenu">
 				<li class=""><a href="form-elements.html"> <i
 						class="menu-icon fa fa-caret-right"></i> 名称申报
-					</a> <b class="arrow"></b>
-				</li>
+				</a> <b class="arrow"></b></li>
 				<li class=""><a href="form-elements.html"> <i
 						class="menu-icon fa fa-caret-right"></i> 名称查询
-					</a> <b class="arrow"></b>
-				</li>
-			</ul>
-		</li>
-	<li><a href="#"> <i class="menu-icon fa fa-list"></i> <span
+				</a> <b class="arrow"></b></li>
+			</ul></li>
+		<li><a href="#"> <i class="menu-icon fa fa-list"></i> <span
 				class="menu-text"> 经营范围自助录入 </span>
 		</a> <b class="arrow"></b></li>
 		<li class="<%if (requestPage.equals("/ent/login.jsp")) {%>active<%}%>">
