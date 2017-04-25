@@ -321,7 +321,7 @@
 					<li class="">
 							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text">经营范围管理系统</span>
+							<span class="menu-text">经营范围管理</span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -333,7 +333,7 @@
 							<li class="">
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									经营范围管理
+									经营范围自助录入
 								</a>
 
 								<b class="arrow"></b>
