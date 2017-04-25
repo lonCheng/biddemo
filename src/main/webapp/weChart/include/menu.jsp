@@ -46,8 +46,8 @@
 				</div>/.sidebar-shortcuts -->
 
 				<ul class="nav nav-list">
-					<li class="<%if(requestPage.equals("/mispos/index.jsp")){%>active<%}%>">
-						<a href="../../mispos/index.jsp">
+					<li class="<%if(requestPage.equals("/weChart/index.jsp")){%>active<%}%>">
+						<a href="../../weChart/index.jsp">
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> 我的工作台 </span>
 						</a>
@@ -87,8 +87,8 @@
 
 						<ul class="submenu">
 							
-							<li class="<%if(requestPage.equals("/mispos/information/nameSefReport.jsp")){%>active<%}%>">
-										<a href="../../mispos/information/nameSefReport.jsp">
+							<li class="<%if(requestPage.equals("/weChart/information/nameSefReport.jsp")){%>active<%}%>">
+										<a href="../../weChart/information/nameSefReport.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									名称自助申报办理
 								</a>
@@ -151,8 +151,8 @@
 								<b class="arrow"></b>
 
 								<ul class="submenu">
-									<li class="<%if(requestPage.equals("/mispos/information/accept.jsp")){%>active<%}%>">
-										<a href="../../mispos/information/accept.jsp">
+									<li class="<%if(requestPage.equals("/weChart/information/accept.jsp")){%>active<%}%>">
+										<a href="../../weChart/information/accept.jsp">
 											<i class="menu-icon fa fa-caret-right"></i>
 											内资（私营）
 										</a>
@@ -180,8 +180,8 @@
 
 								</ul>
 							</li> --%>
-							<%-- <li class="<%if(requestPage.equals("/mispos/information/deal.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/deal.jsp">
+							<%-- <li class="<%if(requestPage.equals("/weChart/information/deal.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/deal.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> 业务办理  </span>
@@ -189,24 +189,24 @@
 	
 							<b class="arrow"></b>
 							</li> --%>
-							<%-- <li class="<%if(requestPage.equals("/mispos/information/waitTasks.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/waitTasks.jsp">
+							<%-- <li class="<%if(requestPage.equals("/weChart/information/waitTasks.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/waitTasks.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									审核审批
 								</a>
 
 								<b class="arrow"></b>
 							</li> --%>
-							<%-- <li class="<%if(requestPage.equals("/mispos/information/waitTasks.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/waitTasks.jsp">
+							<%-- <li class="<%if(requestPage.equals("/weChart/information/waitTasks.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/waitTasks.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									待办事项
 								</a>
 
 								<b class="arrow"></b>
 							</li> --%>
-							 <li class="<%if(requestPage.equals("/mispos/information/editInput.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/editInput.jsp">
+							 <li class="<%if(requestPage.equals("/weChart/information/editInput.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/editInput.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> 设立登记 </span>
@@ -215,8 +215,8 @@
 							<b class="arrow"></b>
 							</li>
 							
-							<%-- <li class="<%if(requestPage.equals("/mispos/information/checkEnt414.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/checkEnt414.jsp">
+							<%-- <li class="<%if(requestPage.equals("/weChart/information/checkEnt414.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/checkEnt414.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> 审核审批 </span>
@@ -225,48 +225,48 @@
 							<b class="arrow"></b>
 							</li> --%>
 							
-							<li class="<%if(requestPage.equals("/mispos/information/bgEnt.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/bgEnt.jsp">
+							<li class="<%if(requestPage.equals("/weChart/information/bgEnt.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/bgEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									变更登记
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<%-- <li class="<%if(requestPage.equals("/mispos/information/jcEnt.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/jcEnt.jsp">
+							<%-- <li class="<%if(requestPage.equals("/weChart/information/jcEnt.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/jcEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									商事纠错
 								</a>
 
 								<b class="arrow"></b>
 							</li> --%>
-							<li class="<%if(requestPage.equals("/mispos/information/finishTask.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/finishTask.jsp">
+							<li class="<%if(requestPage.equals("/weChart/information/finishTask.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/finishTask.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 								进度查询
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mispos/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/zxEnt.jsp">
+							<li class="<%if(requestPage.equals("/weChart/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									改制登记
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<%-- <li class="<%if(requestPage.equals("/mispos/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/zxEnt.jsp">
+							<%-- <li class="<%if(requestPage.equals("/weChart/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									撤销登记
 								</a>
 
 								<b class="arrow"></b>
 							</li> --%>
-							<li class="<%if(requestPage.equals("/mispos/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/zxEnt.jsp">
+							<li class="<%if(requestPage.equals("/weChart/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									简易注销
 								</a>
@@ -274,8 +274,8 @@
 								<b class="arrow"></b>
 							</li>
 
-							<li class="<%if(requestPage.equals("/mispos/information/finishTask.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/finishTask.jsp">
+							<li class="<%if(requestPage.equals("/weChart/information/finishTask.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/finishTask.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									打照
 								</a>
@@ -297,8 +297,8 @@
 
 						<ul class="submenu">
 							
-							<li class="<%if(requestPage.equals("/mispos/test/accept2.jsp")){%>active<%}%>">
-								<a href="../../mispos/test/accept2.jsp">
+							<li class="<%if(requestPage.equals("/weChart/test/accept2.jsp")){%>active<%}%>">
+								<a href="../../weChart/test/accept2.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									其他
 								</a>
@@ -344,8 +344,8 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
-							<li class="<%if(requestPage.equals("/mispos/information/checkEnt415.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/checkEnt415.jsp">
+							<li class="<%if(requestPage.equals("/weChart/information/checkEnt415.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/checkEnt415.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									业务审批
 								</a>
@@ -353,24 +353,24 @@
 								<b class="arrow"></b>
 							</li>
 
-							<li class="<%if(requestPage.equals("/mispos/information/content-slider.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/content-slider.jsp">
+							<li class="<%if(requestPage.equals("/weChart/information/content-slider.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/content-slider.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									弹出窗口
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mispos/information/jyfw.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/jyfw.jsp">
+							<li class="<%if(requestPage.equals("/weChart/information/jyfw.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/jyfw.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									树型插件
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mispos/information/checkEnt416.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/checkEnt416.jsp">
+							<li class="<%if(requestPage.equals("/weChart/information/checkEnt416.jsp")){%>active<%}%>">
+								<a href="../../weChart/information/checkEnt416.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									右边悬浮框
 								</a>
@@ -378,56 +378,56 @@
 								<b class="arrow"></b>
 							</li>
 							
-							<li class="<%if(requestPage.equals("/mispos/test/content-slider.jsp")){%>active<%}%>">
-								<a href="../../mispos/test/content-slider.jsp">
+							<li class="<%if(requestPage.equals("/weChart/test/content-slider.jsp")){%>active<%}%>">
+								<a href="../../weChart/test/content-slider.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块一
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mispos/test/content-slider2.jsp")){%>active<%}%>">
-								<a href="../../mispos/test/content-slider2.jsp">
+							<li class="<%if(requestPage.equals("/weChart/test/content-slider2.jsp")){%>active<%}%>">
+								<a href="../../weChart/test/content-slider2.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块二
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mispos/test/content-slider3.jsp")){%>active<%}%>">
-								<a href="../../mispos/test/content-slider3.jsp">
+							<li class="<%if(requestPage.equals("/weChart/test/content-slider3.jsp")){%>active<%}%>">
+								<a href="../../weChart/test/content-slider3.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块三
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mispos/test/content-slider4.jsp")){%>active<%}%>">
-								<a href="../../mispos/test/content-slider4.jsp">
+							<li class="<%if(requestPage.equals("/weChart/test/content-slider4.jsp")){%>active<%}%>">
+								<a href="../../weChart/test/content-slider4.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块四
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mispos/test/content-slider5.jsp")){%>active<%}%>">
-								<a href="../../mispos/test/content-slider5.jsp">
+							<li class="<%if(requestPage.equals("/weChart/test/content-slider5.jsp")){%>active<%}%>">
+								<a href="../../weChart/test/content-slider5.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块5
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mispos/test/content-slider6.jsp")){%>active<%}%>">
-								<a href="../../mispos/test/content-slider6.jsp">
+							<li class="<%if(requestPage.equals("/weChart/test/content-slider6.jsp")){%>active<%}%>">
+								<a href="../../weChart/test/content-slider6.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块6
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mispos/test/content-slider7.jsp")){%>active<%}%>">
-								<a href="../../mispos/test/content-slider7.jsp">
+							<li class="<%if(requestPage.equals("/weChart/test/content-slider7.jsp")){%>active<%}%>">
+								<a href="../../weChart/test/content-slider7.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									模块7
 								</a>
