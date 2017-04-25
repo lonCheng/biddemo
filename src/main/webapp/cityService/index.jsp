@@ -72,11 +72,11 @@
 					<div class="row">
 							<div class="col-xs-12">
 								<!-- PAGE CONTENT BEGINS -->
-								<div class="row">
+							<!-- 	<div class="row">
 									<div class="space-6"></div>
 
 									<div class="col-sm-7 infobox-container">
-										<!-- #section:pages/dashboard.infobox -->
+										#section:pages/dashboard.infobox
 										<div class="infobox infobox-green">
 											<div class="infobox-icon">
 												<i class="ace-icon fa fa-comments"></i>
@@ -87,10 +87,10 @@
 												<div class="infobox-content">内资（私营）</div>
 											</div>
 
-											<!-- #section:pages/dashboard.infobox.stat -->
+											#section:pages/dashboard.infobox.stat
 											<div class="stat stat-success">76</div>
 
-											<!-- /section:pages/dashboard.infobox.stat -->
+											/section:pages/dashboard.infobox.stat
 										</div>
 
 										<div class="infobox infobox-blue">
@@ -157,18 +157,18 @@
 											<div class="stat stat-success">1</div>
 										</div>
 
-										<!-- /section:pages/dashboard.infobox -->
+										/section:pages/dashboard.infobox
 										<div class="space-6"></div>
 
-										<!-- #section:pages/dashboard.infobox.dark -->
+										#section:pages/dashboard.infobox.dark
 										<div class="infobox infobox-green infobox-small infobox-dark">
 											<div class="infobox-progress">
-												<!-- #section:pages/dashboard.infobox.easypiechart -->
+												#section:pages/dashboard.infobox.easypiechart
 												<div class="easy-pie-chart percentage" data-percent="61" data-size="39">
 													<span class="percent">30</span>
 												</div>
 
-												<!-- /section:pages/dashboard.infobox.easypiechart -->
+												/section:pages/dashboard.infobox.easypiechart
 											</div>
 
 											<div class="infobox-data">
@@ -178,12 +178,12 @@
 										</div>
 
 										<div class="infobox infobox-blue infobox-small infobox-dark">
-											<!-- #section:pages/dashboard.infobox.sparkline -->
+											#section:pages/dashboard.infobox.sparkline
 											<div class="infobox-icon">
 												<i class="ace-icon fa fa-flask"></i>
 											</div>
 
-											<!-- /section:pages/dashboard.infobox.sparkline -->
+											/section:pages/dashboard.infobox.sparkline
 											<div class="infobox-data">
 												<div class="infobox-content">2</div>
 												<div class="infobox-content">危险企业</div>
@@ -201,7 +201,7 @@
 											</div>
 										</div>
 
-										<!-- /section:pages/dashboard.infobox.dark -->
+										/section:pages/dashboard.infobox.dark
 									</div>
 
 									<div class="vspace-12-sm"></div>
@@ -256,14 +256,14 @@
 
 											<div class="widget-body">
 												<div class="widget-main">
-													<!-- #section:plugins/charts.flotchart -->
+													#section:plugins/charts.flotchart
 													<div id="piechart-placeholder"></div>
 
-													<!-- /section:plugins/charts.flotchart -->
+													/section:plugins/charts.flotchart
 													<div class="hr hr8 hr-double"></div>
 
 													<div class="clearfix">
-														<!-- #section:custom/extra.grid -->
+														#section:custom/extra.grid
 														<div class="grid3">
 															<span class="grey">
 																<i class="ace-icon fa fa-shopping-cart fa-pinterest-square fa-2x blue"></i>
@@ -288,112 +288,15 @@
 															<h4 class="bigger pull-right">15</h4>
 														</div>
 
-														<!-- /section:custom/extra.grid -->
+														/section:custom/extra.grid
 													</div>
-												</div><!-- /.widget-main -->
-											</div><!-- /.widget-body -->
-										</div><!-- /.widget-box -->
-									</div><!-- /.col -->
-								</div><!-- /.row -->
-
+												</div>/.widget-main
+											</div>/.widget-body
+										</div>/.widget-box
+									</div>/.col
+								</div><!-- /.row 
+								 -->
 								<!-- #section:custom/extra.hr -->
-								<div class="hr hr-dotted"></div>
-									<div class="row">
-									<div class="col-sm-12">
-										<div class="widget-box transparent">
-											<div class="widget-header widget-header-flat">
-												<h4 class="widget-title lighter">
-													<i class="ace-icon fa fa-star orange"></i>
-													已受理企业
-												</h4>
-
-												<div class="widget-toolbar">
-													<a href="#" data-action="collapse">
-														<i class="ace-icon fa fa-chevron-up"></i>
-													</a>
-												</div>
-											</div>
-
-											<div class="widget-body">
-												<div class="widget-main no-padding">
-													<table class="table table-bordered table-striped">
-														<thead class="thin-border-bottom">
-															<tr>
-																<th>
-																	<i class="ace-icon fa fa-caret-right blue"></i>企业名称
-																</th>
-
-																<th>
-																	<i class="ace-icon fa fa-caret-right blue"></i>电子执照
-																</th>
-
-																<th class="hidden-480">
-																	<i class="ace-icon fa fa-caret-right blue"></i>日期
-																</th>
-															</tr>
-														</thead>
-
-														<tbody>
-															<tr>
-																<td>广州xxx公司</td>
-
-																<td>
-																
-																	<b class="green">23243242</b>
-																</td>
-
-																<td class="hidden-480">
-																	<span>2017-04-12</span>
-																</td>
-															</tr>
-
-															<tr>
-																<td>广州xxx公司</td>
-
-																<td>
-																	<b class="blue">435353453</b>
-																</td>
-
-																<td class="hidden-480">
-																	<span>2017-04-13</span>
-																</td>
-															</tr>
-
-															<tr>
-																<td>广州xxx公司</td>
-
-																<td>
-																	
-																	<b class="green">2342242432</b>
-																</td>
-
-																<td class="hidden-480">
-																	<span>
-																		2017-04-13
-																	</span>
-																</td>
-															</tr>
-
-															<tr>
-																<td>广州xxx公司</td>
-
-																<td>
-																	<b class="blue">12345678</b>
-																</td>
-
-																<td class="hidden-480">
-																	<span>2017-04-13</span>
-																</td>
-															</tr>
-														</tbody>
-													</table>
-												</div><!-- /.widget-main -->
-											</div><!-- /.widget-body -->
-										</div><!-- /.widget-box -->
-									</div><!-- /.col -->
-
-								</div><!-- /.row -->
-								<!-- /section:custom/extra.hr -->
 							</div><!-- /.col -->
 						</div><!-- /.row -->
 						
