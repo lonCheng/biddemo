@@ -78,7 +78,7 @@
 					<li class="">
 							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text">名称自主申报</span>
+							<span class="menu-text">名称业务</span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -90,7 +90,15 @@
 							<li class="<%if(requestPage.equals("/diyRobot/information/nameSefReport.jsp")){%>active<%}%>">
 										<a href="../../diyRobot/information/nameSefReport.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									名称自助申报办理
+									名称自主申报
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									名称补录
 								</a>
 
 								<b class="arrow"></b>
@@ -120,7 +128,7 @@
 							<li class="">
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									经营范围管理自助录入
+									经营范围与其它系统对接
 								</a>
 
 								<b class="arrow"></b>
@@ -149,22 +157,26 @@
 	
 							<b class="arrow"></b>
 							</li>
+							
+							<%-- <li class="<%if(requestPage.equals("/diyRobot/information/checkEnt414.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/checkEnt414.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> 审核审批 </span>
+							</a>
+	
+							<b class="arrow"></b>
+							</li> --%>
+							
 							<li class="<%if(requestPage.equals("/diyRobot/information/bgEnt.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/bgEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									变更登记
+									变更（备案）登记
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/diyRobot/information/finishTask.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/information/finishTask.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-								进度查询
-								</a>
-
-								<b class="arrow"></b>
-							</li>
+							
 							<li class="<%if(requestPage.equals("/diyRobot/information/zxEnt.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -173,7 +185,15 @@
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/diyRobot/information/zxEnt.jsp")){%>active<%}%>">
+							<li class="<%if(requestPage.equals("/diyRobot/information/zxEnt2.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/zxEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									一般注销
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/diyRobot/information/zxEnt3.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									简易注销
@@ -190,6 +210,15 @@
 
 								<b class="arrow"></b>
 							</li>
+														<li class="<%if(requestPage.equals("/diyRobot/information/finishTask.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/finishTask.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+								进度查询
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							
 						</ul>
 					</li>
 					
