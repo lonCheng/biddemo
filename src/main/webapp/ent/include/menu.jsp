@@ -14,6 +14,7 @@
 <!-- #section:basics/sidebar -->
 <div id="sidebar" class="sidebar responsive">
 	<script type="text/javascript">
+		<script type="text/javascript">
 		try {
 			ace.settings.check('sidebar', 'fixed')
 		} catch (e) {
@@ -74,74 +75,52 @@
 				</a> <b class="arrow"></b></li>
 
 			</ul></li>
+
 		<li class=""><a href="#" class="dropdown-toggle"> <i
 				class="menu-icon fa fa-pencil-square-o"></i> <span class="menu-text">
-					咨询 </span> <b class="arrow fa fa-angle-down"></b>
+					在线咨询</span> <b class="arrow fa fa-angle-down"></b>
 		</a> <b class="arrow"></b>
 
 			<ul class="submenu">
-				<li class=""><a href="form-elements.html"> <i
+				<li class=""><a href="../../ent/jsp/appointment.jsp"> <i
 						class="menu-icon fa fa-caret-right"></i> 使用帮助
 				</a> <b class="arrow"></b></li>
-				<li class=""><a href="form-elements.html"> <i
-						class="menu-icon fa fa-caret-right"></i> 知识库（常见问题）
+
+				<li class=""><a href="../../ent/jsp/appointment.jsp"> <i
+						class="menu-icon fa fa-caret-right"></i> 知识库
 				</a> <b class="arrow"></b></li>
+
+
 			</ul></li>
+
 		<li><a href="../../ent/jsp/appointment.jsp"> <i
 				class="menu-icon fa fa-desktop"></i> <span class="menu-text">
 					网上预约 </span>
 		</a> <b class="arrow"></b></li>
 
-
-		<li class=""><a href="#" class="dropdown-toggle"> <i
-				class="menu-icon fa fa-pencil-square-o"></i> <span class="menu-text">
-					名称自助申报 </span> <b class="arrow fa fa-angle-down"></b>
-		</a> <b class="arrow"></b>
-			<ul class="submenu">
-				<li class=""><a href="form-elements.html"> <i
-						class="menu-icon fa fa-caret-right"></i> 名称申报
-				</a> <b class="arrow"></b></li>
-				<li class=""><a href="form-elements.html"> <i
-						class="menu-icon fa fa-caret-right"></i> 名称查询
-				</a> <b class="arrow"></b></li>
-			</ul></li>
-		<li><a href="#"> <i class="menu-icon fa fa-list"></i> <span
-				class="menu-text"> 经营范围自助录入 </span>
+		<li><a href="#"> <i class="menu-icon fa fa-tachometer"></i> <span
+				class="menu-text"> 名称自主申报 </span>
 		</a> <b class="arrow"></b></li>
+
+
+
 		<li class="<%if (requestPage.equals("/ent/login.jsp")) {%>active<%}%>">
 			<a href="../../ent/jsp/newserviceHall.jsp"> <i
 				class="menu-icon fa fa-tachometer"></i> <span class="menu-text">
-					企业登记 </span>
+					商事登记 </span>
 		</a> <b class="arrow"></b>
 		</li>
-
-
-		<li class=""><a href="#" class="dropdown-toggle"> <i
-				class="menu-icon fa fa-pencil-square-o"></i> <span class="menu-text">
-					基础设置 </span> <b class="arrow fa fa-angle-down"></b>
+		<li class="<%if (requestPage.equals("/ent/login.jsp")) {%>active<%}%>">
+			<a href="../../ent/jsp/historyserviceHall.jsp"> <i
+				class="menu-icon fa fa-tachometer"></i> <span class="menu-text">
+					传统网登 </span>
 		</a> <b class="arrow"></b>
+		</li>
+		<li><a href="#"> <i class="menu-icon fa fa-list"></i> <span
+				class="menu-text"> 经营范围自助录入 </span>
+		</a> <b class="arrow"></b></li>
 
-			<ul class="submenu">
-				<li class=""><a href="form-elements.html"> <i
-						class="menu-icon fa fa-caret-right"></i> Form Elements
-				</a> <b class="arrow"></b></li>
 
-				<li class=""><a href="form-elements-2.html"> <i
-						class="menu-icon fa fa-caret-right"></i> Form Elements 2
-				</a> <b class="arrow"></b></li>
-
-				<li class=""><a href="form-wizard.html"> <i
-						class="menu-icon fa fa-caret-right"></i> Wizard &amp; Validation
-				</a> <b class="arrow"></b></li>
-
-				<li class=""><a href="wysiwyg.html"> <i
-						class="menu-icon fa fa-caret-right"></i> Wysiwyg &amp; Markdown
-				</a> <b class="arrow"></b></li>
-
-				<li class=""><a href="dropzone.html"> <i
-						class="menu-icon fa fa-caret-right"></i> Dropzone File Upload
-				</a> <b class="arrow"></b></li>
-			</ul></li>
 
 	</ul>
 	<!-- /.nav-list -->
