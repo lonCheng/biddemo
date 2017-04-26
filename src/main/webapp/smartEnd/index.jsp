@@ -4,7 +4,7 @@
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta charset="utf-8" />
-		<title>广州市商事登记全程电子化系统-智能终端</title>
+		<title>广州市商事登记全程电子化系统-微信应用</title>
 
 		<meta name="description" content="overview &amp; stats" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -57,15 +57,143 @@
 
 						<ul class="breadcrumb">
 							<li>
-								<i class="ace-icon fa fa-home home-icon"></i>
+								<i class="ace-icon fa fa-home home-icon active" ></i>
 								<a href="#">主页</a>
 							</li>
-							<li class="active">我的工作台</li>
+							<!-- <li class="active">我的工作台</li> -->
 						</ul><!-- /.breadcrumb -->
 
 						<!-- /section:basics/content.searchbox -->
 					</div>
+					<!-- /section:basics/content.breadcrumbs -->
+					<div class="page-content">
+						<!-- #section:settings.box -->
+						<jsp:include page="include/online-help.jsp"></jsp:include>
 					
+					<div class="row">
+					
+							<div class="col-xs-12">
+								<div class="row">
+									<div class="col-xs-12">
+										<h4 class="header smaller lighter green">智能终端应用</h4>
+										<div class="col-xs-4">
+										
+										</div>
+										
+										<div class="col-xs-4">
+											<div class="row">
+											<div class="col-xs-4">
+											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+											网上预约
+												
+											</a>
+											</div>
+											<div class="col-xs-4">
+												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													在线咨询
+													
+												</a>
+											</div>
+											<div class="col-xs-4">
+												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													名称申报
+													
+												</a>
+											</div>
+											</div>
+											
+											
+											<div class="row">
+											<div class="col-xs-4">
+											<a href="#" class="btn btn-app btn-pink radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												名称补录
+												
+											</a>
+											</div>
+											<div class="col-xs-4">
+												<a href="#" class="btn btn-app btn-info radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													设立登记
+													
+												</a>
+											</div>
+											<div class="col-xs-4">
+												<a href="#" class="btn btn-app btn-purple radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													变更（备案）
+													
+												</a>
+											</div>
+											</div>
+											
+											
+											<div class="row">
+											<div class="col-xs-4">
+											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												迁移（市内）
+												
+											</a>
+											</div>
+											<div class="col-xs-4">
+												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													一般注销
+													
+												</a>
+											</div>
+											<div class="col-xs-4">
+												<a href="#" class="btn btn-app btn-danger radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													简易注销
+													
+												</a>
+											</div>
+											</div>
+											<div class="row">
+											<div class="col-xs-4">
+												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													经营范围录入
+													
+												</a>
+											</div>
+											<div class="col-xs-4">
+											<a href="#" class="btn btn-app btn-inverse radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-print bigger-230"></i>
+												打照
+												
+											</a>
+											</div>
+											<div class="col-xs-4">
+												<a href="#" class="btn btn-app btn-danger radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													进度查询
+													
+												</a>
+											</div>
+											</div>
+											
+											
+										</div>
+										
+										<div class="col-xs-4">
+										
+										</div>
+										
+									</div>
+								</div>
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+						
+						
+
+
+					</div>
 			</div><!-- /.main-content -->
 
 			<!-- <div class="footer">

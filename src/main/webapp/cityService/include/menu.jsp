@@ -12,7 +12,7 @@
 					try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
 				</script>
 				<ul class="nav nav-list">
-					<li class="">
+					<li class="menu open">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-desktop"></i>
 							<span class="menu-text">

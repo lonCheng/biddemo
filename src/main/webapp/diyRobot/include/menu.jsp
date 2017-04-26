@@ -29,7 +29,7 @@
 							<i class="menu-icon fa fa-list"></i>
 							<span class="menu-text">网上预约</span>
 
-							<b class="arrow fa fa-angle-down"></b>
+							</a>
 						<b class="arrow"></b>
 					</li>
 					<li class="">
