@@ -100,7 +100,7 @@
 					<div class="row">
 						<div class="block-capability">
 							<div class="layout">
-								<h2 class="block-title important-block-title">企业登记自助填报系统</h2>
+								<h2 class="block-title important-block-title">企业传统网登填报系统</h2>
 								<ul class="block-content">
 									<li class=" item  active col-sm-2">
 										<div class="border-top"></div>
@@ -132,10 +132,10 @@
 														<div class="sub-item-title">注销</div>
 													</li>
 													<li class="sub-item">
-														<div class="sub-item-title">迁移（市内）</div>
+														<div class="sub-item-title">迁移</div>
 													</li>
 													<li class="sub-item">
-														<div class="sub-item-title">股权出质</div>
+														<div class="sub-item-title">改制</div>
 													</li>
 												</ul>
 											</div>
@@ -157,12 +157,12 @@
 														class="btn-more">开始办理</a>
 													</li>
 													<li class="sub-item clearfix">
-														<div class="sub-item-title clearfix">迁移（市内）</div> <a
+														<div class="sub-item-title clearfix">迁移</div> <a
 														href="#"
 														class="btn-more">开始办理</a>
 													</li>
 													<li class="sub-item clearfix">
-														<div class="sub-item-title clearfix">股权出质</div> <a
+														<div class="sub-item-title clearfix">改制</div> <a
 														href="#"
 														class="btn-more">开始办理</a>
 													</li>
@@ -172,10 +172,79 @@
 										</div>
 									</li>
 									
-									
-									
-									
-									
+									<li class=" item  col-sm-2">
+										<div class="border-top"></div>
+										<div class="item-head">
+											<div class="item-head-default">
+												<div class="icon-wrapper pt60">
+													<div class="icon icon-mix"></div>
+												</div>
+												<div class="item-title">外资</div>
+											</div>
+											<div class="item-head-active">
+												<div class="icon-wrapper">
+													<div class="icon icon-mix"></div>
+												</div>
+												<div class="item-title">外资</div>
+												<div class="item-intro">150+资深云计算专家为企业级用户量身定制个性化上云解决方案，并针对企业的业务特点提供混合云部署的最佳实践与贴身技术支持。</div>
+											</div>
+										</div>
+										<div class="item-content">
+											<div class="item-content-default">
+												<ul class="item-sub-content">
+													<li class="sub-item">
+														<div class="sub-item-title">设立</div>
+													</li>
+													<li class="sub-item">
+														<div class="sub-item-title">变更（备案）</div>
+													</li>
+													
+													<li class="sub-item">
+														<div class="sub-item-title">注销</div>
+													</li>
+													<li class="sub-item">
+														<div class="sub-item-title">迁移</div>
+													</li>
+													<li class="sub-item">
+														<div class="sub-item-title">变更</div>
+													</li>
+													
+												</ul>
+											</div>
+											<div class="item-content-active">
+												<ul class="item-sub-content">
+													<li class="sub-item clearfix">
+														<div class="sub-item-title clearfix">设立</div> <a
+														href="setUpPage.jsp"
+														class="btn-more">开始办理</a>
+													</li>
+													<li class="sub-item clearfix">
+														<div class="sub-item-title clearfix">变更（备案）</div> <a
+														href="#"
+														class="btn-more">开始办理</a>
+													</li>
+													
+													<li class="sub-item clearfix">
+														<div class="sub-item-title clearfix">注销</div> <a
+														href="#"
+														class="btn-more">开始办理</a>
+													</li>
+													<li class="sub-item clearfix">
+														<div class="sub-item-title clearfix">迁移</div> <a
+														href="#"
+														class="btn-more">开始办理</a>
+													</li>
+													<li class="sub-item clearfix">
+														<div class="sub-item-title clearfix">改制</div> <a
+														href="#"
+														class="btn-more">开始办理</a>
+													</li>
+													
+												</ul>
+											</div>
+										</div>
+									</li>
+
 								</ul>
 							</div>
 							<div class="block-datacenter" style="display: none;">
