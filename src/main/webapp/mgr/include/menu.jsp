@@ -331,7 +331,7 @@
 								<a href="../../mgr/information/deal.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 							<i class="menu-icon fa fa-tachometer"></i>
-							<span class="menu-text"> 受理登记 </span>
+							<span class="menu-text"> 一般网登 </span>
 							</a>
 	
 							<b class="arrow"></b>
