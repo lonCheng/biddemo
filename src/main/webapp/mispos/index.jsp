@@ -75,11 +75,11 @@
 									<div class="col-xs-12">
 										<h4 class="header smaller lighter green" >一般网登（内资）</h4>
 										<span style="margin-top:320px;position:relative;"></span>
-										<div class="col-xs-6  col-sm-4">
+										<div class="col-sm-3">
 										
 										</div>
 										
-										<div class="col-xs-6 col-sm-4">
+										<div class="col-sm-6">
 										
 										<div class="row">
 												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
@@ -111,6 +111,11 @@
 												迁移（市内）
 												
 											</a>
+											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												股权出质
+												
+											</a>
 												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
 													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
 													一般注销
@@ -136,7 +141,7 @@
 											
 										</div>
 										
-										<div class="col-sm-6 col-xs-6">
+										<div class="col-sm-3">
 										
 										</div>
 										
@@ -151,11 +156,11 @@
 									<div class="col-xs-12">
 										<h4 class="header smaller lighter green" >一般网登（外资）</h4>
 										<span style="margin-top:320px;position:relative;"></span>
-										<div class="col-xs-6  col-sm-4">
+										<div class="col-sm-3">
 										
 										</div>
 										
-										<div class="col-xs-6 col-sm-4">
+										<div class="col-sm-6">
 										
 										<div class="row">
 												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
@@ -181,12 +186,19 @@
 													变更（备案）
 													
 												</a>
+												
 											
 											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
 												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
 												迁移（市内）
 												
 											</a>
+											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												股权出质
+												
+											</a>
+										
 												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
 													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
 													一般注销
@@ -212,7 +224,7 @@
 											
 										</div>
 										
-										<div class="col-sm-6 col-xs-6">
+										<div class="col-sm-3">
 										
 										</div>
 										

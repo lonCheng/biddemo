@@ -77,11 +77,11 @@
 									<div class="col-xs-12">
 										<h4 class="header smaller lighter green" >自助机器人应用</h4>
 										<span style="margin-top:320px;position:relative;"></span>
-										<div class="col-xs-6  col-sm-4">
+										<div class="col-sm-3">
 										
 										</div>
 										
-										<div class="col-xs-6 col-sm-4">
+										<div class="col-sm-6">
 										
 										<div class="row">
 											
@@ -176,7 +176,7 @@
 											
 										</div>
 										
-										<div class="col-sm-6 col-xs-6">
+										<div class="col-sm-3">
 										
 										</div>
 										
