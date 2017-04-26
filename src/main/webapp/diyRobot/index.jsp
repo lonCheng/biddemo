@@ -163,7 +163,7 @@
 												</a>
 											<a href="#" class="btn btn-app btn-inverse radius" style="font-size:14px;text-align:center;">
 												<i class="ace-icon fa fa-print bigger-230"></i>
-												打照
+												执照自助打印
 												
 											</a>
 												<a href="#" class="btn btn-app btn-danger radius" style="font-size:14px;text-align:center;">
