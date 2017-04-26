@@ -163,24 +163,24 @@
 														
 													</a>
 												</li>
-												<li>
+												<!-- <li>
 													<a data-toggle="tab" href="#rescind">
 														撤销登记
 														
 													</a>
-												</li>
+												</li> -->
 												<li>
 													<a data-toggle="tab" href="#reform">
 														改制登记
 														
 													</a>
 												</li>
-												<li>
+												<!-- <li>
 													<a data-toggle="tab" href="#correction">
 														商事纠错
 														
 													</a>
-												</li>
+												</li> -->
 												<!-- <li>
 													<a data-toggle="tab" href="#keepRecord">
 														备案登记
