@@ -145,9 +145,9 @@
 														
 													</a>
 												</li>
-												<li>
-													<a data-toggle="tab" href="#changeRecord">
-														变更登记
+												<li >
+													<a data-toggle="tab" href="#changeRecord" style="width:165px;">
+														变更（备案）登记
 														
 													</a>
 												</li>
@@ -181,14 +181,14 @@
 														
 													</a>
 												</li>
-												<li>
+												<!-- <li>
 													<a data-toggle="tab" href="#keepRecord">
 														备案登记
 														
 													</a>
-												</li>
+												</li> -->
 
-												<li class="dropdown">
+												<!-- <li class="dropdown">
 													<a data-toggle="dropdown" class="dropdown-toggle" href="#" style="width:150px;">
 														<i class="green ace-icon fa fa-home bigger-120"></i>
 														名称登记 &nbsp;
@@ -218,7 +218,7 @@
 															<a data-toggle="tab" href="#nameBulu">名称补录</a>
 														</li>
 													</ul>
-												</li>
+												</li> -->
 											</ul> 
 
 											<div class="tab-content">

@@ -91,7 +91,7 @@
 									<div class="col-xs-6 col-sm-3 pricing-box">
 											<div class="widget-box pricing-box-small widget-color-red3">
 												<div class="widget-header">
-												<h5 class="widget-title bigger lighter">内  资（私  营）</h5>
+												<h5 class="widget-title bigger lighter">内  资</h5>
 												</div>
 												<div class="widget-body">
 												<a  href="../../../mgr/information/accept.jsp">
@@ -106,7 +106,7 @@
 											</div>
 											</div>
 									</div>
-									<div class="col-xs-6 col-sm-3 pricing-box">
+									<!-- <div class="col-xs-6 col-sm-3 pricing-box">
 											<div class="widget-box pricing-box-small widget-color-green">
 												<div class="widget-header">
 												<h5 class="widget-title bigger lighter">外  资</h5>
@@ -140,7 +140,7 @@
 												</div>
 											</div>
 											</div>
-									</div>
+									</div> -->
 									<div class="col-xs-6 col-sm-3 pricing-box">
 											<div class="widget-box pricing-box-small widget-color-blue">
 												<div class="widget-header">
