@@ -66,7 +66,7 @@
 		</a> <b class="arrow"></b>
 
 			<ul class="submenu">
-				<li  class=""><a href="#"> <i
+				<li class=""><a href="#"> <i
 						class="menu-icon fa fa-caret-right"></i> 事项进度
 				</a> <b class="arrow"></b></li>
 
@@ -83,9 +83,24 @@
 					网上预约 </span>
 		</a> <b class="arrow"></b></li>
 
-		<li><a href="#"> <i class="menu-icon fa fa-tachometer"></i> <span
-				class="menu-text"> 名称业务 </span>
-		</a> <b class="arrow"></b></li>
+
+		<li id="sss" class=""><a href="#" class="dropdown-toggle"> <i
+				class="menu-icon fa fa-pencil-square-o"></i> <span class="menu-text">
+					名称业务 </span> <b class="arrow fa fa-angle-down"></b>
+		</a> <b class="arrow"></b>
+
+			<ul class="submenu">
+				<li class=""><a href="#"> <i
+						class="menu-icon fa fa-caret-right"></i> 自助申报
+				</a> <b class="arrow"></b></li>
+
+				<li id="ddd" class=""><a href="#"> <i
+						class="menu-icon fa fa-caret-right"></i> 补录
+				</a> <b class="arrow"></b></li>
+
+			</ul></li>
+
+
 
 
 
@@ -125,7 +140,5 @@
 			ace.settings.check('sidebar', 'collapsed')
 		} catch (e) {
 		}
-
-		
 	</script>
 </div>
