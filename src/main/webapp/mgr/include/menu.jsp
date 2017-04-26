@@ -313,26 +313,6 @@
 						</a>
 
 						<b class="arrow"></b>
-
-						<ul class="submenu">
-							
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									经营范围对接
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									经营范围权限（市、区）
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						</ul>
 					</li>
 					<li class="">
 						<a href="#" class="dropdown-toggle">
