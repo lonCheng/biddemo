@@ -82,15 +82,7 @@
 
 					<!-- /section:basics/content.breadcrumbs -->
 					<div class="page-content">
-					<div class="row">
-								<div class="widget-header widget-header-blue widget-header-flat">
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-																			<button class="btn btn-xs btn-success">
-																				<i class="ace-icon fa fa-check bigger-120"></i>
-																				简易注销
-																			</button>
-									</div>
-						</div>
+						<jsp:include page="../include/btnGroup.jsp"></jsp:include>
 						<div  class="col-xs-12  col-sm-12">
 									<div class="space-10"></div>
 								</div>
@@ -126,16 +118,6 @@
 						<!-- #section:settings.box -->
 						<div class="row">
 							<div class="col-xs-12">
-								<!-- PAGE CONTENT BEGINS -->
-								<table id="grid-table"></table>
-
-								<div id="grid-pager"></div>
-
-								<script type="text/javascript">
-									var $path_base = "..";
-								</script>
-
-								<!-- PAGE CONTENT ENDS -->
 							</div><!-- /.col -->
 						</div><!-- /.row -->
 					</div><!-- /.page-content -->

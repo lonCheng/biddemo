@@ -85,10 +85,14 @@
 					<div class="row">
 								<div class="widget-header widget-header-blue widget-header-flat">
 										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-																			<button class="btn btn-xs btn-success">
-																				<i class="ace-icon fa fa-check bigger-120"></i>
-																				简易注销
+																			<button type="button" class="btn btn-primary" style="">
+																				<i class="ace-icon fa fa-check bigger-165"></i>
+																				提交
 																			</button>
+																			<button type="button" class="btn btn-primary" style="">修改</button>
+																			<button type="button" class="btn btn-primary" style="">删除</button>
+																			<button type="button" class="btn btn-primary" style="">保存草稿</button>
+																			
 									</div>
 						</div>
 						<div  class="col-xs-12  col-sm-12">
@@ -124,20 +128,7 @@
 							</div>
 						</div>
 						<!-- #section:settings.box -->
-						<div class="row">
-							<div class="col-xs-12">
-								<!-- PAGE CONTENT BEGINS -->
-								<table id="grid-table"></table>
-
-								<div id="grid-pager"></div>
-
-								<script type="text/javascript">
-									var $path_base = "..";
-								</script>
-
-								<!-- PAGE CONTENT ENDS -->
-							</div><!-- /.col -->
-						</div><!-- /.row -->
+						
 					</div><!-- /.page-content -->
 				</div>
 			</div><!-- /.main-content -->

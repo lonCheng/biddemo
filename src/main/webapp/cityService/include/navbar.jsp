@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%
+ String requestPage = request.getRequestURI();
+%>
 	<!-- #section:basics/navbar.layout -->
 		<div id="navbar" class="navbar navbar-default">
 			<script type="text/javascript">
@@ -21,7 +24,9 @@
 				<!-- /section:basics/sidebar.mobile.toggle -->
 				<div class="navbar-header pull-left">
 					<!-- #section:basics/navbar.layout.brand -->
+					<a href="../../common.jsp">
 					<img src="../../imgs/gslogo.png" style="width:32px;height:32px;padding:0;margin-top:6px;float:left;">
+					</a>
 					<a href="#" class="navbar-brand" style="padding-left:5px;">
 						<small>
 							<!-- <i class="fa fa-leaf"></i> -->

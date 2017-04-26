@@ -181,7 +181,7 @@
 					<!-- /section:basics/content.breadcrumbs -->
 					<div class="page-content">
 						<!-- #section:settings.box -->
-
+						<jsp:include page="../include/btnGroup.jsp"></jsp:include>
 						<div class="row">
 							<div class="col-xs-12">
 								<!-- PAGE CONTENT BEGINS -->

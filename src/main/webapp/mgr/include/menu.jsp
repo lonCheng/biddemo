@@ -80,7 +80,7 @@
 								<a href="#" class="dropdown-toggle">
 									<i class="menu-icon fa fa-caret-right"></i>
 
-									规则库管理
+									规则引擎
 									<b class="arrow fa fa-angle-down"></b>
 								</a>
 
@@ -249,6 +249,14 @@
 
 								<b class="arrow"></b>
 							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									评价管理
+								</a>
+
+								<b class="arrow"></b>
+							</li>
 						</ul>
 					</li>
 					<li class="">
@@ -270,8 +278,8 @@
 								</a>
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/nameSefReport.jsp")){%>active<%}%>">
-										<a href="../../mgr/information/nameSefReport.jsp">
+							<li class="#">
+										<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
 									名称补录（确认）
 								</a>
@@ -303,7 +311,15 @@
 							<li class="">
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									经营范围自助录入
+									经营范围对接
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									经营范围权限（市、区）
 								</a>
 
 								<b class="arrow"></b>
@@ -314,7 +330,7 @@
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-desktop"></i>
 							<span class="menu-text">
-								全程电子化商事登记
+								商事登记
 							</span>
 
 							<b class="arrow fa fa-angle-down"></b>

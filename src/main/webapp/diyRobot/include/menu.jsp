@@ -12,38 +12,7 @@
 					try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
 				</script>
 
-				<!-- <div class="sidebar-shortcuts" id="sidebar-shortcuts">
-					<div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
-						<button class="btn btn-success">
-							<i class="ace-icon fa fa-signal"></i>
-						</button>
-
-						<button class="btn btn-info">
-							<i class="ace-icon fa fa-pencil"></i>
-						</button>
-
-						#section:basics/sidebar.layout.shortcuts
-						<button class="btn btn-warning">
-							<i class="ace-icon fa fa-users"></i>
-						</button>
-
-						<button class="btn btn-danger">
-							<i class="ace-icon fa fa-cogs"></i>
-						</button>
-
-						/section:basics/sidebar.layout.shortcuts
-					</div>
-
-					<div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
-						<span class="btn btn-success"></span>
-
-						<span class="btn btn-info"></span>
-
-						<span class="btn btn-warning"></span>
-
-						<span class="btn btn-danger"></span>
-					</div>
-				</div>/.sidebar-shortcuts -->
+				
 
 				<ul class="nav nav-list">
 					<li class="<%if(requestPage.equals("/diyRobot/index.jsp")){%>active<%}%>">
@@ -61,8 +30,6 @@
 							<span class="menu-text">网上预约</span>
 
 							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
 						<b class="arrow"></b>
 					</li>
 					<li class="">
@@ -176,11 +143,10 @@
 
 								<b class="arrow"></b>
 							</li>
-							
-							<li class="<%if(requestPage.equals("/diyRobot/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../diyRobot/information/zxEnt.jsp">
+							<li class="#">
+								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									改制登记
+									迁移（广州市内）
 								</a>
 
 								<b class="arrow"></b>

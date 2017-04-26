@@ -21,11 +21,13 @@
 				<!-- /section:basics/sidebar.mobile.toggle -->
 				<div class="navbar-header pull-left">
 					<!-- #section:basics/navbar.layout.brand -->
+					<a href="../../common.jsp">
 					<img src="../../imgs/gslogo.png" style="width:32px;height:32px;padding:0;margin-top:6px;float:left;">
+					</a>
 					<a href="#" class="navbar-brand" style="padding-left:5px;">
 						<small>
 							<!-- <i class="fa fa-leaf"></i> -->
-							广州市工商局综合管理平台
+							广州市工商局商事登记【局端】系统
 						</small>
 					</a>
 

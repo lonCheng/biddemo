@@ -75,6 +75,7 @@
 
 						<b class="arrow"></b>
 					</li>
+					
 					<li class="">
 							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
@@ -95,8 +96,8 @@
 
 								<b class="arrow"></b>
 							</li>
-							<li class="">
-								<a href="#">
+							<li class="<%if(requestPage.equals("/mispos/information/nameBlu.jsp")){%>active<%}%>">
+										<a href="../../mispos/information/nameBlu.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									名称补录
 								</a>
@@ -106,7 +107,7 @@
 							<li class="">
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									查询分析
+									查询
 								</a>
 
 								<b class="arrow"></b>
@@ -176,23 +177,23 @@
 
 								<b class="arrow"></b>
 							</li>
-							
-							<li class="<%if(requestPage.equals("/mispos/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/zxEnt.jsp">
+							<li class="<%if(requestPage.equals("/mispos/information/moveEnt.jsp")){%>active<%}%>">
+								<a href="../../mispos/information/moveEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									改制登记
+									迁移（广州市内）
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mispos/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/zxEnt.jsp">
+							<li class="<%if(requestPage.equals("/mispos/information/normalZxEnt.jsp")){%>active<%}%>">
+								<a href="../../mispos/information/normalZxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									一般注销
 								</a>
 
 								<b class="arrow"></b>
 							</li>
+							
 							<li class="<%if(requestPage.equals("/mispos/information/zxEnt.jsp")){%>active<%}%>">
 								<a href="../../mispos/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -210,8 +211,8 @@
 
 								<b class="arrow"></b>
 							</li>
-														<li class="<%if(requestPage.equals("/mispos/information/finishTask.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/finishTask.jsp">
+							<li class="#">
+								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
 								进度查询
 								</a>
