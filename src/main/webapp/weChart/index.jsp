@@ -71,123 +71,80 @@
 						<jsp:include page="include/online-help.jsp"></jsp:include>
 					
 					<div class="row">
-					
-							<div class="col-xs-12">
+					<div class="col-xs-12">
 								<div class="row">
 									<div class="col-xs-12">
-										<h4 class="header smaller lighter green">商事登记微信应用</h4>
-										<div class="col-xs-4">
+										<h4 class="header smaller lighter green" >微信应用</h4>
+										<span style="margin-top:320px;position:relative;"></span>
+										<div class="col-xs-6  col-sm-4">
 										
 										</div>
 										
-										<div class="col-xs-4">
-											<div class="row">
-											<div class="col-xs-4">
-											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
-												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-											网上预约
-												
-											</a>
-											</div>
-											<div class="col-xs-4">
-												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
-													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-													在线咨询
-													
-												</a>
-											</div>
-											<div class="col-xs-4">
+										<div class="col-xs-6 col-sm-4">
+										
+										<div class="row">
 												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
 													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
 													名称申报
 													
 												</a>
-											</div>
-											</div>
 											
-											
-											<div class="row">
-											<div class="col-xs-4">
 											<a href="#" class="btn btn-app btn-pink radius" style="font-size:14px;text-align:center;">
 												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
 												名称补录
 												
 											</a>
-											</div>
-											<div class="col-xs-4">
+											
 												<a href="#" class="btn btn-app btn-info radius" style="font-size:14px;text-align:center;">
 													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
 													设立登记
 													
 												</a>
-											</div>
-											<div class="col-xs-4">
+											
 												<a href="#" class="btn btn-app btn-purple radius" style="font-size:14px;text-align:center;">
 													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
 													变更（备案）
 													
 												</a>
-											</div>
-											</div>
 											
-											
-											<div class="row">
-											<div class="col-xs-4">
 											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
 												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
 												迁移（市内）
 												
 											</a>
-											</div>
-											<div class="col-xs-4">
 												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
 													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
 													一般注销
 													
 												</a>
-											</div>
-											<div class="col-xs-4">
 												<a href="#" class="btn btn-app btn-danger radius" style="font-size:14px;text-align:center;">
 													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
 													简易注销
 													
 												</a>
-											</div>
-											</div>
-											<div class="row">
-											<div class="col-xs-4">
 												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
 													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
 													经营范围录入
 													
 												</a>
-											</div>
-											<div class="col-xs-4">
-											<a href="#" class="btn btn-app btn-inverse radius" style="font-size:14px;text-align:center;">
+												<a href="#" class="btn btn-app btn-inverse radius" style="font-size:14px;text-align:center;">
 												<i class="ace-icon fa fa-print bigger-230"></i>
 												执照自助打印
 												
 											</a>
 											</div>
-											<div class="col-xs-4">
-												<a href="#" class="btn btn-app btn-danger radius" style="font-size:14px;text-align:center;">
-													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-													进度查询
-													
-												</a>
-											</div>
-											</div>
 											
 											
 										</div>
 										
-										<div class="col-xs-4">
+										<div class="col-sm-6 col-xs-6">
 										
 										</div>
 										
 									</div>
 								</div>
-							</div><!-- /.col -->
+							</div>
+							
 						</div><!-- /.row -->
 						
 						

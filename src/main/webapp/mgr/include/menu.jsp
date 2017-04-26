@@ -341,7 +341,6 @@
 									<i class="menu-icon fa fa-caret-right"></i>
 									审核审批
 								</a>
-
 								<b class="arrow"></b>
 							</li>
 							<%-- <li class="<%if(requestPage.equals("/mgr/information/waitTasks.jsp")){%>active<%}%>">
