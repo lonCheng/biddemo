@@ -119,8 +119,8 @@
 																				<i class="ace-icon fa fa-check bigger-165"></i>
 																				查询
 																			</button>
-																			<button type="button" class="btn btn-primary" style="">编  辑</button>
 																			<button type="button" class="btn btn-primary" style="">添加</button>
+																			<button type="button" class="btn btn-primary" style="">修改</button>
 																			<button type="button" class="btn btn-primary" style="">删除</button>
 																			
 									</div>
