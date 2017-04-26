@@ -176,11 +176,10 @@
 
 								<b class="arrow"></b>
 							</li>
-							
-							<li class="<%if(requestPage.equals("/weChart/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../weChart/information/zxEnt.jsp">
+							<li class="#">
+								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									改制登记
+									迁移（广州市内）
 								</a>
 
 								<b class="arrow"></b>
