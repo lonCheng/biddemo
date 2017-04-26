@@ -82,17 +82,6 @@
 										<div class="col-xs-6 col-sm-4">
 										
 										<div class="row">
-											
-											<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
-												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-											用户需知
-												
-											</a>
-												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
-													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-													视频指导
-													
-												</a>
 												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
 													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
 													名称申报

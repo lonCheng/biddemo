@@ -94,16 +94,21 @@
 												<h5 class="widget-title bigger lighter">内  资</h5>
 												</div>
 												<div class="widget-body">
-												<a  href="../../../mgr/information/accept.jsp">
-												<div style="height:350px;width:286px;">
 												
-												<span style="display:block;margin:10 auto 50;">内资登记</span>
+												<div style="height:250px;width:286px;">
 												
-												<span style="display:block;margin:20 auto 50;">农合登记</span>
-												
-												
+													<div style="display:block;margin-top:100px;;text-align:center;font-size:25px;">
+														<a  href="../../../mgr/information/accept.jsp">
+														内资登记
+														</a>
+													</div>
+													
+													<div style="display:block;margin-top:50px;;text-align:center;font-size:25px;">
+														<a  href="../../../mgr/information/accept.jsp">
+														农合登记
+														</a>
+													</div>
 												</div>
-												</a>
 												<div>
 													<a href="../../../mgr/information/accept.jsp" class="btn btn-block btn-warning">
 														<i class="ace-icon fa fa-shopping-cart bigger-110"></i>
