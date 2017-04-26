@@ -208,7 +208,7 @@
 					<li class="">
 							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text">在线咨询</span>
+							<span class="menu-text">在线咨询(独立出来)</span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -281,7 +281,15 @@
 							<li class="#">
 										<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									名称补录（确认）
+									名称补录
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="#">
+										<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									名称补录确认
 								</a>
 
 								<b class="arrow"></b>
