@@ -163,12 +163,12 @@
 														
 													</a>
 												</li>
-												<!-- <li>
+												<li>
 													<a data-toggle="tab" href="#rescind">
-														撤销登记
+														股权出质
 														
 													</a>
-												</li> -->
+												</li>
 												<li>
 													<a data-toggle="tab" href="#reform">
 														改制登记
