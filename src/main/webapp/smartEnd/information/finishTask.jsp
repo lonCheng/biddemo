@@ -123,21 +123,6 @@
 								</form>
 							</div>
 						</div>
-						<!-- #section:settings.box -->
-						<div class="row">
-							<div class="col-xs-12">
-								<!-- PAGE CONTENT BEGINS -->
-								<table id="grid-table"></table>
-
-								<div id="grid-pager"></div>
-
-								<script type="text/javascript">
-									var $path_base = "..";
-								</script>
-
-								<!-- PAGE CONTENT ENDS -->
-							</div><!-- /.col -->
-						</div><!-- /.row -->
 					</div><!-- /.page-content -->
 				</div>
 			</div><!-- /.main-content -->
