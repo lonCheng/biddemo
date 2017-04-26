@@ -73,7 +73,7 @@
 							<div class="col-xs-12">
 								<div class="row">
 									<div class="col-xs-12">
-										<h4 class="header smaller lighter green" >市政服务平台应用</h4>
+										<h4 class="header smaller lighter green" >一般网登（内资）</h4>
 										<span style="margin-top:320px;position:relative;"></span>
 										<div class="col-xs-6  col-sm-4">
 										
@@ -128,7 +128,7 @@
 												</a>
 												<a href="#" class="btn btn-app btn-inverse radius" style="font-size:14px;text-align:center;">
 												<i class="ace-icon fa fa-print bigger-230"></i>
-												打照
+												执照自助打印
 												
 											</a>
 											</div>
@@ -145,7 +145,81 @@
 							</div>
 						</div><!-- /.row -->
 						
-						
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="row">
+									<div class="col-xs-12">
+										<h4 class="header smaller lighter green" >一般网登（外资）</h4>
+										<span style="margin-top:320px;position:relative;"></span>
+										<div class="col-xs-6  col-sm-4">
+										
+										</div>
+										
+										<div class="col-xs-6 col-sm-4">
+										
+										<div class="row">
+												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													名称申报
+													
+												</a>
+											
+											<a href="#" class="btn btn-app btn-pink radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												名称补录
+												
+											</a>
+											
+												<a href="#" class="btn btn-app btn-info radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													设立登记
+													
+												</a>
+											
+												<a href="#" class="btn btn-app btn-purple radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													变更（备案）
+													
+												</a>
+											
+											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												迁移（市内）
+												
+											</a>
+												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													一般注销
+													
+												</a>
+												<a href="#" class="btn btn-app btn-danger radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													简易注销
+													
+												</a>
+												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													经营范围录入
+													
+												</a>
+												<a href="#" class="btn btn-app btn-inverse radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-print bigger-230"></i>
+												执照自助打印
+												
+											</a>
+											</div>
+											
+											
+										</div>
+										
+										<div class="col-sm-6 col-xs-6">
+										
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div><!-- /.row -->
 
 
 					</div>

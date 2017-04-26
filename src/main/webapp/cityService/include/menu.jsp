@@ -16,7 +16,7 @@
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-desktop"></i>
 							<span class="menu-text">
-								商事登记全程电子化
+								一般网登（内资）
 							</span>
 
 							<b class="arrow fa fa-angle-down"></b>
@@ -66,11 +66,79 @@
 
 								<b class="arrow"></b>
 							</li>
-
-							
+														
 						</ul>
 						
 					</li>
+					<li class="#">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								一般网登（外资）
+							</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+						<ul class="submenu">
+							 <li class="<%if(requestPage.equals("/cityService/information/editInput.jsp")){%>active<%}%>">
+								<a href="../../cityService/information/editInput.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> 设立登记 </span>
+							</a>
+	
+							<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/cityService/information/bgEnt.jsp")){%>active<%}%>">
+								<a href="../../cityService/information/bgEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									变更(备案)登记
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/cityService/information/moveEnt.jsp")){%>active<%}%>">
+								<a href="../../cityService/information/moveEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									迁移（广州市内）
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							
+							<li class="<%if(requestPage.equals("/cityService/information/normalZxEnt.jsp")){%>active<%}%>">
+								<a href="../../cityService/information/normalZxEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									一般注销
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/cityService/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../cityService/information/zxEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									简易注销
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+						
+					</li>
+					<li class="menu open">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								查询统计
+							</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+					
 				</ul><!-- /.nav-list -->
 
 				<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
