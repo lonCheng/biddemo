@@ -12,7 +12,48 @@
 					try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
 				</script>
 				<ul class="nav nav-list">
-					<li class="menu open">
+				<li class="<%if(requestPage.equals("/cityService/index.jsp")){%>active<%}%>">
+						<a href="../../cityService/index.jsp">
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> 我的工作台 </span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+				<li class="menu open">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								名称业务
+							</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+						<ul class="submenu">
+							 <li class="<%if(requestPage.equals("#")){%>active<%}%>">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> 名称自主申报 </span>
+							</a>
+	
+							<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("#")){%>active<%}%>">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									名称补录
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+														
+						</ul>
+						
+					</li>
+					<li class="#">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-desktop"></i>
 							<span class="menu-text">
@@ -49,6 +90,14 @@
 
 								<b class="arrow"></b>
 							</li>
+							<li class="<%if(requestPage.equals("#")){%>active<%}%>">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									股权出质
+								</a>
+
+								<b class="arrow"></b>
+							</li>
 							
 							<li class="<%if(requestPage.equals("/cityService/information/normalZxEnt.jsp")){%>active<%}%>">
 								<a href="../../cityService/information/normalZxEnt.jsp">
@@ -62,6 +111,14 @@
 								<a href="../../cityService/information/zxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									简易注销
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("#")){%>active<%}%>">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									改制
 								</a>
 
 								<b class="arrow"></b>
@@ -127,7 +184,38 @@
 						</ul>
 						
 					</li>
-					<li class="menu open">
+					<li class="#">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								营业执照
+							</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+						<ul class="submenu">
+							 <li class="<%if(requestPage.equals("#")){%>active<%}%>">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> 证照打印 </span>
+							</a>
+							<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("#")){%>active<%}%>">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									证照发放
+								</a>
+
+								<b class="arrow"></b>
+							</li>						
+						</ul>
+						
+					</li>
+					<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-desktop"></i>
 							<span class="menu-text">
