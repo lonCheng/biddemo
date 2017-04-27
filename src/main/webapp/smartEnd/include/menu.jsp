@@ -53,6 +53,25 @@
 						</a>
 
 						<b class="arrow"></b>
+						<ul class="submenu">
+							
+							<li class="#">
+										<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									事项进度
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									已办事项
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
 					</li>
 
 					<li class="">
@@ -64,16 +83,34 @@
 						</a>
 
 						<b class="arrow"></b>
-					</li>
-					<li class="">
-							<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text">在线咨询</span>
+						<ul class="submenu">
+							
+							<li class="#">
+										<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									办理预约
+								</a>
 
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									查询预约
+								</a>
 
-						<b class="arrow"></b>
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									取消预约
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+						
 					</li>
 					<li class="">
 							<a href="#" class="dropdown-toggle">
@@ -103,50 +140,17 @@
 
 								<b class="arrow"></b>
 							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									查询分析
-								</a>
-
-								<b class="arrow"></b>
-							</li>
 						</ul>
 					</li>
 					<li class="">
 							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text">经营范围管理</span>
+							<span class="menu-text">商事登记全程电子化</span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
 
 						<b class="arrow"></b>
-
-						<ul class="submenu">
-							
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									经营范围与其它系统对接
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						</ul>
-					</li>
-					<li class="">
-						<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-desktop"></i>
-							<span class="menu-text">
-								商事登记
-							</span>
-
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-
 						<ul class="submenu">
 							 <li class="<%if(requestPage.equals("/smartEnd/information/editInput.jsp")){%>active<%}%>">
 								<a href="../../smartEnd/information/editInput.jsp">
@@ -158,15 +162,6 @@
 							<b class="arrow"></b>
 							</li>
 							
-							<%-- <li class="<%if(requestPage.equals("/smartEnd/information/checkEnt414.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/checkEnt414.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-							<i class="menu-icon fa fa-tachometer"></i>
-							<span class="menu-text"> 审核审批 </span>
-							</a>
-	
-							<b class="arrow"></b>
-							</li> --%>
 							
 							<li class="<%if(requestPage.equals("/smartEnd/information/bgEnt.jsp")){%>active<%}%>">
 								<a href="../../smartEnd/information/bgEnt.jsp">
@@ -180,6 +175,14 @@
 								<a href="../../smartEnd/information/moveEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									迁移（广州市内）
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									股权出质
 								</a>
 
 								<b class="arrow"></b>
@@ -201,18 +204,101 @@
 								<b class="arrow"></b>
 							</li>
 
-							<li class="<%if(requestPage.equals("/smartEnd/information/finishTask.jsp")){%>active<%}%>">
-								<a href="../../smartEnd/information/finishTask.jsp">
+							
+						</ul>
+						
+					</li>
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								一般网登（内外资）
+							</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							 <li class="<%if(requestPage.equals("/smartEnd/information/editInput.jsp")){%>active<%}%>">
+								<a href="../../smartEnd/information/editInput.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									打照
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> 设立登记 </span>
+							</a>
+	
+							<b class="arrow"></b>
+							</li>
+							
+							
+							<li class="<%if(requestPage.equals("/smartEnd/information/bgEnt.jsp")){%>active<%}%>">
+								<a href="../../smartEnd/information/bgEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									变更（备案）登记
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							<li class="#">
+							<li class="<%if(requestPage.equals("/smartEnd/information/moveEnt.jsp")){%>active<%}%>">
+								<a href="../../smartEnd/information/moveEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									迁移（广州市内）
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="">
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-								进度查询
+									股权出质
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									改制
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/smartEnd/information/normalZxEnt.jsp")){%>active<%}%>">
+								<a href="../../smartEnd/information/normalZxEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									一般注销
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/smartEnd/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../smartEnd/information/zxEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									简易注销
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>
+					<li class="#">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								营业执照
+							</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+						<ul class="submenu">
+							
+							<li class="#">
+										<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									证照领取二维码生成
 								</a>
 
 								<b class="arrow"></b>
