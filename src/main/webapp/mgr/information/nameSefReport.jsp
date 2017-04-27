@@ -74,7 +74,7 @@
 							<li>
 								<a href="#">商事登记</a>
 							</li>
-							<li class="active">受理登记</li>
+							<li class="active">名称自主申报</li>
 						</ul><!-- /.breadcrumb -->
 
 						<!-- #section:basics/content.searchbox -->
@@ -99,46 +99,6 @@
 										<!-- #section:elements.tab -->
 										<div class="tabbable">
 											<ul class="nav nav-tabs" id="myTab">
-												
-												<!-- <li class="dropdown">
-													<a data-toggle="dropdown" class="dropdown-toggle active" href="#">
-														<i class="green ace-icon fa fa-home bigger-120"></i>
-														名称登记 &nbsp;
-														<i class="ace-icon fa fa-caret-down bigger-110 width-auto"></i>
-													</a>
-
-													<ul class="dropdown-menu dropdown-info">
-														<li>
-															<a data-toggle="tab" href="#dropdown1">名称核准</a>
-														</li>
-
-														<li>
-															<a data-toggle="tab" href="#dropdown2">名称变更</a>
-														</li>
-														<li>
-															<a data-toggle="tab" href="#dropdown1">核准后修改</a>
-														</li>
-
-														<li>
-															<a data-toggle="tab" href="#dropdown2">名称注销</a>
-														</li>
-														<li>
-															<a data-toggle="tab" href="#dropdown1">补建流程</a>
-														</li>
-
-														<li>
-															<a data-toggle="tab" href="#dropdown2">名称补录</a>
-														</li>
-													</ul>
-												</li> -->
-												
-												<!-- <li class="active">
-													<a data-toggle="tab" href="#home">
-														<i class="green ace-icon fa fa-home bigger-120"></i>
-														名称登记
-													</a>
-												</li>
- -->
 												<li class="active">
 													<a data-toggle="tab" href="#buildRecord">
 														名称核准
@@ -168,28 +128,13 @@
 								</div><!-- /.row -->
 							</div>
 						</div>
-						<!-- #section:settings.box -->
-						<!-- <div class="row">
-							<div class="col-xs-12">
-								PAGE CONTENT BEGINS
-								<table id="grid-table"></table>
-
-								<div id="grid-pager"></div>
-
-
-								PAGE CONTENT ENDS
-							</div>/.col
-						</div>/.row -->
 					</div><!-- /.page-content -->
 				</div>
 			</div><!-- /.main-content -->
-
 				<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
 				<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
 			</a>
 		</div><!-- /.main-container -->
-
-		<!-- basic scripts -->
 
 		<!--[if !IE]> -->
 		<script type="text/javascript">

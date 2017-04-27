@@ -65,7 +65,7 @@
 							<li>
 								<a href="#">商事登记</a>
 							</li>
-							<li class="active">受理登记</li>
+							<li class="active">一般网登</li>
 						</ul><!-- /.breadcrumb -->
 
 						<!-- #section:basics/content.searchbox -->
@@ -91,7 +91,7 @@
 									<div class="col-xs-6 col-sm-3 pricing-box">
 											<div class="widget-box pricing-box-small widget-color-red3">
 												<div class="widget-header">
-												<h5 class="widget-title bigger lighter">内  资</h5>
+												<h5 class="widget-title bigger lighter">内  资（包含农合）</h5>
 												</div>
 												<div class="widget-body">
 												
