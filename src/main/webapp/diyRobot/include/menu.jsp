@@ -73,7 +73,6 @@
 							</li>
 						</ul>
 					</li>
-
 					<li class="">
 							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
@@ -132,14 +131,6 @@
 
 								<b class="arrow"></b>
 							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									名称补录
-								</a>
-
-								<b class="arrow"></b>
-							</li>
 						</ul>
 					</li>
 					<li class="">
@@ -179,14 +170,6 @@
 
 								<b class="arrow"></b>
 							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									股权出质
-								</a>
-
-								<b class="arrow"></b>
-							</li>
 							<li class="<%if(requestPage.equals("/diyRobot/information/normalZxEnt.jsp")){%>active<%}%>">
 								<a href="../../diyRobot/information/normalZxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -212,7 +195,7 @@
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-desktop"></i>
 							<span class="menu-text">
-								一般网登（内外资）
+								一般网登（内资）
 							</span>
 
 							<b class="arrow fa fa-angle-down"></b>
@@ -282,7 +265,98 @@
 							</li>
 						</ul>
 					</li>
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								一般网登（外资）
+							</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							 <li class="<%if(requestPage.equals("/diyRobot/information/editInput.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/editInput.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> 设立登记 </span>
+							</a>
+	
+							<b class="arrow"></b>
+							</li>
+							
+							
+							<li class="<%if(requestPage.equals("/diyRobot/information/bgEnt.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/bgEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									变更（备案）登记
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/diyRobot/information/moveEnt.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/moveEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									迁移（广州市内）
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									股权出质
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							
+							<li class="<%if(requestPage.equals("/diyRobot/information/normalZxEnt.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/normalZxEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									一般注销
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="<%if(requestPage.equals("/diyRobot/information/zxEnt.jsp")){%>active<%}%>">
+								<a href="../../diyRobot/information/zxEnt.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									简易注销
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>
 					<li class="#">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								经营范围管理
+							</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+						<ul class="submenu">
+							
+							<li class="#">
+										<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									经营范围自主录入
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							
+						</ul>
+					</li>
+					<!-- <li class="#">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-desktop"></i>
 							<span class="menu-text">
@@ -298,14 +372,14 @@
 							<li class="#">
 										<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									电子营业执照验照
+									二维码领照
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 							
 						</ul>
-					</li>
+					</li> -->
 				</ul><!-- /.nav-list -->
 
 				<!-- #section:basics/sidebar.layout.minimize -->
