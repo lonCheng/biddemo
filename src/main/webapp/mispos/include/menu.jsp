@@ -20,7 +20,7 @@
 
 						<b class="arrow"></b>
 					</li>
-				<li class="menu open">
+				<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-desktop"></i>
 							<span class="menu-text">
@@ -41,15 +41,30 @@
 	
 							<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("#")){%>active<%}%>">
+						</ul>
+						
+					</li>
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								商事咨询
+							</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+						<ul class="submenu">
+							 <li class="<%if(requestPage.equals("#")){%>active<%}%>">
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									名称补录
-								</a>
-
-								<b class="arrow"></b>
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text">知识库管理 </span>
+							</a>
+	
+							<b class="arrow"></b>
 							</li>
-														
 						</ul>
 						
 					</li>
@@ -57,7 +72,7 @@
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-desktop"></i>
 							<span class="menu-text">
-								一般网登（内资）
+								银商通
 							</span>
 
 							<b class="arrow fa fa-angle-down"></b>
@@ -115,72 +130,6 @@
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("#")){%>active<%}%>">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									改制
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-														
-						</ul>
-						
-					</li>
-					<li class="#">
-						<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-desktop"></i>
-							<span class="menu-text">
-								一般网登（外资）
-							</span>
-
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-						<ul class="submenu">
-							 <li class="<%if(requestPage.equals("/mispos/information/editInput.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/editInput.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-							<i class="menu-icon fa fa-tachometer"></i>
-							<span class="menu-text"> 设立登记 </span>
-							</a>
-	
-							<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/mispos/information/bgEnt.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/bgEnt.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									变更(备案)登记
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/mispos/information/moveEnt.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/moveEnt.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									迁移（广州市内）
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							
-							<li class="<%if(requestPage.equals("/mispos/information/normalZxEnt.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/normalZxEnt.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									一般注销
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/mispos/information/zxEnt.jsp")){%>active<%}%>">
-								<a href="../../mispos/information/zxEnt.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									简易注销
-								</a>
-
-								<b class="arrow"></b>
-							</li>
 						</ul>
 						
 					</li>
@@ -200,14 +149,14 @@
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
 							<i class="menu-icon fa fa-tachometer"></i>
-							<span class="menu-text"> 证照打印 </span>
+							<span class="menu-text"> 执照打印 </span>
 							</a>
 							<b class="arrow"></b>
 							</li>
 							<li class="<%if(requestPage.equals("#")){%>active<%}%>">
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									证照发放
+									执照发放
 								</a>
 
 								<b class="arrow"></b>

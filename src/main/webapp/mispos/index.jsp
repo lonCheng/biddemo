@@ -70,7 +70,7 @@
 						<!-- #section:settings.box -->
 						<jsp:include page="include/online-help.jsp"></jsp:include>
 						<div class="row">
-							<div class="col-xs-6">
+							<div class="col-xs-2">
 								<div class="row">
 									<div class="col-xs-12">
 										<h4 class="header smaller lighter green" >名称业务</h4>
@@ -81,15 +81,9 @@
 										<div class="row">
 												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
 													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-													名称申报
+													名称自主申报
 													
 												</a>
-											
-											<a href="#" class="btn btn-app btn-pink radius" style="font-size:14px;text-align:center;">
-												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-												名称补录
-												
-											</a>
 											</div>
 											
 											
@@ -98,7 +92,31 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xs-6">
+							<div class="col-xs-1"></div>
+							<div class="col-xs-2">
+								<div class="row">
+									<div class="col-xs-12">
+										<h4 class="header smaller lighter green" >商事咨询</h4>
+										<span style="margin-top:320px;position:relative;"></span>
+										
+										<div class="col-sm-12">
+										
+										<div class="row">
+												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													知识库查询
+													
+												</a>
+											</div>
+											
+											
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-1"></div>
+							<div class="col-xs-2">
 								<div class="row">
 									<div class="col-xs-12">
 										<h4 class="header smaller lighter green" >查询统计</h4>
@@ -145,11 +163,6 @@
 											
 											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
 												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-												迁移（市内）
-												
-											</a>
-											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
-												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
 												股权出质
 												
 											</a>
@@ -163,16 +176,7 @@
 													简易注销
 													
 												</a>
-												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
-													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-													改制
-													
-												</a>
-												<a href="#" class="btn btn-app btn-inverse radius" style="font-size:14px;text-align:center;">
-												<i class="ace-icon fa fa-print bigger-230"></i>
-												执照自助打印
 												
-											</a>
 											</div>
 											
 											
@@ -183,66 +187,7 @@
 							</div>
 						</div><!-- /.row -->
 						
-						<div class="row">
-							<div class="col-xs-12">
-								<div class="row">
-									<div class="col-xs-12">
-										<h4 class="header smaller lighter green" >一般网登（外资）</h4>
-										<span style="margin-top:320px;position:relative;"></span>
-									
-										<div class="col-sm-12">
-										
-										<div class="row">
-												<a href="#" class="btn btn-app btn-info radius" style="font-size:14px;text-align:center;">
-													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-													设立登记
-													
-												</a>
-											
-												<a href="#" class="btn btn-app btn-purple radius" style="font-size:14px;text-align:center;">
-													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-													变更（备案）
-													
-												</a>
-											
-											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
-												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-												迁移（市内）
-												
-											</a>
-											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
-												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-												股权出质
-												
-											</a>
-												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
-													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-													一般注销
-													
-												</a>
-												<a href="#" class="btn btn-app btn-danger radius" style="font-size:14px;text-align:center;">
-													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-													简易注销
-													
-												</a>
-												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
-													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-													改制
-													
-												</a>
-												<a href="#" class="btn btn-app btn-inverse radius" style="font-size:14px;text-align:center;">
-												<i class="ace-icon fa fa-print bigger-230"></i>
-												执照自助打印
-												
-											</a>
-											</div>
-											
-											
-										</div>
-									</div>
-								</div>
-							</div>
-						</div><!-- /.row -->
+						  
 						
 						<div class="row">
 							<div class="col-xs-12">
@@ -256,13 +201,13 @@
 										<div class="row">
 												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
 													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-													证照打印
+													执照打印
 													
 												</a>
 											
 											<a href="#" class="btn btn-app btn-pink radius" style="font-size:14px;text-align:center;">
 												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-												证照发放
+												执照发放
 												
 											</a>
 											</div>
