@@ -20,7 +20,7 @@
 
 						<b class="arrow"></b>
 					</li>
-				<li class="menu open">
+				<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-desktop"></i>
 							<span class="menu-text">
@@ -45,6 +45,56 @@
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
 									名称补录
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+														
+						</ul>
+						
+					</li>
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								商事咨询
+							</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+						<ul class="submenu">
+							 
+							<li class="#">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									知识库查询
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+														
+						</ul>
+						
+					</li>
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								经营范围管理
+							</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+						<ul class="submenu">
+							 
+							<li class="#">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									经营范围自助录入
 								</a>
 
 								<b class="arrow"></b>
@@ -85,7 +135,15 @@
 							<li class="<%if(requestPage.equals("/cityService/information/moveEnt.jsp")){%>active<%}%>">
 								<a href="../../cityService/information/moveEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									迁移（广州市内）
+									迁移（市内）
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="#">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									撤销
 								</a>
 
 								<b class="arrow"></b>
@@ -159,12 +217,19 @@
 							<li class="<%if(requestPage.equals("/cityService/information/moveEnt.jsp")){%>active<%}%>">
 								<a href="../../cityService/information/moveEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
-									迁移（广州市内）
+									迁移（市内）
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-							
+							<li class="#">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									撤销
+								</a>
+
+								<b class="arrow"></b>
+							</li>
 							<li class="<%if(requestPage.equals("/cityService/information/normalZxEnt.jsp")){%>active<%}%>">
 								<a href="../../cityService/information/normalZxEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
@@ -200,14 +265,14 @@
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
 							<i class="menu-icon fa fa-tachometer"></i>
-							<span class="menu-text"> 证照打印 </span>
+							<span class="menu-text">执照打印 </span>
 							</a>
 							<b class="arrow"></b>
 							</li>
 							<li class="<%if(requestPage.equals("#")){%>active<%}%>">
 								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									证照发放
+									执照发放
 								</a>
 
 								<b class="arrow"></b>
