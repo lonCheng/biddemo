@@ -70,7 +70,7 @@
 						<!-- #section:settings.box -->
 						<jsp:include page="include/online-help.jsp"></jsp:include>
 						<div class="row">
-							<div class="col-xs-6">
+							<div class="col-xs-4">
 								<div class="row">
 									<div class="col-xs-12">
 										<h4 class="header smaller lighter green" >我的工作台</h4>
@@ -98,10 +98,10 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xs-6">
+							<div class="col-xs-3">
 								<div class="row">
 									<div class="col-xs-12">
-										<h4 class="header smaller lighter green" >营业执照</h4>
+										<h4 class="header smaller lighter green" >商事咨询</h4>
 										<span style="margin-top:320px;position:relative;"></span>
 										
 										<div class="col-sm-12">
@@ -109,8 +109,7 @@
 											<div class="row">
 											<a href="#" class="btn btn-app btn-pink radius" style="font-size:14px;text-align:center;">
 												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-												营业执照二维码
-												
+												商事咨询
 											</a>
 											</div>
 										</div>
@@ -118,10 +117,7 @@
 									</div>
 								</div>
 							</div>
-							
-						</div><!-- /.row -->
-						<div class="row">
-						<div class="col-xs-6">
+							<div class="col-xs-5">
 								<div class="row">
 									<div class="col-xs-12">
 										<h4 class="header smaller lighter green" >网上预约</h4>
@@ -153,7 +149,14 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xs-6">
+							
+							<div  class="col-xs-1"></div>
+						</div><!-- /.row -->
+						<div class="row">
+						
+						
+						
+							<div class="col-xs-4">
 								<div class="row">
 									<div class="col-xs-12">
 										<h4 class="header smaller lighter green" >名称业务</h4>
@@ -167,12 +170,6 @@
 													名称申报
 													
 												</a>
-											
-											<a href="#" class="btn btn-app btn-pink radius" style="font-size:14px;text-align:center;">
-												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-												名称补录
-												
-											</a>
 											</div>
 											
 											
@@ -182,6 +179,46 @@
 								</div>
 							</div>
 							
+							<div class="col-xs-3">
+								<div class="row">
+									<div class="col-xs-12">
+										<h4 class="header smaller lighter green" >营业执照</h4>
+										<span style="margin-top:320px;position:relative;"></span>
+										
+										<div class="col-sm-12">
+										
+											<div class="row">
+											<a href="#" class="btn btn-app btn-pink radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												二维码领照
+												
+											</a>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-3">
+								<div class="row">
+									<div class="col-xs-12">
+										<h4 class="header smaller lighter green" >经营范围管理</h4>
+										<span style="margin-top:320px;position:relative;"></span>
+										
+										<div class="col-sm-12">
+										
+											<div class="row">
+											<a href="#" class="btn btn-app btn-inverse radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												经营范围录入
+												
+											</a>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
 						</div><!-- /.row -->
 					<div class="row">
 							<div class="col-xs-12">
@@ -208,11 +245,6 @@
 											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
 												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
 												迁移（市内）
-												
-											</a>
-											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
-												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-												股权出质
 												
 											</a>
 												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
@@ -334,12 +366,6 @@
 													简易注销
 													
 												</a>
-												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
-													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-													改制
-													
-												</a>
-												
 											</div>
 											
 											
