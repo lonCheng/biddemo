@@ -281,7 +281,7 @@
 							<li class="#">
 										<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									名称补录
+									名称补录录入
 								</a>
 
 								<b class="arrow"></b>
@@ -294,14 +294,7 @@
 
 								<b class="arrow"></b>
 							</li>
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									查询分析
-								</a>
-
-								<b class="arrow"></b>
-							</li>
+							
 						</ul>
 					</li>
 					<li class="">
@@ -313,6 +306,17 @@
 						</a>
 
 						<b class="arrow"></b>
+						<ul class="submenu">
+							<li class="#">
+										<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									经营范围管理
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							
+						</ul>
 					</li>
 					<li class="">
 						<a href="#" class="dropdown-toggle">
@@ -327,6 +331,53 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
+							<li class="">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+
+									窗口受理
+									<b class="arrow fa fa-angle-down"></b>
+								</a>
+
+								<b class="arrow"></b>
+
+								<ul class="submenu">
+									<li class="<%if(requestPage.equals("/mgr/information/deal.jsp")){%>active<%}%>">
+								<a href="../../mgr/information/deal.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+
+									<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> 内资 </span>
+								</a>
+
+								<b class="arrow"></b>
+
+								<%-- <ul class="submenu">
+									<li class="<%if(requestPage.equals("/mgr/onlineOrder/dept.jsp")){%>active<%}%>">
+								<a href="../../mgr/onlineOrder/dept.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									受理
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+								</ul> --%>
+							</li>
+							<li class="<%if(requestPage.equals("/mgr/information/foreigndeal.jsp")){%>active<%}%>">
+								<a href="../../mgr/information/foreigndeal.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+
+									<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> 外资 </span>
+								</a>
+								<b class="arrow"></b>
+							</li>
+								</ul>
+							</li>
+						
+						
+						
+						
 							<li class="<%if(requestPage.equals("/mgr/information/deal.jsp")){%>active<%}%>">
 								<a href="../../mgr/information/deal.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>

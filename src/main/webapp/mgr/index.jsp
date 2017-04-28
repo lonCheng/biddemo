@@ -171,13 +171,7 @@
 											
 												<a href="#" class="btn btn-app btn-info radius" style="font-size:14px;text-align:center;">
 													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-													名称补录确认
-													
-												</a>
-											
-												<a href="#" class="btn btn-app btn-purple radius" style="font-size:14px;text-align:center;">
-													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-													查询统计
+													查询分析
 													
 												</a>
 											</div>
@@ -209,13 +203,114 @@
 							</div>
 						</div><!-- /.row -->
 						<div class="row">
-							
-						</div><!-- /.row -->
-						<div class="row">
+										<h4 class="header smaller lighter green" >&nbsp;&nbsp;&nbsp;商事登记</h4>
+										<span style="margin-top:320px;position:relative;"></span>
 							<div class="col-xs-6">
+							
 								<div class="row">
 									<div class="col-xs-12">
-										<h4 class="header smaller lighter green" >商事登记</h4>
+										<h4 class="header smaller lighter green" >商事登记>>窗口受理>>内资</h4>
+										<span style="margin-top:320px;position:relative;"></span>
+										
+										<div class="col-sm-12">
+										
+										<div class="row">
+												<a href="../../../mgr/information/accept.jsp" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													设立
+												</a>
+											
+											<a href="../../../mgr/information/waitTasks.jsp" class="btn btn-app btn-pink radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												变更（备案）
+												
+											</a>
+											
+												<a href="#" class="btn btn-app btn-info radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													注销
+													
+												</a>
+											
+												<a href="#" class="btn btn-app btn-purple radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													撤销
+													
+												</a>
+												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													迁移(市内)
+													
+												</a>
+												<a href="../../../mgr/information/waitTasks.jsp" class="btn btn-app btn-pink radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												股权出质
+												
+											</a>
+											<a href="../../../mgr/information/accept.jsp" class="btn btn-app btn-inverse radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													改制
+												</a>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6">
+							
+								<div class="row">
+									<div class="col-xs-12">
+										<h4 class="header smaller lighter green" >商事登记>>窗口受理>>外资</h4>
+										<span style="margin-top:320px;position:relative;"></span>
+										
+										<div class="col-sm-12">
+										
+										<div class="row">
+												<a href="../../../mgr/information/accept.jsp" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													设立
+												</a>
+											
+											<a href="../../../mgr/information/waitTasks.jsp" class="btn btn-app btn-pink radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												变更（备案）
+												
+											</a>
+											
+												<a href="#" class="btn btn-app btn-info radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													注销
+													
+												</a>
+											
+												<a href="#" class="btn btn-app btn-purple radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													撤销
+													
+												</a>
+												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													迁移(市内)
+													
+												</a>
+												<a href="../../../mgr/information/waitTasks.jsp" class="btn btn-app btn-pink radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												股权出质
+												
+											</a>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div><!-- /.row -->
+						<div class="row">
+							<div class="col-xs-4">
+								<div class="row">
+									<div class="col-xs-12">
+										<h4 class="header smaller lighter green" >商事登记>>网登预审</h4>
 										<span style="margin-top:320px;position:relative;"></span>
 										
 										<div class="col-sm-12">
@@ -228,19 +323,13 @@
 											
 											<a href="../../../mgr/information/waitTasks.jsp" class="btn btn-app btn-pink radius" style="font-size:14px;text-align:center;">
 												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-												审核审批
+												全程电子化
 												
 											</a>
 											
 												<a href="#" class="btn btn-app btn-info radius" style="font-size:14px;text-align:center;">
 													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-													商事纠错
-													
-												</a>
-											
-												<a href="#" class="btn btn-app btn-purple radius" style="font-size:14px;text-align:center;">
-													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
-													查询统计
+													银商通
 													
 												</a>
 											</div>
@@ -249,7 +338,65 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xs-6">
+							<div class="col-xs-4">
+								<div class="row">
+									<div class="col-xs-12">
+										<h4 class="header smaller lighter green" >商事登记>>特殊操作</h4>
+										<span style="margin-top:320px;position:relative;"></span>
+										
+										<div class="col-sm-12">
+										
+										<div class="row">
+												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													商事纠错
+													
+												</a>
+											
+											<a href="#" class="btn btn-app btn-pink radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												补打执照
+												
+											</a>
+											<a href="#" class="btn btn-app btn-info radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												补打通知书
+												
+											</a>
+											</div>
+											
+											
+										</div>
+									
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-4">
+								<div class="row">
+									<div class="col-xs-12">
+										<h4 class="header smaller lighter green" >商事登记>>查询统计</h4>
+										<span style="margin-top:320px;position:relative;"></span>
+										
+										<div class="col-sm-12">
+										
+										<div class="row">
+												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													查询统计
+													
+												</a>
+											</div>
+											
+											
+										</div>
+									
+									</div>
+								</div>
+							</div>
+						</div><!-- /.row -->
+						
+						<div class="row">
+							<div class="col-xs-12">
 								<div class="row">
 									<div class="col-xs-12">
 										<h4 class="header smaller lighter green" >电子档案</h4>

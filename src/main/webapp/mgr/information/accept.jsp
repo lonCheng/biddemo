@@ -153,19 +153,43 @@
 												</li>
 												<li>
 													<a data-toggle="tab" href="#moveMgr"  style="width:125px;">
-														迁移(广州市)
+														迁移(市内)
 														
 													</a>
 												</li>
-												<li>
-													<a data-toggle="tab" href="#rescind">
-														股权出质
-														
+												<li class="dropdown">
+													<a data-toggle="dropdown" class="dropdown-toggle" href="#" style="width:160px;">
+														<i class="green ace-icon fa fa-home bigger-120"></i>
+														股权出质&nbsp;&nbsp;&nbsp;&nbsp;
+														<i class="ace-icon fa fa-caret-down bigger-110 width-auto"></i>
 													</a>
+
+													<ul class="dropdown-menu dropdown-info">
+														<li>
+															<a data-toggle="tab" href="#zx">设立</a>
+														</li>
+
+														<li>
+															<a data-toggle="tab" href="#szx">变更</a>
+														</li>
+														<li>
+															<a data-toggle="tab" href="#zx">注销</a>
+														</li>
+
+														<li>
+															<a data-toggle="tab" href="#szx">撤销</a>
+														</li>
+													</ul>
 												</li>
 												<li>
 													<a data-toggle="tab" href="#reform">
 														改制登记
+														
+													</a>
+												</li>
+												<li>
+													<a data-toggle="tab" href="#moveMgr"  style="width:80px;">
+														撤  销
 														
 													</a>
 												</li>
