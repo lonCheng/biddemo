@@ -289,7 +289,7 @@
 							<li class="#">
 										<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									名称补录确认
+									查询分析
 								</a>
 
 								<b class="arrow"></b>
@@ -351,17 +351,6 @@
 								</a>
 
 								<b class="arrow"></b>
-
-								<%-- <ul class="submenu">
-									<li class="<%if(requestPage.equals("/mgr/onlineOrder/dept.jsp")){%>active<%}%>">
-								<a href="../../mgr/onlineOrder/dept.jsp">
-									<i class="menu-icon fa fa-caret-right"></i>
-									受理
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-								</ul> --%>
 							</li>
 							<li class="<%if(requestPage.equals("/mgr/information/foreigndeal.jsp")){%>active<%}%>">
 								<a href="../../mgr/information/foreigndeal.jsp">
@@ -382,19 +371,24 @@
 								<a href="../../mgr/information/deal.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 							<i class="menu-icon fa fa-tachometer"></i>
-							<span class="menu-text"> 一般网登 </span>
+							<span class="menu-text">网登预审</span>
 							</a>
 	
 							<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/waitTasks.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/waitTasks.jsp">
+							
+							<li class="">
+								<a href="#" class="dropdown-toggle">
 									<i class="menu-icon fa fa-caret-right"></i>
-									审核审批
+
+									特殊操作
+									<b class="arrow fa fa-angle-down"></b>
 								</a>
+
 								<b class="arrow"></b>
-							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/jcEnt.jsp")){%>active<%}%>">
+
+								<ul class="submenu">
+								<li class="<%if(requestPage.equals("/mgr/information/jcEnt.jsp")){%>active<%}%>">
 								<a href="../../mgr/information/jcEnt.jsp">
 									<i class="menu-icon fa fa-caret-right"></i>
 									商事纠错
@@ -402,16 +396,40 @@
 
 								<b class="arrow"></b>
 							</li>
-							<li class="<%if(requestPage.equals("/mgr/information/finishTask.jsp")){%>active<%}%>">
-								<a href="../../mgr/information/finishTask.jsp">
+							<li class="#">
+								<a href="#">
 									<i class="menu-icon fa fa-caret-right"></i>
-									查询统计
+									补打执照
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+							<li class="#">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									补打通知书
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 						</ul>
 					</li>
+					
+					<li class="#">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									查询统计
+								</a>
+								<b class="arrow"></b>
+							</li>
+					<%-- <li class="<%if(requestPage.equals("/mgr/information/waitTasks.jsp")){%>active<%}%>">
+								<a href="../../mgr/information/waitTasks.jsp">
+									<i class="menu-icon fa fa-caret-right"></i>
+									审核审批
+								</a>
+								<b class="arrow"></b>
+							</li> --%>
+				</ul><!-- /.nav-list -->
 					<li class="">
 							<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
@@ -442,7 +460,6 @@
 							</li>
 						</ul>
 					</li>
-				</ul><!-- /.nav-list -->
 
 				<!-- #section:basics/sidebar.layout.minimize -->
 				<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
