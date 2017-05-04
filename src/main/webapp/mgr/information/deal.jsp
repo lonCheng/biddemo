@@ -65,7 +65,7 @@
 							<li>
 								<a href="#">商事登记</a>
 							</li>
-							<li class="active">受理登记</li>
+							<li class="active">网邓预审</li>
 						</ul><!-- /.breadcrumb -->
 
 						<!-- #section:basics/content.searchbox -->
@@ -91,23 +91,33 @@
 									<div class="col-xs-6 col-sm-3 pricing-box">
 											<div class="widget-box pricing-box-small widget-color-red3">
 												<div class="widget-header">
-												<h5 class="widget-title bigger lighter">内  资</h5>
+												<h5 class="widget-title bigger lighter">网登预审</h5>
 												</div>
 												<div class="widget-body">
-												<a  href="../../../mgr/information/accept.jsp">
-												<div style="height:350px;width:286px;">
 												
-												<span style="display:block;margin:10 auto 50;">内资登记</span>
+												<div style="height:250px;width:286px;">
 												
-												<span style="display:block;margin:20 auto 50;">农合登记</span>
-												
-												
+													<div style="display:block;margin-top:100px;;text-align:center;font-size:25px;">
+														<a  href="../../../mgr/information/accept.jsp">
+														一般网登
+														</a>
+													</div>
+													
+													<div style="display:block;margin-top:50px;;text-align:center;font-size:25px;">
+														<a  href="../../../mgr/information/accept.jsp">
+														全程电子化
+														</a>
+													</div>
+													<div style="display:block;margin-top:50px;;text-align:center;font-size:25px;">
+														<a  href="../../../mgr/information/accept.jsp">
+														银商通
+														</a>
+													</div>
 												</div>
-												</a>
 												<div>
 													<a href="../../../mgr/information/accept.jsp" class="btn btn-block btn-warning">
 														<i class="ace-icon fa fa-shopping-cart bigger-110"></i>
-														<span>受理</span>
+														<span>预审</span>
 													</a>
 												</div>
 											</div>

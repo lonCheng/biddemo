@@ -152,22 +152,34 @@
 													</a>
 												</li>
 												<li>
-													<a data-toggle="tab" href="#moveMgr">
-														迁移管理
+													<a data-toggle="tab" href="#moveMgr"  style="width:125px;">
+														迁移(市内)
 														
 													</a>
 												</li>
-												<li>
-													<a data-toggle="tab" href="#cancelRecord">
-														注销登记
-														
+												<li class="dropdown">
+													<a data-toggle="dropdown" class="dropdown-toggle" href="#" style="width:160px;">
+														<i class="green ace-icon fa fa-home bigger-120"></i>
+														股权出质&nbsp;&nbsp;&nbsp;&nbsp;
+														<i class="ace-icon fa fa-caret-down bigger-110 width-auto"></i>
 													</a>
-												</li>
-												<li>
-													<a data-toggle="tab" href="#rescind">
-														撤销登记
-														
-													</a>
+
+													<ul class="dropdown-menu dropdown-info">
+														<li>
+															<a data-toggle="tab" href="#zx">设立</a>
+														</li>
+
+														<li>
+															<a data-toggle="tab" href="#szx">变更</a>
+														</li>
+														<li>
+															<a data-toggle="tab" href="#zx">注销</a>
+														</li>
+
+														<li>
+															<a data-toggle="tab" href="#szx">撤销</a>
+														</li>
+													</ul>
 												</li>
 												<li>
 													<a data-toggle="tab" href="#reform">
@@ -176,49 +188,28 @@
 													</a>
 												</li>
 												<li>
-													<a data-toggle="tab" href="#correction">
-														商事纠错
+													<a data-toggle="tab" href="#moveMgr"  style="width:80px;">
+														撤  销
 														
 													</a>
 												</li>
-												<!-- <li>
-													<a data-toggle="tab" href="#keepRecord">
-														备案登记
-														
-													</a>
-												</li> -->
-
-												<!-- <li class="dropdown">
-													<a data-toggle="dropdown" class="dropdown-toggle" href="#" style="width:150px;">
+												<li class="dropdown">
+													<a data-toggle="dropdown" class="dropdown-toggle" href="#" style="width:120px;">
 														<i class="green ace-icon fa fa-home bigger-120"></i>
-														名称登记 &nbsp;
+														注销&nbsp;
 														<i class="ace-icon fa fa-caret-down bigger-110 width-auto"></i>
 													</a>
 
 													<ul class="dropdown-menu dropdown-info">
 														<li>
-															<a data-toggle="tab" href="#nameApproval">名称核准</a>
+															<a data-toggle="tab" href="#zx">简易注销</a>
 														</li>
 
 														<li>
-															<a data-toggle="tab" href="#nameUpdate">名称变更</a>
-														</li>
-														<li>
-															<a data-toggle="tab" href="#approveChange">核准后修改</a>
-														</li>
-
-														<li>
-															<a data-toggle="tab" href="#nameCancel">名称注销</a>
-														</li>
-														<li>
-															<a data-toggle="tab" href="#reConstruction">补建流程</a>
-														</li>
-
-														<li>
-															<a data-toggle="tab" href="#nameBulu">名称补录</a>
+															<a data-toggle="tab" href="#szx">普通注销</a>
 														</li>
 													</ul>
-												</li> -->
+												</li>
 											</ul> 
 
 											<div class="tab-content">
@@ -229,7 +220,7 @@
 													<p>变更登记</p>
 												</div>
 												<div id="moveMgr" class="tab-pane fade">
-													<p>迁移管理</p>
+													<p>本市迁移</p>
 												</div>
 												<div id="cancelRecord" class="tab-pane fade">
 													<p>注销登记</p>

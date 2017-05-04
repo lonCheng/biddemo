@@ -27,7 +27,7 @@
 					<a href="#" class="navbar-brand" style="padding-left:5px;">
 						<small>
 							<!-- <i class="fa fa-leaf"></i> -->
-							智能终端
+							移动APP
 						</small>
 					</a>
 

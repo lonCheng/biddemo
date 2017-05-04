@@ -43,6 +43,15 @@
 		<script src="../../../ace/assets/js/html5shiv.js"></script>
 		<script src="../../../ace/assets/js/respond.js"></script>
 		<![endif]-->
+		<style>
+		
+		.tabbable ul li a{
+			line-height:20px;
+			height:40px;
+			width:100px;
+			font-size:16px;
+		}
+		</style>
 	</head>
 
 	<body class="no-skin">
@@ -59,13 +68,13 @@
 						<ul class="breadcrumb">
 							<li>
 								<i class="ace-icon fa fa-home home-icon"></i>
-								<a href="#">我的控制台</a>
+								<a href="#">主页</a>
 							</li>
 
 							<li>
 								<a href="#">商事登记</a>
 							</li>
-							<li class="active">变更登记</li>
+							<li class="active">受理登记</li>
 						</ul><!-- /.breadcrumb -->
 
 						<!-- #section:basics/content.searchbox -->
@@ -82,48 +91,95 @@
 
 					<!-- /section:basics/content.breadcrumbs -->
 					<div class="page-content">
-					<div class="row">
-								<div class="widget-header widget-header-blue widget-header-flat">
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-																			<button class="btn btn-xs btn-success">
-																				<i class="ace-icon fa fa-check bigger-120"></i>
-																				修改
-																			</button>
-									</div>
-						</div>
-						<div  class="col-xs-12  col-sm-12">
-									<div class="space-10"></div>
-								</div>
+					
 						<div class="row">
 							<div class="col-xs-12">
-							<form class="form-horizontal">
-								  <div class="form-group">
-								    <label for="" class="col-sm-1 control-label">企业类型</label>
-								    <div class="col-sm-2">
-								      <select class="form-control" id="form-field-select-1">
-																<option value=""></option>
-																<option value="AL">内资</option>
-																<option value="AK">外资</option>
-																<option value="AZ">个体</option>
-									</select>
-								    </div>
-								    <label for="" class="col-sm-1 control-label">企业名称</label>
-								    <div class="col-sm-2">
-								      <input type="text" class="form-control" id="" placeholder="企业名称">
-								    </div>
-								    <label for="" class="col-sm-1 control-label">注册号</label>
-								    <div class="col-sm-2">
-								      <input type="text" class="form-control" id="" placeholder="注册号">
-								    </div>
-								    <label for="" class="col-sm-1 control-label">受理号</label>
-								    <div class="col-sm-2">
-								      <input type="text" class="form-control" id="" placeholder="受理号">
-								    </div>
-								  </div>
-								</form>
+							<div class="row">
+									<div class="col-sm-12">
+										<!-- #section:elements.tab -->
+										<div class="tabbable">
+											<ul class="nav nav-tabs" id="myTab">
+												
+												<!-- <li class="dropdown">
+													<a data-toggle="dropdown" class="dropdown-toggle active" href="#">
+														<i class="green ace-icon fa fa-home bigger-120"></i>
+														名称登记 &nbsp;
+														<i class="ace-icon fa fa-caret-down bigger-110 width-auto"></i>
+													</a>
+
+													<ul class="dropdown-menu dropdown-info">
+														<li>
+															<a data-toggle="tab" href="#dropdown1">名称核准</a>
+														</li>
+
+														<li>
+															<a data-toggle="tab" href="#dropdown2">名称变更</a>
+														</li>
+														<li>
+															<a data-toggle="tab" href="#dropdown1">核准后修改</a>
+														</li>
+
+														<li>
+															<a data-toggle="tab" href="#dropdown2">名称注销</a>
+														</li>
+														<li>
+															<a data-toggle="tab" href="#dropdown1">补建流程</a>
+														</li>
+
+														<li>
+															<a data-toggle="tab" href="#dropdown2">名称补录</a>
+														</li>
+													</ul>
+												</li> -->
+												
+												<!-- <li class="active">
+													<a data-toggle="tab" href="#home">
+														<i class="green ace-icon fa fa-home bigger-120"></i>
+														名称登记
+													</a>
+												</li>
+ -->
+												<li class="active">
+													<a data-toggle="tab" href="#buildRecord">
+														名称核准
+														
+													</a>
+												</li>
+												<li>
+													<a data-toggle="tab" href="#changeRecord">
+														名称变更
+														
+													</a>
+												</li>
+												<li>
+													<a data-toggle="tab" href="#moveMgr">
+														名称注销
+														
+													</a>
+												</li>
+											</ul> 
+											<jsp:include page="../include/btnbroupAndContent.jsp"></jsp:include>
+											
+										</div>
+
+										<!-- /section:elements.tab -->
+									</div><!-- /.col -->
+
+								</div><!-- /.row -->
 							</div>
 						</div>
-						
+						<!-- #section:settings.box -->
+						<!-- <div class="row">
+							<div class="col-xs-12">
+								PAGE CONTENT BEGINS
+								<table id="grid-table"></table>
+
+								<div id="grid-pager"></div>
+
+
+								PAGE CONTENT ENDS
+							</div>/.col
+						</div>/.row -->
 					</div><!-- /.page-content -->
 				</div>
 			</div><!-- /.main-content -->
@@ -201,24 +257,6 @@
 				{id:"15",name:"广州市XX公司",num:"num3",fzr:"No", ship:"FedEx",sdate:"2007-12-03"},
 				{id:"16",name:"广州市XX公司",num:"num",fzr:"Yes",ship:"ARAMEX",sdate:"2007-12-03"},
 				{id:"17",name:"广州市XX公司",num:"num2",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
-				{id:"18",name:"广州市XX公司",num:"num3",fzr:"No", ship:"FedEx",sdate:"2007-12-03"},
-				{id:"19",name:"广州市XX公司",num:"num3",fzr:"No", ship:"FedEx",sdate:"2007-12-03"},
-				{id:"20",name:"广州市XX公司",num:"num",fzr:"Yes",ship:"FedEx", sdate:"2007-12-03"},
-				{id:"21",name:"广州市XX公司",num:"Long text ",fzr:"Yes",ship:"InTime",sdate:"2007-12-03"},
-				{id:"22",name:"广州市XX公司",num:"num3",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
-				{id:"23",name:"广州市XX公司",num:"num",fzr:"No",ship:"ARAMEX",sdate:"2007-12-03"}
-			];
-			
-			var subgrid_data = 
-			[
-			 {id:"1", name:"sub grid item 1", qty: 11},
-			 {id:"2", name:"sub grid item 2", qty: 3},
-			 {id:"3", name:"sub grid item 3", qty: 12},
-			 {id:"4", name:"sub grid item 4", qty: 5},
-			 {id:"5", name:"sub grid item 5", qty: 2},
-			 {id:"6", name:"sub grid item 6", qty: 9},
-			 {id:"7", name:"sub grid item 7", qty: 3},
-			 {id:"8", name:"sub grid item 8", qty: 8}
 			];
 			
 			jQuery(function($) {
@@ -255,39 +293,13 @@
 				})
 				*/
 				jQuery(grid_selector).jqGrid({
-					//direction: "rtl",
-			
-					//subgrid options
 					subGrid : false,
 					//subGridModel: [{ name : ['No','Item Name','Qty'], width : [55,200,80] }],
 					//datatype: "xml",
-					subGridOptions : {
-						plusicon : "ace-icon fa fa-plus center bigger-110 blue",
-						minusicon  : "ace-icon fa fa-minus center bigger-110 blue",
-						openicon : "ace-icon fa fa-chevron-right center orange"
-					},
-					//for this example we are using local data
-					subGridRowExpanded: function (subgridDivId, rowId) {
-						var subgridTableId = subgridDivId + "_t";
-						$("#" + subgridDivId).html("<table id='" + subgridTableId + "'></table>");
-						$("#" + subgridTableId).jqGrid({
-							datatype: 'local',
-							data: subgrid_data,
-							colNames: ['No','Item Name','Qty'],
-							colModel: [
-								{ name: 'id', width: 50 },
-								{ name: 'name', width: 150 },
-								{ name: 'qty', width: 50 }
-							]
-						});
-					},
-					
-			
-			
 					data: grid_data,
 					datatype: "local",
 					height:450,
-					colNames:['编号','企业名称','企业注册号', '是否是新开企业', '企业法定代表人','申请日期','操作' ],
+					colNames:['编号','企业名称','注册号', '是否是新开企业', '企业法定代表人','申请日期','操作' ],
 					colModel:[
 						{name:'id',index:'id', width:60, sorttype:"int", editable: true},
 						{name:'name',index:'name', width:150,editable: true,editoptions:{size:"20",maxlength:"30"}},
@@ -298,16 +310,17 @@
 						{name:'myac',index:'', width:80, fixed:true, sortable:false, resize:false,
 							formatter:'actions', 
 							formatoptions:{ 
-								keys:true,
-								delOptions:{recreateForm: true, beforeShowForm:beforeDeleteCallback},
-								//editformbutton:true, editOptions:{recreateForm: true, beforeShowForm:beforeEditCallback}
+								//keys:true,
+								//delOptions:{recreateForm: true, beforeShowForm:beforeDeleteCallback},
+								editformbutton:true, 
+								editOptions:{recreateForm: true, beforeShowForm:beforeEditCallback}
 							}
 						}
 					], 
 			
 					viewrecords : true,
-					rowNum:10,
-					rowList:[10,20,30],
+					rowNum:15,
+					rowList:[15,20,30],
 					pager : pager_selector,
 					altRows: true,
 					//toppager: true,
@@ -320,7 +333,6 @@
 						var table = this;
 						setTimeout(function(){
 							styleCheckbox(table);
-							
 							updateActionIcons(table);
 							updatePagerIcons(table);
 							enableTooltips(table);
@@ -328,7 +340,7 @@
 					},
 			
 					editurl: "/dummy.html",//error-404.html   
-					caption: "简易注销"
+					caption: "受理登记"
 			
 					//,autowidth: true,
 			
@@ -391,8 +403,8 @@
 					},
 					{
 						//edit record form
-						//closeAfterEdit: true,
-						//width: 700,
+						closeAfterEdit: true,
+						width: 700,
 						recreateForm: true,
 						beforeShowForm : function(e) {
 							var form = $(e[0]);
@@ -402,7 +414,7 @@
 					},
 					{
 						//new record form
-						//width: 700,
+						width: 700,
 						closeAfterAdd: true,
 						recreateForm: true,
 						viewPagerButtons: false,
@@ -538,7 +550,7 @@
 				//unlike navButtons icons, action icons in rows seem to be hard-coded
 				//you can change them like this in here if you want
 				function updateActionIcons(table) {
-					/**
+					
 					var replacement = 
 					{
 						'ui-ace-icon fa fa-pencil' : 'ace-icon fa fa-pencil blue',
@@ -551,7 +563,7 @@
 						var $class = $.trim(icon.attr('class').replace('ui-icon', ''));
 						if($class in replacement) icon.attr('class', 'ui-icon '+replacement[$class]);
 					})
-					*/
+					
 				}
 				
 				//replace icons with FontAwesome icons like above

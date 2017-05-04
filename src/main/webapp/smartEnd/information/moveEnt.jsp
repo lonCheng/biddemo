@@ -55,42 +55,12 @@
 			<div class="main-content">
 				<div class="main-content-inner">
 					<!-- #section:basics/content.breadcrumbs -->
-					<div class="breadcrumbs" id="breadcrumbs">
-						<ul class="breadcrumb">
-							<li>
-								<i class="ace-icon fa fa-home home-icon"></i>
-								<a href="#">我的控制台</a>
-							</li>
-
-							<li>
-								<a href="#">商事登记</a>
-							</li>
-							<li class="active">变更登记</li>
-						</ul><!-- /.breadcrumb -->
-
-						<!-- #section:basics/content.searchbox -->
-						<div class="nav-search" id="nav-search">
-							<form class="form-search">
-								<span class="input-icon">
-									<input type="text" placeholder="搜索 ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
-									<i class="ace-icon fa fa-search nav-search-icon"></i>
-								</span>
-							</form>
-						</div><!-- /.nav-search -->
-
-					</div>
-
+					
+					<jsp:include page="../include/mywork.jsp"></jsp:include>
 					<!-- /section:basics/content.breadcrumbs -->
 					<div class="page-content">
-					<div class="row">
-								<div class="widget-header widget-header-blue widget-header-flat">
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-																			<button class="btn btn-xs btn-success">
-																				<i class="ace-icon fa fa-check bigger-120"></i>
-																				修改
-																			</button>
-									</div>
-						</div>
+					<jsp:include page="../include/btnGroup.jsp"></jsp:include>
+					
 						<div  class="col-xs-12  col-sm-12">
 									<div class="space-10"></div>
 								</div>

@@ -69,272 +69,252 @@
 					<div class="page-content">
 						<!-- #section:settings.box -->
 						<jsp:include page="include/online-help.jsp"></jsp:include>
+						<div class="row">
+							<div class="col-xs-3">
+								<div class="row">
+									<div class="col-xs-12">
+										<h4 class="header smaller lighter green" >名称业务</h4>
+										<span style="margin-top:320px;position:relative;"></span>
+										
+										<div class="col-sm-12">
+										
+										<div class="row">
+												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													名称自主申报
+													
+												</a>
+											
+											<a href="#" class="btn btn-app btn-pink radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												名称补录
+												
+											</a>
+											</div>
+											
+											
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-3">
+								<div class="row">
+									<div class="col-xs-12">
+										<h4 class="header smaller lighter green" >经营范围</h4>
+										<span style="margin-top:320px;position:relative;"></span>
+										
+										<div class="col-sm-12">
+										
+										<div class="row">
+												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												经营范围录入
+													
+												</a>
+											</div>
+											
+											
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-3">
+								<div class="row">
+									<div class="col-xs-12">
+										<h4 class="header smaller lighter green" >商事咨询</h4>
+										<span style="margin-top:320px;position:relative;"></span>
+										
+										<div class="col-sm-12">
+										
+										<div class="row">
+												<a href="#" class="btn btn-app btn-inverse radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													知识库查询
+													
+												</a>
+											</div>
+											
+											
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-3">
+								<div class="row">
+									<div class="col-xs-12">
+										<h4 class="header smaller lighter green" >查询统计</h4>
+										<span style="margin-top:320px;position:relative;"></span>
+										
+										<div class="col-sm-12">
+										
+										<div class="row">
+												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													查询统计
+													
+												</a>
+											</div>
+											
+											
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div><!-- /.row -->
 					<div class="row">
 							<div class="col-xs-12">
-								<!-- PAGE CONTENT BEGINS -->
-							<!-- 	<div class="row">
-									<div class="space-6"></div>
-
-									<div class="col-sm-7 infobox-container">
-										#section:pages/dashboard.infobox
-										<div class="infobox infobox-green">
-											<div class="infobox-icon">
-												<i class="ace-icon fa fa-comments"></i>
+								<div class="row">
+									<div class="col-xs-12">
+										<h4 class="header smaller lighter green" >数据录入</h4>
+										<span style="margin-top:320px;position:relative;"></span>
+										
+										<div class="col-sm-12">
+										
+										<div class="row">
+												<a href="#" class="btn btn-app btn-info radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													设立登记
+													
+												</a>
+											
+												<a href="#" class="btn btn-app btn-purple radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													变更（备案）
+													
+												</a>
+											
+											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												迁移（市内）
+												
+											</a>
+											<a href="#" class="btn btn-app btn-inverse radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												撤销
+												
+											</a>
+											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												股权出质
+												
+											</a>
+												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													一般注销
+													
+												</a>
+												<a href="#" class="btn btn-app btn-danger radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													简易注销
+													
+												</a>
+												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													改制
+													
+												</a>
+												
 											</div>
-
-											<div class="infobox-data">
-												<span class="infobox-data-number">302</span>
-												<div class="infobox-content">内资（私营）</div>
-											</div>
-
-											#section:pages/dashboard.infobox.stat
-											<div class="stat stat-success">76</div>
-
-											/section:pages/dashboard.infobox.stat
+											
+											
 										</div>
-
-										<div class="infobox infobox-blue">
-											<div class="infobox-icon">
-												<i class="ace-icon fa fa-twitter"></i>
-											</div>
-
-											<div class="infobox-data">
-												<span class="infobox-data-number">20</span>
-												<div class="infobox-content">待办事项</div>
-											</div>
-
-											<div class="badge badge-success">
-												32
-												<i class="ace-icon fa fa-arrow-up"></i>
-											</div>
-										</div>
-
-										<div class="infobox infobox-pink">
-											<div class="infobox-icon">
-												<i class="ace-icon fa fa-shopping-cart"></i>
-											</div>
-
-											<div class="infobox-data">
-												<span class="infobox-data-number">80</span>
-												<div class="infobox-content">外资</div>
-											</div>
-											<div class="stat stat-success">4</div>
-										</div>
-
-										<div class="infobox infobox-red">
-											<div class="infobox-icon">
-												<i class="ace-icon fa fa-flask"></i>
-											</div>
-
-											<div class="infobox-data">
-												<span class="infobox-data-number">700</span>
-												<div class="infobox-content">已办事项</div>
-											</div>
-										</div>
-
-										<div class="infobox infobox-blue">
-											<div class="infobox-icon">
-												<i class="ace-icon fa fa-shopping-cart"></i>
-											</div>
-
-											<div class="infobox-data">
-												<span class="infobox-data-number">88</span>
-												<div class="infobox-content">个体户</div>
-											</div>
-											<div class="stat stat-success">7</div>
-										</div>
-
-
-										<div class="infobox infobox-green">
-											<div class="infobox-icon">
-												<i class="ace-icon fa fa-shopping-cart"></i>
-											</div>
-
-											<div class="infobox-data">
-												<span class="infobox-data-number">67</span>
-												<div class="infobox-content">简易注销</div>
-											</div>
-											<div class="stat stat-success">1</div>
-										</div>
-
-										/section:pages/dashboard.infobox
-										<div class="space-6"></div>
-
-										#section:pages/dashboard.infobox.dark
-										<div class="infobox infobox-green infobox-small infobox-dark">
-											<div class="infobox-progress">
-												#section:pages/dashboard.infobox.easypiechart
-												<div class="easy-pie-chart percentage" data-percent="61" data-size="39">
-													<span class="percent">30</span>
-												</div>
-
-												/section:pages/dashboard.infobox.easypiechart
-											</div>
-
-											<div class="infobox-data">
-												<div class="infobox-content">未受理</div>
-												<div class="infobox-content">普通企业</div>
-											</div>
-										</div>
-
-										<div class="infobox infobox-blue infobox-small infobox-dark">
-											#section:pages/dashboard.infobox.sparkline
-											<div class="infobox-icon">
-												<i class="ace-icon fa fa-flask"></i>
-											</div>
-
-											/section:pages/dashboard.infobox.sparkline
-											<div class="infobox-data">
-												<div class="infobox-content">2</div>
-												<div class="infobox-content">危险企业</div>
-											</div>
-										</div>
-
-										<div class="infobox infobox-red infobox-small infobox-dark">
-											<div class="infobox-icon">
-												<i class="ace-icon fa fa-shopping-cart"></i>
-											</div>
-
-											<div class="infobox-data">
-												<span class="infobox-data-number">8</span>
-												<div class="infobox-content">重点企业</div>
-											</div>
-										</div>
-
-										/section:pages/dashboard.infobox.dark
+										
 									</div>
-
-									<div class="vspace-12-sm"></div>
-
-									<div class="col-sm-5">
-										<div class="widget-box">
-											<div class="widget-header widget-header-flat widget-header-small">
-												<h5 class="widget-title">
-													<i class="ace-icon fa fa-signal"></i>
-													统计分析
-												</h5>
-
-												<div class="widget-toolbar no-border">
-													<div class="inline dropdown-hover">
-														<button class="btn btn-minier btn-primary">
-															周内
-															<i class="ace-icon fa fa-angle-down icon-on-right bigger-110"></i>
-														</button>
-
-														<ul class="dropdown-menu dropdown-menu-right dropdown-125 dropdown-lighter dropdown-close dropdown-caret">
-															<li class="active">
-																<a href="#" class="blue">
-																	<i class="ace-icon fa fa-caret-right bigger-110">&nbsp;</i>
-																	周内
-																</a>
-															</li>
-
-															<li>
-																<a href="#">
-																	<i class="ace-icon fa fa-caret-right bigger-110 invisible">&nbsp;</i>
-																	上周
-																</a>
-															</li>
-
-															<li>
-																<a href="#">
-																	<i class="ace-icon fa fa-caret-right bigger-110 invisible">&nbsp;</i>
-																	当前月
-																</a>
-															</li>
-
-															<li>
-																<a href="#">
-																	<i class="ace-icon fa fa-caret-right bigger-110 invisible">&nbsp;</i>
-																	上个月
-																</a>
-															</li>
-														</ul>
-													</div>
-												</div>
-											</div>
-
-											<div class="widget-body">
-												<div class="widget-main">
-													#section:plugins/charts.flotchart
-													<div id="piechart-placeholder"></div>
-
-													/section:plugins/charts.flotchart
-													<div class="hr hr8 hr-double"></div>
-
-													<div class="clearfix">
-														#section:custom/extra.grid
-														<div class="grid3">
-															<span class="grey">
-																<i class="ace-icon fa fa-shopping-cart fa-pinterest-square fa-2x blue"></i>
-																&nbsp; 普通
-															</span>
-															<h4 class="bigger pull-right">1,255</h4>
-														</div>
-
-														<div class="grid3">
-															<span class="grey">
-																<i class="ace-icon fa fa-shopping-cart fa-pinterest-square fa-2x purple"></i>
-																&nbsp; 危险
-															</span>
-															<h4 class="bigger pull-right">200</h4>
-														</div>
-
-														<div class="grid3">
-															<span class="grey">
-																<i class="ace-icon fa fa-shopping-cart fa-pinterest-square fa-2x red"></i>
-																&nbsp; 重点
-															</span>
-															<h4 class="bigger pull-right">15</h4>
-														</div>
-
-														/section:custom/extra.grid
-													</div>
-												</div>/.widget-main
-											</div>/.widget-body
-										</div>/.widget-box
-									</div>/.col
-								</div><!-- /.row 
-								 -->
-								<!-- #section:custom/extra.hr -->
-							</div><!-- /.col -->
+								</div>
+							</div>
 						</div><!-- /.row -->
 						
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="row">
+									<div class="col-xs-12">
+										<h4 class="header smaller lighter green" >一般网登（外资）</h4>
+										<span style="margin-top:320px;position:relative;"></span>
+									
+										<div class="col-sm-12">
+										
+										<div class="row">
+												<a href="#" class="btn btn-app btn-info radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													设立登记
+													
+												</a>
+											
+												<a href="#" class="btn btn-app btn-purple radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													变更（备案）
+													
+												</a>
+											
+											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												迁移（市内）
+												
+											</a>
+											<a href="#" class="btn btn-app btn-inverse radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												撤销
+												
+											</a>
+											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												股权出质
+												
+											</a>
+												<a href="#" class="btn btn-app btn-success radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													一般注销
+													
+												</a>
+												<a href="#" class="btn btn-app btn-danger radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													简易注销
+													
+												</a>
+											</div>
+											
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- /.row -->
 						
-
-
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="row">
+									<div class="col-xs-12">
+										<h4 class="header smaller lighter green" >营业执照</h4>
+										<span style="margin-top:320px;position:relative;"></span>
+										
+										<div class="col-sm-12">
+										
+										<div class="row">
+												<a href="#" class="btn btn-app btn-warning radius" style="font-size:14px;text-align:center;">
+													<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+													执照打印
+													
+												</a>
+											
+											<a href="#" class="btn btn-app btn-pink radius" style="font-size:14px;text-align:center;">
+												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+												执照发放
+												
+											</a>
+											</div>
+											
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- /.row -->
 					</div>
 			</div><!-- /.main-content -->
-
-			<!-- <div class="footer">
-				<div class="footer-inner">
-					#section:basics/footer
-					<div class="footer-content">
-						<span class="bigger-120">
-							<span class="blue bolder">Ace</span>
-							Application &copy; 2013-2014
-						</span>
-
-						&nbsp; &nbsp;
-						<span class="action-buttons">
-							<a href="#">
-								<i class="ace-icon fa fa-twitter-square light-blue bigger-150"></i>
-							</a>
-
-							<a href="#">
-								<i class="ace-icon fa fa-facebook-square text-primary bigger-150"></i>
-							</a>
-
-							<a href="#">
-								<i class="ace-icon fa fa-rss-square orange bigger-150"></i>
-							</a>
-						</span>
-					</div>
-
-					/section:basics/footer
-				</div>
-			</div> -->
-
 			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
 				<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
 			</a>

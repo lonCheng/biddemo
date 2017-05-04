@@ -65,7 +65,7 @@
 							<li>
 								<a href="#">商事登记</a>
 							</li>
-							<li class="active">变更登记</li>
+							<li class="active">名称补录</li>
 						</ul><!-- /.breadcrumb -->
 
 						<!-- #section:basics/content.searchbox -->
@@ -85,10 +85,14 @@
 					<div class="row">
 								<div class="widget-header widget-header-blue widget-header-flat">
 										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-																			<button class="btn btn-xs btn-success">
-																				<i class="ace-icon fa fa-check bigger-120"></i>
-																				修改
+																			<button type="button" class="btn btn-primary" style="">
+																				<i class="ace-icon fa fa-check bigger-165"></i>
+																				提交
 																			</button>
+																			<button type="button" class="btn btn-primary" style="">修改</button>
+																			<button type="button" class="btn btn-primary" style="">删除</button>
+																			<button type="button" class="btn btn-primary" style="">保存草稿</button>
+																			
 									</div>
 						</div>
 						<div  class="col-xs-12  col-sm-12">
@@ -123,7 +127,7 @@
 								</form>
 							</div>
 						</div>
-						
+						<!-- #section:settings.box -->
 					</div><!-- /.page-content -->
 				</div>
 			</div><!-- /.main-content -->
