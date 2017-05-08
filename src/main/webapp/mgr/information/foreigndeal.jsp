@@ -4,9 +4,9 @@
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta charset="utf-8" />
-		<title></title>
+		<title>广州工商管理局业务受理</title>
 
-		<meta name="description" content="" />
+		<meta name="description" content="Dynamic tables and grids using jqGrid plugin" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
 		<!-- bootstrap & fontawesome -->
@@ -14,6 +14,9 @@
 		<link rel="stylesheet" href="../../../ace/assets/css/font-awesome.css" />
 
 		<!-- page specific plugin styles -->
+		<link rel="stylesheet" href="../../../ace/assets/css/jquery-ui.css" />
+		<link rel="stylesheet" href="../../../ace/assets/css/datepicker.css" />
+		<link rel="stylesheet" href="../../../ace/assets/css/ui.jqgrid.css" />
 
 		<!-- text fonts -->
 		<link rel="stylesheet" href="../../../ace/assets/css/ace-fonts.css" />
@@ -60,9 +63,9 @@
 							</li>
 
 							<li>
-								<a href="#">网上预约</a>
+								<a href="#">商事登记</a>
 							</li>
-							<li class="active">黑名单管理</li>
+							<li class="active">一般网登</li>
 						</ul><!-- /.breadcrumb -->
 
 						<!-- #section:basics/content.searchbox -->
@@ -76,102 +79,44 @@
 						</div><!-- /.nav-search -->
 
 					</div>
+
+					<!-- /section:basics/content.breadcrumbs -->
 					<div class="page-content">
 						<!-- #section:settings.box -->
-						
-						<!-- /section:settings.box -->
+						<div style="margin-top:30px;"></div>
 						<div class="row">
-							<div class="col-xs-12">
-								<div id="my-modal" class="modal fade" tabindex="-1">
-									<div class="modal-dialog">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-												<h3 class="smaller lighter blue no-margin">修改信息</h3>
-											</div>
+									<!-- #section:pages/pricing.large -->
+									
 
-											<div class="modal-body">
-												Some content
+									<div class="col-xs-6 col-sm-3 pricing-box">
+											<div class="widget-box pricing-box-small widget-color-red3">
+												<div class="widget-header">
+												<h5 class="widget-title bigger lighter">外资</h5>
+												</div>
+												<div class="widget-body">
 												
+												<div style="height:250px;width:286px;">
+												
+													<div style="display:block;margin-top:100px;;text-align:center;font-size:25px;">
+														<a  href="../../../mgr/information/foreignaccept.jsp">
+														外资登记
+														</a>
+													</div>
+													
+													
+												</div>
+												<div>
+													<a href="#" class="btn btn-block btn-warning">
+														<i class="ace-icon fa fa-shopping-cart bigger-110"></i>
+														<span>受理</span>
+													</a>
+												</div>
 											</div>
-
-											<div class="modal-footer">
-												<button class="btn btn-sm btn-success pull-right" data-dismiss="modal">
-													确认
-												</button>
-												<div class="vspace-12-sm"></div>
-												<button class="btn btn-sm btn-important pull-right" data-dismiss="modal">
-													返回
-												</button>
 											</div>
-										</div><!-- /.modal-content -->
-									</div><!-- /.modal-dialog -->
-								</div>
-								
-								
-								<!-- PAGE CONTENT ENDS -->
-							</div><!-- /.col -->
-						</div><!-- /.row -->
-						<div class="row">
-								<div class="widget-header widget-header-blue widget-header-flat">
-										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-																			<button type="button" class="btn btn-primary" style="">
-																				<i class="ace-icon fa fa-check bigger-165"></i>
-																				查询
-																			</button>
-																			<button type="button" class="btn btn-primary" style="">编  辑</button>
-																			<button type="button" class="btn btn-primary" style="">添加</button>
-																			<button type="button" class="btn btn-primary" style="">删除</button>
-																			
 									</div>
-						</div>
-						
-						<div class="row">
-						<div class="space-4"></div>
-							<div class="col-xs-12">
-							<form class="form-horizontal">
-								 <div class="form-group">
-								   
-								    <label for="" class="col-sm-1 control-label">部门名称</label>
-								    <div class="col-sm-2">
-								      						<select class="chosen-select form-control" id="form-field-select-3" data-placeholder="Choose a State...">
-																<option value="MI">市工商局</option>
-																<option value="MN">天河区工商局</option>
-																<option value="MS">白云区工商局</option>
-																<option value="MO">越秀区工商局</option>
-																<option value="MT">。。。</option>
-															</select>
-								    </div>
-								    <label for="" class="col-sm-1 control-label">业务类型</label>
-								    <div class="col-sm-2">
-								      						<select class="chosen-select form-control" id="form-field-select-3" data-placeholder="Choose a State...">
-																<option value="MI">内资</option>
-																<option value="MN">外资</option>
-																<option value="MS">个体</option>
-															</select>
-								    </div>
-								    <label for="" class="col-sm-1 control-label">预约日期</label>
-								    <div class="col-sm-2">
-								      						<input type="date" style="height:36px;"/>
-								    </div>
-								    </div>
-								  </div> 
-								</form>
-							</div>
-							<div class="row">
-							<div class="col-xs-12">
-								<!-- PAGE CONTENT BEGINS -->
-								<table id="grid-table"></table>
-
-								<div id="grid-pager"></div>
-
-								<script type="text/javascript">
-									var $path_base = "..";
-								</script>
-
-								<!-- PAGE CONTENT ENDS -->
-							</div><!-- /.col -->
-						</div><!-- /.row -->
+										</div>
+									</div>
+								</div>
 					</div><!-- /.page-content -->
 				</div>
 			</div><!-- /.main-content -->
@@ -230,23 +175,32 @@
 
 		<!-- inline scripts related to this page -->
 		<script type="text/javascript">
-		var grid_data = 
+			var grid_data = 
 			[ 
-				{id:"11",name:"市工商局",num:"内、外资企业受理",fzr:"正常",sdate:"43",ship:"09:00-10:00",ytdate:"2017-10-11"},
-				{id:"12",name:"市工商局",num:"内、外资企业受理",fzr:"正常",sdate:"56",ship:"10:00-11:00",ytdate:"2017-10-11"},
-				{id:"13",name:"市工商局",num:"内、外资企业受理",fzr:"正常",sdate:"32",ship:"11:00-12:00",ytdate:"2017-10-11"},
-				{id:"14",name:"市工商局",num:"内、外资企业受理",fzr:"正常",sdate:"65",ship:"13:00-14:00",ytdate:"2017-10-11"},
-				{id:"15",name:"市工商局",num:"内、外资企业受理",fzr:"正常", sdate:"32",ship:"14:00-15:00",ytdate:"2017-10-11"},
-				{id:"16",name:"市工商局",num:"内、外资企业受理",fzr:"正常",sdate:"87",ship:"15:00-16:00",ytdate:"2017-10-11"},
-				{id:"17",name:"市工商局",num:"内、外资企业受理",fzr:"正常",sdate:"32",ship:"16:00-17:00",ytdate:"2017-10-11"},
-				{id:"18",name:"市工商局",num:"内、外资企业受理",fzr:"正常",sdate:"88",ship:"17:00-18:00",ytdate:"2017-10-11"},
-				{id:"19",name:"市工商局",num:"内、外资企业受理",fzr:"正常", sdate:"32",ship:"18:30-19:00",ytdate:"2017-10-11"},
-				{id:"20",name:"市工商局",num:"内、外资企业受理",fzr:"正常",sdate:"99", ship:"",ytdate:"2017-10-11"},
-				{id:"21",name:"市工商局",num:"内、外资企业受理",fzr:"正常",sdate:"21",ship:"",ytdate:"2017-10-11"},
-				{id:"22",name:"市工商局",num:"内、外资企业受理",fzr:"正常",sdate:"33",ship:"",ytdate:"2017-10-11"},
-				{id:"23",name:"市工商局",num:"内、外资企业受理",fzr:"正常",sdate:"44",ship:"",ytdate:"2017-10-11"}
+				{id:"1",name:"广州市有米科技公司",num:"1108521313103",fzr:"Yes",ship:"FedEx", sdate:"2007-12-03"},
+				{id:"2",name:"广州市恒大地产公司",num:"1108581313104",fzr:"Yes",ship:"InTime",sdate:"2007-12-03"},
+				{id:"3",name:"广州市华为公司",num:"1108521310903",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
+				{id:"4",name:"广州市联想公司",num:"1108521319103",fzr:"Yes",ship:"ARAMEX",sdate:"2007-12-03"},
+				{id:"5",name:"广州珠江啤酒集团 ",num:"1108521313903",fzr:"Yes",ship:"FedEx",sdate:"2007-12-03"},
+				{id:"6",name:"广州医药集团",num:"1108521313109",fzr:"Yes", ship:"FedEx",sdate:"2007-12-03"},
+				{id:"7",name:"美晨集团 ",num:"1108521313108",fzr:"Yes",ship:"ARAMEX",sdate:"2007-12-03"},
+				{id:"8",name:"广州市虎头电池集团 ",num:"1108521313107",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
+				{id:"9",name:"广州立白企业集团 ",num:"1108521313106",fzr:"Yes", ship:"FedEx",sdate:"2007-12-03"},
+				{id:"10",name:"广州惠惠龙网络 ",num:"1908521313103",fzr:"Yes",ship:"FedEx", sdate:"2007-12-03"},
+				{id:"11",name:"广州市XX公司",num:"Long text ",fzr:"Yes",ship:"InTime",sdate:"2007-12-03"},
+				{id:"12",name:"广州市XX公司",num:"num3",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
+				{id:"13",name:"广州市XX公司",num:"num",fzr:"No",ship:"ARAMEX",sdate:"2007-12-03"},
+				{id:"14",name:"广州市XX公司",num:"num2",fzr:"Yes",ship:"FedEx",sdate:"2007-12-03"},
+				{id:"15",name:"广州市XX公司",num:"num3",fzr:"No", ship:"FedEx",sdate:"2007-12-03"},
+				{id:"16",name:"广州市XX公司",num:"num",fzr:"Yes",ship:"ARAMEX",sdate:"2007-12-03"},
+				{id:"17",name:"广州市XX公司",num:"num2",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
+				{id:"18",name:"广州市XX公司",num:"num3",fzr:"No", ship:"FedEx",sdate:"2007-12-03"},
+				{id:"19",name:"广州市XX公司",num:"num3",fzr:"No", ship:"FedEx",sdate:"2007-12-03"},
+				{id:"20",name:"广州市XX公司",num:"num",fzr:"Yes",ship:"FedEx", sdate:"2007-12-03"},
+				{id:"21",name:"广州市XX公司",num:"Long text ",fzr:"Yes",ship:"InTime",sdate:"2007-12-03"},
+				{id:"22",name:"广州市XX公司",num:"num3",fzr:"Yes",ship:"TNT",sdate:"2007-12-03"},
+				{id:"23",name:"广州市XX公司",num:"num",fzr:"No",ship:"ARAMEX",sdate:"2007-12-03"}
 			];
-			
 			
 			jQuery(function($) {
 				var grid_selector = "#grid-table";
@@ -282,43 +236,34 @@
 				})
 				*/
 				jQuery(grid_selector).jqGrid({
-					//direction: "rtl",
-			
-					//subgrid options
 					subGrid : false,
 					//subGridModel: [{ name : ['No','Item Name','Qty'], width : [55,200,80] }],
 					//datatype: "xml",
-					subGridOptions : {
-						plusicon : "ace-icon fa fa-plus center bigger-110 blue",
-						minusicon  : "ace-icon fa fa-minus center bigger-110 blue",
-						openicon : "ace-icon fa fa-chevron-right center orange"
-					},
-			
 					data: grid_data,
 					datatype: "local",
 					height:450,
-					colNames:['编号','部门名称','业务名称', '类型','预约日期','预约时间','预约数','操作' ],
+					colNames:['编号','企业名称','企业注册号', '是否是新开企业', '企业法定代表人','申请日期','操作' ],
 					colModel:[
 						{name:'id',index:'id', width:60, sorttype:"int", editable: true},
 						{name:'name',index:'name', width:150,editable: true,editoptions:{size:"20",maxlength:"30"}},
 						{name:'num',index:'num', width:150, sortable:false,editable: true,edittype:"textarea", editoptions:{rows:"2",cols:"10"}}, 
-						{name:'fzr',index:'fzr', width:70, editable: true,edittype:"checkbox",editoptions: {value:"正常:No"},unformat: aceSwitch},
-						{name:'ytdate',index:'ytdate',width:90, editable:true, sorttype:"date",unformat: pickDate},
+						{name:'fzr',index:'fzr', width:70, editable: true,edittype:"checkbox",editoptions: {value:"Yes:No"},unformat: aceSwitch},
 						{name:'ship',index:'ship', width:90, editable: true,edittype:"select",editoptions:{value:"FE:FedEx;IN:InTime;TN:TNT;AR:ARAMEX"}},
 						{name:'sdate',index:'sdate',width:90, editable:true, sorttype:"date",unformat: pickDate},
 						{name:'myac',index:'', width:80, fixed:true, sortable:false, resize:false,
 							formatter:'actions', 
 							formatoptions:{ 
-								keys:true,
-								delOptions:{recreateForm: true, beforeShowForm:beforeDeleteCallback},
-								//editformbutton:true, editOptions:{recreateForm: true, beforeShowForm:beforeEditCallback}
+								//keys:true,
+								//delOptions:{recreateForm: true, beforeShowForm:beforeDeleteCallback},
+								editformbutton:true, 
+								editOptions:{recreateForm: true, beforeShowForm:beforeEditCallback}
 							}
 						}
 					], 
 			
 					viewrecords : true,
-					rowNum:10,
-					rowList:[10,20,30],
+					rowNum:12,
+					rowList:[12,15,30],
 					pager : pager_selector,
 					altRows: true,
 					//toppager: true,
@@ -331,7 +276,6 @@
 						var table = this;
 						setTimeout(function(){
 							styleCheckbox(table);
-							
 							updateActionIcons(table);
 							updatePagerIcons(table);
 							enableTooltips(table);
@@ -339,7 +283,7 @@
 					},
 			
 					editurl: "/dummy.html",//error-404.html   
-					caption: "黑名单管理"
+					caption: "受理登记"
 			
 					//,autowidth: true,
 			
@@ -402,8 +346,8 @@
 					},
 					{
 						//edit record form
-						//closeAfterEdit: true,
-						//width: 700,
+						closeAfterEdit: true,
+						width: 700,
 						recreateForm: true,
 						beforeShowForm : function(e) {
 							var form = $(e[0]);
@@ -413,7 +357,7 @@
 					},
 					{
 						//new record form
-						//width: 700,
+						width: 700,
 						closeAfterAdd: true,
 						recreateForm: true,
 						viewPagerButtons: false,
@@ -471,8 +415,8 @@
 			
 				
 				function style_edit_form(form) {
-					//enable datepicker on "ship" field and switches for "fzr" field
-					form.find('input[name=ship]').datepicker({format:'yyyy-mm-dd' , autoclose:true})
+					//enable datepicker on "sdate" field and switches for "fzr" field
+					form.find('input[name=sdate]').datepicker({format:'yyyy-mm-dd' , autoclose:true})
 					
 					form.find('input[name=fzr]').addClass('ace ace-switch ace-switch-5').after('<span class="lbl"></span>');
 							   //don't wrap inside a label element, the checkbox value won't be submitted (POST'ed)
@@ -549,7 +493,7 @@
 				//unlike navButtons icons, action icons in rows seem to be hard-coded
 				//you can change them like this in here if you want
 				function updateActionIcons(table) {
-					/**
+					
 					var replacement = 
 					{
 						'ui-ace-icon fa fa-pencil' : 'ace-icon fa fa-pencil blue',
@@ -562,7 +506,7 @@
 						var $class = $.trim(icon.attr('class').replace('ui-icon', ''));
 						if($class in replacement) icon.attr('class', 'ui-icon '+replacement[$class]);
 					})
-					*/
+					
 				}
 				
 				//replace icons with FontAwesome icons like above
@@ -610,86 +554,4 @@
 		<script src="../../../ace/docs/assets/js/language/javascript.js"></script>
 	</body>
 </html>
-						</div>
-					</div><!-- /.page-content -->
-				</div>
-			</div><!-- /.main-content -->
 
-			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
-				<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
-			</a>
-		</div><!-- /.main-container -->
-
-		<!-- basic scripts -->
-
-		<!--[if !IE]> -->
-		<script type="text/javascript">
-			window.jQuery || document.write("<script src='../../../ace/assets/js/jquery.js'>"+"<"+"/script>");
-		</script>
-
-		<!-- <![endif]-->
-
-		<!--[if IE]>
-<script type="text/javascript">
- window.jQuery || document.write("<script src='../../../ace/assets/js/jquery1x.js'>"+"<"+"/script>");
-</script>
-<![endif]-->
-		<script type="text/javascript">
-			if('ontouchstart' in document.documentElement) document.write("<script src='../../../ace/assets/js/jquery.mobile.custom.js'>"+"<"+"/script>");
-		</script>
-		<script src="../../../ace/assets/js/bootstrap.js"></script>
-
-		<!-- page specific plugin scripts -->
-
-		<!-- ace scripts -->
-		<script src="../../../ace/assets/js/ace/elements.scroller.js"></script>
-		<script src="../../../ace/assets/js/ace/elements.colorpicker.js"></script>
-		<script src="../../../ace/assets/js/ace/elements.fileinput.js"></script>
-		<script src="../../../ace/assets/js/ace/elements.typeahead.js"></script>
-		<script src="../../../ace/assets/js/ace/elements.wysiwyg.js"></script>
-		<script src="../../../ace/assets/js/ace/elements.spinner.js"></script>
-		<script src="../../../ace/assets/js/ace/elements.treeview.js"></script>
-		<script src="../../../ace/assets/js/ace/elements.wizard.js"></script>
-		<script src="../../../ace/assets/js/ace/elements.aside.js"></script>
-		<script src="../../../ace/assets/js/ace/ace.js"></script>
-		<script src="../../../ace/assets/js/ace/ace.ajax-content.js"></script>
-		<script src="../../../ace/assets/js/ace/ace.touch-drag.js"></script>
-		<script src="../../../ace/assets/js/ace/ace.sidebar.js"></script>
-		<script src="../../../ace/assets/js/ace/ace.sidebar-scroll-1.js"></script>
-		<script src="../../../ace/assets/js/ace/ace.submenu-hover.js"></script>
-		<script src="../../../ace/assets/js/ace/ace.widget-box.js"></script>
-		<script src="../../../ace/assets/js/ace/ace.settings.js"></script>
-		<script src="../../../ace/assets/js/ace/ace.settings-rtl.js"></script>
-		<script src="../../../ace/assets/js/ace/ace.settings-skin.js"></script>
-		<script src="../../../ace/assets/js/ace/ace.widget-on-reload.js"></script>
-		<script src="../../../ace/assets/js/ace/ace.searchbox-autocomplete.js"></script>
-
-		<!-- inline scripts related to this page -->
-		<script type="text/javascript">
-			jQuery(function($) {
-				$('.modal.aside').ace_aside();
-				
-				$('#aside-inside-modal').addClass('aside').ace_aside({container: '#my-modal > .modal-dialog'});
-				
-				$(document).one('ajaxloadstart.page', function(e) {
-					//in ajax mode, remove before leaving page
-					$('.modal.aside').remove();
-					$(window).off('.aside')
-				});
-			})
-		</script>
-
-		<!-- the following scripts are used in demo only for onpage help and you don't need them -->
-		<link rel="stylesheet" href="../../../ace/assets/css/ace.onpage-help.css" />
-		<link rel="stylesheet" href="../../../ace/docs/assets/js/themes/sunburst.css" />
-
-		<script type="text/javascript"> ace.vars['base'] = '..'; </script>
-		<script src="../../../ace/assets/js/ace/elements.onpage-help.js"></script>
-		<script src="../../../ace/assets/js/ace/ace.onpage-help.js"></script>
-		<script src="../../../ace/docs/assets/js/rainbow.js"></script>
-		<script src="../../../ace/docs/assets/js/language/generic.js"></script>
-		<script src="../../../ace/docs/assets/js/language/html.js"></script>
-		<script src="../../../ace/docs/assets/js/language/css.js"></script>
-		<script src="../../../ace/docs/assets/js/language/javascript.js"></script>
-	</body>
-</html>
