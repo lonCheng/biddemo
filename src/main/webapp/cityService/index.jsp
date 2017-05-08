@@ -169,7 +169,7 @@
 							<div class="col-xs-12">
 								<div class="row">
 									<div class="col-xs-12">
-										<h4 class="header smaller lighter green" >数据录入</h4>
+										<h4 class="header smaller lighter green" >数据录入（内资）</h4>
 										<span style="margin-top:320px;position:relative;"></span>
 										
 										<div class="col-sm-12">
@@ -232,7 +232,7 @@
 							<div class="col-xs-12">
 								<div class="row">
 									<div class="col-xs-12">
-										<h4 class="header smaller lighter green" >一般网登（外资）</h4>
+										<h4 class="header smaller lighter green" >数据录入（外资）</h4>
 										<span style="margin-top:320px;position:relative;"></span>
 									
 										<div class="col-sm-12">
@@ -260,7 +260,7 @@
 												撤销
 												
 											</a>
-											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;">
+											<a href="#" class="btn btn-app btn-primary radius" style="font-size:14px;text-align:center;" t>
 												<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
 												股权出质
 												
