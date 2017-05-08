@@ -335,487 +335,241 @@
 												</div>
 
 												<div class="step-pane" data-step="3">
-													<div class="">
+													
+													<!-- /.modal-content -->
+												</div>
+											
+												<!-- /.modal -->
+
+
+												<div class="step-pane" data-step="4">
+													<div class="center">
 														<form class="form-horizontal" id="validation-form"
 															method="get">
+
 															<div class="form-group">
-																<div class="col-sm-12">
-																	<textarea class="form-control" rows="6" readonly=true>
-1、本页填写股东情况和任职情况，请按照实际情况点击“+”填写；
-2、如果有限责任公司设执行董事，则执行董事只能为1人、没有董事长、没有董事；
-3、如果有限责任公司设董事会，则董事会人数需要限定在3-13人，其中董事长1人、董事2-12人，没有执行董事。
-4、如果有限责任公司设监事，则监事人数需要限定在1-2人，没有监事会主席；
-5、如果有限责任公司设监事会，则监事会人数需要限定为3人或3人以上，其中监事会主席1人、监事2人或2人以上。
-6、法定代表人、经理、联络员、财务负责人均为1人；</textarea>
+																<label
+																	class="control-label col-xs-12 col-sm-3 no-padding-right">代理人</label>
+
+																<div class="col-xs-12 col-sm-9">
+																	<div class="input-group">
+																		</span> <input type="text" id="name" name="name" />
+																	</div>
+																</div>
+															</div>
+															<div class="space-2"></div>
+															<div class="form-group">
+																<label
+																	class="control-label col-xs-12 col-sm-3 no-padding-right">所属中介公司</label>
+
+																<div class="col-xs-12 col-sm-9">
+																	<div class="input-group">
+																		</span> <input type="text" id="name" name="name" />
+																	</div>
+																</div>
+															</div>
+
+															<div class="form-group">
+																<label
+																	class="control-label col-xs-12 col-sm-3 no-padding-right">有效期限</label>
+																<div class="col-xs-12 col-sm-9">
+																	<div class="input-daterange input-group">
+																		<input type="text" class="input-sm form-control"
+																			name="start" /> <span class="input-group-addon">
+																			<i class="fa fa-exchange"></i>
+																		</span> <input type="text" class="input-sm form-control"
+																			name="end" />
+																	</div>
 																</div>
 															</div>
 
 															<div class="space-2"></div>
 
 															<div class="form-group">
+																<label
+																	class="control-label col-xs-12 col-sm-3 no-padding-right"
+																	for="telephone">固定电话</label>
+																<div class="col-xs-12 col-sm-9">
+																	<div class="input-group">
+
+																		<input type="text" id="name" name="name" />
+																	</div>
+																</div>
+															</div>
+															<div class="space-2"></div>
+															<div class="form-group">
+																<label
+																	class="control-label col-xs-12 col-sm-3 no-padding-right"
+																	for="telephone">移动电话</label>
+																<div class="col-xs-12 col-sm-9">
+																	<div class="input-group">
+
+																		<input type="text" id="name" name="name" />
+																	</div>
+																</div>
+															</div>
+															<div class="space-2"></div>
+															<div class="form-group">
+																<label
+																	class="control-label col-xs-12 col-sm-3 no-padding-right"
+																	for="telephone">身份证件复印件</label>
+
 																<div class="col-sm-4">
-																	<div class="panel panel-primary">
-																		<!-- Default panel contents -->
+																	<div class="widget-box">
+																		<div class="widget-header">
+																			<h5 class="widget-title">请上传身份证件正面复印件、扫描件</h5>
 
-																		<div class="panel-body">
-																			<h5>
-																				<span>李雷</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-																				&nbsp;&nbsp;&nbsp;<span class="blue">监事</span>
-																			</h5>
-																			<hr />
-																			<h5>
-																				<span>证件类型： 居民身份证</span>
-																			</h5>
-																			<div>
-																				<h5>
-																					<span>441424197912206982</span>
-																				</h5>
+																			<div class="widget-toolbar">
+																				<a href="#" data-action="collapse"> <i
+																					class="ace-icon fa fa-chevron-up"></i>
+																				</a> <a href="#" data-action="close"> <i
+																					class="ace-icon fa fa-times"></i>
+																				</a>
 																			</div>
-																			<div class="space-6"></div>
-																			<div class="col-md-offset-6">
-																				<button class="btn btn-white btn-info btn-bold">
-																					<i
-																						class="ace-icon fa fa-pencil-square-o bigger-110 blue"></i>
-																					修改
-																				</button>
-																				<button class="btn btn-white btn-warning btn-bold">
-																					<i class="ace-icon fa fa-trash-o bigger-120 orange"></i>
-																					删除
-																				</button>
-																			</div>
-
 																		</div>
 
+																		<div class="widget-body">
+																			<div class="widget-main">
+
+
+																				<div class="form-group">
+																					<div class="col-xs-12">
+																						<input type="file" id="id-input-file-3" />
+
+																						<!-- /section:custom/file-input -->
+																					</div>
+																				</div>
+
+																				<!-- #section:custom/file-input.filter -->
+
+
+																				<!-- /section:custom/file-input.filter -->
+																			</div>
+																		</div>
 																	</div>
 																</div>
 
 																<div class="col-sm-4">
-																	<div class="panel panel-primary">
-																		<!-- Default panel contents -->
+																	<div class="widget-box">
+																		<div class="widget-header">
+																			<h5 class="widget-title">请上传身份证件反面复印件、扫描件</h5>
 
-																		<div class="panel-body">
-																			<h5>
-																				<span>李雷</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-																				&nbsp;&nbsp;&nbsp;<span class="blue">监事</span>
-																			</h5>
-																			<hr />
-																			<h5>
-																				<span>证件类型： 居民身份证</span>
-																			</h5>
-																			<div>
-																				<h5>
-																					<span>441424197912206982</span>
-																				</h5>
+																			<div class="widget-toolbar">
+																				<a href="#" data-action="collapse"> <i
+																					class="ace-icon fa fa-chevron-up"></i>
+																				</a> <a href="#" data-action="close"> <i
+																					class="ace-icon fa fa-times"></i>
+																				</a>
 																			</div>
-																			<div class="space-6"></div>
-																			<div class="col-md-offset-6">
-																				<button class="btn btn-white btn-info btn-bold">
-																					<i
-																						class="ace-icon fa fa-pencil-square-o bigger-110 blue"></i>
-																					修改
-																				</button>
-																				<button class="btn btn-white btn-warning btn-bold">
-																					<i class="ace-icon fa fa-trash-o bigger-120 orange"></i>
-																					删除
-																				</button>
-																			</div>
+																		</div>
 
+																		<div class="widget-body">
+																			<div class="widget-main">
+
+
+																				<div class="form-group">
+																					<div class="col-xs-12">
+																						<input type="file" id="id-input-file-4" />
+
+																						<!-- /section:custom/file-input -->
+																					</div>
+																				</div>
+
+																				<!-- #section:custom/file-input.filter -->
+
+
+																				<!-- /section:custom/file-input.filter -->
+																			</div>
+																		</div>
+
+																		<div id="identifier" class="modal fade"
+																			data-backdrop="static" tabindex="-1" id="progressbar">
+																			<!--窗口声明：-->
+																			<div class="modal-dialog">
+																				<!-- 内容声明 -->
+																				<div class="modal-content">
+																					<h5>正在生成报表,请稍后</h5>
+																					<div class="modal-body">
+																						<div class="progress progress-striped active">
+																							<div id="prog" class="progress-bar"
+																								role="progressbar" aria-valuenow=""
+																								aria-valuemin="0" aria-valuemax="100"
+																								style="width: 0%;">
+																								<span id="proglabel">正在生成PDF，请稍后......</span>
+																							</div>
+																						</div>
+
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div id="printModal" class="modal fade"
+																			data-backdrop="static" tabindex="-1" id="progressbar">
+																			<!--窗口声明：-->
+																			<div class="modal-dialog modal-lg">
+																				<!-- 内容声明 -->
+																				<div class="modal-content">
+																					<div class="modal-header"
+																						style="background-color: #F8F8F8">
+																						<button type="button" class="close"
+																							data-dismiss="modal" aria-hidden="true">
+																							&times;</button>
+																						<h5 class="modal-title" id="myModalLabel">文档预览</h5>
+																					</div>
+																					<div class="modal-body" style="padding: 0px">
+																						<a class="media" href="../pdf/公司设立登记申请书.pdf"></a>
+
+																					</div>
+																					<div class="modal-footer">
+																						<button type="button" class="btn btn-primary"
+																							data-toggle="tooltip" data-placement="top"
+																							data-html="true" title=""
+																							data-original-title="<div class='tip'>请用手机扫一扫<img src='../images/qrcode.png'/></div>">无介质签名</button>
+																						<button onclick="openSuccessPage()" type="button"
+																							class="btn btn-primary" data-toggle="tooltip"
+																							data-placement="top" data-html="true" title=""
+																							data-original-title="<div class='tip'><h5>请插入U盾</h5>">UKey签名</button>
+																						<button type="button" class="btn btn-primary">下载文档</button>
+																						<button type="button" class="btn btn-default"
+																							data-dismiss="modal">关闭</button>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+
+																		<div id="successModal" class="modal fade"
+																			data-backdrop="static" tabindex="-1" id="progressbar">
+																			<!--窗口声明：-->
+																			<div class="modal-dialog modal-lg">
+																				<!-- 内容声明 -->
+																				<div class="modal-content">
+																					<div class="modal-header"
+																						style="background-color: #F8F8F8">
+																						<button type="button" class="close"
+																							data-dismiss="modal" aria-hidden="true">
+																							&times;</button>
+																						<h5 class="modal-title" id="myModalLabel">填表成功</h5>
+																					</div>
+																					<div class="modal-body" style="padding: 0px"></div>
+																					<div class="modal-footer">
+																						<a href="/ent/jsp/newserviceHall.jsp" title="返回首页">
+																							<button type="button" class="btn btn-primary ">返回首页</button>
+																						</a>
+																						<button type="button" class="btn btn-primary"
+																							data-dismiss="modal">关闭</button>
+																					</div>
+																				</div>
+																			</div>
 																		</div>
 
 																	</div>
 																</div>
+															</div>
 
-																<div class="col-sm-4">
-																	<div class="panel panel-primary">
-																		<!-- Default panel contents -->
-
-																		<div class="panel-body">
-
-																			<button type="button"
-																				style="width: 300px; height: 155px; border: 0; background-image: url(“../../imgs/add.png”) no-repeat left top"
-																				data-toggle="modal" data-target="#myModal"></button>
-																		</div>
-
-																	</div>
-																</div>
-
-																<!-- 模态框（Modal） -->
-																<div class="modal fade" id="myModal" tabindex="-1"
-																	role="dialog" aria-labelledby="myModalLabel"
-																	aria-hidden="true">
-																	<div class="modal-dialog modal-lg">
-																		<div class="modal-content">
-																			<div class="modal-header">
-																				<button type="button" class="close"
-																					data-dismiss="modal" aria-hidden="true">
-																					&times;</button>
-																				<h5 class="modal-title" id="myModalLabel">
-																					法定代表人、董事长、董事、监事、经理、联络员、财务负责人</h5>
-																			</div>
-																			<div class="modal-body">
-																				<form class="form-horizontal" id="validation-form"
-																					method="get">
-																					<div class="form-group">
-																						<div class="col-sm-12">
-																							<div class="panel panel-primary">
-																								<!-- Default panel contents -->
-
-																								<div class="panel-body"
-																									style="padding: 5px; background-color: #D2E7F7;">
-																									<h6>
-																										<span>★当一个人同时担任多个职务的时候，请在[同时担任]栏选择多个角色，这样能避免同一人信息的重复录入！</span>
-																									</h6>
-																									<h6>
-																										<span>★法定代表人由执行董事、董事长或经理担任</span>
-																									</h6>
-																								</div>
-
-																							</div>
-																						</div>
-																					</div>
-																					<div class="form-group">
-																						<div class="control-group">
-																							<label
-																								class="control-label col-xs-12 col-sm-1 no-padding-right">同时担任</label>
-																							<div class="checkbox col-sm-2">
-																								<label> <input
-																									name="form-field-checkbox" type="checkbox"
-																									class="ace" /> <span class="lbl">法定代表人</span>
-																								</label>
-																							</div>
-																							<div class="checkbox col-sm-2">
-																								<label> <input
-																									name="form-field-checkbox" type="checkbox"
-																									class="ace" /> <span class="lbl">董事长</span>
-																								</label>
-																							</div>
-
-																							<div class="checkbox col-sm-2">
-																								<label> <input
-																									name="form-field-checkbox" type="checkbox"
-																									class="ace" /> <span class="lbl">执行董事</span>
-																								</label>
-																							</div>
-																							<div class="checkbox col-sm-2">
-																								<label> <input
-																									name="form-field-checkbox" type="checkbox"
-																									class="ace" /> <span class="lbl">董事</span>
-																								</label>
-																							</div>
-																							<div class="checkbox col-sm-2">
-																								<label> <input
-																									name="form-field-checkbox" type="checkbox"
-																									class="ace" /> <span class="lbl">监事会主席</span>
-																								</label>
-																							</div>
-																							<div class="checkbox col-md-offset-1 col-sm-2">
-																								<label> <input
-																									name="form-field-checkbox" type="checkbox"
-																									class="ace" /> <span class="lbl">监事</span>
-																								</label>
-																							</div>
-																							<div class="checkbox col-sm-2">
-																								<label> <input
-																									name="form-field-checkbox" type="checkbox"
-																									class="ace" /> <span class="lbl">经理</span>
-																								</label>
-																							</div>
-																							<div class="checkbox col-sm-2">
-																								<label> <input
-																									name="form-field-checkbox" type="checkbox"
-																									class="ace" /> <span class="lbl">股东</span>
-																								</label>
-																							</div>
-																							<div class="checkbox col-sm-2">
-																								<label> <input
-																									name="form-field-checkbox" type="checkbox"
-																									class="ace" /> <span class="lbl">联络员</span>
-																								</label>
-																							</div>
-																							<div class="checkbox col-sm-2">
-																								<label> <input
-																									name="form-field-checkbox" type="checkbox"
-																									class="ace" /> <span class="lbl">联络机构</span>
-																								</label>
-																							</div>
-
-																						</div>
-																					</div>
-																					<div class="form-group">
-																						<label
-																							class="control-label col-xs-12 col-sm-2 no-padding-right">姓名/名称</label>
-																						<div class="col-xs-12 col-sm-9">
-																							<div class="input-group">
-																								<input type="text" id="name" name="name" />
-																							</div>
-																						</div>
-																					</div>
-																					<div class="space-2"></div>
-																					<div class="form-group">
-																						<label
-																							class="control-label col-xs-12 col-sm-2 no-padding-right">身份证件类型</label>
-																						<div class="col-xs-12 col-sm-9">
-																							<div class="input-group">
-																								<input type="text" id="name" name="name" />
-																							</div>
-																						</div>
-																					</div>
-																					<div class="space-2"></div>
-																					<div class="form-group">
-																						<label
-																							class="control-label col-xs-12 col-sm-2 no-padding-right">身份证件号码</label>
-																						<div class="col-xs-12 col-sm-9">
-																							<div class="input-group">
-																								<input type="text" id="name" name="name" />
-																							</div>
-																						</div>
-																					</div>
-																			</div>
 														</form>
-														<div class="modal-footer">
-															<button type="button" class="btn btn-primary"
-																data-dismiss="modal">确定</button>
-															<button type="button" class="btn btn-default"
-																data-dismiss="modal">关闭</button>
-														</div>
-													</div>
-													<!-- /.modal-content -->
-												</div>
-												<!-- /.modal -->
-											</div>
-										</div>
-										</form>
-									</div>
-								</div>
-
-								<div class="step-pane" data-step="4">
-									<div class="center">
-										<form class="form-horizontal" id="validation-form"
-											method="get">
-
-											<div class="form-group">
-												<label
-													class="control-label col-xs-12 col-sm-3 no-padding-right">代理人</label>
-
-												<div class="col-xs-12 col-sm-9">
-													<div class="input-group">
-														</span> <input type="text" id="name" name="name" />
 													</div>
 												</div>
 											</div>
-											<div class="space-2"></div>
-											<div class="form-group">
-												<label
-													class="control-label col-xs-12 col-sm-3 no-padding-right">所属中介公司</label>
-
-												<div class="col-xs-12 col-sm-9">
-													<div class="input-group">
-														</span> <input type="text" id="name" name="name" />
-													</div>
-												</div>
-											</div>
-
-											<div class="form-group">
-												<label
-													class="control-label col-xs-12 col-sm-3 no-padding-right">有效期限</label>
-												<div class="col-xs-12 col-sm-9">
-													<div class="input-daterange input-group">
-														<input type="text" class="input-sm form-control"
-															name="start" /> <span class="input-group-addon">
-															<i class="fa fa-exchange"></i>
-														</span> <input type="text" class="input-sm form-control"
-															name="end" />
-													</div>
-												</div>
-											</div>
-
-											<div class="space-2"></div>
-
-											<div class="form-group">
-												<label
-													class="control-label col-xs-12 col-sm-3 no-padding-right"
-													for="telephone">固定电话</label>
-												<div class="col-xs-12 col-sm-9">
-													<div class="input-group">
-
-														<input type="text" id="name" name="name" />
-													</div>
-												</div>
-											</div>
-											<div class="space-2"></div>
-											<div class="form-group">
-												<label
-													class="control-label col-xs-12 col-sm-3 no-padding-right"
-													for="telephone">移动电话</label>
-												<div class="col-xs-12 col-sm-9">
-													<div class="input-group">
-
-														<input type="text" id="name" name="name" />
-													</div>
-												</div>
-											</div>
-											<div class="space-2"></div>
-											<div class="form-group">
-												<label
-													class="control-label col-xs-12 col-sm-3 no-padding-right"
-													for="telephone">身份证件复印件</label>
-
-												<div class="col-sm-4">
-													<div class="widget-box">
-														<div class="widget-header">
-															<h5 class="widget-title">请上传身份证件正面复印件、扫描件</h5>
-
-															<div class="widget-toolbar">
-																<a href="#" data-action="collapse"> <i
-																	class="ace-icon fa fa-chevron-up"></i>
-																</a> <a href="#" data-action="close"> <i
-																	class="ace-icon fa fa-times"></i>
-																</a>
-															</div>
-														</div>
-
-														<div class="widget-body">
-															<div class="widget-main">
-
-
-																<div class="form-group">
-																	<div class="col-xs-12">
-																		<input type="file" id="id-input-file-3" />
-
-																		<!-- /section:custom/file-input -->
-																	</div>
-																</div>
-
-																<!-- #section:custom/file-input.filter -->
-
-
-																<!-- /section:custom/file-input.filter -->
-															</div>
-														</div>
-													</div>
-												</div>
-
-												<div class="col-sm-4">
-													<div class="widget-box">
-														<div class="widget-header">
-															<h5 class="widget-title">请上传身份证件反面复印件、扫描件</h5>
-
-															<div class="widget-toolbar">
-																<a href="#" data-action="collapse"> <i
-																	class="ace-icon fa fa-chevron-up"></i>
-																</a> <a href="#" data-action="close"> <i
-																	class="ace-icon fa fa-times"></i>
-																</a>
-															</div>
-														</div>
-
-														<div class="widget-body">
-															<div class="widget-main">
-
-
-																<div class="form-group">
-																	<div class="col-xs-12">
-																		<input type="file" id="id-input-file-4" />
-
-																		<!-- /section:custom/file-input -->
-																	</div>
-																</div>
-
-																<!-- #section:custom/file-input.filter -->
-
-
-																<!-- /section:custom/file-input.filter -->
-															</div>
-														</div>
-
-														<div id="identifier" class="modal fade"
-															data-backdrop="static" tabindex="-1" id="progressbar">
-															<!--窗口声明：-->
-															<div class="modal-dialog">
-																<!-- 内容声明 -->
-																<div class="modal-content">
-																	<h5>正在生成报表,请稍后</h5>
-																	<div class="modal-body">
-																		<div class="progress progress-striped active">
-																			<div id="prog" class="progress-bar"
-																				role="progressbar" aria-valuenow=""
-																				aria-valuemin="0" aria-valuemax="100"
-																				style="width: 0%;">
-																				<span id="proglabel">正在生成PDF，请稍后......</span>
-																			</div>
-																		</div>
-
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div id="printModal" class="modal fade"
-															data-backdrop="static" tabindex="-1" id="progressbar">
-															<!--窗口声明：-->
-															<div class="modal-dialog modal-lg">
-																<!-- 内容声明 -->
-																<div class="modal-content">
-																	<div class="modal-header"
-																		style="background-color: #F8F8F8">
-																		<button type="button" class="close"
-																			data-dismiss="modal" aria-hidden="true">
-																			&times;</button>
-																		<h5 class="modal-title" id="myModalLabel">文档预览</h5>
-																	</div>
-																	<div class="modal-body" style="padding: 0px">
-																		<a class="media" href="../pdf/公司设立登记申请书.pdf"></a>
-
-																	</div>
-																	<div class="modal-footer">
-																		<button type="button" class="btn btn-primary"
-																			data-toggle="tooltip" data-placement="top"
-																			data-html="true" title=""
-																			data-original-title="<div class='tip'>请用手机扫一扫<img src='../images/qrcode.png'/></div>">无介质签名</button>
-																		<button onclick="openSuccessPage()" type="button"
-																			class="btn btn-primary" data-toggle="tooltip"
-																			data-placement="top" data-html="true" title=""
-																			data-original-title="<div class='tip'><h5>请插入U盾</h5>">UKey签名</button>
-																		<button type="button" class="btn btn-primary">下载文档</button>
-																		<button type="button" class="btn btn-default"
-																			data-dismiss="modal">关闭</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-
-														<div id="successModal" class="modal fade"
-															data-backdrop="static" tabindex="-1" id="progressbar">
-															<!--窗口声明：-->
-															<div class="modal-dialog modal-lg">
-																<!-- 内容声明 -->
-																<div class="modal-content">
-																	<div class="modal-header"
-																		style="background-color: #F8F8F8">
-																		<button type="button" class="close"
-																			data-dismiss="modal" aria-hidden="true">
-																			&times;</button>
-																		<h5 class="modal-title" id="myModalLabel">填表成功</h5>
-																	</div>
-																	<div class="modal-body" style="padding: 0px"></div>
-																	<div class="modal-footer">
-																		<a href="/ent/jsp/newserviceHall.jsp" title="返回首页">
-																			<button type="button" class="btn btn-primary ">返回首页</button>
-																		</a>
-																		<button type="button" class="btn btn-primary"
-																			data-dismiss="modal">关闭</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-
-													</div>
-												</div>
-											</div>
-
-										</form>
-									</div>
-								</div>
-							</div>
 
 							<!-- /section:plugins/fuelux.wizard.container -->
 						</div>
