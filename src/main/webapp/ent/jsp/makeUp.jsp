@@ -90,12 +90,12 @@
 	border-color: #F46361;
 }
 
+
 .buttoncolor3 {
 	font-size: 16px;
 	background-color: #1ABC9C !important;
 	border-color: #1ABC9C;
 }
-
 .buttoncolor4 {
 	font-size: 16px;
 	background-color: #FFA501 !important;
@@ -122,7 +122,6 @@
 
 					<div class="container"></div>
 					<div class="row">
-
 						<div class="block-deploy">
 							<div class="layout">
 								<h2 class="block-title important-block-title">网上预约系统</h2>
@@ -139,7 +138,7 @@
 												<div class="item-title">网上预约</div>
 												<ul class="item-content">
 
-													<li class="li-1"><button onclick="javascript:window.location.href='businessAppointment.jsp'"
+													<li class="li-1"><button
 															class="btn btn-primary buttoncolor no-border">工商预约</button></li>
 													<li class="li-1"><button
 															class="btn btn-primary buttoncolor no-border">银行预约</button></li>
@@ -158,13 +157,11 @@
 											<div class="item-box-active">
 												<div class="item-title">预约查询</div>
 												<ul class="item-content">
-													<li class="li-2"><button
-															class="btn btn-primary buttoncolor2  no-border">工商预约查询</button></li>
-													<li class="li-2"><button
-															class="btn btn-primary buttoncolor2  no-border">银行预约查询</button></li>
+													<li class="li-2"><button class="btn btn-primary buttoncolor2  no-border">工商预约查询</button></li>
+													<li class="li-2"><button class="btn btn-primary buttoncolor2  no-border">银行预约查询</button></li>
 												</ul>
 											</div>
-
+											
 										</div>
 									</li>
 									<li class="item item-2 ">
@@ -178,16 +175,14 @@
 											<div class="item-box-active">
 												<div class="item-title">取消预约</div>
 												<ul class="item-content">
-													<li class="li-2"><button
-															class="btn btn-primary buttoncolor3  no-border">取消工商预约</button></li>
-													<li class="li-2"><button
-															class="btn btn-primary buttoncolor3  no-border">取消银行预约</li>
+													<li class="li-2"><button class="btn btn-primary buttoncolor3  no-border">取消工商预约</button></li>
+													<li class="li-2"><button class="btn btn-primary buttoncolor3  no-border">取消银行预约</li>
 												</ul>
 											</div>
 										</div>
 									</li>
-
-
+									
+								
 								</ul>
 								<div class="block-datacenter" style="display: none;">
 									<div class="layout">
@@ -583,6 +578,10 @@
 							});
 
 				})
+				
+			$("#nameService").addClass("active");
+			$("#nameService").addClass("open");
+			$("#makeUp").addClass("active");
 			</script>
 
 			<!-- the following scripts are used in demo only for onpage help and you don't need them -->

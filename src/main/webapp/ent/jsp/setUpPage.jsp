@@ -85,19 +85,20 @@
 		<!-- /section:basics/sidebar -->
 		<div class="main-content">
 			<div class="main-content-inner">
-
 				<!-- /section:basics/content.breadcrumbs -->
-				<div class="page-content">
+				
+
 					<!-- #section:settings.box -->
 					<jsp:include page="../include/online-help.jsp"></jsp:include>
 
 					<div class="container">
 
 						<div class="row">
+						
 							<div class="col-xs-12">
 								<!-- PAGE CONTENT BEGINS -->
 
-
+								
 								<div class="widget-box">
 									<div
 										class="widget-header widget-header-blue widget-header-flat">
@@ -194,12 +195,13 @@
 															</div>
 
 															<div class="space-2"></div>
-															<div class="row">
+															
 																<div class="form-group">
 																	<label class="control-label col-sm-3 no-padding-right"
 																		for="state">经营场所</label>
 																		
-																	<panel class="col-sm-1 center">
+																		
+																	<panel class="col-sm-3 center">
 																	<h5>广州市</h5>
 																	</panel>
 
@@ -213,20 +215,15 @@
 																		</select>
 																	</div>
 
-																	<div class="col-sm-2">
-																		<div class="input-group">
-																			</span> <input type="text" id="name" name="name" />
-																		</div>
-
-																	</div>
-																	
 																	<div class="col-sm-3">
 																		<div class="input-group">
 																			</span> <input type="text" id="name" name="name" />
 																		</div>
 
 																	</div>
-																</div>
+																	
+																	
+																
 															</div>
 															<div class="space-2"></div>
 
@@ -632,6 +629,7 @@
 																								</div>
 																							</div>
 																						</div>
+																						</form>
 																				</div>
 															</form>
 															<div class="modal-footer">
@@ -889,7 +887,7 @@
 									<i class="ace-icon fa fa-arrow-left"></i> 返回修改
 								</button>
 
-								<button class="btn btn-success btn-next" data-last="Finish">
+								<button class="btn btn-success btn-next" data-last="完成">
 									下一步 <i class="ace-icon fa fa-arrow-right icon-on-right"></i>
 								</button>
 
@@ -901,7 +899,7 @@
 						<!-- /.widget-main -->
 					</div>
 					<!-- /.widget-body -->
-				</div>
+				
 			</div>
 			<div id="modal-wizard" class="modal">
 				<div class="modal-dialog">
@@ -979,25 +977,7 @@
 	</div>
 	<!-- /.main-content -->
 
-	<div class="footer">
-		<div class="footer-inner">
-			<!-- #section:basics/footer -->
-			<div class="footer-content">
-				<span class="bigger-120"> <span class="blue bolder">Ace</span>
-					Application &copy; 2013-2014
-				</span> &nbsp; &nbsp; <span class="action-buttons"> <a href="#">
-						<i class="ace-icon fa fa-twitter-square light-blue bigger-150"></i>
-				</a> <a href="#"> <i
-						class="ace-icon fa fa-facebook-square text-primary bigger-150"></i>
-				</a> <a href="#"> <i
-						class="ace-icon fa fa-rss-square orange bigger-150"></i>
-				</a>
-				</span>
-			</div>
-
-			<!-- /section:basics/footer -->
-		</div>
-	</div>
+	
 
 	<a href="#" id="btn-scroll-up"
 		class="btn-scroll-up btn btn-sm btn-inverse"> <i

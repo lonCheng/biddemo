@@ -282,25 +282,6 @@
 											</div>
 										</li>
 
-										<li class="item item-3  item-last ">
-											<div class="item-box">
-												<div class="item-box-default">
-													<div class="item-title">其它</div>
-													<div class="icon-wrapper">
-														<div class="icon icon-manage"></div>
-													</div>
-												</div>
-												<div class="item-box-active">
-													<div class="item-title">其它</div>
-													<ul class="item-content">
-														<li class="li-1"><button
-																onclick="javascript:window.location.href='#' "
-																class="btn btn-primary buttoncolor4  no-border">进入系统</button></li>
-													</ul>
-												</div>
-											</div>
-										</li>
-
 									</ul>
 									<div class="block-datacenter" style="display: none;">
 										<div class="layout">
