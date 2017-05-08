@@ -107,7 +107,7 @@
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-desktop"></i>
 							<span class="menu-text">
-								一般网登（内资）
+								数据录入（内资）
 							</span>
 
 							<b class="arrow fa fa-angle-down"></b>
@@ -189,7 +189,7 @@
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-desktop"></i>
 							<span class="menu-text">
-								一般网登（外资）
+								数据录入（外资）
 							</span>
 
 							<b class="arrow fa fa-angle-down"></b>
