@@ -86,820 +86,1026 @@
 		<div class="main-content">
 			<div class="main-content-inner">
 				<!-- /section:basics/content.breadcrumbs -->
-				
 
-					<!-- #section:settings.box -->
-					<jsp:include page="../include/online-help.jsp"></jsp:include>
 
-					<div class="container">
+				<!-- #section:settings.box -->
+				<jsp:include page="../include/online-help.jsp"></jsp:include>
 
-						<div class="row">
-						
-							<div class="col-xs-12">
-								<!-- PAGE CONTENT BEGINS -->
+				<div class="container">
 
-								
-								<div class="widget-box">
-									<div
-										class="widget-header widget-header-blue widget-header-flat">
-										<h4 class="widget-title lighter">完成进度</h4>
-									</div>
+					<div class="row">
 
-									<div class="widget-body">
-										<div class="widget-main">
-											<!-- #section:plugins/fuelux.wizard -->
-											<div id="fuelux-wizard-container">
-												<div>
-													<!-- #section:plugins/fuelux.wizard.steps -->
-													<ul class="steps">
-														<li data-step="1" class="active"><span class="step">1</span>
-															<span id="tsp-item1" class="title">正在填写</span></li>
+						<div class="col-xs-12">
+							<!-- PAGE CONTENT BEGINS -->
 
-														<li id="tsp-item2" data-step="2"><span class="step">2</span>
-															<span class="title">未完成</span></li>
 
-														<li id="tsp-item3" data-step="3"><span class="step">3</span>
-															<span class="title">未完成</span></li>
+							<div class="widget-box">
+								<div class="widget-header widget-header-blue widget-header-flat">
+									<h4 class="widget-title lighter">完成进度</h4>
+								</div>
 
-														<li id="tsp-item4" data-step="4"><span class="step">4</span>
-															<span class="title">未完成</span></li>
-													</ul>
+								<div class="widget-body">
+									<div class="widget-main">
+										<!-- #section:plugins/fuelux.wizard -->
+										<div id="fuelux-wizard-container">
+											<div>
+												<!-- #section:plugins/fuelux.wizard.steps -->
+												<ul class="steps">
+													<li data-step="1" class="active"><span class="step">1</span>
+														<span id="tsp-item1" class="title">正在填写</span></li>
 
-													<!-- /section:plugins/fuelux.wizard.steps -->
+													<li id="tsp-item2" data-step="2"><span class="step">2</span>
+														<span class="title">未完成</span></li>
+
+													<li id="tsp-item3" data-step="3"><span class="step">3</span>
+														<span class="title">未完成</span></li>
+
+													<li id="tsp-item4" data-step="4"><span class="step">4</span>
+														<span class="title">未完成</span></li>
+												</ul>
+
+												<!-- /section:plugins/fuelux.wizard.steps -->
+											</div>
+
+											<hr />
+
+											<!-- #section:plugins/fuelux.wizard.container -->
+											<div class="step-content pos-rel">
+												<div class="step-pane active" data-step="1">
+													<h4 class="lighter block green">请填写企业信息</h4>
+
+
+													<form class="form-horizontal" id="validation-form"
+														method="get">
+
+														<div class="form-group">
+															<label
+																class="control-label col-xs-12 col-sm-3 no-padding-right"
+																for="name">名称</label>
+
+															<div class="col-xs-12 col-sm-9">
+																<div class="clearfix">
+																	<input type="text" id="name" name="name"
+																		class="col-xs-12 col-sm-5" />
+																</div>
+															</div>
+														</div>
+
+														<div class="space-2"></div>
+
+														<div class="form-group">
+															<label
+																class="control-label col-xs-3 col-sm-3 no-padding-right">名称预先核准号</label>
+
+															<div class="col-xs-9 col-sm-9">
+																<div class="input-group">
+
+																	</span> <input type="text" id="name" name="name" />
+																</div>
+															</div>
+														</div>
+
+														<div class="space-2"></div>
+
+														<div class="form-group">
+															<label class="control-label col-sm-3 no-padding-right"
+																for="state">住所</label>
+
+															<panel class="col-sm-3 center">
+															<h5>广州市</h5>
+															</panel>
+
+															<div class="col-sm-3">
+																<select id="state" name="state" class="select2"
+																	data-placeholder="海珠区">
+																	<option value="">&nbsp;</option>
+																	<option value="AL">海珠区</option>
+																	<option value="AK">天河区</option>
+																	<option value="AZ">白云区</option>
+																</select>
+															</div>
+
+															<div class="col-sm-3">
+																<div class="input-group">
+																	</span> <input type="text" id="name" name="phone" />
+																</div>
+
+															</div>
+														</div>
+
+														<div class="space-2"></div>
+
+														<div class="form-group">
+															<label class="control-label col-sm-3 no-padding-right"
+																for="state">经营场所</label>
+
+
+															<panel class="col-sm-3 center">
+															<h5>广州市</h5>
+															</panel>
+
+															<div class="col-sm-3">
+																<select id="state" name="state" class="select2"
+																	data-placeholder="海珠区">
+																	<option value="">&nbsp;</option>
+																	<option value="AL">海珠区</option>
+																	<option value="AK">天河区</option>
+																	<option value="AZ">白云区</option>
+																</select>
+															</div>
+
+															<div class="col-sm-3">
+																<div class="input-group">
+																	</span> <input type="text" id="name" name="name" />
+																</div>
+
+															</div>
+
+
+
+														</div>
+														<div class="space-2"></div>
+
+														<div id="Div_SCJYD" class="form-group">
+															<label class="control-label col-sm-3 no-padding-right"
+																for="state"></label>
+
+															<panel class="col-sm-3 center">
+															<h5>广州市</h5>
+															</panel>
+
+															<div class="col-sm-3">
+																<select id="state" name="state" class="select2"
+																	data-placeholder="海珠区">
+																	<option value="">&nbsp;</option>
+																	<option value="AL">海珠区</option>
+																	<option value="AK">天河区</option>
+																	<option value="AZ">白云区</option>
+																</select>
+															</div>
+
+															<div class="col-sm-3">
+																<div class="input-group">
+																	</span> <input type="text" id="name" name="name" /> <a
+																		href="javascript:ADD_SCJYD()">添加</a>
+																</div>
+
+															</div>
+														</div>
+
+														<div class="space-2"></div>
+
+														<div class="form-group">
+															<label
+																class="control-label col-xs-12 col-sm-3 no-padding-right"
+																for="telephone">联系电话</label>
+
+															<div class="col-xs-12 col-sm-9">
+																<div class="input-group">
+																	<span class="input-group-addon"> <i
+																		class="ace-icon fa fa-phone"></i>
+																	</span> <input type="tel" id="telephone" name="telephone" />
+																</div>
+															</div>
+														</div>
+
+														<div class="space-2"></div>
+
+														<div class="form-group">
+															<label
+																class="control-label col-xs-12 col-sm-3 no-padding-right"
+																for="e_mail">邮政编码</label>
+
+															<div class="col-xs-12 col-sm-9">
+																<div class="input-group">
+																	<span class="input-group-addon"> <i
+																		class="ace-icon fa fa-envelope"></i>
+																	</span> <input type="Email" id="e_mail" name="e_mail" />
+																</div>
+															</div>
+														</div>
+
+
+													</form>
 												</div>
 
-												<hr />
-
-												<!-- #section:plugins/fuelux.wizard.container -->
-												<div class="step-content pos-rel">
-													<div class="step-pane active" data-step="1">
-														<h3 class="lighter block green">请填写以下信息</h3>
-
-
-														<form class="form-horizontal" id="validation-form"
-															method="get">
-
-															<div class="form-group">
-																<label
-																	class="control-label col-xs-12 col-sm-3 no-padding-right"
-																	for="name">名称</label>
-
-																<div class="col-xs-12 col-sm-9">
-																	<div class="clearfix">
-																		<input type="text" id="name" name="name"
-																			class="col-xs-12 col-sm-5" />
-																	</div>
+												<div class="step-pane" data-step="2">
+													<h4 class="lighter block green">请填写企业信息</h4>
+													<form class="form-horizontal" id="validation-form"
+														method="get">
+														<div class="form-group">
+															<label
+																class="control-label col-xs-12 col-sm-3 no-padding-right">注册资本</label>
+															<div class="col-xs-12 col-sm-9">
+																<div class="input-group">
+																	<input type="text" id="name" name="name" />&nbsp;&nbsp;万元
 																</div>
 															</div>
+														</div>
 
-															<div class="space-2"></div>
+														<div class="space-2"></div>
 
-															<div class="form-group">
-																<label
-																	class="control-label col-xs-3 col-sm-3 no-padding-right">名称预先核准号</label>
+														<div id="Div_SCJYD" class="form-group">
+															<label class="control-label col-sm-3 no-padding-right"
+																for="state">公司类型</label>
 
-																<div class="col-xs-9 col-sm-9">
-																	<div class="input-group">
-
-																		</span> <input type="text" id="name" name="name" />
-																	</div>
-																</div>
-															</div>
-
-															<div class="space-2"></div>
-
-															<div class="form-group">
-																<label class="control-label col-sm-3 no-padding-right"
-																	for="state">住所</label>
-
-																<panel class="col-sm-3 center">
-																<h5>广州市</h5>
-																</panel>
-
-																<div class="col-sm-3">
-																	<select id="state" name="state" class="select2"
-																		data-placeholder="海珠区">
-																		<option value="">&nbsp;</option>
-																		<option value="AL">海珠区</option>
-																		<option value="AK">天河区</option>
-																		<option value="AZ">白云区</option>
-																	</select>
-																</div>
-
-																<div class="col-sm-3">
-																	<div class="input-group">
-																		</span> <input type="text" id="name" name="phone" />
-																	</div>
-
-																</div>
-															</div>
-
-															<div class="space-2"></div>
-															
-																<div class="form-group">
-																	<label class="control-label col-sm-3 no-padding-right"
-																		for="state">经营场所</label>
-																		
-																		
-																	<panel class="col-sm-3 center">
-																	<h5>广州市</h5>
-																	</panel>
-
-																	<div class="col-sm-3">
-																		<select id="state" name="state" class="select2"
-																			data-placeholder="海珠区">
-																			<option value="">&nbsp;</option>
-																			<option value="AL">海珠区</option>
-																			<option value="AK">天河区</option>
-																			<option value="AZ">白云区</option>
-																		</select>
-																	</div>
-
-																	<div class="col-sm-3">
-																		<div class="input-group">
-																			</span> <input type="text" id="name" name="name" />
-																		</div>
-
-																	</div>
-																	
-																	
-																
-															</div>
-															<div class="space-2"></div>
-
-															<div id="Div_SCJYD" class="form-group">
-																<label class="control-label col-sm-3 no-padding-right"
-																	for="state"></label>
-
-																<panel class="col-sm-3 center">
-																<h5>广州市</h5>
-																</panel>
-
-																<div class="col-sm-3">
-																	<select id="state" name="state" class="select2"
-																		data-placeholder="海珠区">
-																		<option value="">&nbsp;</option>
-																		<option value="AL">海珠区</option>
-																		<option value="AK">天河区</option>
-																		<option value="AZ">白云区</option>
-																	</select>
-																</div>
-
-																<div class="col-sm-3">
-																	<div class="input-group">
-																		</span> <input type="text" id="name" name="name" /> <a
-																			href="javascript:ADD_SCJYD()">添加</a>
-																	</div>
-
-																</div>
-															</div>
-
-															<div class="space-2"></div>
-
-															<div class="form-group">
-																<label
-																	class="control-label col-xs-12 col-sm-3 no-padding-right"
-																	for="telephone">联系电话</label>
-
-																<div class="col-xs-12 col-sm-9">
-																	<div class="input-group">
-																		<span class="input-group-addon"> <i
-																			class="ace-icon fa fa-phone"></i>
-																		</span> <input type="tel" id="telephone" name="telephone" />
-																	</div>
-																</div>
-															</div>
-
-															<div class="space-2"></div>
-
-															<div class="form-group">
-																<label
-																	class="control-label col-xs-12 col-sm-3 no-padding-right">邮政编码</label>
-
-																<div class="col-xs-12 col-sm-9">
-																	<div class="input-group">
-
-																		</span> <input type="text" id="name" name="name" />
-																	</div>
-																</div>
-															</div>
-
-
-														</form>
-													</div>
-
-													<div class="step-pane" data-step="2">
-														<form class="form-horizontal" id="validation-form"
-															method="get">
-															<div class="form-group">
-																<label
-																	class="control-label col-xs-12 col-sm-3 no-padding-right">注册资本</label>
-																<div class="col-xs-12 col-sm-9">
-																	<div class="input-group">
-																		<input type="text" id="name" name="name" />&nbsp;&nbsp;万元
-																	</div>
-																</div>
-															</div>
-
-															<div class="space-2"></div>
-
-															<div id="Div_SCJYD" class="form-group">
-																<label class="control-label col-sm-3 no-padding-right"
-																	for="state">公司类型</label>
-
-																<div class="col-md-3 col-sm-3">
-																	<select id="state" name="state" class="select2"
-																		"
+															<div class="col-md-3 col-sm-3">
+																<select id="state" name="state" class="select2"
+																	"
 																	data-placeholder="有限责任公司（国有独资）">
-																		<option value="">&nbsp;</option>
-																		<option value="AL">有限责任公司（国有独资）</option>
-																		<option value="AK">有限责任公司（自然人投资或控股）</option>
-																		<option value="AZ">有限责任公司（国有控股）</option>
-																		<option value="AZ">有限责任公司（自然人独资）</option>
-																		<option value="AZ">有限责任公司（法人独资）</option>
-																		<option value="AZ">其它有限责任公司</option>
-																	</select>
-																</div>
+																	<option value="">&nbsp;</option>
+																	<option value="AL">有限责任公司（国有独资）</option>
+																	<option value="AK">有限责任公司（自然人投资或控股）</option>
+																	<option value="AZ">有限责任公司（国有控股）</option>
+																	<option value="AZ">有限责任公司（自然人独资）</option>
+																	<option value="AZ">有限责任公司（法人独资）</option>
+																	<option value="AZ">其它有限责任公司</option>
+																</select>
 															</div>
+														</div>
 
-															<div class="space-2"></div>
+														<div class="space-2"></div>
 
-															<div class="form-group">
+														<div class="form-group">
+															<div class="row">
 																<label
 																	class="control-label col-xs-4 col-sm-3 no-padding-right">经营期限</label>
-																<div class="col-xs-8 col-sm-9">
-																	<div class="radio">
+																<div class="col-xs-8 col-sm-9 control-group">
+																	<div class="radio col-sm-3">
 																		<label> <input name="form-field-radio"
-																			type="radio" class="ace" /> <span class="lbl">
-																		</span> <!-- #section:plugins/date-time.datepicker -->
-																			<div class="col-sm-3 input-group">
-																				<input class="form-control date-picker"
-																					id="id-date-picker-1" type="text"
-																					data-date-format="dd-mm-yyyy" /> <span
-																					class="input-group-addon"> <i
-																					class="fa fa-calendar bigger-110"></i>
-																				</span>
-																			</div>
-																		</label> <label> <input name="form-field-radio"
 																			type="radio" class="ace" /> <span class="lbl">
 																				长期</span>
 																		</label>
 																	</div>
-																</div>
-															</div>
-															<!-- /.span -->
-
-															<div class="space-2"></div>
-															<div class="form-group">
-																<label
-																	class="control-label col-xs-12 col-sm-3 no-padding-right">申请执照副本数</label>
-																<div class="col-xs-12 col-sm-9">
-																	<div class="input-group">
-																		<input type="text" id="name" name="name" />&nbsp;&nbsp;个
+																	<div class="radio col-sm-9">
+																		<label> <input name="form-field-radio"
+																			type="radio" class="ace" /> <span class="lbl">
+																		</span> <!-- #section:plugins/date-time.datepicker -->
+																			<div class="col-sm-12 input-group">
+																				<input class="form-control date-picker"
+																					id="id-date-picker-1" type="text"
+																					data-date-format="yyyy-mm-dd" /> <span
+																					class="input-group-addon"> <i
+																					class="fa fa-calendar bigger-110"></i>
+																				</span>
+																			</div>
+																		</label>
 																	</div>
 																</div>
 															</div>
+														</div>
+														<!-- /.span -->
 
-															<div class="space-2"></div>
-
-															<div id="Div_SCJYD" class="form-group">
-																<label class="control-label col-sm-3 no-padding-right"
-																	for="state">主营项目类别</label>
-
-																<div class="col-md-3 col-sm-3">
-																	<select id="state" name="state" class="select2"
-																		data-placeholder="石油和天然气开采业">
-																		<option value="">&nbsp;</option>
-																		<option value="AL">石油和天然气开采业</option>
-																		<option value="AK">煤炭开采和洗选业</option>
-																		<option value="AZ">黑色金属矿采选业</option>
-
-																	</select>
+														<div class="space-2"></div>
+														<div class="form-group">
+															<label
+																class="control-label col-xs-12 col-sm-3 no-padding-right">申请执照副本数</label>
+															<div class="col-xs-12 col-sm-9">
+																<div class="input-group">
+																	<input type="text" id="name" name="name" />&nbsp;&nbsp;个
 																</div>
 															</div>
+														</div>
 
-															<div class="space-2"></div>
+														<div class="space-2"></div>
+
+														<div id="Div_SCJYD" class="form-group">
+															<label class="control-label col-sm-3 no-padding-right"
+																for="state">主营项目类别</label>
+
+															<div class="col-md-3 col-sm-3">
+																<select id="state" name="state" class="select2"
+																	data-placeholder="石油和天然气开采业">
+																	<option value="">&nbsp;</option>
+																	<option value="AL">石油和天然气开采业</option>
+																	<option value="AK">煤炭开采和洗选业</option>
+																	<option value="AZ">黑色金属矿采选业</option>
+
+																</select>
+															</div>
+														</div>
+
+														<div class="space-2"></div>
+														<div class="form-group">
+															<label class="col-sm-3 control-label no-padding-right"
+																for="form-field-tags">经营范围</label>
+
+															<div class="col-sm-9">
+																<textarea class="form-control" rows="3"
+																	style="width: 250px"></textarea>
+															</div>
+														</div>
+													</form>
+												</div>
+
+												<div class="step-pane" data-step="3">
+													<div class="">
+														<form class="form-horizontal" id="validation-form"
+															method="get">
 															<div class="form-group">
-																<label class="col-sm-3 control-label no-padding-right"
-																	for="form-field-tags">经营范围</label>
-
-																<div class="col-sm-9">
-																	<textarea class="form-control" rows="3"
-																		style="width: 250px"></textarea>
-																</div>
-															</div>
-														</form>
-													</div>
-
-													<div class="step-pane" data-step="3">
-														<div class="">
-															<form class="form-horizontal" id="validation-form"
-																method="get">
-																<div class="form-group">
-																	<div class="col-sm-12">
-																		<textarea class="form-control" rows="6" readonly=true>
+																<div class="col-sm-12">
+																	<textarea class="form-control" rows="6" readonly=true>
 1、本页填写股东情况和任职情况，请按照实际情况点击“+”填写；
 2、如果有限责任公司设执行董事，则执行董事只能为1人、没有董事长、没有董事；
 3、如果有限责任公司设董事会，则董事会人数需要限定在3-13人，其中董事长1人、董事2-12人，没有执行董事。
 4、如果有限责任公司设监事，则监事人数需要限定在1-2人，没有监事会主席；
 5、如果有限责任公司设监事会，则监事会人数需要限定为3人或3人以上，其中监事会主席1人、监事2人或2人以上。
 6、法定代表人、经理、联络员、财务负责人均为1人；</textarea>
+																</div>
+															</div>
+
+															<div class="space-2"></div>
+
+															<div class="form-group">
+																<div class="col-sm-4">
+																	<div class="panel panel-primary">
+																		<!-- Default panel contents -->
+
+																		<div class="panel-body">
+																			<h5>
+																				<span>李雷</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+																				&nbsp;&nbsp;&nbsp;<span class="blue">监事</span>
+																			</h5>
+																			<hr />
+																			<h5>
+																				<span>证件类型： 居民身份证</span>
+																			</h5>
+																			<div>
+																				<h5>
+																					<span>441424197912206982</span>
+																				</h5>
+																			</div>
+																			<div class="space-6"></div>
+																			<div class="col-md-offset-6">
+																				<button class="btn btn-white btn-info btn-bold">
+																					<i
+																						class="ace-icon fa fa-pencil-square-o bigger-110 blue"></i>
+																					修改
+																				</button>
+																				<button class="btn btn-white btn-warning btn-bold">
+																					<i class="ace-icon fa fa-trash-o bigger-120 orange"></i>
+																					删除
+																				</button>
+																			</div>
+
+																		</div>
+
 																	</div>
 																</div>
 
-																<div class="space-2"></div>
+																<div class="col-sm-4">
+																	<div class="panel panel-primary">
+																		<!-- Default panel contents -->
 
-																<div class="form-group">
-																	<div class="col-sm-4">
-																		<div class="panel panel-primary">
-																			<!-- Default panel contents -->
-
-																			<div class="panel-body">
+																		<div class="panel-body">
+																			<h5>
+																				<span>李雷</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+																				&nbsp;&nbsp;&nbsp;<span class="blue">监事</span>
+																			</h5>
+																			<hr />
+																			<h5>
+																				<span>证件类型： 居民身份证</span>
+																			</h5>
+																			<div>
 																				<h5>
-																					<span>李雷</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-																					&nbsp;&nbsp;&nbsp;<span class="blue">监事</span>
+																					<span>441424197912206982</span>
 																				</h5>
-																				<hr />
-																				<h5>
-																					<span>证件类型： 居民身份证</span>
-																				</h5>
-																				<div>
-																					<h5>
-																						<span>441424197912206982</span>
-																					</h5>
-																				</div>
-																				<div class="space-6"></div>
-																				<div class="col-md-offset-6">
-																					<button class="btn btn-white btn-info btn-bold">
-																						<i
-																							class="ace-icon fa fa-pencil-square-o bigger-110 blue"></i>
-																						修改
-																					</button>
-																					<button class="btn btn-white btn-warning btn-bold">
-																						<i
-																							class="ace-icon fa fa-trash-o bigger-120 orange"></i>
-																						删除
-																					</button>
-																				</div>
-
+																			</div>
+																			<div class="space-6"></div>
+																			<div class="col-md-offset-6">
+																				<button class="btn btn-white btn-info btn-bold">
+																					<i
+																						class="ace-icon fa fa-pencil-square-o bigger-110 blue"></i>
+																					修改
+																				</button>
+																				<button class="btn btn-white btn-warning btn-bold">
+																					<i class="ace-icon fa fa-trash-o bigger-120 orange"></i>
+																					删除
+																				</button>
 																			</div>
 
 																		</div>
+
 																	</div>
+																</div>
 
-																	<div class="col-sm-4">
-																		<div class="panel panel-primary">
-																			<!-- Default panel contents -->
+																<div class="col-sm-4">
+																	<div class="panel panel-primary">
+																		<!-- Default panel contents -->
 
-																			<div class="panel-body">
-																				<h5>
-																					<span>李雷</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-																					&nbsp;&nbsp;&nbsp;<span class="blue">监事</span>
-																				</h5>
-																				<hr />
-																				<h5>
-																					<span>证件类型： 居民身份证</span>
-																				</h5>
-																				<div>
-																					<h5>
-																						<span>441424197912206982</span>
-																					</h5>
-																				</div>
-																				<div class="space-6"></div>
-																				<div class="col-md-offset-6">
-																					<button class="btn btn-white btn-info btn-bold">
-																						<i
-																							class="ace-icon fa fa-pencil-square-o bigger-110 blue"></i>
-																						修改
-																					</button>
-																					<button class="btn btn-white btn-warning btn-bold">
-																						<i
-																							class="ace-icon fa fa-trash-o bigger-120 orange"></i>
-																						删除
-																					</button>
-																				</div>
+																		<div class="panel-body">
 
-																			</div>
-
+																			<button type="button"
+																				style="width: 300px; height: 155px; border: 0; background-image: url(“../../imgs/add.png”) no-repeat left top"
+																				data-toggle="modal" data-target="#myModal"></button>
 																		</div>
+
 																	</div>
+																</div>
 
-																	<div class="col-sm-4">
-																		<div class="panel panel-primary">
-																			<!-- Default panel contents -->
-
-																			<div class="panel-body">
-
-																				<button type="button"
-																					style="width: 300px; height: 155px; border: 0; background-image: url(“../../imgs/add.png”) no-repeat left top"
-																					data-toggle="modal" data-target="#myModal"></button>
+																<!-- 模态框（Modal） -->
+																<div class="modal fade" id="myModal" tabindex="-1"
+																	role="dialog" aria-labelledby="myModalLabel"
+																	aria-hidden="true">
+																	<div class="modal-dialog modal-lg">
+																		<div class="modal-content">
+																			<div class="modal-header">
+																				<button type="button" class="close"
+																					data-dismiss="modal" aria-hidden="true">
+																					&times;</button>
+																				<h5 class="modal-title" id="myModalLabel">
+																					法定代表人、董事长、董事、监事、经理、联络员、财务负责人</h5>
 																			</div>
+																			<div class="modal-body">
+																				<form class="form-horizontal" id="validation-form"
+																					method="get">
+																					<div class="form-group">
+																						<div class="col-sm-12">
+																							<div class="panel panel-primary">
+																								<!-- Default panel contents -->
 
-																		</div>
-																	</div>
+																								<div class="panel-body"
+																									style="padding: 5px; background-color: #D2E7F7;">
+																									<h6>
+																										<span>★当一个人同时担任多个职务的时候，请在[同时担任]栏选择多个角色，这样能避免同一人信息的重复录入！</span>
+																									</h6>
+																									<h6>
+																										<span>★法定代表人由执行董事、董事长或经理担任</span>
+																									</h6>
+																								</div>
 
-																	<!-- 模态框（Modal） -->
-																	<div class="modal fade" id="myModal" tabindex="-1"
-																		role="dialog" aria-labelledby="myModalLabel"
-																		aria-hidden="true">
-																		<div class="modal-dialog modal-lg">
-																			<div class="modal-content">
-																				<div class="modal-header">
-																					<button type="button" class="close"
-																						data-dismiss="modal" aria-hidden="true">
-																						&times;</button>
-																					<h5 class="modal-title" id="myModalLabel">
-																						法定代表人、董事长、董事、监事、经理、联络员、财务负责人</h5>
-																				</div>
-																				<div class="modal-body">
-																					<form class="form-horizontal" id="validation-form"
-																						method="get">
-																						<div class="form-group">
-																							<div class="col-sm-12">
-																								<div class="panel panel-primary">
-																									<!-- Default panel contents -->
+																							</div>
+																						</div>
+																					</div>
 
-																									<div class="panel-body"
-																										style="padding: 5px; background-color: #D2E7F7;">
-																										<h6>
-																											<span>★当一个人同时担任多个职务的时候，请在[同时担任]栏选择多个角色，这样能避免同一人信息的重复录入！</span>
-																										</h6>
-																										<h6>
-																											<span>★法定代表人由执行董事、董事长或经理担任</span>
-																										</h6>
+																					<div class="widget-box">
+																						<div class="widget-header">
+																							<h4 class="widget-title">同时担任</h4>
+																						</div>
+
+																						<div class="widget-body">
+																							<div class="widget-main">
+																								<div class="form-group">
+																									<div class="control-group col-sm-12">
+																										<div class="radio col-sm-3">
+																											<label> <input
+																												name="form-field-radio" type="radio"
+																												class="ace" /> <span class="lbl">董事长</span>
+																											</label>
+																										</div>
+
+																										<div class="radio col-sm-3">
+																											<label> <input
+																												name="form-field-radio" type="radio"
+																												class="ace" /> <span class="lbl">执行董事</span>
+																											</label>
+																										</div>
+																										<div class="radio col-sm-3">
+																											<label> <input
+																												name="form-field-radio" type="radio"
+																												class="ace" /> <span class="lbl">董事</span>
+																											</label>
+																										</div>
+																										<div class="radio col-sm-3">
+																											<label> <input
+																												name="form-field-radio" type="radio"
+																												class="ace" /> <span class="lbl">监事会主席</span>
+																											</label>
+																										</div>
+																										<div class="radio col-sm-3">
+																											<label> <input
+																												name="form-field-radio" type="radio"
+																												class="ace" /> <span class="lbl">监事</span>
+																											</label>
+																										</div>
+																										<div class="radio col-sm-3">
+																											<label> <input
+																												name="form-field-radio" type="radio"
+																												class="ace" /> <span class="lbl">经理</span>
+																											</label>
+																										</div>
 																									</div>
+																								</div>
+																								<div class="hr hr-18 dotted hr-double"></div>
+																								<div class="form-group">
+																									<div class="control-group">
+																										<div class="checkbox col-sm-3"
+																											style="margin-left: 13px">
+																											<label> <input
+																												name="form-field-checkbox" type="checkbox"
+																												class="ace" /> <span class="lbl">法定代表人</span>
+																											</label>
+																										</div>
+																										<div class="checkbox col-sm-3">
+																											<label> <input
+																												name="form-field-checkbox" type="checkbox"
+																												id="shareholder" value="999" class="ace" />
+																												<span class="lbl">股东</span>
+																											</label>
+																										</div>
+																										<div class="checkbox col-sm-3">
+																											<label> <input
+																												name="form-field-checkbox" type="checkbox"
+																												class="ace" /> <span class="lbl">联络员</span>
+																											</label>
+																										</div>
+																										<div class="checkbox col-sm-2">
+																											<label> <input
+																												name="form-field-checkbox" type="checkbox"
+																												class="ace" /> <span class="lbl">联络机构</span>
+																											</label>
+																										</div>
 
+																										<div class="checkbox col-sm-3"
+																											style="margin-left: 13px">
+																											<label> <input
+																												name="form-field-checkbox" type="checkbox"
+																												class="ace" /> <span class="lbl">财务负责人</span>
+																											</label>
+																										</div>
+																										<div class="checkbox col-sm-3">
+																											<label> <input
+																												name="form-field-checkbox" type="checkbox"
+																												class="ace" /> <span class="lbl">代理人</span>
+																											</label>
+																										</div>
+
+																									</div>
 																								</div>
 																							</div>
 																						</div>
-																						<div class="form-group">
-																							<div class="control-group">
-																								<label
-																									class="control-label col-xs-12 col-sm-1 no-padding-right">同时担任</label>
-																								<div class="checkbox col-sm-2">
-																									<label> <input
-																										name="form-field-checkbox" type="checkbox"
-																										class="ace" /> <span class="lbl">法定代表人</span>
-																									</label>
-																								</div>
-																								<div class="checkbox col-sm-2">
-																									<label> <input
-																										name="form-field-checkbox" type="checkbox"
-																										class="ace" /> <span class="lbl">董事长</span>
-																									</label>
-																								</div>
+																					</div>
 
-																								<div class="checkbox col-sm-2">
-																									<label> <input
-																										name="form-field-checkbox" type="checkbox"
-																										class="ace" /> <span class="lbl">执行董事</span>
-																									</label>
-																								</div>
-																								<div class="checkbox col-sm-2">
-																									<label> <input
-																										name="form-field-checkbox" type="checkbox"
-																										class="ace" /> <span class="lbl">董事</span>
-																									</label>
-																								</div>
-																								<div class="checkbox col-sm-2">
-																									<label> <input
-																										name="form-field-checkbox" type="checkbox"
-																										class="ace" /> <span class="lbl">监事会主席</span>
-																									</label>
-																								</div>
-																								<div class="checkbox col-md-offset-1 col-sm-2">
-																									<label> <input
-																										name="form-field-checkbox" type="checkbox"
-																										class="ace" /> <span class="lbl">监事</span>
-																									</label>
-																								</div>
-																								<div class="checkbox col-sm-2">
-																									<label> <input
-																										name="form-field-checkbox" type="checkbox"
-																										class="ace" /> <span class="lbl">经理</span>
-																									</label>
-																								</div>
-																								<div class="checkbox col-sm-2">
-																									<label> <input
-																										name="form-field-checkbox" type="checkbox"
-																										class="ace" /> <span class="lbl">股东</span>
-																									</label>
-																								</div>
-																								<div class="checkbox col-sm-2">
-																									<label> <input
-																										name="form-field-checkbox" type="checkbox"
-																										class="ace" /> <span class="lbl">联络员</span>
-																									</label>
-																								</div>
-																								<div class="checkbox col-sm-2">
-																									<label> <input
-																										name="form-field-checkbox" type="checkbox"
-																										class="ace" /> <span class="lbl">联络机构</span>
-																									</label>
-																								</div>
-
+																					<div class="form-group" style="margin-top: 10px">
+																						<label
+																							class="control-label col-xs-12 col-sm-2 no-padding-right">姓名/名称</label>
+																						<div class="col-xs-12 col-sm-4">
+																							<div class="input-group col-sm-12">
+																								<input type="text" id="name" name="name"
+																									class="form-control" />
 																							</div>
 																						</div>
+																						<label
+																							class="control-label col-xs-12 col-sm-2 no-padding-right">身份证件类型</label>
+																						<div class="col-xs-12 col-sm-4">
+																							<div class="input-group col-sm-12">
+																								<select class="form-control" id="selType">
+																									<option value="">--</option>
+																									<option value="A">身份证</option>
+																									<option value="B">军官证</option>
+																									<option value="C">警官证</option>
+																									<option value="D">外国(地区)护照</option>
+																								</select>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="space-2"></div>
+																					<!-- <div class="form-group">
+																						<label
+																							class="control-label col-xs-12 col-sm-2 no-padding-right">身份证件类型</label>
+																						<div class="col-xs-12 col-sm-9">
+																							<div class="input-group col-sm-6">
+																								<input type="text" id="name" name="name"
+																									class="form-control" />
+																							</div>
+																						</div>
+																					</div> -->
+																					<div class="space-2"></div>
+																					<div class="form-group">
+																						<label
+																							class="control-label col-xs-12 col-sm-2 no-padding-right">身份证件号码</label>
+																						<div class="col-xs-12 col-sm-4">
+																							<div class="input-group col-sm-12">
+																								<input type="text" id="name" name="name"
+																									class="form-control" />
+																							</div>
+																						</div>
+
+																						<label
+																							class="control-label col-xs-12 col-sm-2 no-padding-right">移动电话</label>
+																						<div class="col-xs-12 col-sm-4">
+																							<div class="input-group col-sm-12">
+																								<input type="text" id="name" name="name"
+																									class="form-control" />
+																							</div>
+																						</div>
+																					</div>
+
+																					<div class="space-2"></div>
+																					<div class="form-group">
+																						<label
+																							class="control-label col-xs-12 col-sm-2 no-padding-right">固定电话</label>
+																						<div class="col-xs-12 col-sm-4">
+																							<div class="input-group col-sm-12">
+																								<input type="text" id="name" name="name"
+																									class="form-control input-mask-phone" />
+																							</div>
+																						</div>
+
+																						<label
+																							class="control-label col-xs-12 col-sm-2 no-padding-right">电子邮箱</label>
+																						<div class="col-xs-12 col-sm-4">
+																							<div class="input-group col-sm-12">
+																								<input type="text" id="name" name="name"
+																									class="form-control" />
+																							</div>
+																						</div>
+																					</div>
+
+																					<div class="space-2"></div>
+																					<div id="show_hide">
 																						<div class="form-group">
 																							<label
-																								class="control-label col-xs-12 col-sm-2 no-padding-right">姓名/名称</label>
-																							<div class="col-xs-12 col-sm-9">
-																								<div class="input-group">
-																									<input type="text" id="name" name="name" />
+																								class="control-label col-xs-12 col-sm-2 no-padding-right">出资方式</label>
+																							<div class="col-xs-12 col-sm-4">
+																								<div class="input-group col-sm-12">
+																									<select class="form-control" id="selType">
+																										<option value="">--</option>
+																										<option value="A">货币</option>
+																										<option value="B">实物</option>
+																										<option value="C">知识产权</option>
+																										<option value="D">股权</option>
+																										<option value="E">其他</option>
+																									</select>
+																								</div>
+																							</div>
+																							
+																							<label
+																								class="control-label col-xs-12 col-sm-2 no-padding-right">认缴出资额(万元)</label>
+																							<div class="col-xs-12 col-sm-4">
+																								<div class="input-group col-sm-12">
+																									<input type="text" id="money" name="money"
+																										class="form-control" />
 																								</div>
 																							</div>
 																						</div>
+
+
 																						<div class="space-2"></div>
 																						<div class="form-group">
 																							<label
-																								class="control-label col-xs-12 col-sm-2 no-padding-right">身份证件类型</label>
-																							<div class="col-xs-12 col-sm-9">
-																								<div class="input-group">
-																									<input type="text" id="name" name="name" />
+																								class="control-label col-xs-12 col-sm-2 no-padding-right">出资日期</label>
+																							<div class="col-xs-12 col-sm-4">
+																								<div class="input-group col-sm-12">
+																									<input class="form-control date-picker"
+																										id="id-date-picker-2" type="text"
+																										data-date-format="yyyy-mm-dd" /> <span
+																										class="input-group-addon"> <i
+																										class="fa fa-calendar bigger-110"></i>
+																									</span>
 																								</div>
 																							</div>
 																						</div>
-																						<div class="space-2"></div>
-																						<div class="form-group">
-																							<label
-																								class="control-label col-xs-12 col-sm-2 no-padding-right">身份证件号码</label>
-																							<div class="col-xs-12 col-sm-9">
-																								<div class="input-group">
-																									<input type="text" id="name" name="name" />
+
+																					</div>
+
+																					<div class="form-group">
+																						<label
+																							class="control-label col-xs-2 col-sm-2 no-padding-right"
+																							for="telephone">身份证件复印件</label>
+
+																						<div class="col-xs-4 col-sm-5">
+																							<div class="widget-box">
+																								<div class="widget-header">
+																									<h5 class="widget-title">请上传身份证件正面复印件、扫描件</h5>
+
+																									<div class="widget-toolbar">
+																										<a href="#" data-action="collapse"> <i
+																											class="ace-icon fa fa-chevron-up"></i>
+																										</a> <a href="#" data-action="close"> <i
+																											class="ace-icon fa fa-times"></i>
+																										</a>
+																									</div>
+																								</div>
+
+																								<div class="widget-body">
+																									<div class="widget-main">
+
+
+																										<div class="form-group">
+																											<div class="col-xs-12">
+																												<input type="file" id="id-input-file-3" />
+
+																												<!-- /section:custom/file-input -->
+																											</div>
+																										</div>
+
+																										<!-- #section:custom/file-input.filter -->
+
+
+																										<!-- /section:custom/file-input.filter -->
+																									</div>
 																								</div>
 																							</div>
 																						</div>
-																						</form>
-																				</div>
-															</form>
-															<div class="modal-footer">
-																<button type="button" class="btn btn-primary"
-																	data-dismiss="modal">确定</button>
-																<button type="button" class="btn btn-default"
-																	data-dismiss="modal">关闭</button>
-															</div>
-														</div>
-														<!-- /.modal-content -->
-													</div>
-													<!-- /.modal -->
-												</div>
-											</div>
-											</form>
-										</div>
-									</div>
 
-									<div class="step-pane" data-step="4">
-										<div class="center">
-											<form class="form-horizontal" id="validation-form"
-												method="get">
+																						<div class="col-sm-5">
+																							<div class="widget-box">
+																								<div class="widget-header">
+																									<h5 class="widget-title">请上传身份证件正面复印件、扫描件</h5>
 
-												<div class="form-group">
-													<label
-														class="control-label col-xs-12 col-sm-3 no-padding-right">代理人</label>
+																									<div class="widget-toolbar">
+																										<a href="#" data-action="collapse"> <i
+																											class="ace-icon fa fa-chevron-up"></i>
+																										</a> <a href="#" data-action="close"> <i
+																											class="ace-icon fa fa-times"></i>
+																										</a>
+																									</div>
+																								</div>
 
-													<div class="col-xs-12 col-sm-9">
-														<div class="input-group">
-															</span> <input type="text" id="name" name="name" />
-														</div>
-													</div>
-												</div>
-												<div class="space-2"></div>
-												<div class="form-group">
-													<label
-														class="control-label col-xs-12 col-sm-3 no-padding-right">所属中介公司</label>
-
-													<div class="col-xs-12 col-sm-9">
-														<div class="input-group">
-															</span> <input type="text" id="name" name="name" />
-														</div>
-													</div>
-												</div>
-
-												<div class="form-group">
-													<label
-														class="control-label col-xs-12 col-sm-3 no-padding-right">有效期限</label>
-													<div class="col-xs-12 col-sm-9">
-														<div class="input-daterange input-group">
-															<input type="text" class="input-sm form-control"
-																name="start" /> <span class="input-group-addon">
-																<i class="fa fa-exchange"></i>
-															</span> <input type="text" class="input-sm form-control"
-																name="end" />
-														</div>
-													</div>
-												</div>
-
-												<div class="space-2"></div>
-
-												<div class="form-group">
-													<label
-														class="control-label col-xs-12 col-sm-3 no-padding-right"
-														for="telephone">固定电话</label>
-													<div class="col-xs-12 col-sm-9">
-														<div class="input-group">
-
-															<input type="text" id="name" name="name" />
-														</div>
-													</div>
-												</div>
-												<div class="space-2"></div>
-												<div class="form-group">
-													<label
-														class="control-label col-xs-12 col-sm-3 no-padding-right"
-														for="telephone">移动电话</label>
-													<div class="col-xs-12 col-sm-9">
-														<div class="input-group">
-
-															<input type="text" id="name" name="name" />
-														</div>
-													</div>
-												</div>
-												<div class="space-2"></div>
-												<div class="form-group">
-													<label
-														class="control-label col-xs-12 col-sm-3 no-padding-right"
-														for="telephone">身份证件复印件</label>
-
-													<div class="col-sm-4">
-														<div class="widget-box">
-															<div class="widget-header">
-																<h5 class="widget-title">请上传身份证件正面复印件、扫描件</h5>
-
-																<div class="widget-toolbar">
-																	<a href="#" data-action="collapse"> <i
-																		class="ace-icon fa fa-chevron-up"></i>
-																	</a> <a href="#" data-action="close"> <i
-																		class="ace-icon fa fa-times"></i>
-																	</a>
-																</div>
-															</div>
-
-															<div class="widget-body">
-																<div class="widget-main">
+																								<div class="widget-body">
+																									<div class="widget-main">
 
 
-																	<div class="form-group">
-																		<div class="col-xs-12">
-																			<input type="file" id="id-input-file-3" />
+																										<div class="form-group">
+																											<div class="col-xs-12">
+																												<input type="file" id="id-input-file-3" />
 
-																			<!-- /section:custom/file-input -->
-																		</div>
-																	</div>
+																												<!-- /section:custom/file-input -->
+																											</div>
+																										</div>
 
-																	<!-- #section:custom/file-input.filter -->
-
-
-																	<!-- /section:custom/file-input.filter -->
-																</div>
-															</div>
-														</div>
-													</div>
-
-													<div class="col-sm-4">
-														<div class="widget-box">
-															<div class="widget-header">
-																<h5 class="widget-title">请上传身份证件反面复印件、扫描件</h5>
-
-																<div class="widget-toolbar">
-																	<a href="#" data-action="collapse"> <i
-																		class="ace-icon fa fa-chevron-up"></i>
-																	</a> <a href="#" data-action="close"> <i
-																		class="ace-icon fa fa-times"></i>
-																	</a>
-																</div>
-															</div>
-
-															<div class="widget-body">
-																<div class="widget-main">
+																										<!-- #section:custom/file-input.filter -->
 
 
-																	<div class="form-group">
-																		<div class="col-xs-12">
-																			<input type="file" id="id-input-file-4" />
-
-																			<!-- /section:custom/file-input -->
-																		</div>
-																	</div>
-
-																	<!-- #section:custom/file-input.filter -->
-
-
-																	<!-- /section:custom/file-input.filter -->
-																</div>
-															</div>
-
-															<div id="identifier" class="modal fade"
-																data-backdrop="static" tabindex="-1" id="progressbar">
-																<!--窗口声明：-->
-																<div class="modal-dialog">
-																	<!-- 内容声明 -->
-																	<div class="modal-content">
-																		<h5>正在生成报表,请稍后</h5>
-																		<div class="modal-body">
-																			<div class="progress progress-striped active">
-																				<div id="prog" class="progress-bar"
-																					role="progressbar" aria-valuenow=""
-																					aria-valuemin="0" aria-valuemax="100"
-																					style="width: 0%;">
-																					<span id="proglabel">正在生成PDF，请稍后......</span>
-																				</div>
+																										<!-- /section:custom/file-input.filter -->
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</form>
 																			</div>
-
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div id="printModal" class="modal fade"
-																data-backdrop="static" tabindex="-1" id="progressbar">
-																<!--窗口声明：-->
-																<div class="modal-dialog modal-lg">
-																	<!-- 内容声明 -->
-																	<div class="modal-content">
-																		<div class="modal-header"
-																			style="background-color: #F8F8F8">
-																			<button type="button" class="close"
-																				data-dismiss="modal" aria-hidden="true">
-																				&times;</button>
-																			<h5 class="modal-title" id="myModalLabel">文档预览</h5>
-																		</div>
-																		<div class="modal-body" style="padding: 0px">
-																			<a class="media" href="../pdf/公司设立登记申请书.pdf"></a>
-
-																		</div>
-																		<div class="modal-footer">
-																			<button type="button" class="btn btn-primary"
-																				data-toggle="tooltip" data-placement="top"
-																				data-html="true" title=""
-																				data-original-title="<div class='tip'>请用手机扫一扫<img src='../images/qrcode.png'/></div>">无介质签名</button>
-																			<button onclick="openSuccessPage()" type="button"
-																				class="btn btn-primary" data-toggle="tooltip"
-																				data-placement="top" data-html="true" title=""
-																				data-original-title="<div class='tip'><h5>请插入U盾</h5>">UKey签名</button>
-																			<button type="button" class="btn btn-primary">下载文档</button>
-																			<button type="button" class="btn btn-default"
-																				data-dismiss="modal">关闭</button>
-																		</div>
-																	</div>
-																</div>
-															</div>
-
-															<div id="successModal" class="modal fade"
-																data-backdrop="static" tabindex="-1" id="progressbar">
-																<!--窗口声明：-->
-																<div class="modal-dialog modal-lg">
-																	<!-- 内容声明 -->
-																	<div class="modal-content">
-																		<div class="modal-header"
-																			style="background-color: #F8F8F8">
-																			<button type="button" class="close"
-																				data-dismiss="modal" aria-hidden="true">
-																				&times;</button>
-																			<h5 class="modal-title" id="myModalLabel">填表成功</h5>
-																		</div>
-																		<div class="modal-body" style="padding: 0px"></div>
-																		<div class="modal-footer">
-																			<a href="/ent/jsp/newserviceHall.jsp" title="返回首页">
-																				<button type="button" class="btn btn-primary ">返回首页</button>
-																			</a>
-																			<button type="button" class="btn btn-primary"
-																				data-dismiss="modal">关闭</button>
-																		</div>
-																	</div>
-																</div>
-															</div>
-
+														</form>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-primary"
+																data-dismiss="modal">确定</button>
+															<button type="button" class="btn btn-default"
+																data-dismiss="modal">关闭</button>
 														</div>
 													</div>
+													<!-- /.modal-content -->
 												</div>
-
-											</form>
+												<!-- /.modal -->
+											</div>
 										</div>
+										</form>
 									</div>
 								</div>
 
-								<!-- /section:plugins/fuelux.wizard.container -->
+								<div class="step-pane" data-step="4">
+									<div class="center">
+										<form class="form-horizontal" id="validation-form"
+											method="get">
+
+											<div class="form-group">
+												<label
+													class="control-label col-xs-12 col-sm-3 no-padding-right">代理人</label>
+
+												<div class="col-xs-12 col-sm-9">
+													<div class="input-group">
+														</span> <input type="text" id="name" name="name" />
+													</div>
+												</div>
+											</div>
+											<div class="space-2"></div>
+											<div class="form-group">
+												<label
+													class="control-label col-xs-12 col-sm-3 no-padding-right">所属中介公司</label>
+
+												<div class="col-xs-12 col-sm-9">
+													<div class="input-group">
+														</span> <input type="text" id="name" name="name" />
+													</div>
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label
+													class="control-label col-xs-12 col-sm-3 no-padding-right">有效期限</label>
+												<div class="col-xs-12 col-sm-9">
+													<div class="input-daterange input-group"
+														data-date-format="yyyy-mm-dd">
+														<input type="text" class="input-sm form-control"
+															name="start" /> <span class="input-group-addon">
+															<i class="fa fa-exchange"></i>
+														</span> <input type="text" class="input-sm form-control"
+															name="end" />
+													</div>
+												</div>
+											</div>
+
+											<div class="space-2"></div>
+
+											<div class="form-group">
+												<label
+													class="control-label col-xs-12 col-sm-3 no-padding-right"
+													for="telephone">固定电话</label>
+												<div class="col-xs-12 col-sm-9">
+													<div class="input-group">
+
+														<input type="text" id="name" name="name" />
+													</div>
+												</div>
+											</div>
+											<div class="space-2"></div>
+											<div class="form-group">
+												<label
+													class="control-label col-xs-12 col-sm-3 no-padding-right"
+													for="telephone">移动电话</label>
+												<div class="col-xs-12 col-sm-9">
+													<div class="input-group">
+
+														<input type="text" id="name" name="name" />
+													</div>
+												</div>
+											</div>
+											<div class="space-2"></div>
+											<div class="form-group">
+												<label
+													class="control-label col-xs-12 col-sm-3 no-padding-right"
+													for="telephone">身份证件复印件</label>
+
+												<div class="col-sm-4">
+													<div class="widget-box">
+														<div class="widget-header">
+															<h5 class="widget-title">请上传身份证件正面复印件、扫描件</h5>
+
+															<div class="widget-toolbar">
+																<a href="#" data-action="collapse"> <i
+																	class="ace-icon fa fa-chevron-up"></i>
+																</a> <a href="#" data-action="close"> <i
+																	class="ace-icon fa fa-times"></i>
+																</a>
+															</div>
+														</div>
+
+														<div class="widget-body">
+															<div class="widget-main">
+
+
+																<div class="form-group">
+																	<div class="col-xs-12">
+																		<input type="file" id="id-input-file-3" />
+
+																		<!-- /section:custom/file-input -->
+																	</div>
+																</div>
+
+																<!-- #section:custom/file-input.filter -->
+
+
+																<!-- /section:custom/file-input.filter -->
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="col-sm-4">
+													<div class="widget-box">
+														<div class="widget-header">
+															<h5 class="widget-title">请上传身份证件反面复印件、扫描件</h5>
+
+															<div class="widget-toolbar">
+																<a href="#" data-action="collapse"> <i
+																	class="ace-icon fa fa-chevron-up"></i>
+																</a> <a href="#" data-action="close"> <i
+																	class="ace-icon fa fa-times"></i>
+																</a>
+															</div>
+														</div>
+
+														<div class="widget-body">
+															<div class="widget-main">
+
+
+																<div class="form-group">
+																	<div class="col-xs-12">
+																		<input type="file" id="id-input-file-4" />
+
+																		<!-- /section:custom/file-input -->
+																	</div>
+																</div>
+
+																<!-- #section:custom/file-input.filter -->
+
+
+																<!-- /section:custom/file-input.filter -->
+															</div>
+														</div>
+
+														<div id="identifier" class="modal fade"
+															data-backdrop="static" tabindex="-1" id="progressbar">
+															<!--窗口声明：-->
+															<div class="modal-dialog">
+																<!-- 内容声明 -->
+																<div class="modal-content">
+																	<h5>正在生成报表,请稍后</h5>
+																	<div class="modal-body">
+																		<div class="progress progress-striped active">
+																			<div id="prog" class="progress-bar"
+																				role="progressbar" aria-valuenow=""
+																				aria-valuemin="0" aria-valuemax="100"
+																				style="width: 0%;">
+																				<span id="proglabel">正在生成PDF，请稍后......</span>
+																			</div>
+																		</div>
+
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div id="printModal" class="modal fade"
+															data-backdrop="static" tabindex="-1" id="progressbar">
+															<!--窗口声明：-->
+															<div class="modal-dialog modal-lg">
+																<!-- 内容声明 -->
+																<div class="modal-content">
+																	<div class="modal-header"
+																		style="background-color: #F8F8F8">
+																		<button type="button" class="close"
+																			data-dismiss="modal" aria-hidden="true">
+																			&times;</button>
+																		<h5 class="modal-title" id="myModalLabel">文档预览</h5>
+																	</div>
+																	<div class="modal-body" style="padding: 0px">
+																		<a class="media" href="../pdf/公司设立登记申请书.pdf"></a>
+
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-primary"
+																			data-toggle="tooltip" data-placement="top"
+																			data-html="true" title=""
+																			data-original-title="<div class='tip'>请用手机扫一扫<img src='../images/qrcode.png'/></div>">无介质签名</button>
+																		<button onclick="openSuccessPage()" type="button"
+																			class="btn btn-primary" data-toggle="tooltip"
+																			data-placement="top" data-html="true" title=""
+																			data-original-title="<div class='tip'><h5>请插入U盾</h5>">UKey签名</button>
+																		<button type="button" class="btn btn-primary">下载文档</button>
+																		<button type="button" class="btn btn-default"
+																			data-dismiss="modal">关闭</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+														<div id="successModal" class="modal fade"
+															data-backdrop="static" tabindex="-1" id="progressbar">
+															<!--窗口声明：-->
+															<div class="modal-dialog modal-lg">
+																<!-- 内容声明 -->
+																<div class="modal-content">
+																	<div class="modal-header"
+																		style="background-color: #F8F8F8">
+																		<button type="button" class="close"
+																			data-dismiss="modal" aria-hidden="true">
+																			&times;</button>
+																		<h5 class="modal-title" id="myModalLabel">填表成功</h5>
+																	</div>
+																	<div class="modal-body" style="padding: 0px"></div>
+																	<div class="modal-footer">
+																		<a href="/ent/jsp/newserviceHall.jsp" title="返回首页">
+																			<button type="button" class="btn btn-primary ">返回首页</button>
+																		</a>
+																		<button type="button" class="btn btn-primary"
+																			data-dismiss="modal">关闭</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+													</div>
+												</div>
+											</div>
+
+										</form>
+									</div>
+								</div>
 							</div>
 
-							<hr />
-							<div class="wizard-actions">
-								<!-- #section:plugins/fuelux.wizard.buttons -->
-								<button class="btn btn-prev">
-									<i class="ace-icon fa fa-arrow-left"></i> 返回修改
-								</button>
-
-								<button class="btn btn-success btn-next" data-last="完成">
-									下一步 <i class="ace-icon fa fa-arrow-right icon-on-right"></i>
-								</button>
-
-								<!-- /section:plugins/fuelux.wizard.buttons -->
-							</div>
-
-							<!-- /section:plugins/fuelux.wizard -->
+							<!-- /section:plugins/fuelux.wizard.container -->
 						</div>
-						<!-- /.widget-main -->
+
+						<hr />
+						<div class="wizard-actions">
+							<!-- #section:plugins/fuelux.wizard.buttons -->
+							<button class="btn btn-prev">
+								<i class="ace-icon fa fa-arrow-left"></i> 返回修改
+							</button>
+
+							<button class="btn btn-success btn-next" data-last="完成">
+								下一步 <i class="ace-icon fa fa-arrow-right icon-on-right"></i>
+							</button>
+
+							<!-- /section:plugins/fuelux.wizard.buttons -->
+						</div>
+
+						<!-- /section:plugins/fuelux.wizard -->
 					</div>
-					<!-- /.widget-body -->
-				
+					<!-- /.widget-main -->
+				</div>
+				<!-- /.widget-body -->
+
 			</div>
 			<div id="modal-wizard" class="modal">
 				<div class="modal-dialog">
@@ -977,7 +1183,7 @@
 	</div>
 	<!-- /.main-content -->
 
-	
+
 
 	<a href="#" id="btn-scroll-up"
 		class="btn-scroll-up btn btn-sm btn-inverse"> <i
@@ -1025,6 +1231,7 @@
 	<script src="../../ace/assets/js/date-time/bootstrap-datetimepicker.js"></script>
 	<script src="../../ace/assets/js/bootstrap-colorpicker.js"></script>
 	<script src="../../ace/assets/js/jquery.inputlimiter.1.3.1.js"></script>
+	<script src="../../ace/assets/js/jquery.maskedinput.js"></script>
 	<!-- ace scripts -->
 	<script src="../../ace/assets/js/ace/elements.scroller.js"></script>
 	<script src="../../ace/assets/js/ace/elements.colorpicker.js"></script>
@@ -1048,6 +1255,16 @@
 	<script src="../../ace/assets/js/ace/ace.widget-on-reload.js"></script>
 	<script src="../../ace/assets/js/ace/ace.searchbox-autocomplete.js"></script>
 
+	<script type="text/javascript">
+    $('.input-mask-phone').mask('(999) 999-999-99');
+    $('#shareholder').change(function(){
+    	if($("#shareholder").is(":checked")){
+    		$('#show_hide').show();
+    	}else{
+    		$('#show_hide').hide();
+    	}
+    });
+	</script>
 
 	<!-- inline scripts related to this page -->
 	<script src="../js/setUpPage.js"></script>

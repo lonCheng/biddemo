@@ -141,11 +141,14 @@
 											</div>
 											<div class="item-content-active">
 												<ul class="item-sub-content">
-													<li class="sub-item clearfix">
+													<!-- <li class="sub-item clearfix">
 														<div class="sub-item-title clearfix">设立</div> <a
 														href="setUpPage.jsp"
 														class="btn-more">开始办理</a>
-													</li>
+													</li> -->
+													<li class="sub-item clearfix">
+														<div class="sub-item-title clearfix">设立</div> <a
+														class="btn-more" data-toggle="modal" data-target="#myModal">开始办理</a>
 													<li class="sub-item clearfix">
 														<div class="sub-item-title clearfix">变更（备案）</div> <a
 														href="#"
@@ -225,9 +228,40 @@
 						class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
 					</a>
 				</div>
+				</div>
+				</div>
 				<!-- /.main-container -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel">请先填写(名称预先核准受理号或企业名称自主申报告知书编号)</h4>
+				</div>
+					<form class="form-horizontal" role="form">
+				<div class="modal-body">
+						<div class="form-group">
+							<label class="col-sm-3 control-label no-padding-right"
+								for="form-field-1"> 受理号/通知书号 </label>
 
-				<!-- basic scripts -->
+							<div class="col-sm-8">
+								<input id="form-field-1" type="text">
+							</div>
+						</div>
+				</div>
+				</form>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+					<a href="setUpPage.jsp" class="btn btn-primary">确定</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- basic scripts -->
 
 				<!--[if !IE]> -->
 				<script type="text/javascript">
@@ -578,6 +612,17 @@
 										$(this).removeClass('dropup');
 								});
 
+					});
+					//激活模态框
+					$('#modal-form').on('shown.bs.modal', function () {
+						alert('aaaaaaaaaa');
+						if(!ace.vars['touch']) {
+							$(this).find('.chosen-container').each(function(){
+								$(this).find('a:first-child').css('width' , '210px');
+								$(this).find('.chosen-drop').css('width' , '210px');
+								$(this).find('.chosen-search input').css('width' , '200px');
+							});
+						}
 					})
 				</script>
 
