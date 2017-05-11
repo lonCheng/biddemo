@@ -142,29 +142,18 @@ ul li {
 </script>
 
 
-<script type="text/javascript">
-	window.onload = function() {
-		var oTxt1 = document.getElementById('jyfw');
-		oTxt1.onclick = function() {
-			window
-					.open(
-							'jyfw.jsp',
-							'经营范围',
-							'height=400,width=800,top=0,left=0, toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');
-		};
-	};
-</script>
+
 </head>
 
 <body class="no-skin">
 	<div id="NavTop">
 		<div id="NavCon">
 			<ul>
-				<li><a href="#collapseOne">企业基本信息</a></li>
-				<li><a href="#collapseTwo">股东基本信息</a></li>
-				<li><a href="#collapseThree">隶属企业</a></li>
-				<li><a href="#collapseFour">财务人员</a></li>
-				<li><a href="#collapseFive">提交</a></li>
+				<li><a href="editInput1.jsp">代理或申报人信息</a></li>
+				<li><a href="editInput2.jsp" >外商投资的公司分公司登记事项</a></li>
+				<li><a href="javascript:return false;">分公司负责人登记表</a></li>
+				<li><a href="editInput4.jsp">税务信息补充</a></li>
+				<li><a href="editInput14.jsp">纸质材料</a></li>
 			</ul>
 
 		</div>

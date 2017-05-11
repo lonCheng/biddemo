@@ -110,6 +110,12 @@ ul li {
 }
 </style>
 <script type="text/javascript">
+		window.jQuery
+				|| document
+						.write("<script src='../../../ace/assets/js/jquery.js'>"
+								+ "<"+"/script>");
+	</script>
+<script type="text/javascript">
 	$(document).ready(function() {
 		$("#div1Link").click(function() {
 			$("html, body").animate({
@@ -142,29 +148,18 @@ ul li {
 </script>
 
 
-<script type="text/javascript">
-	window.onload = function() {
-		var oTxt1 = document.getElementById('jyfw');
-		oTxt1.onclick = function() {
-			window
-					.open(
-							'jyfw.jsp',
-							'经营范围',
-							'height=400,width=800,top=0,left=0, toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');
-		};
-	};
-</script>
+
 </head>
 
 <body class="no-skin">
 	<div id="NavTop">
 		<div id="NavCon">
 			<ul>
-				<li><a href="#collapseOne">企业基本信息</a></li>
-				<li><a href="#collapseTwo">股东基本信息</a></li>
-				<li><a href="#collapseThree">隶属企业</a></li>
-				<li><a href="#collapseFour">财务人员</a></li>
-				<li><a href="#collapseFive">提交</a></li>
+				<li><a href="javascript:return false;">代理或申报人信息</a></li>
+				<li><a href="editInput2.jsp" >外商投资的公司分公司登记事项</a></li>
+				<li><a href="editInput3.jsp">分公司负责人登记表</a></li>
+				<li><a href="editInput4.jsp">税务信息补充</a></li>
+				<li><a href="editInput14.jsp">纸质材料</a></li>
 			</ul>
 
 		</div>
@@ -224,7 +219,7 @@ ul li {
 							<!-- PAGE CONTENT BEGINS -->
 							<div id="user-profile" class="user-profile now">
 								<div class="col-sm-offset-0 col-sm-12">
-									<form class="form-horizontal">
+									<form class="form-horizontal" id="foreignent1">
 										<div class="tabbable">
 											<div class="tab-content profile-edit-tab-content">
 												<div id="edit-basic" class="tab-pane in active">
@@ -238,15 +233,15 @@ ul li {
 																		for="form-field-username">姓名</label>
 
 																	<div class="col-sm-3">
-																		<input type="text" id="form-field-username"
-																			placeholder="姓名" value="" />
+																		<input type="text" 
+																			placeholder="姓名" value="" name="username2"/>
 																	</div>
 																	<label class="col-sm-1 control-label no-padding-right"
 																		for="form-field-username">代理人地址</label>
 
 																	<div class="col-sm-3">
 																		<input type="text" id="form-field-username"
-																			placeholder="代理人地址" value="" />
+																			placeholder="代理人地址" value="" name="address"/>
 																	</div>
 																	<label class="col-sm-1 control-label no-padding-right"
 																		for="form-field-username">手机号码</label>
@@ -288,6 +283,8 @@ ul li {
 																	<div class="col-sm-3">
 																		<input type="text" id="form-field-username"
 																			placeholder="证件号码" value="" />
+																			
+																			 <input id="firstname" placeholder="firstname" name="firstname" type="text">
 																	</div>
 																</div>
 															</div>
@@ -307,9 +304,10 @@ ul li {
 															class="widget-header widget-header-blue widget-header-flat"
 															align="center">
 															&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-															<button type="button" class="btn btn-primary" style="" onclick="javascript:window.location.href='editInput2.jsp'">下一步</button>
+															<button type="button" class="btn btn-primary" style="" id="a" onclick="nextforeign();">下一步</button>
 															&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 															<button type="button" class="btn btn-primary" style="">保存</button>
+															  <input type="submit" id="temporary" style="display:none;">
 														</div>
 													</div>
 
@@ -319,9 +317,10 @@ ul li {
 												<div class="space"></div>
 											</div>
 										</div>
+										</form>
 								</div>
 
-								</form>
+								
 							</div>
 							<!-- /.span -->
 						</div>
@@ -336,95 +335,7 @@ ul li {
 		</div>
 	</div>
 	<!-- /.main-content -->
-	<div id="my-modal" class="modal fade" tabindex="-1">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal"
-						aria-hidden="true">&times;</button>
-					<h3 class="smaller lighter blue no-margin">提交</h3>
-				</div>
-
-				<div class="modal-body">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12">
-
-
-							<div class="space-4"></div>
-
-							<div class="form-group">
-								<label class="col-sm-1 control-label" for="form-field-username"
-									style="line-height: 24px;">省</label>
-
-								<div class="col-sm-5">
-
-									<select class="form-control" id="form-field-select-1">
-										<option value="all">广东</option>
-										<option value="AL">海南</option>
-										<option value="AK">广西</option>
-										<option value="AZ">福建</option>
-									</select>
-								</div>
-								<label class="col-sm-1 control-label" for="form-field-username"
-									style="line-height: 24px;">市</label>
-
-								<div class="col-sm-5">
-
-									<select class="form-control" id="form-field-select-1">
-										<option value="all">广州市</option>
-										<option value="AL">南沙市</option>
-										<option value="AK">佛山市</option>
-										<option value="AZ">东莞市</option>
-									</select>
-								</div>
-							</div>
-
-							<div class="space-24"></div>
-
-							<div class="form-group">
-								<label class="col-sm-1 control-label" for="form-field-username"
-									style="line-height: 24px;">区</label>
-
-								<div class="col-sm-5">
-
-									<select class="form-control" id="form-field-select-1">
-										<option value="all">天河区</option>
-										<option value="AL">白云区</option>
-										<option value="AK">越秀区</option>
-										<option value="AZ">海珠区</option>
-									</select>
-								</div>
-								<label class="col-sm-2 control-label" for="form-field-username"
-									style="line-height: 24px;">办理点</label>
-
-								<div class="col-sm-4">
-
-									<select class="form-control" id="form-field-select-1">
-										<option value="all">工商局</option>
-										<option value="AL">人民银行</option>
-										<option value="AK">工商银行</option>
-										<option value="AZ">中国银行</option>
-									</select>
-								</div>
-							</div>
-							<div class="space-4"></div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="modal-footer">
-					<button class="btn btn-sm btn-success pull-right"
-						data-dismiss="modal">确认</button>
-					<div class="vspace-12-sm"></div>
-					<button class="btn btn-sm btn-important pull-right"
-						data-dismiss="modal">返回</button>
-				</div>
-			</div>
-			<!-- /.modal-content -->
-		</div>
-		<!-- /.modal-dialog -->
-	</div>
+	
 	<div class="footer">
 		<div class="footer-inner">
 			<!-- #section:basics/footer -->
@@ -448,12 +359,7 @@ ul li {
 	<!-- basic scripts -->
 
 	<!--[if !IE]> -->
-	<script type="text/javascript">
-		window.jQuery
-				|| document
-						.write("<script src='../../../ace/assets/js/jquery.js'>"
-								+ "<"+"/script>");
-	</script>
+	
 
 	<!-- <![endif]-->
 
@@ -488,6 +394,8 @@ ul li {
 	<script src="../../../ace/assets/js/x-editable/bootstrap-editable.js"></script>
 	<script src="../../../ace/assets/js/x-editable/ace-editable.js"></script>
 	<script src="../../../ace/assets/js/jquery.maskedinput.js"></script>
+	
+<script src="../../../ace/assets/js/jquery.validate.js"></script>
 
 	<!-- ace scripts -->
 	<script src="../../../ace/assets/js/ace/elements.scroller.js"></script>
@@ -514,8 +422,44 @@ ul li {
 
 	<!-- inline scripts related to this page -->
 	<script type="text/javascript">
+	function nextforeign(){
+		
+		$("#temporary").click();
+		
+	}
 		jQuery(function($) {
 
+			$.validator.setDefaults({
+			    submitHandler: function() {
+			    	window.location.href='editInput2.jsp';
+			    }
+			});
+	
+			
+		
+			 $("#foreignent1").validate({
+				    rules: {
+				      username2: "required",
+				      address: "required"
+				    },
+				    messages: {
+				      username2: {
+							        required: "请输入用户名"
+				      },
+				      address:{
+				    	  required:"地址不能为空"
+				      }
+		     
+				    },
+				    
+				   
+				});
+		
+			
+			
+			
+			
+			
 			//editables on first profile page
 			$.fn.editable.defaults.mode = 'inline';
 			$.fn.editableform.loading = "<div class='editableform-loading'><i class='ace-icon fa fa-spinner fa-spin fa-2x light-blue'></i></div>";
@@ -1049,6 +993,7 @@ ul li {
 	<script type="text/javascript">
 		ace.vars['base'] = '..';
 	</script>
+	<script src="../../../ace/assets/js/ace/elements.wizard.js"></script>
 	<script src="../../../ace/assets/js/ace/elements.onpage-help.js"></script>
 	<script src="../../../ace/assets/js/ace/ace.onpage-help.js"></script>
 	<script src="../../../ace/docs/assets/js/rainbow.js"></script>

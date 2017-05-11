@@ -160,11 +160,11 @@ ul li {
 	<div id="NavTop">
 		<div id="NavCon">
 			<ul>
-				<li><a href="#collapseOne">企业基本信息</a></li>
-				<li><a href="#collapseTwo">股东基本信息</a></li>
-				<li><a href="#collapseThree">隶属企业</a></li>
-				<li><a href="#collapseFour">财务人员</a></li>
-				<li><a href="#collapseFive">提交</a></li>
+				<li><a href="editInput1.jsp">代理或申报人信息</a></li>
+				<li><a href="editInput2.jsp" >外商投资的公司分公司登记事项</a></li>
+				<li><a href="editInput3.jsp">分公司负责人登记表</a></li>
+				<li><a href="javascript:return false;">税务信息补充</a></li>
+				<li><a href="editInput14.jsp">纸质材料</a></li>
 			</ul>
 
 		</div>
@@ -809,8 +809,10 @@ ul li {
 																align="center">
 																&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 																<button type="button" class="btn btn-primary" style="" onclick="javascript:window.location.href='editInput3.jsp'">上一步</button>
+																<!-- 
 																&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 																<button type="button" class="btn btn-primary" style="" onclick="javascript:window.location.href='editInput5.jsp'">下一步</button>
+																 -->
 																&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 																<button type="button" class="btn btn-primary" style="">保存</button>
 															</div>
