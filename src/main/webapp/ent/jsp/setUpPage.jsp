@@ -122,9 +122,10 @@
 
 													<li id="tsp-item4" data-step="4"><span class="step">4</span>
 														<span class="title">未完成</span></li>
-													
+
 													<li id="tsp-item5" data-step="5"><span class="step">5</span>
 														<span class="title">未完成</span></li>
+													
 												</ul>
 
 												<!-- /section:plugins/fuelux.wizard.steps -->
@@ -143,35 +144,100 @@
 
 														<div class="form-group">
 															<label
-																class="control-label col-xs-12 col-sm-3 no-padding-right"
-																for="name">名称</label>
+																class="control-label col-xs-12 col-sm-2 no-padding-right">企业名称</label>
+															<div class="col-xs-12 col-sm-3">
+																<div class="input-group col-sm-12">
+																	<input type="text" id="money" name="money"
+																		class="form-control" />
+																</div>
+															</div>
 
-															<div class="col-xs-12 col-sm-9">
-																<div class="clearfix">
-																	<input type="text" id="name" name="name"
-																		class="col-xs-12 col-sm-5" />
+															<label
+																class="control-label col-xs-12 col-sm-2 no-padding-right">名称预先核准号</label>
+															<div class="col-xs-12 col-sm-3">
+																<div class="input-group col-sm-12">
+																	<input type="text" id="money" name="money"
+																		class="form-control" />
 																</div>
 															</div>
 														</div>
 
+														<div class="space-2"></div>
+														
+														<div class="form-group">
+															<label
+																class="control-label col-xs-12 col-sm-2 no-padding-right">移动电话</label>
+															<div class="col-xs-12 col-sm-3">
+																<div class="input-group col-sm-12">
+																	<input type="text" id="money" name="money"
+																		class="form-control" />
+																</div>
+															</div>
+
+															<label
+																class="control-label col-xs-12 col-sm-2 no-padding-right">邮政编码</label>
+															<div class="col-xs-12 col-sm-3">
+																<div class="input-group col-sm-12">
+																	<input type="text" id="money" name="money"
+																		class="form-control" />
+																</div>
+															</div>
+														</div>
+														
 														<div class="space-2"></div>
 
 														<div class="form-group">
 															<label
-																class="control-label col-xs-3 col-sm-3 no-padding-right">名称预先核准号</label>
-
-															<div class="col-xs-9 col-sm-9">
-																<div class="input-group">
-
-																	</span> <input type="text" id="name" name="name" />
+																class="control-label col-xs-12 col-sm-2 no-padding-right">注册资本(万元)</label>
+															<div class="col-xs-12 col-sm-3">
+																<div class="input-group col-sm-12">
+																	<input type="text" id="money" name="money"
+																		class="form-control" />
+																</div>
+															</div>
+															<label
+																class="control-label col-xs-12 col-sm-2 no-padding-right">公司类型</label>
+															<div class="col-xs-12 col-sm-3">
+																<div class="input-group col-sm-12">
+																	<select id="state" name="state" class="form-control">
+																		<option value="">&nbsp;</option>
+																		<option value="AL">有限责任公司（国有独资）</option>
+																		<option value="AK">有限责任公司（自然人投资或控股）</option>
+																		<option value="AZ">有限责任公司（国有控股）</option>
+																		<option value="AZ">有限责任公司（自然人独资）</option>
+																		<option value="AZ">有限责任公司（法人独资）</option>
+																		<option value="AZ">其它有限责任公司</option>
+																	</select>
+																</div>
+															</div>
+														</div>
+														
+														<div class="space-2"></div>
+														
+														<div class="form-group">
+															<label
+																class="control-label col-xs-12 col-sm-2 no-padding-right">申请执照副本数</label>
+															<div class="col-xs-12 col-sm-3">
+																<div class="input-group col-sm-12">
+																	<input type="text" id="money" name="money"
+																		class="form-control" />
+																</div>
+															</div>
+															<label
+																class="control-label col-xs-12 col-sm-2 no-padding-right">主营项目类别</label>
+															<div class="col-xs-12 col-sm-3">
+																<div class="input-group col-sm-12">
+																	<select id="state" name="state" class="form-control">
+																		<option value="AL">石油和天然气开采业</option>
+																		<option value="AK">煤炭开采和洗选业</option>
+																		<option value="AZ">黑色金属矿采选业</option>
+																	</select>
 																</div>
 															</div>
 														</div>
 
-														<div class="space-2"></div>
-
 														<div class="form-group">
-															<label class="control-label col-sm-3 no-padding-right"
+															<label class="control-label col-sm-2 no-padding-right"
 																for="state">住所</label>
 
 															<panel class="col-sm-3 center">
@@ -199,7 +265,7 @@
 														<div class="space-2"></div>
 
 														<div class="form-group">
-															<label class="control-label col-sm-3 no-padding-right"
+															<label class="control-label col-sm-2 no-padding-right"
 																for="state">经营场所</label>
 
 
@@ -230,7 +296,7 @@
 														<div class="space-2"></div>
 
 														<div id="Div_SCJYD" class="form-group">
-															<label class="control-label col-sm-3 no-padding-right"
+															<label class="control-label col-sm-2 no-padding-right"
 																for="state"></label>
 
 															<panel class="col-sm-3 center">
@@ -258,101 +324,39 @@
 
 														<div class="space-2"></div>
 
-														<div class="form-group">
-															<label
-																class="control-label col-xs-12 col-sm-3 no-padding-right"
-																for="telephone">联系电话</label>
-
-															<div class="col-xs-12 col-sm-9">
-																<div class="input-group">
-																	<span class="input-group-addon"> <i
-																		class="ace-icon fa fa-phone"></i>
-																	</span> <input type="tel" id="telephone" name="telephone" />
-																</div>
-															</div>
-														</div>
-
-														<div class="space-2"></div>
-
-														<div class="form-group">
-															<label
-																class="control-label col-xs-12 col-sm-3 no-padding-right"
-																for="e_mail">邮政编码</label>
-
-															<div class="col-xs-12 col-sm-9">
-																<div class="input-group">
-																	<span class="input-group-addon"> <i
-																		class="ace-icon fa fa-envelope"></i>
-																	</span> <input type="Email" id="e_mail" name="e_mail" />
-																</div>
-															</div>
-														</div>
-
-
-													</form>
-												</div>
-
-												<div class="step-pane" data-step="2">
-													<h4 class="lighter block green">请填写企业信息</h4>
-													<form class="form-horizontal" id="validation-form"
-														method="get">
-														<div class="form-group">
-															<label
-																class="control-label col-xs-12 col-sm-3 no-padding-right">注册资本</label>
-															<div class="col-xs-12 col-sm-9">
-																<div class="input-group">
-																	<input type="text" id="name" name="name" />&nbsp;&nbsp;万元
-																</div>
-															</div>
-														</div>
-
-														<div class="space-2"></div>
-
-														<div id="Div_SCJYD" class="form-group">
-															<label class="control-label col-sm-3 no-padding-right"
-																for="state">公司类型</label>
-
-															<div class="col-md-3 col-sm-3">
-																<select id="state" name="state" class="select2"
-																	"
-																	data-placeholder="有限责任公司（国有独资）">
-																	<option value="">&nbsp;</option>
-																	<option value="AL">有限责任公司（国有独资）</option>
-																	<option value="AK">有限责任公司（自然人投资或控股）</option>
-																	<option value="AZ">有限责任公司（国有控股）</option>
-																	<option value="AZ">有限责任公司（自然人独资）</option>
-																	<option value="AZ">有限责任公司（法人独资）</option>
-																	<option value="AZ">其它有限责任公司</option>
-																</select>
-															</div>
-														</div>
-
+														<!-- 第二部分企业信息 -->
 														<div class="space-2"></div>
 
 														<div class="form-group">
 															<div class="row">
 																<label
-																	class="control-label col-xs-4 col-sm-3 no-padding-right">经营期限</label>
-																<div class="col-xs-8 col-sm-9 control-group">
-																	<div class="radio col-sm-3">
-																		<label> <input name="form-field-radio"
+																	class="control-label col-xs-4 col-sm-2 no-padding-right">经营期限</label>
+																<div class="col-xs-8 col-sm-10 control-group">
+																	<div class="radio col-sm-2">
+																		<label> <input name="JYRQ" id="长期"
 																			type="radio" class="ace" /> <span class="lbl">
 																				长期</span>
 																		</label>
 																	</div>
-																	<div class="radio col-sm-9">
-																		<label> <input name="form-field-radio"
+
+																	<div class="radio col-sm-2">
+																		<label> <input name="JYRQ" id="短期"
 																			type="radio" class="ace" /> <span class="lbl">
-																		</span> <!-- #section:plugins/date-time.datepicker -->
-																			<div class="col-sm-12 input-group">
-																				<input class="form-control date-picker"
-																					id="id-date-picker-1" type="text"
-																					data-date-format="yyyy-mm-dd" /> <span
-																					class="input-group-addon"> <i
-																					class="fa fa-calendar bigger-110"></i>
-																				</span>
-																			</div>
+																				短期</span>
 																		</label>
+																	</div>
+
+																	<div class="col-sm-8" id="long_short">
+																		<label
+																			class="control-label col-xs-12 col-sm-2 no-padding-right">短期经营时间</label>
+
+																		<div class="input-daterange input-group col-sm-8">
+																			<input class="input-sm form-control" name="start"
+																				type="text"> <span class="input-group-addon">
+																				<i class="fa fa-exchange"></i>
+																			</span> <input class="input-sm form-control" name="end"
+																				type="text">
+																		</div>
 																	</div>
 																</div>
 															</div>
@@ -362,46 +366,134 @@
 														<div class="space-2"></div>
 														<div class="form-group">
 															<label
-																class="control-label col-xs-12 col-sm-3 no-padding-right">申请执照副本数</label>
-															<div class="col-xs-12 col-sm-9">
-																<div class="input-group">
-																	<input type="text" id="name" name="name" />&nbsp;&nbsp;个
+																class="control-label col-xs-12 col-sm-2 no-padding-right">经营范围</label>
+															<div class="col-xs-12 col-sm-3">
+																<div class="input-group col-sm-12">
+																	<textarea class="form-control" rows="3"
+																		style="width: 250px"></textarea>
 																</div>
 															</div>
 														</div>
+														<!-- 第二部分企业信息_END -->
 
-														<div class="space-2"></div>
+													</form>
+												</div>
 
-														<div id="Div_SCJYD" class="form-group">
-															<label class="control-label col-sm-3 no-padding-right"
-																for="state">主营项目类别</label>
+												<div class="step-pane" data-step="4">
+													<h4 class="lighter block green">请选择执照领取方式</h4>
+													<form class="form-horizontal" id="validation-form"
+														method="get">
+														<div class="form-group">
+															<div class="row">
+																<label
+																	class="control-label col-xs-4 col-sm-2 no-padding-right">执照领取方式</label>
+																<div class="col-xs-8 col-sm-9 control-group">
+																	<div class="radio col-sm-3">
+																		<label> <input name="ZZLQFS" id="邮寄领取"
+																			type="radio" class="ace" /> <span class="lbl">
+																				邮寄领取</span>
+																		</label>
+																	</div>
 
-															<div class="col-md-3 col-sm-3">
-																<select id="state" name="state" class="select2"
-																	data-placeholder="石油和天然气开采业">
-																	<option value="">&nbsp;</option>
-																	<option value="AL">石油和天然气开采业</option>
-																	<option value="AK">煤炭开采和洗选业</option>
-																	<option value="AZ">黑色金属矿采选业</option>
+																	<div class="radio col-sm-3">
+																		<label> <input name="ZZLQFS" id="窗口领取"
+																			type="radio" class="ace" /> <span class="lbl">
+																				窗口领取</span>
+																		</label>
+																	</div>
 
-																</select>
+																	<div class="radio col-sm-3">
+																		<label> <input name="ZZLQFS" id="自助机器领取"
+																			type="radio" class="ace" /> <span class="lbl">
+																				自助机器领取</span>
+																		</label>
+																	</div>
+																</div>
 															</div>
 														</div>
-
-														<div class="space-2"></div>
+														<div class="hr hr-18 dotted hr-double"></div>
+														<!-- 每种执照领取方式说明 -->
 														<div class="form-group">
-															<label class="col-sm-3 control-label no-padding-right"
-																for="form-field-tags">经营范围</label>
+															<div class="col-sm-6">
+																<h3 class="row header smaller lighter blue">
+																	<span class="col-xs-6"> 领取方式说明 </span>
+																	<!-- /.col -->
+																</h3>
 
-															<div class="col-sm-9">
-																<textarea class="form-control" rows="3"
-																	style="width: 250px"></textarea>
+																<!-- #section:elements.accordion -->
+																<div id="accordion" class="accordion-style1 panel-group">
+																	<div class="panel panel-default">
+																		<div class="panel-heading">
+																			<h4 class="panel-title">
+																				<a class="accordion-toggle" data-toggle="collapse"
+																					data-parent="#accordion" href="#collapseOne"> <i
+																					class="ace-icon fa fa-angle-down bigger-110"
+																					data-icon-hide="ace-icon fa fa-angle-down"
+																					data-icon-show="ace-icon fa fa-angle-right"></i>
+																					&nbsp;邮寄方式信息填写及相关说明
+																				</a>
+																			</h4>
+																		</div>
+
+																		<div class="panel-collapse collapse"
+																			id="collapseOne">
+																			<div class="panel-body">
+																			    这是邮寄方式的相关说明
+																			</div>
+																		</div>
+																	</div>
+
+																	<div class="panel panel-default">
+																		<div class="panel-heading">
+																			<h4 class="panel-title">
+																				<a class="accordion-toggle collapsed"
+																					data-toggle="collapse" data-parent="#accordion"
+																					href="#collapseTwo"> <i
+																					class="ace-icon fa fa-angle-right bigger-110"
+																					data-icon-hide="ace-icon fa fa-angle-down"
+																					data-icon-show="ace-icon fa fa-angle-right"></i>
+																					&nbsp;窗口领取相关说明
+																				</a>
+																			</h4>
+																		</div>
+
+																		<div class="panel-collapse collapse" id="collapseTwo">
+																			<div class="panel-body">
+																			   这是窗口方式的相关说明
+																			</div>
+																		</div>
+																	</div>
+
+																	<div class="panel panel-default">
+																		<div class="panel-heading">
+																			<h4 class="panel-title">
+																				<a class="accordion-toggle collapsed"
+																					data-toggle="collapse" data-parent="#accordion"
+																					href="#collapseThree"> <i
+																					class="ace-icon fa fa-angle-right bigger-110"
+																					data-icon-hide="ace-icon fa fa-angle-down"
+																					data-icon-show="ace-icon fa fa-angle-right"></i>
+																					&nbsp;自助机器领取相关说明
+																				</a>
+																			</h4>
+																		</div>
+
+																		<div class="panel-collapse collapse"
+																			id="collapseThree">
+																			<div class="panel-body">
+																			这是自助机器领取方式的相关说明
+																			</div>
+																		</div>
+																	</div>
+																</div>
+
+																<!-- /section:elements.accordion -->
 															</div>
 														</div>
 													</form>
 												</div>
 
-												<div class="step-pane" data-step="3">
+												<div class="step-pane" data-step="2">
 													<div class="">
 														<form class="form-horizontal" id="validation-form"
 															method="get">
@@ -732,7 +824,7 @@
 																									</select>
 																								</div>
 																							</div>
-																							
+
 																							<label
 																								class="control-label col-xs-12 col-sm-2 no-padding-right">认缴出资额(万元)</label>
 																							<div class="col-xs-12 col-sm-4">
@@ -861,12 +953,12 @@
 										<!-- #section:elements.tab.position -->
 										<div class="tabbable tabs-left">
 											<ul class="nav nav-tabs" id="myTab88">
-											    <li class="active"><a data-toggle="tab" href="#file"
+												<li class="active"><a data-toggle="tab" href="#file"
 													aria-expanded="true"> <i
 														class="pink ace-icon fa fa-tachometer bigger-110"></i>
 														按材料显示
 												</a></li>
-												
+
 												<li class=""><a data-toggle="tab" href="#member"
 													aria-expanded="false"> <i
 														class="blue ace-icon fa fa-user bigger-110"></i> 按人员显示
@@ -891,6 +983,41 @@
 																<div class="widget-body">
 																	<div class="widget-main">
 																		<div class="form-group">
+																			<div class="row">
+																				<div class="col-sm-10 col-sm-offset-1">
+																					<!-- #section:pages/profile.picture -->
+																					<span class="profile-picture"> <img
+																						id="avatar"
+																						class="editable img-responsive editable-click editable-empty"
+																						alt="公司设立申请书"
+																						src="../images/apply.png">
+																					</span>
+
+																					<!-- /section:pages/profile.picture -->
+																					<div class="space-4"></div>
+
+																					<div
+																						class="width-80 label label-success label-xlg arrowed-in arrowed-in-right"
+																						style="float: none; display: block; margin-left: auto; margin-right: auto;">
+																						<div class="inline position-relative">
+																							<span class="user-title-label dropdown-toggle"
+																								data-toggle="dropdown"> <i
+																								class="ace-icon fa fa-circle light-green"></i>
+																								&nbsp; <span class="white">签名已完成</span>
+																							</span>
+																						</div>
+																					</div>
+																				</div>
+																				<!-- <div class="col-sm-12">
+																					<div class="thumbnail"> <img src="../images/apply.png"
+																						alt="公司设立申请书">
+																						<div class="caption center">
+																						    <span class="label label-success label-xlg arrowed">已完成</span>
+																						</div>
+																					</div>
+																				</div> -->
+																			</div>
+																			<div class="space-4"></div>
 																			<div class="profile-contact-info">
 																				<div class="profile-contact-links align-left">
 																					<a href="#" class="btn btn-link"> <i
@@ -899,15 +1026,16 @@
 																					</a> <a href="#" class="btn btn-link"> <i
 																						class="ace-icon fa fa-envelope bigger-120 pink"></i>
 																						扫描件重新上传
-																					</a> <a href="#" class="btn btn-link"> <i
-																						class="ace-icon fa fa-globe bigger-125 blue"></i>
+																					</a> <a class="btn btn-link" onclick="startProgerss();">
+																						<i class="ace-icon fa fa-globe bigger-125 blue"></i>
 																						重新生成待签名文件
-																					</a>
-																					</br>
-																					<a  href="#" class="btn btn-link"> <i
+																					</a> </br> <a href="#" class="btn btn-link"> <i
 																						class="ace-icon fa fa-globe bigger-125 blue"></i>
 																						状态 <span class="label label-success arrowed">已完成</span>
-																					</a>
+																					</a><a class="btn btn-link" onclick="startProgerss();">
+																						<i class="ace-icon fa fa-globe bigger-125 blue"></i>
+																						张三已签名(点击查看)
+																					</a> 
 																				</div>
 
 																			</div>
@@ -927,6 +1055,41 @@
 																	<div class="widget-main">
 																		<div class="form-group">
 																			<div class="profile-contact-info">
+																			<div class="row">
+																				<div class="col-sm-10 col-sm-offset-1">
+																					<!-- #section:pages/profile.picture -->
+																					<span class="profile-picture"> <img
+																						id="avatar"
+																						class="editable img-responsive editable-click editable-empty"
+																						alt="公司设立申请书"
+																						src="../images/apply.png">
+																					</span>
+
+																					<!-- /section:pages/profile.picture -->
+																					<div class="space-4"></div>
+
+																					<div
+																						class="width-80 label label-warning label-xlg arrowed-in arrowed-in-right"
+																						style="float: none; display: block; margin-left: auto; margin-right: auto;">
+																						<div class="inline position-relative">
+																							<span class="user-title-label dropdown-toggle"
+																								data-toggle="dropdown"> <i
+																								class="ace-icon fa fa-circle light-green"></i>
+																								&nbsp; <span class="white">签名进行中</span>
+																							</span>
+																						</div>
+																					</div>
+																				</div>
+																				<!-- <div class="col-sm-12">
+																					<div class="thumbnail"> <img src="../images/apply.png"
+																						alt="公司设立申请书">
+																						<div class="caption center">
+																						    <span class="label label-success label-xlg arrowed">已完成</span>
+																						</div>
+																					</div>
+																				</div> -->
+																			</div>
+																			<div class="space-4"></div>
 																				<div class="profile-contact-links align-left">
 																					<a href="#" class="btn btn-link"> <i
 																						class="ace-icon fa fa-plus-circle bigger-120 green"></i>
@@ -934,13 +1097,21 @@
 																					</a> <a href="#" class="btn btn-link"> <i
 																						class="ace-icon fa fa-envelope bigger-120 pink"></i>
 																						扫描件重新上传
-																					</a> <a href="#" class="btn btn-link"> <i
-																						class="ace-icon fa fa-globe bigger-125 blue"></i>
+																					</a> <a onclick="startProgerss()" class="btn btn-link">
+																						<i class="ace-icon fa fa-globe bigger-125 blue"></i>
 																						重新生成待签名文件
 																					</a> </br> <a href="#" class="btn btn-link"> <i
 																						class="ace-icon fa fa-globe bigger-125 blue"></i>
 																						状态 <span class="label label-warning arrowed">签名中</span>
 																					</a>
+																					<a class="btn btn-link" onclick="startProgerss();">
+																						<i class="ace-icon fa fa-globe bigger-125 blue"></i>
+																						张三已签名(点击查看)
+																					</a>
+																					<a class="btn btn-link">
+																						<i class="ace-icon fa fa-globe bigger-125 blue"></i>
+																						李四未签名(点击发送)
+																					</a> 
 																				</div>
 
 																			</div>
@@ -960,7 +1131,42 @@
 																<div class="widget-body">
 																	<div class="widget-main">
 																		<div class="form-group">
-																		    <div class="profile-contact-info">
+																		<div class="row">
+																				<div class="col-sm-10 col-sm-offset-1">
+																					<!-- #section:pages/profile.picture -->
+																					<span class="profile-picture"> <img
+																						id="avatar"
+																						class="editable img-responsive editable-click editable-empty"
+																						alt="公司设立申请书"
+																						src="../images/apply.png">
+																					</span>
+
+																					<!-- /section:pages/profile.picture -->
+																					<div class="space-4"></div>
+
+																					<div
+																						class="width-80 label label-danger label-xlg arrowed-in arrowed-in-right"
+																						style="float: none; display: block; margin-left: auto; margin-right: auto;">
+																						<div class="inline position-relative">
+																							<span class="user-title-label dropdown-toggle"
+																								data-toggle="dropdown"> <i
+																								class="ace-icon fa fa-circle light-green"></i>
+																								&nbsp; <span class="white">签名未上传</span>
+																							</span>
+																						</div>
+																					</div>
+																				</div>
+																				<!-- <div class="col-sm-12">
+																					<div class="thumbnail"> <img src="../images/apply.png"
+																						alt="公司设立申请书">
+																						<div class="caption center">
+																						    <span class="label label-success label-xlg arrowed">已完成</span>
+																						</div>
+																					</div>
+																				</div> -->
+																			</div>
+																			<div class="space-4"></div>
+																			<div class="profile-contact-info">
 																				<div class="profile-contact-links align-left">
 																					<a href="#" class="btn btn-link"> <i
 																						class="ace-icon fa fa-plus-circle bigger-120 green"></i>
@@ -968,12 +1174,12 @@
 																					</a> <a href="#" class="btn btn-link"> <i
 																						class="ace-icon fa fa-envelope bigger-120 pink"></i>
 																						扫描件重新上传
-																					</a> <a href="#" class="btn btn-link"> <i
-																						class="ace-icon fa fa-globe bigger-125 blue"></i>
+																					</a> <a onclick="startProgerss()" class="btn btn-link">
+																						<i class="ace-icon fa fa-globe bigger-125 blue"></i>
 																						重新生成待签名文件
 																					</a> </br> <a href="#" class="btn btn-link"> <i
 																						class="ace-icon fa fa-globe bigger-125 blue"></i>
-																						状态 <span class="label label-danger arrowed">未签名</span>
+																						状态 <span class="label label-danger arrowed">未上传</span>
 																					</a>
 																				</div>
 
@@ -1026,7 +1232,7 @@
 																</div>
 															</div>
 														</div>
-														
+
 														<div class="col-sm-4">
 															<div class="widget-box widget-color-blue">
 																<div class="widget-header">
@@ -1055,69 +1261,82 @@
 														</div>
 													</div>
 												</div>
-												
+
 												<div id="list" class="tab-pane">
 													<div class="row">
-													    <div class="col-sm-4">
-													        <span class="label label-lg label-info arrowed-in-right arrowed">《公司登记（备案）申请书》（1份）</span>
-													    </div>
-													    
-													    <div class="col-sm-4">
-													       <span class="label label-lg label-info arrowed-in-right arrowed">《企业名称预先核准通知书》（1份）</span>
-													    </div>
-													    
-													    <div class="col-sm-4">
-													        <span class="label label-lg label-info arrowed-in-right arrowed">《公司章程》（2份）</span>
-													    </div>
-													    
+														<div class="col-sm-4">
+															<span
+																class="label label-lg label-info arrowed-in-right arrowed">《公司登记（备案）申请书》（1份）</span>
+														</div>
+
+														<div class="col-sm-4">
+															<span
+																class="label label-lg label-info arrowed-in-right arrowed">《企业名称预先核准通知书》（1份）</span>
+														</div>
+
+														<div class="col-sm-4">
+															<span
+																class="label label-lg label-info arrowed-in-right arrowed">《公司章程》（2份）</span>
+														</div>
+
 													</div>
-													
+
 													<div class="hr hr-18 dotted hr-double"></div>
-													
+
 													<div class="row">
-													    <div class="col-sm-4">
-													        <span class="label label-lg label-info arrowed-in-right arrowed">《指定代表或委托代理人的身份证件》（4份）</span>
-													    </div>
-													    
-													    <div class="col-sm-4">
-													       <span class="label label-lg label-info arrowed-in-right arrowed">《住所（经营场所）使用证明》（1份）</span>
-													    </div>
-													    
-													    <div class="col-sm-4">
-													        <span class="label label-lg label-info arrowed-in-right arrowed">《授权委托书》 （1份）</span>
-													    </div>
-													    
+														<div class="col-sm-4">
+															<span
+																class="label label-lg label-info arrowed-in-right arrowed">《指定代表或委托代理人的身份证件》（4份）</span>
+														</div>
+
+														<div class="col-sm-4">
+															<span
+																class="label label-lg label-info arrowed-in-right arrowed">《住所（经营场所）使用证明》（1份）</span>
+														</div>
+
+														<div class="col-sm-4">
+															<span
+																class="label label-lg label-info arrowed-in-right arrowed">《授权委托书》
+																（1份）</span>
+														</div>
+
 													</div>
-													
+
 													<div class="hr hr-18 dotted hr-double"></div>
-													
+
 													<div class="row">
-													    <div class="col-sm-5">
-													        <span class="label label-lg label-info arrowed-in-right arrowed">《董事、监事、经理、法定代表人任职文件》（1份）</span>
-													    </div>
-													    
-													    <div class="col-sm-5">
-													       <span class="label label-lg label-info arrowed-in-right arrowed">《董事、监事、经理、法定代表人身份文件》（2份）</span>
-													    </div>
-													    
+														<div class="col-sm-5">
+															<span
+																class="label label-lg label-info arrowed-in-right arrowed">《董事、监事、经理、法定代表人任职文件》（1份）</span>
+														</div>
+
+														<div class="col-sm-5">
+															<span
+																class="label label-lg label-info arrowed-in-right arrowed">《董事、监事、经理、法定代表人身份文件》（2份）</span>
+														</div>
+
 													</div>
-													
-													<div class="hr hr-18 dotted hr-double"></div>
-													<div class="row">
-													    <div class="col-sm-5">
-													        <span class="label label-lg label-info arrowed-in-right arrowed">《单位经办人身份证复印件》（1份）</span>
-													    </div>
-													    
-													    <div class="col-sm-5">
-													       <span class="label label-lg label-info arrowed-in-right arrowed">《其他前置许可审批事项的批准文件或许可证》（1份）</span>
-													    </div>
-													</div>
-													
+
 													<div class="hr hr-18 dotted hr-double"></div>
 													<div class="row">
-													    <div class="col-sm-5">
-													        <span class="label label-lg label-info arrowed-in-right arrowed">《法律法规要求提交的其他材料》 （1份）</span>
-													    </div>
+														<div class="col-sm-5">
+															<span
+																class="label label-lg label-info arrowed-in-right arrowed">《单位经办人身份证复印件》（1份）</span>
+														</div>
+
+														<div class="col-sm-5">
+															<span
+																class="label label-lg label-info arrowed-in-right arrowed">《其他前置许可审批事项的批准文件或许可证》（1份）</span>
+														</div>
+													</div>
+
+													<div class="hr hr-18 dotted hr-double"></div>
+													<div class="row">
+														<div class="col-sm-5">
+															<span
+																class="label label-lg label-info arrowed-in-right arrowed">《法律法规要求提交的其他材料》
+																（1份）</span>
+														</div>
 													</div>
 													<!-- 打印下载按钮 -->
 													<div class="hr hr-18 dotted hr-double"></div>
@@ -1145,10 +1364,11 @@
 
 										<!-- /section:elements.tab.position -->
 									</div>
-								</div><!-- 第五步 _END -->
-								
-								
-								<div class="step-pane" data-step="4">
+								</div>
+								<!-- 第五步 _END -->
+
+
+								<div class="step-pane" data-step="3">
 									<div class="center">
 										<form class="form-horizontal" id="validation-form"
 											method="get">
@@ -1162,7 +1382,7 @@
 															class="form-control" />
 													</div>
 												</div>
-												
+
 												<label
 													class="control-label col-xs-12 col-sm-2 no-padding-right">证件类型</label>
 												<div class="col-xs-12 col-sm-3">
@@ -1240,7 +1460,7 @@
 															class="form-control" />
 													</div>
 												</div>
-												
+
 												<label
 													class="control-label col-xs-12 col-sm-2 no-padding-right">固定电话</label>
 												<div class="col-xs-12 col-sm-3">
@@ -1250,7 +1470,7 @@
 													</div>
 												</div>
 											</div>
-											
+
 											<div class="space-2"></div>
 											<div class="form-group">
 												<label
@@ -1291,10 +1511,10 @@
 														</div>
 													</div>
 												</div>
-												
+
 												<label
-														class="control-label col-xs-12 col-sm-2 no-padding-right"
-														for="telephone">证件反面</label>
+													class="control-label col-xs-12 col-sm-2 no-padding-right"
+													for="telephone">证件反面</label>
 												<div class="col-sm-3">
 													<div class="widget-box">
 														<div class="widget-header">
@@ -1325,86 +1545,6 @@
 
 
 																<!-- /section:custom/file-input.filter -->
-															</div>
-														</div>
-
-														<div id="identifier" class="modal fade"
-															data-backdrop="static" tabindex="-1" id="progressbar">
-															<!--窗口声明：-->
-															<div class="modal-dialog">
-																<!-- 内容声明 -->
-																<div class="modal-content">
-																	<h5>正在生成报表,请稍后</h5>
-																	<div class="modal-body">
-																		<div class="progress progress-striped active">
-																			<div id="prog" class="progress-bar"
-																				role="progressbar" aria-valuenow=""
-																				aria-valuemin="0" aria-valuemax="100"
-																				style="width: 0%;">
-																				<span id="proglabel">正在生成PDF，请稍后......</span>
-																			</div>
-																		</div>
-
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div id="printModal" class="modal fade"
-															data-backdrop="static" tabindex="-1" id="progressbar">
-															<!--窗口声明：-->
-															<div class="modal-dialog modal-lg">
-																<!-- 内容声明 -->
-																<div class="modal-content">
-																	<div class="modal-header"
-																		style="background-color: #F8F8F8">
-																		<button type="button" class="close"
-																			data-dismiss="modal" aria-hidden="true">
-																			&times;</button>
-																		<h5 class="modal-title" id="myModalLabel">文档预览</h5>
-																	</div>
-																	<div class="modal-body" style="padding: 0px">
-																		<a class="media" href="../pdf/公司设立登记申请书.pdf"></a>
-
-																	</div>
-																	<div class="modal-footer">
-																		<button type="button" class="btn btn-primary"
-																			data-toggle="tooltip" data-placement="top"
-																			data-html="true" title=""
-																			data-original-title="<div class='tip'>请用手机扫一扫<img src='../images/qrcode.png'/></div>">无介质签名</button>
-																		<button onclick="openSuccessPage()" type="button"
-																			class="btn btn-primary" data-toggle="tooltip"
-																			data-placement="top" data-html="true" title=""
-																			data-original-title="<div class='tip'><h5>请插入U盾</h5>">UKey签名</button>
-																		<button type="button" class="btn btn-primary">下载文档</button>
-																		<button type="button" class="btn btn-default"
-																			data-dismiss="modal">关闭</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-
-														<div id="successModal" class="modal fade"
-															data-backdrop="static" tabindex="-1" id="progressbar">
-															<!--窗口声明：-->
-															<div class="modal-dialog modal-lg">
-																<!-- 内容声明 -->
-																<div class="modal-content">
-																	<div class="modal-header"
-																		style="background-color: #F8F8F8">
-																		<button type="button" class="close"
-																			data-dismiss="modal" aria-hidden="true">
-																			&times;</button>
-																		<h5 class="modal-title" id="myModalLabel">填表成功</h5>
-																	</div>
-																	<div class="modal-body" style="padding: 0px"></div>
-																	<div class="modal-footer">
-																		<a href="/ent/jsp/newserviceHall.jsp" title="返回首页">
-																			<button type="button" class="btn btn-primary ">返回首页</button>
-																		</a>
-																		<button type="button" class="btn btn-primary"
-																			data-dismiss="modal">关闭</button>
-																	</div>
-																</div>
 															</div>
 														</div>
 
@@ -1441,6 +1581,83 @@
 				<!-- /.widget-body -->
 
 			</div>
+
+			<!-- 模态框 -->
+			<div id="identifier" class="modal fade" data-backdrop="static"
+				tabindex="-1" id="progressbar">
+				<!--窗口声明：-->
+				<div class="modal-dialog">
+					<!-- 内容声明 -->
+					<div class="modal-content">
+						<h5>正在生成报表,请稍后</h5>
+						<div class="modal-body">
+							<div class="progress progress-striped active">
+								<div id="prog" class="progress-bar" role="progressbar"
+									aria-valuenow="" aria-valuemin="0" aria-valuemax="100"
+									style="width: 0%;">
+									<span id="proglabel">正在生成PDF，请稍后......</span>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="printModal" class="modal fade" data-backdrop="static"
+				tabindex="-1" id="progressbar">
+				<!--窗口声明：-->
+				<div class="modal-dialog modal-lg">
+					<!-- 内容声明 -->
+					<div class="modal-content">
+						<div class="modal-header" style="background-color: #F8F8F8">
+							<button type="button" class="close" data-dismiss="modal"
+								aria-hidden="true">&times;</button>
+							<h5 class="modal-title" id="myModalLabel">文档预览</h5>
+						</div>
+						<div class="modal-body" style="padding: 0px">
+							<a class="media" href="../pdf/公司设立登记申请书.pdf"></a>
+
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary"
+								data-toggle="tooltip" data-placement="top" data-html="true"
+								title=""
+								data-original-title="<div class='tip'>请用手机扫一扫<img src='../images/qrcode.png'/></div>">无介质签名</button>
+							<button onclick="openSuccessPage()" type="button"
+								class="btn btn-primary" data-toggle="tooltip"
+								data-placement="top" data-html="true" title=""
+								data-original-title="<div class='tip'><h5>请插入U盾</h5>">UKey签名</button>
+							<button type="button" class="btn btn-primary">下载文档</button>
+							<button type="button" class="btn btn-default"
+								data-dismiss="modal">关闭</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="successModal" class="modal fade" data-backdrop="static"
+				tabindex="-1" id="progressbar">
+				<!--窗口声明：-->
+				<div class="modal-dialog modal-lg">
+					<!-- 内容声明 -->
+					<div class="modal-content">
+						<div class="modal-header" style="background-color: #F8F8F8">
+							<button type="button" class="close" data-dismiss="modal"
+								aria-hidden="true">&times;</button>
+							<h5 class="modal-title" id="myModalLabel">填表成功</h5>
+						</div>
+						<div class="modal-body" style="padding: 0px"></div>
+						<div class="modal-footer">
+							<a href="/ent/jsp/newserviceHall.jsp" title="返回首页">
+								<button type="button" class="btn btn-primary ">返回首页</button>
+							</a>
+							<button type="button" class="btn btn-primary"
+								data-dismiss="modal">关闭</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div id="modal-wizard" class="modal">
 				<div class="modal-dialog">
 					<div class="modal-content">
@@ -1458,7 +1675,7 @@
 
 									<li data-step="4"><span class="step">4</span> <span
 										class="title">法人股东信息</span></li>
-										
+
 									<li data-step="5"><span class="step">5</span> <span
 										class="title">电子签名</span></li>
 								</ul>
@@ -1488,7 +1705,7 @@
 										<h4 class="blue">Step 4</h4>
 									</div>
 								</div>
-								
+
 								<div class="step-pane" data-step="5">
 									<div class="center">
 										<h4 class="blue">Step 5</h4>
@@ -1599,14 +1816,51 @@
 	<script src="../../ace/assets/js/ace/ace.searchbox-autocomplete.js"></script>
 
 	<script type="text/javascript">
-    $('.input-mask-phone').mask('(999) 999-999-99');
-    $('#shareholder').change(function(){
-    	if($("#shareholder").is(":checked")){
-    		$('#show_hide').show();
-    	}else{
-    		$('#show_hide').hide();
-    	}
-    });
+		$('.input-mask-phone').mask('(999) 999-999-99');
+		$('#shareholder').change(function() {
+			if ($("#shareholder").is(":checked")) {
+				$('#show_hide').show();
+			} else {
+				$('#show_hide').hide();
+			}
+		});
+		
+		//选择经营时间：长期或者短期
+		$(function(){
+			if($("#短期").is(":checked")){
+				$('#long_short').show();
+			}else{
+				$('#long_short').hide();
+			}
+		});
+		$("input[name='JYRQ']").bind("click",function(){
+			if($("#短期").is(":checked")){
+				$('#long_short').show();
+			}else{
+				$('#long_short').hide();
+			}
+		});
+		
+		//执照领取方式
+		$("input[name='ZZLQFS']").bind("click",function(){
+			if($("#邮寄领取").is(":checked")){
+				$('#collapseOne').collapse('show');
+				$('#collapseTwo').collapse('hide');
+				$('#collapseThree').collapse('hide');
+			}else if($("#窗口领取").is(":checked")){
+				$('#collapseOne').collapse('hide');
+				$('#collapseTwo').collapse('show');
+				$('#collapseThree').collapse('hide');
+			}else if($("#自助机器领取").is(":checked")){
+				$('#collapseOne').collapse('hide');
+				$('#collapseTwo').collapse('hide');
+				$('#collapseThree').collapse('show');
+			}else{
+				$('#collapseOne').collapse('hide');
+				$('#collapseTwo').collapse('hide');
+				$('#collapseThree').collapse('hide');
+			}
+		});
 	</script>
 
 	<!-- inline scripts related to this page -->
