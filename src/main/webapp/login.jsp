@@ -4,7 +4,7 @@
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta charset="utf-8" />
-		<title>商事登记全程电子化系统</title>
+		<title>商事登记后台管理系统</title>
 
 		<meta name="description" content="frequently asked questions using tabs and accordions" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -68,7 +68,7 @@
 					<a href="#" class="navbar-brand" style="padding-left:5px;">
 						<small>
 							<!-- <i class="fa fa-leaf"></i> -->
-							广州市商事登记全程电子化系统
+							广州市商事登记后台管理系统
 						</small>
 					</a>
 
@@ -261,7 +261,7 @@
 		<script>
 		jQuery(function($) {
 			$('#system-login').click(function(){
-				window.location.href="../ent/index.jsp";
+				window.location.href="../admin/index.jsp";
 			})
 		});
 		

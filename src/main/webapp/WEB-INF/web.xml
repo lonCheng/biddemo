@@ -33,5 +33,15 @@
             <param-value>false</param-value>
         </init-param>
     </servlet>
+    
+    <servlet>
+        <servlet-name>CtrlServlet</servlet-name>
+        <servlet-class>controller.CtrlServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CtrlServlet</servlet-name>
+        <url-pattern>/aa.do</url-pattern>
+    </servlet-mapping>
 </web-app>
 
