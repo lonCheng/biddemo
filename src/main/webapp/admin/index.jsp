@@ -47,7 +47,7 @@
 		
 		<!-- /section:basics/navbar.layout -->
 		<div class="main-container" id="main-container">
-			<jsp:include page="include/leftMenu.jsp"></jsp:include>
+			<jsp:include page="include/leftMenuNew.jsp"></jsp:include>
 
 			<!-- /section:basics/sidebar -->
 			<div class="main-content">
