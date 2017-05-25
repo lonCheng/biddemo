@@ -1,0 +1,84 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<div class="page-content">
+	<div class="page-header">
+		<h1>任务中心</h1>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<form class="form-horizontal">
+				<div class="form-group">
+					<label for="" class="col-sm-1 control-label">类别</label>
+					<div class="col-sm-2">
+						<select class="form-control" id="form-field-select-1">
+							<option value=""></option>
+							<option value="AL">窗口办理</option>
+							<option value="AK">一般网登</option>
+							<option value="AZ">全程电子化</option>
+						</select>
+					</div>
+					<label for="" class="col-sm-1 control-label">企业名称</label>
+					<div class="col-sm-2">
+						<input class="form-control" id="" placeholder="企业名称" type="text">
+					</div>
+					<label for="" class="col-sm-1 control-label">提交时间</label>
+					<div class="col-sm-2">
+						<div class="input-group input-group-sm">
+							<input id="datepicker" class="form-control" type="text">
+							<span class="input-group-addon"> <i
+								class="ace-icon fa fa-calendar"></i>
+							</span>
+						</div>
+					</div>
+					<label for="" class="col-sm-1 control-label">审批时间</label>
+					<div class="col-sm-2">
+						<div class="input-group input-group-sm">
+							<input id="datepicker" class="form-control" type="text">
+							<span class="input-group-addon"> <i
+								class="ace-icon fa fa-calendar"></i>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="" class="col-sm-1 control-label">状态</label>
+					<div class="col-sm-2">
+						<select class="form-control" id="form-field-select-1">
+							<option value=""></option>
+							<option value="0">未归档</option>
+							<option value="1">已归档</option>
+						</select>
+					</div>
+
+					<div class="col-sm-1 col-sm-offset-1">
+						<button class="btn btn-info btn-sm">
+							<i class="ace-icon fa fa-search align-top bigger-125"></i> 查询
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="hr hr-dotted hr18"></div>
+	<!-- JQGRID -->
+	<div class="row">
+		<div class="col-xs-12">
+
+			<div class="hidden-sm hidden-xs btn-group">
+				<button class="btn btn-app btn-primary btn-xs" id="archive-btn">
+					<i class="ace-icon fa  fa-folder bigger-200"></i> 归档
+				</button>
+			</div>
+			<div class="hr hr-dotted hr18"></div>
+			<table id="grid-table"></table>
+
+			<div id="grid-pager"></div>
+
+			<script type="text/javascript">
+					var $path_base = "/";//in Ace demo this will be used for editurl parameter
+				</script>
+
+		</div>
+	</div>
+	<!-- JQGRID_END -->
+</div>
