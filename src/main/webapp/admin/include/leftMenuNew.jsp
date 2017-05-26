@@ -55,7 +55,7 @@
 		</a> <b class="arrow"></b>
 
 			<ul class="submenu">
-				<li class=""><a href="#"> <i
+				<li class=""><a href="/admin/taskCenter/allTask.jsp"> <i
 						class="menu-icon fa fa-caret-right"></i> 任务监控
 				</a> <b class="arrow"></b></li>
 
@@ -304,14 +304,6 @@
 						<li class=""><a href="#"> <i
 								class="menu-icon fa fa-caret-right"></i> 集成服务
 						</a> <b class="arrow"></b></li>
-
-						<!-- <li class=""><a href="#"> <i
-								class="menu-icon fa fa-caret-right"></i> 全程无纸化
-						</a> <b class="arrow"></b></li>
-
-						<li class=""><a href="#"> <i
-								class="menu-icon fa fa-caret-right"></i> 银商通
-						</a> <b class="arrow"></b></li> -->
 
 					</ul></li>
 				<!-- 商事登记管理-网登预审 _三级 _END-->
