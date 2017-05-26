@@ -53,7 +53,7 @@
 	<jsp:include page="../include/navbar.jsp"></jsp:include>
 
 	<div class="main-container" id="main-container">
-		<jsp:include page="../include/leftMenu.jsp"></jsp:include>
+		<jsp:include page="../include/leftMenuNew.jsp"></jsp:include>
 		<div class="main-content">
 			<div class="main-content-inner">
 				<!-- #section:basics/content.breadcrumbs -->
@@ -170,142 +170,28 @@
 
 	<!-- inline scripts related to this page -->
 	<script type="text/javascript">
-		var grid_data = [ {
-			id : "1",
+		 var grid_data = [ {
+			id : "ysl111111111",
 			emp : "张三",
 			cname : "广州珍奇数码有限公司",
 			ccode : "201787623121231",
 			push_time : "2017-04-29 14:32:18",
-			pull_time : "2017-04-29 14:59:42",
-			deal_time : "27分钟",
-			type : "窗口办理"
+			type : "一般网登"
 		}, {
-			id : "2",
+			id : "ysl2222222",
 			emp : "李四",
 			cname : "广州奇珍益海有限公司",
 			ccode : "201787623121223",
 			push_time : "2017-04-29 14:32:18",
-			pull_time : "2017-04-29 14:59:42",
-			deal_time : "27分钟",
-			type : "窗口办理"
+			type : "集成服务"
 		}, {
-			id : "3",
+			id : "ysl3333333",
 			emp : "赵武",
 			cname : "广州市番禺矿泉水股份有限公司",
 			ccode : "201587666541223",
 			push_time : "2017-04-29 14:32:18",
-			pull_time : "2017-04-29 14:59:42",
-			deal_time : "27分钟",
 			type : "一般网登"
-		}, {
-			id : "4",
-			emp : "柳六",
-			cname : "广州市四海为家有限公司",
-			ccode : "2015876231211243",
-			push_time : "2017-04-29 14:32:18",
-			pull_time : "2017-04-29 14:59:42",
-			deal_time : "27分钟",
-			type : "全程电子化(非标)"
-		}, {
-			id : "5",
-			emp : "关起",
-			cname : "广州东豪机电集团",
-			ccode : "201783423121678",
-			push_time : "2017-04-29 14:32:18",
-			pull_time : "2017-04-29 14:59:42",
-			deal_time : "27分钟",
-			type : "全程电子化(非标)"
-		}, {
-			id : "6",
-			emp : "戴八",
-			cname : "广州笔记本零件批发有限公司",
-			ccode : "20178762386756231",
-			push_time : "2017-04-29 14:32:18",
-			pull_time : "2017-04-29 14:59:42",
-			deal_time : "27分钟",
-			type : "窗口办理"
-		}, {
-			id : "7",
-			emp : "张三",
-			cname : "广州市番禺矿泉水股份有限公司",
-			ccode : "201787623121231",
-			push_time : "2017-04-29 14:32:18",
-			pull_time : "2017-04-29 14:59:42",
-			deal_time : "27分钟",
-			type : "全程电子化(非标)"
-		}, {
-			id : "8",
-			emp : "张三",
-			cname : "广州市番禺矿泉水股份有限公司",
-			ccode : "201787623121231",
-			push_time : "2017-04-29 14:32:18",
-			pull_time : "2017-04-29 14:59:42",
-			deal_time : "27分钟",
-			type : "一般网登"
-		}, {
-			id : "9",
-			emp : "李四",
-			cname : "广州市番禺矿泉水股份有限公司",
-			ccode : "201787623121231",
-			push_time : "2017-04-29 14:32:18",
-			pull_time : "2017-04-29 14:59:42",
-			deal_time : "27分钟",
-			type : "全程电子化(非标)"
-		}, {
-			id : "10",
-			emp : "李四",
-			cname : "广州市番禺矿泉水股份有限公司",
-			ccode : "201787623121231",
-			push_time : "2017-04-29 14:32:18",
-			pull_time : "2017-04-29 14:59:42",
-			deal_time : "27分钟",
-			type : "窗口办理"
-		}, {
-			id : "11",
-			emp : "关起",
-			cname : "广州市番禺矿泉水股份有限公司",
-			ccode : "201787623121231",
-			push_time : "2017-04-29 14:32:18",
-			pull_time : "2017-04-29 14:59:42",
-			deal_time : "27分钟",
-			type : "全程电子化(非标)"
-		}, {
-			id : "12",
-			emp : "赵武",
-			cname : "广州市番禺矿泉水股份有限公司",
-			ccode : "201787623121231",
-			push_time : "2017-04-29 14:32:18",
-			pull_time : "2017-04-29 14:59:42",
-			deal_time : "27分钟",
-			type : "一般网登"
-		}, {
-			id : "13",
-			emp : "张三",
-			cname : "广州市番禺矿泉水股份有限公司",
-			ccode : "201787623121231",
-			push_time : "2017-04-29 14:32:18",
-			pull_time : "2017-04-29 14:59:42",
-			deal_time : "27分钟",
-			type : "一般网登"
-		}, {
-			id : "14",
-			emp : "张三",
-			cname : "广州市番禺矿泉水股份有限公司",
-			ccode : "201787623121231",
-			push_time : "2017-04-29 14:32:18",
-			pull_time : "2017-04-29 14:59:42",
-			deal_time : "27分钟",
-			type : "全程电子化(非标)"
-		}, {
-			id : "15",
-			emp : "张三",
-			cname : "广州市番禺矿泉水股份有限公司",
-			ccode : "201787623121231",
-			push_time : "2017-04-29 14:32:18",
-			pull_time : "2017-04-29 14:59:42",
-			deal_time : "27分钟",
-			type : "全程电子化(非标)"
-		} ];
+		}]; 
 
 		jQuery(function($) {
 			var grid_selector = "#grid-table";
@@ -353,10 +239,6 @@
 							{
 								//双击行事件
 								ondblClickRow : function() {
-									var selectedIds = $(grid_selector).jqGrid("getGridParam", "selarrrow");
-									var rowData = $(grid_selector).jqGrid('getRowData',selectedIds);
-									sessionStorage.setItem('curStatus',rowData.status);
-									sessionStorage.setItem('rowData',JSON.stringify(rowData));
 									$('#detailModal').modal();
 									//使media插件生效
 									$('a.media').media({
@@ -364,50 +246,18 @@
 										height : 450
 									});
 								},
-								//for this example we are using local data
-								subGridRowExpanded : function(subgridDivId,
-										rowId) {
-									var subgridTableId = subgridDivId + "_t";
-									$("#" + subgridDivId)
-											.html(
-													"<table id='" + subgridTableId + "'></table>");
-									$("#" + subgridTableId).jqGrid(
-											{
-												datatype : 'local',
-												data : subgrid_data,
-												colNames : [ 'No', 'Item Name',
-														'Qty' ],
-												colModel : [ {
-													name : 'id',
-													width : 50
-												}, {
-													name : 'name',
-													width : 150
-												}, {
-													name : 'qty',
-													width : 50
-												} ]
-											});
-								},
-
 								data : grid_data,
 								datatype : "local",
 								height : 250,
-								colNames : [ '序号', '受理人', '企业名称', '企业注册号',
-										'提交时间', '受理时间', '处理时长', '类别', '状态' ],
+								colNames : [ '流水号', '企业名称', '企业注册号',
+										'提交时间', '类别'],
 								colModel : [
 										{
 											name : 'id',
 											index : 'id',
-											width : 20,
+											width : 80,
 											sorttype : "int",
 											editable : true
-										}, {
-											name : 'emp',
-											index : 'emp',
-											width : 30,
-											editable : true,
-											edittype : "text"
 										}, {
 											name : 'cname',
 											index : 'cname',
@@ -430,41 +280,15 @@
 											unformat : pickDate,
 											editable : true
 										}, {
-											name : 'pull_time',
-											index : 'pull_time',
-											width : 90,
-											editable : true,
-											unformat : pickDate
-										}, {
-											name : 'deal_time',
-											index : 'deal_time',
-											width : 50,
-											sortable : false,
-											editable : true,
-											edittype : "text",
-											editoptions : {
-												rows : "2",
-												cols : "10"
-											}
-										}, {
 											name : 'type',
 											index : 'type',
 											width : 60,
 											editable : true,
 											edittype : "select",
 											editoptions : {
-												value : "1:网登办理;2:窗口办理;3:全程电子化"
+												value : "1:网登办理;2:集成服务"
 											}
-										}, {
-											name : 'status',
-											index : 'status',
-											width : 50,
-											editable : true,
-											edittype : "select",
-											editoptions : {
-												value : "0:未处理;1:已处理"
-											}
-										}, ],
+										}],
 
 								viewrecords : true,
 								rowNum : 10,
@@ -487,9 +311,8 @@
 										enableTooltips(table);
 									}, 0);
 								},
-
-								editurl : "/aa.do",//nothing is saved
-								caption : "任务列表"
+								
+								caption : "预审任务列表"
 
 							//,autowidth: true,
 
@@ -611,148 +434,24 @@
 			//duallist_end
 	
 		});
-		//绑定查看任务详情中的通过不通过事件
-		$('#pass').click(function(){
-			var auditAdvice = $('#auditAdvice').val();//获取审核意见
-			sessionStorage.setItem("auditAdvice", auditAdvice);//存储到前端session中，不走后台
-			var data = sessionStorage.getItem('rowData');//获取选中的行数据
-			var rowData = JSON.parse(data);//反序列化
-			var id = rowData.id;//选中行的id
-			if(rowData.status==''){
-				$('#grid-table').setCell(id,'status','预审通过');
-				//预审通过后存到session中,以便在别的页面获取该条记录
-				sessionStorage.removeItem('rowData');
-				rowData.status = '预审通过';
-				alert('预审完成');
-			}else if(rowData.status=='预审通过'){
-				$('#grid-table').setCell(id,'status','审核通过');
-				//预审通过后存到session中,以便在别的页面获取该条记录
-				sessionStorage.removeItem('rowData');
-				rowData.status = '审核通过';
-				alert('审核完成');
-			}
-			
-			
-			rowData.id=generateUUID();
-			rowData = JSON.stringify(rowData);
-			sessionStorage.setItem('rowData',rowData);
-		});
-		$('#passnot').click(function(){
-			var auditAdvice = $('#auditAdvice').val();//获取审核意见
-			sessionStorage.setItem("auditAdvice", auditAdvice);//存储到前端session中，不走后台
-			var data = sessionStorage.getItem('rowData');//获取选中的行数据
-			var rowData = JSON.parse(data);//反序列化
-			var id = rowData.id;//选中行的id
-			if(rowData.status==''){
-				$('#grid-table').setCell(id,'status','预审不通过');
-				//预审通过后存到session中,以便在别的页面获取该条记录
-				sessionStorage.removeItem('rowData');
-				rowData.status = '预审不通过';
-			}else if(rowData.status=='预审不通过'){
-				$('#grid-table').setCell(id,'status','审核不通过');
-				//预审通过后存到session中,以便在别的页面获取该条记录
-				sessionStorage.removeItem('rowData');
-				rowData.status = '审核不通过';
-			}
-			rowData.id=generateUUID();
-			rowData = JSON.stringify(rowData);
-			sessionStorage.setItem('rowData',rowData);
-		});
-		function generateUUID() {
-			var d = new Date().getTime();
-			var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-			  var r = (d + Math.random()*16)%16 | 0;
-			  d = Math.floor(d/16);
-			  return (c=='x' ? r : (r&0x3|0x8)).toString(16);
-			});
-			return uuid;
-			};
+		
 	</script>
 	<script type="text/javascript">
-	//加载模态框时出发更改BUTTON的函数
-
-	$('#detailModal').on('show.bs.modal', function(e) {
-		var status = sessionStorage.getItem('curStatus');
-		if(status=='' || status=='未处理' || status=='预审通过'){
-			$('#pass').show();
-			$('#passnot').show();
-			$('#print').hide();
-			$('#send').hide();
-			$('#archive').hide();
-		}else if(status=='审核通过'){
-			$('#pass').hide();
-			$('#passnot').hide();
-			$('#print').show();
-			$('#send').hide();
-			$('#archive').hide();
-		}else if(status=='已打照'){
-			$('#pass').hide();
-			$('#passnot').hide();
-			$('#print').hide();
-			$('#send').show();
-			$('#archive').hide();
-		}else if(status=='已发照'){
-			$('#pass').hide();
-			$('#passnot').hide();
-			$('#print').hide();
-			$('#send').hide();
-			$('#archive').show();
-		}else if(status=='已归档'){
-			$('#pass').hide();
-			$('#passnot').hide();
-			$('#print').hide();
-			$('#send').hide();
-			$('#archive').hide();
-		}
-	});
+	
 		//过滤
 		$('#search').click(function() {
 			$('#grid-table').clearGridData();
 			var obj = [ {
-				"myac" : "",
-				"id" : "3",
-				"emp" : "赵武",
+				"id" : "ysl72198321",
 				"cname" : "广州市番禺矿泉水股份有限公司",
-				"ccode" : "note3",
+				"ccode" : "1111",
 				"push_time" : "2017-04-29 14:32:18",
-				"pull_time" : "2017-04-29 14:59:42",
-				"deal_time" : "27分钟",
 				"type" : "一般网登",
-				"status" : ""
 			} ]
 			$('#grid-table').addRowData('1', obj, 'first');
 		});
-		//打照岗
-		$('#print').click(
-				function() {
-					var data = sessionStorage.getItem('rowData');//获取选中的行数据
-					var rowData = JSON.parse(data);//反序列化
-					$('#grid-table').setCell(rowData.id, 'status',
-					'已打照');
-					alert('打印完成...');
-
-				});
-		//发照岗
-		$('#send').click(
-				function() {
-					var data = sessionStorage.getItem('rowData');//获取选中的行数据
-					var rowData = JSON.parse(data);//反序列化
-					$('#grid-table').setCell(rowData.id, 'status',
-					'已发照');
-					alert('发照完成...');
-
-				});
-		//归档
-		$('#archive').click(
-				function() {
-					var data = sessionStorage.getItem('rowData');//获取选中的行数据
-					var rowData = JSON.parse(data);//反序列化
-					$('#grid-table').setCell(rowData.id, 'status',
-					'已归档');
-					alert('归档完成...');
-
-				});
-		//查看PDF——END
+		
+		//查看PDF
 		$('#showPDFFile').click(function() {
 			$('#showPDFModal').modal();
 			//使media插件生效
@@ -760,6 +459,19 @@
 				width : 895,
 				height : 450
 			});
+		});
+		
+		//查看股东,组织机构详情
+
+		$('.gdxxBtn').click(function() {
+			$('#collapseOne').collapse('show');
+		});
+		$('.zzjgBtn').click(function() {
+			$('#zzjgdetail').collapse('show');
+		});
+		//系统报障
+		$('#bz').click(function(){
+			$('#bzModal').modal();
 		});
 	</script>
 	<!-- the following scripts are used in demo only for onpage help and you don't need them -->

@@ -35,40 +35,20 @@
 					<div class="col-sm-2">
 						<select class="form-control" id="form-field-select-1">
 							<option value=""></option>
-							<option value="AL">窗口办理</option>
+							<!-- <option value="AL">窗口办理</option> -->
 							<option value="AK">一般网登</option>
-							<option value="AZ">电子全程化</option>
+							<option value="AK">集成服务</option>
+							<!-- <option value="AZ">电子全程化</option> -->
 						</select>
 					</div>
 
-					<label for="" class="col-sm-1 control-label">受理号</label>
+					<label for="" class="col-sm-1 control-label">流水号</label>
 					<div class="col-sm-2">
-						<input class="form-control" id="" placeholder="受理号" type="text">
+						<input class="form-control" id="" placeholder="流水号" type="text">
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="" class="col-sm-1 control-label">状态</label>
-					<div class="col-sm-2">
-						<select class="form-control" id="form-field-select-1">
-							<option value=""></option>
-							<option value="AL">未处理</option>
-							<option value="AL">预审通过</option>
-							<option value="AK">审核通过</option>
-							<option value="AZ">已打照</option>
-							<option value="AZ">已发照</option>
-							<option value="AZ">已归档</option>
-						</select>
-					</div>
 					<label for="" class="col-sm-1 control-label">提交时间</label>
-					<div class="col-sm-2">
-						<div class="input-group input-group-sm">
-							<input id="datepicker" class="form-control" type="text">
-							<span class="input-group-addon"> <i
-								class="ace-icon fa fa-calendar"></i>
-							</span>
-						</div>
-					</div>
-					<label for="" class="col-sm-1 control-label">审核时间</label>
 					<div class="col-sm-2">
 						<div class="input-group input-group-sm">
 							<input id="datepicker" class="form-control" type="text">
